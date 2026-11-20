@@ -1,0 +1,398 @@
+{:lesson/number 10
+ :lesson/label "Lesson 10"
+ :lesson/title nil
+ :lesson/spanish-title "Lección diez"
+ :lesson/step
+ {:step/number 2
+  :step/title "Learning to use dialog for Spanish conversation"}
+ :lesson/pages [87 96]
+ :lesson/intro []
+ :lesson/sections
+ [{:section/type :accuracy-pointer
+   :section/id 8
+   :section/title "It would please me to learn Spanish"
+   :section/body
+   ["Me gustaría aprender (el) español Have you noticed that me gustaría and le gustaría use different patterns from the other Synergy Verbs?"
+    "Le gustaría is interchangeable with you would like in English. However a more literal translation is to you it would please."
+    "Le gustaría To you it would please Me gustaría To me it would please Just use le gustaría as you have been doing with me gustaría, as a complete phrase, and you will use it perfectly every time."]}
+  {:section/type :communication-multiplied
+   :section/id 9
+   :section/title "You want to see me"
+   :section/body
+   ["In Spanish there are two ways to say, \"you want to see me.\" You can use the reverse word order in comparison to English."
+    "Method 1 Me quiere ver. Me you want to see."
+    "Or you can attach me to the Brick Verb (infinitive)."
+    "Method 2 Quiere verme. You want to see me."
+    "Both versions are correct."
+    "Both are commonly used."
+    "This is of course familiar ground. You used the same structure to say, I want to see him - quiero verlo, and to say, I want to see her - quiero verla. Continue using method 2, it will help you communicate in Spanish faster."]}]
+ :lesson/vocabulary
+ [{:vocab/id 55
+   :vocab/kind :synergy-verb
+   :vocab/spanish "va a"
+   :vocab/english "you are going to"
+   :vocab/pronunciation "BAH HAH"
+   :vocab/mnemonic "You are going to drive in Baja California."}
+  {:vocab/id 56
+   :vocab/kind :synergy-verb
+   :vocab/spanish "le gustaría"
+   :vocab/english "you would like"
+   :vocab/pronunciation "LEH GOOS TAH REE AH"
+   :vocab/mnemonic "See Spanish speaking hints."}
+  {:vocab/id 57
+   :vocab/kind :brick-verb
+   :vocab/spanish "aprender"
+   :vocab/english "to learn"
+   :vocab/pronunciation "AH PREHN DAIR"
+   :vocab/mnemonic "Imagine the police apprehending the students who don't learn"}
+  {:vocab/id 58
+   :vocab/kind :sentence-starter
+   :vocab/spanish "porque"
+   :vocab/english "because"
+   :vocab/pronunciation "POHR KEH"
+   :vocab/mnemonic "Poor Kay struggled in Spanish class because she didn't use mnemonics to remember words."}
+  {:vocab/id 59
+   :vocab/kind :sentence-starter
+   :vocab/spanish "por qué"
+   :vocab/english "why"
+   :vocab/pronunciation "POHR KEH"
+   :vocab/mnemonic "Because and why are almost identical Because Porque = Por qué = Why"}
+  {:vocab/id 60
+   :vocab/kind :mortar
+   :vocab/spanish "allá"
+   :vocab/english "there"
+   :vocab/pronunciation "AH YAH"
+   :vocab/mnemonic "When are ya going there?"}]
+ :lesson/exercises
+ [{:exercise/id "10A"
+   :exercise/skill :recall
+   :exercise/direction :to-english
+   :exercise/dialog? false
+   :exercise/instructions "See how well you remembered your new Spanish Synergy Verbs and Brick Verbs . Write the English words on the line"
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["The English words for va a are"]
+     :item/answer ["you are going to"]}
+    {:item/n 2
+     :item/prompt ["The English words for le gustaría are"]
+     :item/answer ["you would like"]}
+    {:item/n 3
+     :item/prompt ["The English words for aprender are"]
+     :item/answer ["to learn"]}
+    {:item/n 4
+     :item/prompt ["The English word for por qué is"]
+     :item/answer ["why"]}
+    {:item/n 5
+     :item/prompt ["The English word for porque is"]
+     :item/answer ["because"]}
+    {:item/n 6
+     :item/prompt ["The English word for allá is"]
+     :item/answer ["there"]}
+    {:item/n 7
+     :item/prompt ["The English words for quiere are"]
+     :item/answer ["you want"]}
+    {:item/n 8
+     :item/prompt ["The English words for necesita are"]
+     :item/answer ["you need"]}
+    {:item/n 9
+     :item/prompt ["The English words for conmigo are"]
+     :item/answer ["with me"]}
+    {:item/n 10
+     :item/prompt ["The English word for cuándo is"]
+     :item/answer ["when"]}
+    {:item/n 11
+     :item/prompt ["The English word for pero is"]
+     :item/answer ["but"]}
+    {:item/n 12
+     :item/prompt ["The English word for o is"]
+     :item/answer ["or"]}]
+   :exercise/notes []}
+  {:exercise/id "10B"
+   :exercise/skill :translate
+   :exercise/direction :to-english
+   :exercise/dialog? false
+   :exercise/instructions "More dialog again shortly, but first a little more practice in second person Spanish."
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["Va a aprender mucho más en esta clase de español."]
+     :item/answer ["You are going to learn a lot more in this Spanish class."]}
+    {:item/n 2
+     :item/prompt ["¿Va a ayudarme a aprender los verbos en español?"]
+     :item/answer ["Are you going to help me to learn the verbs in Spanish?"]}
+    {:item/n 3
+     :item/prompt ["Ahora va a aprender más español con sus amigos mexicanos."]
+     :item/answer ["Now you are going to learn more Spanish with your Mexicans friends."]}
+    {:item/n 4
+     :item/prompt ["¿Le gustaría terminar esta noche o mañana?"]
+     :item/answer ["Would you like to finish tonight or tomorrow?"]}
+    {:item/n 5
+     :item/prompt ["¿Le gustaría ver el fútbol en el Estadio Azteca?"]
+     :item/answer ["Would you like to see the football in (the) Aztec Stadium?"]}
+    {:item/n 6
+     :item/prompt ["¿Esta noche le gustaría ir al teatro?"]
+     :item/answer ["Tonight, would you like to go to the theater?"]}
+    {:item/n 7
+     :item/prompt ["Necesita llamar a la policía."]
+     :item/answer ["You need to call the police."]}
+    {:item/n 8
+     :item/prompt ["¿Mañana en la noche le gustaría ir al cine conmigo y mis amigos?"]
+     :item/answer
+     ["Tomorrow night, would you like to go to the cinema with me and my friends?"]}
+    {:item/n 9
+     :item/prompt ["¿Va a ayudarme con las maletas?"]
+     :item/answer ["Are you going to help me with the cases?"]}
+    {:item/n 10
+     :item/prompt ["¿Le gustaría ir a la catedral esta semana?"]
+     :item/answer ["Would you like to go to the cathedral this week?"]}
+    {:item/n 11
+     :item/prompt ["¿La próxima semana, le gustaría ir a las pirámides?"]
+     :item/answer ["(The) next week, would you like to go to the pyramids?"]}
+    {:item/n 12
+     :item/prompt ["Necesita estudiar ahora para hablar español en sus vacaciones."]
+     :item/answer ["You need to study now in order to speak Spanish in your vacation."]}
+    {:item/n 13
+     :item/prompt ["¿Le gustaría estudiar conmigo?"]
+     :item/answer ["Would you like to study with me?"]}
+    {:item/n 14
+     :item/prompt ["¿Va a rentar una casa allá?"]
+     :item/answer ["Are you going to rent a house there?"]}
+    {:item/n 15
+     :item/prompt ["¿Le gustaría tomar un tequila?"]
+     :item/answer ["Would you like to drink a tequila?"]}
+    {:item/n 16
+     :item/prompt ["¿Quiere cocinar esta noche o ir a un restaurante?"]
+     :item/answer ["Do you want to cook tonight or to go to a restaurant?"]}
+    {:item/n 17
+     :item/prompt ["¿Cuándo va a llamarla?"]
+     :item/answer ["When are you going to call her?"]}
+    {:item/n 18
+     :item/prompt ["¿Le gustaría tomar un café aquí?"]
+     :item/answer ["Would you like to drink a coffee here?"]}]
+   :exercise/notes []}
+  {:exercise/id "10C"
+   :exercise/skill :translate
+   :exercise/direction :to-english
+   :exercise/dialog? true
+   :exercise/instructions "Now we´ll expand the Spanish dialogs, plus add a few new words. See if you can figure out the new words from the context."
+   :exercise/hints ["tomar = drink / take"]
+   :exercise/items
+   [{:item/n 1
+     :item/prompt
+     ["¿Por qué no quiere tomar un tequila conmigo?" "Lo siento, pero no puedo tomar alcohol."]
+     :item/answer
+     ["Why don’t you want to drink a tequila with me?" "I am sorry, but I can’t drink alcohol."]}
+    {:item/n 2
+     :item/prompt
+     ["¿Le gustaría ir allá conmigo en Abril?"
+      "Quiero ir allá, pero no puedo,tengo que terminar el proyecto."]
+     :item/answer
+     ["Would you like to go there with me in April?"
+      "I want to go there, but I can’t, I have to finish the project."]}
+    {:item/n 3
+     :item/prompt
+     ["Necesita aprender español para hablar con la familia de su esposa."
+      "Sí, voy a tomar un curso de español."]
+     :item/answer
+     ["You need to learn Spanish in order to speak with your wife’s family."
+      "(the family of your wife) Yes, I am going to take a Spanish course."]}
+    {:item/n 4
+     :item/prompt
+     ["¿Le gustaría trabajar conmigo en este proyecto?"
+      "Sí, me gustaría trabajar mucho con usted."]
+     :item/answer
+     ["Would you like to work with me on this project?"
+      "Yes, I would like to work (very) much with you."]}
+    {:item/n 5
+     :item/prompt ["¿Va a rentar una casa o un apartamento?" "Voy a rentar una casa."]
+     :item/answer
+     ["Are you going to rent a house or an apartment?" "I am going to rent a house."]}
+    {:item/n 6
+     :item/prompt ["¿Cuándo le gustaría ir al hotel?" "Tengo que ir en cinco minutos."]
+     :item/answer
+     ["When would you like to go to the hotel?" "I have to go in five minutes."]}
+    {:item/n 7
+     :item/prompt ["¿Va a aprender más español?" "Sí, el español es muy importante."]
+     :item/answer
+     ["Are you going to learn more Spanish?" "Yes, (the) Spanish is very important."]}
+    {:item/n 8
+     :item/prompt
+     ["¿Va a viajar este año?"
+      "No voy a viajar este año, para pasar más tiempo en casa con mi familia."]
+     :item/answer
+     ["Are you going to travel this year?"
+      "I am not going to travel this year in order to spend more time at home with my family."]}
+    {:item/n 9
+     :item/prompt
+     ["¿Le gustaría comer comida china o quiere comer comida española?"
+      "No quiero comer ahora, gracias."]
+     :item/answer
+     ["Would you like to eat Chinese food or do you want to eat Spanish food?"
+      "I don’t want to eat now, thank you."]}
+    {:item/n 10
+     :item/prompt ["¿Le gustaría ir al concierto conmigo?" "Sí, me gustaría ir con usted."]
+     :item/answer
+     ["Would you like to go to the concert with me?" "Yes, I would like to go with you."]}
+    {:item/n 11
+     :item/prompt
+     ["¿Quiere comer en un restaurante esta noche?"
+      "Sí, me gustaría comer en un restaurante vegetariano."]
+     :item/answer
+     ["Do you want to eat in a restaurant tonight?"
+      "Yes, I would like to eat in a vegetarian restaurant."]}
+    {:item/n 12
+     :item/prompt
+     ["¿Le gustaría ir a más partes de México?" "Sí, quiero ir a Chiapas y Oaxaca."]
+     :item/answer
+     ["Would you like to go to more parts of Mexico."
+      "Yes, I want to go to Chiapas and Oaxaca."]}
+    {:item/n 13
+     :item/prompt
+     ["¿Por qué no va a visitar a su amigo en México?"
+      "Porque voy a estar en una parte diferente de México."]
+     :item/answer
+     ["Why aren’t you going to visit your friend in Mexico?"
+      "Because I am going to be in a different part of Mexico."]}
+    {:item/n 14
+     :item/prompt ["¿Va a estudiar español?" "Sí, voy a estudiar en una escuela privada."]
+     :item/answer
+     ["Are you going to study Spanish?" "Yes, I am going to study in a private school."]}]
+   :exercise/notes []}
+  {:exercise/id "10D"
+   :exercise/skill :recall
+   :exercise/direction :to-spanish
+   :exercise/dialog? false
+   :exercise/instructions ""
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["The Spanish words for you are going to are"]
+     :item/answer ["va a"]}
+    {:item/n 2
+     :item/prompt ["The Spanish words for you would like are"]
+     :item/answer ["le gustaría"]}
+    {:item/n 3
+     :item/prompt ["The Spanish word for to learn is"]
+     :item/answer ["aprender"]}
+    {:item/n 4
+     :item/prompt ["The Spanish words for why is"]
+     :item/answer ["por qué"]}
+    {:item/n 5
+     :item/prompt ["The Spanish word for because is"]
+     :item/answer ["porque"]}
+    {:item/n 6
+     :item/prompt ["The Spanish word for there is"]
+     :item/answer ["allá"]}
+    {:item/n 7
+     :item/prompt ["The Spanish word for you want is"]
+     :item/answer ["quiere"]}
+    {:item/n 8
+     :item/prompt ["The Spanish word for you need is"]
+     :item/answer ["necesita"]}
+    {:item/n 9
+     :item/prompt ["The Spanish word for with me is"]
+     :item/answer ["conmigo"]}
+    {:item/n 10
+     :item/prompt ["The Spanish word for when is"]
+     :item/answer ["cuándo"]}
+    {:item/n 11
+     :item/prompt ["The Spanish word for or is"]
+     :item/answer ["o"]}
+    {:item/n 12
+     :item/prompt ["The Spanish word for but is"]
+     :item/answer ["pero"]}]
+   :exercise/notes []}
+  {:exercise/id "10E"
+   :exercise/skill :translate
+   :exercise/direction :to-spanish
+   :exercise/dialog? true
+   :exercise/instructions "Practice making Spanish sentences and questions #1-14 and practice your Spanish dialog with 15-24"
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["Do I need to work tomorrow?"]
+     :item/answer ["¿Necesito trabajar mañana?"]}
+    {:item/n 2
+     :item/prompt ["I would like to go there."]
+     :item/answer ["Me gustaría ir allá."]}
+    {:item/n 3
+     :item/prompt ["You are going to speak a lot of Spanish with María soon."]
+     :item/answer ["Va a hablar mucho español con María pronto."]}
+    {:item/n 4
+     :item/prompt ["Would you like to work there?"]
+     :item/answer ["¿Le gustaría trabajar allá?"]}
+    {:item/n 5
+     :item/prompt ["Are you going to call Dad?"]
+     :item/answer ["¿Va a llamar a papá?"]}
+    {:item/n 6
+     :item/prompt ["You don’t need to speak Spanish there."]
+     :item/answer ["No necesita hablar español allá."]}
+    {:item/n 7
+     :item/prompt ["Do you want to spend the night here or there?"]
+     :item/answer ["¿Quiere pasar la noche aquí o allá?"]}
+    {:item/n 8
+     :item/prompt ["I am going to study there for three months."]
+     :item/answer ["Voy a estudiar allá por tres meses."]}
+    {:item/n 9
+     :item/prompt ["When are you going to call me?"]
+     :item/answer ["¿Cuándo va a llamarme?"]}
+    {:item/n 10
+     :item/prompt ["Would you like to learn Spanish?"]
+     :item/answer ["¿Le gustaría aprender español?"]}
+    {:item/n 11
+     :item/prompt ["When are you going to visit your family?"]
+     :item/answer ["¿Cuándo va a visitar a su familia?"]}
+    {:item/n 12
+     :item/prompt ["You are going to learn a lot of Spanish in Mexico."]
+     :item/answer ["Va a aprender mucho español en México."]}
+    {:item/n 13
+     :item/prompt ["Would you like to see the house again?"]
+     :item/answer ["¿Le gustaría ver la casa otra vez?"]}
+    {:item/n 14
+     :item/prompt ["You are going to speak a lot of Spanish there."]
+     :item/answer ["Va a hablar mucho español allá."]}
+    {:item/n 15
+     :item/prompt ["When would you like to eat?" "I want to eat now."]
+     :item/answer ["¿Cuándo le gustaría comer?" "Quiero comer ahora."]}
+    {:item/n 16
+     :item/prompt
+     ["Are you going to spend the night there?" "No, I am going to spend the night here."]
+     :item/answer ["¿Va a pasar la noche allá?" "No, voy a pasar la noche aquí."]}
+    {:item/n 17
+     :item/prompt
+     ["When are you going to go back to your house?" "I am going to go back tomorrow."]
+     :item/answer ["¿Cuándo va a regresar a su casa?" "Voy a regresar mañana."]}
+    {:item/n 18
+     :item/prompt
+     ["Are you going to visit Mexico again?" "Yes, I am going to go back (the) next year."]
+     :item/answer ["¿Va a visitar México otra vez?" "Sí, voy a regresar el próximo año."]}
+    {:item/n 19
+     :item/prompt ["Are you going to go with me?" "No, I am going to go with Raul."]
+     :item/answer ["¿Va a ir conmigo?" "No, voy a ir con Raúl."]}
+    {:item/n 20
+     :item/prompt
+     ["Are you going to go with me in order to see Miranda?" "Yes, I am going to go with you."]
+     :item/answer ["¿Va a ir conmigo para ver a Miranda?" "Sí, voy a ir con usted."]}
+    {:item/n 21
+     :item/prompt
+     ["Why aren’t you going to go back to Mexico this year?"
+      "Because I need to be with my family."]
+     :item/answer
+     ["¿Por qué no va a regresar a México este año?" "Porque necesito estar con mi familia."]}
+    {:item/n 22
+     :item/prompt
+     ["Aren’t you going to go to San Jose today?" "No, I am going to go there tomorrow night."]
+     :item/answer ["¿No va a ir a San José hoy?" "No, voy a ir allá mañana en la noche"]}
+    {:item/n 23
+     :item/prompt
+     ["Do you want to help him with the Spanish?" "Yes, I am going to help him every day."]
+     :item/answer ["¿Quiere ayudarlo con el español?" "Sí, voy a ayudarlo cada día."]}
+    {:item/n 24
+     :item/prompt
+     ["Would you like to spend the weekend in Acapulco with me?"
+      "Yes, when do you want to go there?"]
+     :item/answer
+     ["¿Le gustaría pasar el fin de semana en Acapulco conmigo?" "Sí, ¿cuándo quiere ir allá?"]}]
+   :exercise/notes []}]
+ :lesson/closing []}

@@ -1,0 +1,210 @@
+{:lesson/number 21
+ :lesson/label "Lesson 21"
+ :lesson/title "End of Step 4"
+ :lesson/spanish-title "Lección Veinte y uno"
+ :lesson/step
+ {:step/number 4
+  :step/title "They do talk, don’t they?"}
+ :lesson/pages [180 184]
+ :lesson/intro []
+ :lesson/sections
+ [{:section/type :communication-multiplied
+   :section/id 18
+   :section/title nil
+   :section/body
+   ["In lesson 20 you learned that"
+    "Le = to you"
+    "Les = to you all"
+    "The word to is important in this structure. In Spanish the pronouns you and to you are expressed differently."
+    "To you is called an indirect object pronoun. And you is a direct object pronoun."
+    "But let's not get into labels. Instead let's focus on how to use Spanish. Here is an"
+    "example,"
+    "Method 1 Le quiero hablar to you I want to speak."
+    "Lo quiero ver you I want to see."
+    "Method 2 Quiero hablarle I want to speak to you Quiero verlo I want to see you See the difference between lo and le."
+    "For now we will focus on the direct object pronoun - lo."
+    "Did you ask yourself; doesn't quiero verlo mean I want to see him?"
+    "If you asked yourself that question, well done, you are right quiero verlo means I want to see him. But it also means I want to see you."
+    "At first you may think this ambiguity can't possibly work. But it has worked for hundreds of years and works everyday for more the 300 million Spanish speakers. You will find, as you start to use more Spanish that you know from the context of the conversation if quiero verlo means I want to see you, or I want to see him. And if it isn't obvious from the context, Spanish does have a way of handling ambiguity which we will explore next chapter."
+    "In a minute we'll roll up our sleeves and get down to some practice. But first we have one more thing to learn."
+    "When speaking to a woman you need to change lo to la."
+    "Method 1 La quiero ver you (woman) I want to see Lo quiero ver you (man) I want to see"
+    "Method 2 Quiero verla I want to see you (woman) Quiero verlo I want to see you (man) Okay, let's use it to go ahead and get some practice in exercise 21A."]}]
+ :lesson/vocabulary []
+ :lesson/exercises
+ [{:exercise/id "21A"
+   :exercise/skill :translate
+   :exercise/direction :to-english
+   :exercise/dialog? true
+   :exercise/instructions ""
+   :exercise/hints
+   ["bien = well/okay"
+    "el centro = downtown"
+    "que = that"
+    "sábado = Saturday"
+    "mucho gusto = it is a pleasure"
+    "nunca = never"]
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["Antonio, nunca voy a olvidarlo."]
+     :item/answer ["Antonio, I am never going to forget you."]}
+    {:item/n 2
+     :item/prompt ["¿Pueden escucharme bien?" "No, no podemos escucharlo."]
+     :item/answer ["Can you (all) hear me (well) okay?" "No, we can’t hear you (man)."]}
+    {:item/n 3
+     :item/prompt ["¿Quiere verme en el centro?" "Sí, voy a verla en el centro."]
+     :item/answer
+     ["Do you want to see me downtown?" "Yes, I am going to see you (woman) downtown."]}
+    {:item/n 4
+     :item/prompt ["Mucho gusto en conocerlo, David." "Mucho gusto en conocerla,Teresa."]
+     :item/answer
+     ["It is a pleasure (in) to meet you, David." "It is a pleasure (in) to meet you, Teresa."]}
+    {:item/n 5
+     :item/prompt
+     ["Si les gusta, pueden esperarme en el restaurante." "Bien, vamos a esperarlo allá."]
+     :item/answer
+     ["If you (all) like, you can wait for me in the restaurant."
+      "Okay, we are going to wait for you (man) there."]}
+    {:item/n 6
+     :item/prompt ["¿Cuándo va a visitarme?" "Voy a visitarlo en febrero."]
+     :item/answer
+     ["When are you going to visit me?" "I am going to visit you (man) in February."]}
+    {:item/n 7
+     :item/prompt
+     ["Necesitan llamarme antes de salir de Guatemala." "Sí, vamos a llamarlo mañana."]
+     :item/answer
+     ["You need to call me before (to leave) leaving (from) Guatemala."
+      "Yes, we are going to call you (man) tomorrow."]}
+    {:item/n 8
+     :item/prompt
+     ["¿Puede esperarme, por favor?" "Sí, puedo esperarlo pero sólo por diez minutos más."]
+     :item/answer
+     ["Can you wait for me, please?"
+      "Yes, I can wait for you (man), but only for ten minutes more."]}
+    {:item/n 9
+     :item/prompt
+     ["¿Va a ver a María otra vez?"
+      "Sí, voy a verla el sábado en la fiesta en la casa de Juan."]
+     :item/answer
+     ["Are you going to see María again?"
+      "Yes, I am going to see her on Saturday in the party in (the house of Juan) Juan’s house."]}
+    {:item/n 10
+     :item/prompt
+     ["Por favor, necesita escucharme." "Es importante." "Lo siento, voy a escuchar ahora."]
+     :item/answer
+     ["Please, you need to listen to me."
+      "It’s important."
+      "I am sorry, I am going to listen now."]}
+    {:item/n 11
+     :item/prompt
+     ["¿Cuándo necesita llamar a su esposa?" "Necesito llamarla mañana en la mañana."]
+     :item/answer
+     ["When do you need to call your wife?" "I need to call her tomorrow (in the) morning."]}
+    {:item/n 12
+     :item/prompt ["¿Puedo ayudarla con las maletas?" "Sí, gracias por ayudarme."]
+     :item/answer
+     ["Can I help you (woman) with the cases?" "Yes, thanks for (to help me) helping me."]}
+    {:item/n 13
+     :item/prompt ["¿Puede ayudarme con el inglés?" "Me encantaría ayudarlo con el inglés."]
+     :item/answer
+     ["Can you help me with (the) English?"
+      "I would love to help you (man) with (the) English."]}
+    {:item/n 14
+     :item/prompt
+     ["¿Por qué no puede verme hoy?"
+      "Lo siento, no puedo verla porque tengo que salir temprano hoy."]
+     :item/answer
+     ["Why can’t you see me today?"
+      "I am sorry, I can’t see you (woman) because I have to leave early today."]}
+    {:item/n 15
+     :item/prompt
+     ["Por qué no quiere invitarme a la fiesta."
+      "Quiero invitarlo, pero no puedo,es sólo para empleados."]
+     :item/answer
+     ["Why don't you want to invite me to the party."
+      "I want to invite you (man), but I can’t, it is only for employees."]}
+    {:item/n 16
+     :item/prompt ["¿Puedo hablarle un rato?" "No, tengo que salir ahora mismo."]
+     :item/answer
+     ["Can I talk to you (for) a (while) moment?" "No, I have to leave right now."]}]
+   :exercise/notes []}
+  {:exercise/id "21B"
+   :exercise/skill :translate
+   :exercise/direction :to-spanish
+   :exercise/dialog? true
+   :exercise/instructions ""
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt
+     ["Can you see me tomorrow?" "No, I can’t see you (man) until the next week."]
+     :item/answer ["¿Puede verme mañana?" "No, no puedo verlo hasta la próxima semana."]}
+    {:item/n 2
+     :item/prompt ["When do you need to see David?" "I need to see him soon."]
+     :item/answer ["¿Cuándo necesita ver a David?" "Necesito verlo pronto."]}
+    {:item/n 3
+     :item/prompt
+     ["When are you going to see me again?" "I am going to see you (man) tomorrow."]
+     :item/answer ["¿Cuándo va a verme otra vez?" "Voy a verlo mañana."]}
+    {:item/n 4
+     :item/prompt ["Can you help me?" "Yes, I am going to help you (woman) right now."]
+     :item/answer ["¿Puede ayudarme?" "Si, voy a ayudarla ahora mismo."]}
+    {:item/n 5
+     :item/prompt
+     ["I want to invite you (man) to a party."
+      "Would you like to go with me?"
+      "Yes, I would like to go with you."]
+     :item/answer
+     ["Quiero invitarlo a una fiesta."
+      "¿Le gustaría ir conmigo?"
+      "Si, me gustaría ir con usted."]}
+    {:item/n 6
+     :item/prompt
+     ["Can you visit me this weekend?"
+      "No, I am sorry, I can’t visit you (man) again until the next month."]
+     :item/answer
+     ["¿Puede visitarme este fin de semana?"
+      "No, lo siento, no puedo visitarlo otra vez hasta el próximo mes."]}
+    {:item/n 7
+     :item/prompt
+     ["Are you going to wait for me?" "No, I don't want to wait for you (man)."]
+     :item/answer ["¿Va a esperarme?" "No, no quiero esperarlo."]}
+    {:item/n 8
+     :item/prompt
+     ["Can you help my friend with (the) Spanish?" "Yes, I would love to help him."]
+     :item/answer ["¿Puede ayudar a mi amigo con el español?" "Sí, me encantaría ayudarlo."]}
+    {:item/n 9
+     :item/prompt
+     ["When are you (all) going to see me again?" "We are going to see you (woman) tomorrow."]
+     :item/answer ["¿Cuándo van a verme otra vez?" "Vamos a verla mañana."]}
+    {:item/n 10
+     :item/prompt
+     ["When are you going to call me?" "I am going to call you (man) (more late) later."]
+     :item/answer ["¿Cuándo va a llamarme?" "Voy a llamarlo más tarde."]}
+    {:item/n 11
+     :item/prompt
+     ["Would you (all) like to visit me again (the) next year?"
+      "We would love to see you (woman) again (the) next year."]
+     :item/answer
+     ["¿Les gustaría visitarme otra vez el próximo año?"
+      "Nos encantaría verla otra vez el próximo año."]}
+    {:item/n 12
+     :item/prompt ["When can you see me?" "I can see you (woman), (more late) later today."]
+     :item/answer ["¿Cuándo puede verme?" "Puedo verla más tarde hoy."]}
+    {:item/n 13
+     :item/prompt
+     ["You (all) have to call me soon." "Yes, we are going to call you (woman) tomorrow."]
+     :item/answer ["Tienen que llamarme pronto." "Sí, vamos a llamarla mañana."]}
+    {:item/n 14
+     :item/prompt
+     ["We can visit you (man) (the) next week."
+      "I am sorry, but I am not going to be (in house) home until the next month."]
+     :item/answer
+     ["Podemos visitarlo la próxima semana."
+      "Lo siento, pero no voy a estar en casa hasta el próximo mes."]}
+    {:item/n 15
+     :item/prompt
+     ["Can you help me today?" "I can help you (woman) but not until the afternoon."]
+     :item/answer ["¿Puede ayudarme hoy?" "Puedo ayudarla pero no hasta la tarde."]}]
+   :exercise/notes []}]
+ :lesson/closing ["Congratulations you have now finished step4"]}

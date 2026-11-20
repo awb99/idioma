@@ -1,0 +1,364 @@
+{:lesson/number 8
+ :lesson/label "Lesson 8"
+ :lesson/title "End of Step 1"
+ :lesson/spanish-title "Lección ocho"
+ :lesson/step
+ {:step/number 1
+  :step/title "The first steps to Speaking Spanish"}
+ :lesson/pages [70 77]
+ :lesson/intro []
+ :lesson/sections
+ [{:section/type :accuracy-pointer
+   :section/id 7
+   :section/title "Feminine words and exceptions"
+   :section/body
+   ["Have you ever noticed that many girls' names end in the letter \"a\"?"
+    "For example Sandra, Linda, Fiona, Barbara, Maria, Elena, Sara, Victoria, Amanda etc."
+    "Most Spanish words that end in \"a\" are feminine words. To say \"the\" with a feminine word you use la."
+    "The house La casa The family La familia The party La fiesta The case La maleta The school La escuela There are some exceptions. Even though they end in \"a\", día and tequila are masculine words. To say \"the\" with masculine word you use el."
+    "The day el día The tequila el tequila"]}]
+ :lesson/vocabulary
+ [{:vocab/id 43
+   :vocab/kind :mortar
+   :vocab/spanish "hasta"
+   :vocab/english "until"
+   :vocab/pronunciation "AHS TAH"
+   :vocab/mnemonic "Maybe you have heard the Spanish farewell hasta mañana amigo = until tomorrow friend"}
+  {:vocab/id 44
+   :vocab/kind :mortar
+   :vocab/spanish "algo"
+   :vocab/english "something"
+   :vocab/pronunciation "AHL GOH"
+   :vocab/mnemonic "Imagine saying, \"we are out of food I’ll go and get something.\""}
+  {:vocab/id 45
+   :vocab/kind :mortar
+   :vocab/spanish "aquí"
+   :vocab/english "here"
+   :vocab/pronunciation "AH KEE"
+   :vocab/mnemonic "Imagine checking into a hotel, the receptionist says, \"here is a key for your room.\""}
+  {:vocab/id 46
+   :vocab/kind :mortar
+   :vocab/spanish "un rato"
+   :vocab/english "a while"
+   :vocab/pronunciation "OON RAHT OH"
+   :vocab/mnemonic "I haven't seen a rat or a mouse for a while."}
+  {:vocab/id 47
+   :vocab/kind :mortar
+   :vocab/spanish "cada"
+   :vocab/english "each & every"
+   :vocab/pronunciation "CAH DAH"
+   :vocab/mnemonic "In California to check the age they card each and every person who enters a bar."}
+  {:vocab/id 48
+   :vocab/kind :mortar
+   :vocab/spanish "día"
+   :vocab/english "day"
+   :vocab/pronunciation "DEE AH"
+   :vocab/mnemonic "Oh happy day, I just saw Cameron Diaz"}]
+ :lesson/exercises
+ [{:exercise/id "8A"
+   :exercise/skill :recall
+   :exercise/direction :to-english
+   :exercise/dialog? false
+   :exercise/instructions "Write the English words on the line"
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["The English word for día is"]
+     :item/answer ["day"]}
+    {:item/n 2
+     :item/prompt ["The English word for cada is"]
+     :item/answer ["each/every"]}
+    {:item/n 3
+     :item/prompt ["The English words for un rato are"]
+     :item/answer ["a while"]}
+    {:item/n 4
+     :item/prompt ["The English word for aquí is"]
+     :item/answer ["here"]}
+    {:item/n 5
+     :item/prompt ["The English word for algo is"]
+     :item/answer ["something"]}
+    {:item/n 6
+     :item/prompt ["The English word for hasta is"]
+     :item/answer ["until"]}
+    {:item/n 7
+     :item/prompt ["The English words for me gusta are"]
+     :item/answer ["I like"]}
+    {:item/n 8
+     :item/prompt ["The English words for lo siento are"]
+     :item/answer ["I am sorry"]}
+    {:item/n 9
+     :item/prompt ["The English words for tomar are"]
+     :item/answer ["to drink (also to take)"]}
+    {:item/n 10
+     :item/prompt ["The English words for cocinar are"]
+     :item/answer ["to cook"]}
+    {:item/n 11
+     :item/prompt ["The English words for pasar are"]
+     :item/answer ["to spend (time)"]}
+    {:item/n 12
+     :item/prompt ["The English words for viajar are"]
+     :item/answer ["to travel"]}]
+   :exercise/notes []}
+  {:exercise/id "8B"
+   :exercise/skill :translate
+   :exercise/direction :to-english
+   :exercise/dialog? false
+   :exercise/instructions ""
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["No voy a viajar a Europa hasta diciembre."]
+     :item/answer ["I am not going to travel to Europe until December."]}
+    {:item/n 2
+     :item/prompt ["Tengo que estudiar hasta el día del examen."]
+     :item/answer ["I have to study until the day of the exam."]}
+    {:item/n 3
+     :item/prompt ["¿Puedo verla por un rato?"]
+     :item/answer ["Can I see her for a while (moment)?"]}
+    {:item/n 4
+     :item/prompt ["Voy a comer algo en el restaurante del hotel."]
+     :item/answer ["I am going to eat something in the restaurant of the hotel."]}
+    {:item/n 5
+     :item/prompt ["No me gusta tomar alcohol en el día."]
+     :item/answer ["I don’t like to drink alcohol in the day."]}
+    {:item/n 6
+     :item/prompt ["Voy a ir a la oficina por un rato."]
+     :item/answer ["I am going to go to the office for a while."]}
+    {:item/n 7
+     :item/prompt ["Cada día tengo que cocinar algo para mi familia."]
+     :item/answer ["Everyday I have to cook something for my family."]}
+    {:item/n 8
+     :item/prompt ["Voy a regresar al hotel por un rato."]
+     :item/answer ["I am going to return to the hotel for a while."]}
+    {:item/n 9
+     :item/prompt ["Voy a estudiar aquí por un mes."]
+     :item/answer ["I am going to study here for one month."]}
+    {:item/n 10
+     :item/prompt ["Necesito regresar a México cada dos meses."]
+     :item/answer ["I need to return to Mexico every two months."]}
+    {:item/n 11
+     :item/prompt ["Voy a estar aquí por tres meses."]
+     :item/answer ["I am going to be here for three months."]}
+    {:item/n 12
+     :item/prompt ["Me gusta pasar tiempo aquí con mi familia."]
+     :item/answer ["I like to spend time here with my family."]}
+    {:item/n 13
+     :item/prompt ["Este año voy a ver cada juego de los Lakers en el cable."]
+     :item/answer ["This year I am going to see every game of the Lakers on (the) cable."]}
+    {:item/n 14
+     :item/prompt ["No puedo tomar café en la noche."]
+     :item/answer ["I can’t drink coffee (in the) at night."]}
+    {:item/n 15
+     :item/prompt ["Voy a estar aquí por cinco días."]
+     :item/answer ["I am going to be here for five days."]}
+    {:item/n 16
+     :item/prompt ["Me gusta viajar cada año."]
+     :item/answer ["I like to travel every year."]}
+    {:item/n 17
+     :item/prompt ["Tengo que trabajar en México por cinco días."]
+     :item/answer ["I have to work in Mexico for five days."]}
+    {:item/n 18
+     :item/prompt ["Me gusta ver a mi familia cada fin de semana."]
+     :item/answer ["I like to see my family every weekend."]}
+    {:item/n 19
+     :item/prompt ["Lo siento, no puedo trabajar hasta el próximo mes."]
+     :item/answer ["I am sorry, I can’t work until (the) next month."]}
+    {:item/n 20
+     :item/prompt ["Me gusta tomar algo en la noche."]
+     :item/answer ["I like to drink something (in the) at night."]}
+    {:item/n 21
+     :item/prompt ["Voy a viajar a México cada mes de este año."]
+     :item/answer ["I am going to travel to Mexico every month (of) this year."]}
+    {:item/n 22
+     :item/prompt ["Me gustaría tomar un café aquí."]
+     :item/answer ["I would like to drink a coffee here."]}
+    {:item/n 23
+     :item/prompt ["No puedo viajar a Ecuador hasta mayo."]
+     :item/answer ["I can’t travel to Ecuador until May."]}
+    {:item/n 24
+     :item/prompt ["Voy a pasar un mes aquí."]
+     :item/answer ["I am going to spend a month here."]}
+    {:item/n 25
+     :item/prompt ["Quiero ir a mi casa por un rato para ver a mi familia."]
+     :item/answer ["I want to go to my house for a while in order to see my family."]}
+    {:item/n 26
+     :item/prompt ["Voy a ir a México por tres días."]
+     :item/answer ["I am going to go to Mexico for three days."]}
+    {:item/n 27
+     :item/prompt ["Voy a estar en casa hasta esta noche."]
+     :item/answer ["I am going to be home until tonight."]}
+    {:item/n 28
+     :item/prompt ["Cada fin de semana me gusta ver el fútbol por televisión."]
+     :item/answer ["Every weekend I like to (see) watch the football on television."]}
+    {:item/n 29
+     :item/prompt ["Necesito hablar con mi amigo por un rato."]
+     :item/answer ["I need to speak with my friend for a while."]}
+    {:item/n 30
+     :item/prompt ["Voy a comer algo en el hotel."]
+     :item/answer ["I am going to eat something in the hotel."]}]
+   :exercise/notes []}
+  {:exercise/id "8C"
+   :exercise/skill :translate
+   :exercise/direction :to-spanish
+   :exercise/dialog? false
+   :exercise/instructions "Translate these words into Spanish."
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["The Spanish word for day is"]
+     :item/answer ["día"]}
+    {:item/n 2
+     :item/prompt ["The Spanish word for each/every is"]
+     :item/answer ["cada"]}
+    {:item/n 3
+     :item/prompt ["The Spanish words for a while are"]
+     :item/answer ["un rato"]}
+    {:item/n 4
+     :item/prompt ["The Spanish word for here is"]
+     :item/answer ["aquí"]}
+    {:item/n 5
+     :item/prompt ["The Spanish word for something is"]
+     :item/answer ["algo"]}
+    {:item/n 6
+     :item/prompt ["The Spanish word for until is"]
+     :item/answer ["hasta"]}
+    {:item/n 7
+     :item/prompt ["The Spanish words for I like are"]
+     :item/answer ["me gusta"]}
+    {:item/n 8
+     :item/prompt ["The Spanish words for I am sorry are"]
+     :item/answer ["lo siento"]}
+    {:item/n 9
+     :item/prompt ["The Spanish word for to drink is"]
+     :item/answer ["tomar"]}
+    {:item/n 10
+     :item/prompt ["The Spanish word for to spend (time) is"]
+     :item/answer ["pasar"]}
+    {:item/n 11
+     :item/prompt ["The Spanish word for to travel is"]
+     :item/answer ["viajar"]}
+    {:item/n 12
+     :item/prompt ["The Spanish word for to cook is"]
+     :item/answer ["cocinar"]}]
+   :exercise/notes []}
+  {:exercise/id "8D"
+   :exercise/skill :translate
+   :exercise/direction :to-spanish
+   :exercise/dialog? false
+   :exercise/instructions ""
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["I don't need to work again until next week."]
+     :item/answer ["No necesito trabajar otra vez hasta la próxima semana."]}
+    {:item/n 2
+     :item/prompt ["I would like to eat here."]
+     :item/answer ["Me gustaría comer aquí."]}
+    {:item/n 3
+     :item/prompt ["I can’t help him until tonight."]
+     :item/answer ["No puedo ayudarlo hasta esta noche."]}
+    {:item/n 4
+     :item/prompt ["I am going to be here until the next month."]
+     :item/answer ["Voy a estar aquí hasta el próximo mes."]}
+    {:item/n 5
+     :item/prompt ["I would like to work here."]
+     :item/answer ["Me gustaría trabajar aquí."]}
+    {:item/n 6
+     :item/prompt ["I am not going to return until the next year."]
+     :item/answer ["No voy a regresar hasta el próximo año."]}
+    {:item/n 7
+     :item/prompt ["I want to eat something."]
+     :item/answer ["Quiero comer algo."]}
+    {:item/n 8
+     :item/prompt ["I have to travel every week."]
+     :item/answer ["Tengo que viajar cada semana."]}
+    {:item/n 9
+     :item/prompt ["I need to eat something soon."]
+     :item/answer ["Necesito comer algo pronto."]}
+    {:item/n 10
+     :item/prompt ["I would like to spend every weekend with my family."]
+     :item/answer ["Me gustaría pasar cada fin de semana con mi familia."]}
+    {:item/n 11
+     :item/prompt ["I can eat something in the hotel."]
+     :item/answer ["Puedo comer algo en el hotel."]}
+    {:item/n 12
+     :item/prompt ["I need to spend the day in LA."]
+     :item/answer ["Necesito pasar el día en LA."]}
+    {:item/n 13
+     :item/prompt ["I have to study for a while."]
+     :item/answer ["Tengo que estudiar por un rato."]}
+    {:item/n 14
+     :item/prompt ["I am going to be here for a while."]
+     :item/answer ["Voy a estar aquí por un rato."]}
+    {:item/n 15
+     :item/prompt ["I am sorry, I can’t study with you until next weekend."]
+     :item/answer ["Lo siento, no puedo estudiar con usted hasta el próximo fin de semana."]}
+    {:item/n 16
+     :item/prompt ["I have to study everyday."]
+     :item/answer ["Tengo que estudiar cada día."]}
+    {:item/n 17
+     :item/prompt ["I need to drink something."]
+     :item/answer ["Necesito tomar algo."]}
+    {:item/n 18
+     :item/prompt ["I like being (to be) here."]
+     :item/answer ["Me gusta estar aquí."]}
+    {:item/n 19
+     :item/prompt ["I like to study here."]
+     :item/answer ["Me gusta estudiar aquí."]}
+    {:item/n 20
+     :item/prompt ["I am going to be in Costa Rica until next week."]
+     :item/answer ["Voy a estar en Costa Rica hasta la próxima semana."]}
+    {:item/n 21
+     :item/prompt ["I am sorry, I can’t call him again until tomorrow."]
+     :item/answer ["Lo siento, no puedo llamarlo otra vez hasta mañana."]}
+    {:item/n 22
+     :item/prompt ["I like to eat with my family every night."]
+     :item/answer ["Me gusta comer con mi familia cada noche."]}
+    {:item/n 23
+     :item/prompt ["I need to speak Spanish everyday."]
+     :item/answer ["Necesito hablar español cada día."]}
+    {:item/n 24
+     :item/prompt ["I am going to be in Mexico every two weeks."]
+     :item/answer ["Voy a estar en México cada dos semanas."]}
+    {:item/n 25
+     :item/prompt ["This month I have to work every weekend."]
+     :item/answer ["Este mes tengo que trabajar cada fin de semana."]}
+    {:item/n 26
+     :item/prompt ["I can’t travel until next year."]
+     :item/answer ["No puedo viajar hasta el próximo año."]}
+    {:item/n 27
+     :item/prompt ["I want to return to Mexico every year."]
+     :item/answer ["Quiero regresar a México cada año."]}
+    {:item/n 28
+     :item/prompt ["I have to cook for my family every night."]
+     :item/answer ["Tengo que cocinar para mi familia cada noche."]}
+    {:item/n 29
+     :item/prompt ["I am going to spend the day with my family."]
+     :item/answer ["Voy a pasar el día con mi familia."]}
+    {:item/n 30
+     :item/prompt ["I have to travel for two days."]
+     :item/answer ["Tengo que viajar por dos días."]}
+    {:item/n 31
+     :item/prompt ["I am going to see her in two days."]
+     :item/answer ["Voy a verla en dos días."]}
+    {:item/n 32
+     :item/prompt ["I am going to call her everyday."]
+     :item/answer ["Voy a llamarla cada día."]}
+    {:item/n 33
+     :item/prompt ["I am going to return in six days."]
+     :item/answer ["Voy a regresar en seis días."]}
+    {:item/n 34
+     :item/prompt ["I am going to cook something."]
+     :item/answer ["Voy a cocinar algo."]}]
+   :exercise/notes []}]
+ :lesson/closing
+ ["Congratulations you have finished step1 You have learned to effectively use a lot of Spanish. But have you noticed there is something missing?"
+  "In the next 4 chapters you’ll multiply your Spanish considerably. Not just with new words, but with new simple-to-use new structures. You are about to get a lot more control of Spanish."
+  "By the end of chapter 12 you will have many times more ability to express yourself in Spanish than you now have."
+  "What’s missing?"
+  "Well, you have been doing a lot of talking about yourself haven’t you? Its fine, you are very well prepared to take your Spanish to the next level."
+  "Time to start using Spanish dialog. Time for questions and answers, making conversation and discussions, inquiries, and chat."
+  "Good news."
+  "With the foundation you have it will be easy."
+  "Easy, but not a no brainer. You do have to apply yourself. Just keep doing what you are already doing and complete all the exercises, and by chapter 12 you’ll have a strong foundation for Spanish dialog."
+  "See you in chapter 9. We’ll start to have a chat in Spanish."]}

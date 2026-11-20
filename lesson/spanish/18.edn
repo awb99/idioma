@@ -1,0 +1,318 @@
+{:lesson/number 18
+ :lesson/label "Lesson 18"
+ :lesson/title nil
+ :lesson/spanish-title "Lección diez y ocho"
+ :lesson/step
+ {:step/number 4
+  :step/title "They do talk, don’t they?"}
+ :lesson/pages [157 163]
+ :lesson/intro []
+ :lesson/sections
+ [{:section/type :communication-multiplied
+   :section/id 16
+   :section/title "Talking about you (all) in Spanish"
+   :section/body
+   ["In English you singular and you plural is always just you. But in Spanish the distinction is clear. To be clear we'll use the Texas plural - you all."
+    "Spanish verbs about you all (second person plural) end in N. Actually it is really easy. All you need to do is add an N to the singular verb like this:"
+    "You want You all want Quiere Quieren You need You all need Necesita necesitan You can you all can Puede pueden"]}]
+ :lesson/vocabulary
+ [{:vocab/id 103
+   :vocab/kind :synergy-verb
+   :vocab/spanish "quieren"
+   :vocab/english "you (all) want"
+   :vocab/pronunciation "KEEY AIR EHN"
+   :vocab/mnemonic nil}
+  {:vocab/id 104
+   :vocab/kind :synergy-verb
+   :vocab/spanish "necesitan"
+   :vocab/english "you (all) need"
+   :vocab/pronunciation "NEH SEH SEE TAHN"
+   :vocab/mnemonic nil}
+  {:vocab/id 105
+   :vocab/kind :synergy-verb
+   :vocab/spanish "pueden"
+   :vocab/english "you (all) can"
+   :vocab/pronunciation "POO EH DEHN"
+   :vocab/mnemonic nil}
+  {:vocab/id 106
+   :vocab/kind :mortar
+   :vocab/spanish "con nosotros"
+   :vocab/english "with us"
+   :vocab/pronunciation "KOHN NOH SOH TROHS"
+   :vocab/mnemonic "You will remember we used nos for us To say with us we have to extend it to con nosotros."}
+  {:vocab/id 107
+   :vocab/kind :mortar
+   :vocab/spanish "verano"
+   :vocab/english "summer"
+   :vocab/pronunciation "VEH RAH NOH"
+   :vocab/mnemonic "Imagine sitting on the veranda enjoying a summer day."}
+  {:vocab/id 108
+   :vocab/kind :mortar
+   :vocab/spanish "con ustedes"
+   :vocab/english "with you all"
+   :vocab/pronunciation "KOHN OOS TEH DEHS"
+   :vocab/mnemonic "You will remember with you - con usted To make the plural you simply add es* *In fact all Spanish nouns that end in a consonant are Made plural by adding es reservación - reservaciones doctor - doctores"}]
+ :lesson/exercises
+ [{:exercise/id "18A"
+   :exercise/skill :recall
+   :exercise/direction :to-english
+   :exercise/dialog? false
+   :exercise/instructions "Write the English words on the line"
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["The English words for quieren are"]
+     :item/answer ["you (all) want"]}
+    {:item/n 2
+     :item/prompt ["The English words for necesitan are"]
+     :item/answer ["you (all) need"]}
+    {:item/n 3
+     :item/prompt ["The English words for pueden are"]
+     :item/answer ["you (all) can"]}
+    {:item/n 4
+     :item/prompt ["The English words for con nosotros are"]
+     :item/answer ["with us"]}
+    {:item/n 5
+     :item/prompt ["The English word for verano is"]
+     :item/answer ["summer"]}
+    {:item/n 6
+     :item/prompt ["The English words for con ustedes are"]
+     :item/answer ["with you (all)"]}
+    {:item/n 7
+     :item/prompt ["The English words for esperar are"]
+     :item/answer ["to wait (for)"]}
+    {:item/n 8
+     :item/prompt ["The English words for buscar are"]
+     :item/answer ["to look for"]}
+    {:item/n 9
+     :item/prompt ["The English words for olvidar are"]
+     :item/answer ["to forget"]}
+    {:item/n 10
+     :item/prompt ["The English words for besar are"]
+     :item/answer ["to kiss"]}
+    {:item/n 11
+     :item/prompt ["The English words for conocer are"]
+     :item/answer ["to know"]}
+    {:item/n 12
+     :item/prompt ["The English words for escuchar are"]
+     :item/answer ["to listen (to)"]}]
+   :exercise/notes []}
+  {:exercise/id "18B"
+   :exercise/skill :translate
+   :exercise/direction :to-english
+   :exercise/dialog? false
+   :exercise/instructions ""
+   :exercise/hints ["playa = beach" "maestros = teachers"]
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["¿Pueden escucharlo?"]
+     :item/answer ["Can you (all) hear (listen to) him?*"]}
+    {:item/n 2
+     :item/prompt ["Con este método no pueden olvidar los verbos."]
+     :item/answer ["With this method you (all) can’t forget the verbs."]}
+    {:item/n 3
+     :item/prompt ["¿Quieren ver nuestra casa?"]
+     :item/answer ["Do you (all) want to see our house?"]}
+    {:item/n 4
+     :item/prompt ["Necesitan escuchar los CDs cada día."]
+     :item/answer ["You (all) need to listen to the CDs every day."]}
+    {:item/n 5
+     :item/prompt ["¿Quieren encontrar un hotel ahora?"]
+     :item/answer ["Do you (all) want to find a hotel now?"]}
+    {:item/n 6
+     :item/prompt ["¿Quieren ir a una fiesta en nuestra casa este fin de semana?"]
+     :item/answer ["Do you (all) want to go to a party in our house this weekend."]}
+    {:item/n 7
+     :item/prompt ["¿Pueden escucharme por favor?"]
+     :item/answer ["Can you (all) listen to me please?"]}
+    {:item/n 8
+     :item/prompt ["Es importante, necesitan escucharlo."]
+     :item/answer ["It is important, you (all) need to listen to him."]}
+    {:item/n 9
+     :item/prompt ["¿Quieren ir con nosotros para conocer nuestros amigos mexicanos?"]
+     :item/answer
+     ["Do you (all) want to go with us in order to (know) meet our Mexican friends?"]}
+    {:item/n 10
+     :item/prompt
+     ["Necesitamos rentar un coche. ¿Qué tipo de coche quieren? Queremos un coche grande."]
+     :item/answer
+     ["We need to rent a car. What type of car do you (all) want? We want a big car."]}
+    {:item/n 11
+     :item/prompt
+     ["¿Qué documentación necesitamos para viajar en México? Necesitan visa y pasaporte."]
+     :item/answer
+     ["What documentation do we need to travel in Mexico? You (all) need a visa and passport."]}
+    {:item/n 12
+     :item/prompt
+     ["Necesitan invitar al profesor a su fiesta. Pero no queremos. ¿Por qué no quieren invitarlo? Porque no nos gusta el profesor."]
+     :item/answer
+     ["You (all) need to invite the professor to your party. But we don't want (to). Why don't you (all) want to invite him? Because we don't like the professor."]}
+    {:item/n 13
+     :item/prompt
+     ["¿Dónde quieren rentar este verano? Queremos rentar una casa en la Riviera Maya."]
+     :item/answer
+     ["Where do you (all) want to rent this summer? We want to rent a house on the Mayan Riviera."]}
+    {:item/n 14
+     :item/prompt ["¿Qué quieren hacer en verano? Queremos descansar en la playa."]
+     :item/answer ["What do you (all) want to do in summer? We want to rest on the beach."]}
+    {:item/n 15
+     :item/prompt
+     ["¿Quieren ir a un restaurante típico? Sí, nos gusta conocer la comida tradicional."]
+     :item/answer
+     ["Do you (all) want to go to a typical restaurant? Yes, we like to know the traditional food."]}
+    {:item/n 16
+     :item/prompt
+     ["¿Quieren trabajar en México en verano? Sí, queremos trabajar como maestros de inglés."]
+     :item/answer
+     ["Do you (all) want to work in Mexico in summer? Yes, we want to work as teachers of English."]}
+    {:item/n 17
+     :item/prompt
+     ["Pueden practicar español con nosotros. Sí, queremos practicar con ustedes."]
+     :item/answer
+     ["You (all) can practice Spanish with us? Yes, we want to practice with you (all)."]}
+    {:item/n 18
+     :item/prompt ["Necesitan aprender más español para hablar con nosotros."]
+     :item/answer ["You (all) need to learn more Spanish in order to speak with us."]}
+    {:item/n 19
+     :item/prompt
+     ["¿Quieren ir a México con nosotros en verano? Sí, queremos, pero no podemos,tenemos otros planes."]
+     :item/answer
+     ["Do you (all) want to go to Mexico with us in summer? Yes, we want to, but we can’t, we have other plans."]}
+    {:item/n 20
+     :item/prompt
+     ["¿Cuándo necesitamos estar en el restaurante? Necesitan estar allá a las 8:00 p.m."]
+     :item/answer
+     ["When do we need to be in the restaurant? You (all) need to be there at 8:00 p.m. * The verb to hear in Spanish is oir. However, it is very common for Spanish speakers to use the verb escuchar when in English we would say to hear."]}]
+   :exercise/notes []}
+  {:exercise/id "18C"
+   :exercise/skill :recall
+   :exercise/direction :to-spanish
+   :exercise/dialog? false
+   :exercise/instructions ""
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["The Spanish word for you (all) want is"]
+     :item/answer ["quieren"]}
+    {:item/n 2
+     :item/prompt ["The Spanish word for you (all) need is"]
+     :item/answer ["necesitan"]}
+    {:item/n 3
+     :item/prompt ["The Spanish word for you (all) can is"]
+     :item/answer ["pueden"]}
+    {:item/n 4
+     :item/prompt ["The Spanish words for with us are"]
+     :item/answer ["con nosotros"]}
+    {:item/n 5
+     :item/prompt ["The Spanish word for summer is"]
+     :item/answer ["verano"]}
+    {:item/n 6
+     :item/prompt ["The Spanish words for with you (all) are"]
+     :item/answer ["con ustedes"]}
+    {:item/n 7
+     :item/prompt ["The Spanish word for to wait for is"]
+     :item/answer ["esperar"]}
+    {:item/n 8
+     :item/prompt ["The Spanish word for to look for is"]
+     :item/answer ["buscar"]}
+    {:item/n 9
+     :item/prompt ["The Spanish word for to forget is"]
+     :item/answer ["olvidar"]}
+    {:item/n 10
+     :item/prompt ["The Spanish word for to kiss is"]
+     :item/answer ["besar"]}
+    {:item/n 11
+     :item/prompt ["The Spanish word for to know (to meet) is"]
+     :item/answer ["conocer"]}
+    {:item/n 12
+     :item/prompt ["The Spanish word for to listen to is"]
+     :item/answer ["escuchar"]}]
+   :exercise/notes []}
+  {:exercise/id "18D"
+   :exercise/skill :translate
+   :exercise/direction :to-spanish
+   :exercise/dialog? false
+   :exercise/instructions ""
+   :exercise/hints ["Salir = to leave, but can also be used for to go out"]
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["You (all) can go with us."]
+     :item/answer ["Pueden ir con nosotros."]}
+    {:item/n 2
+     :item/prompt ["Do you (all) want to learn Spanish?"]
+     :item/answer ["¿Quieren aprender español?"]}
+    {:item/n 3
+     :item/prompt ["Do you (all) want to go back to the house for a while?"]
+     :item/answer ["¿Quieren regresar a la casa por un rato?"]}
+    {:item/n 4
+     :item/prompt ["You (all) need to speak with him as soon as possible."]
+     :item/answer ["Necesitan hablar con él cuanto antes."]}
+    {:item/n 5
+     :item/prompt ["You (all) can spend the night in our house."]
+     :item/answer ["Pueden pasar la noche en nuestra casa."]}
+    {:item/n 6
+     :item/prompt ["We want to study with you (all)."]
+     :item/answer ["Queremos estudiar con ustedes."]}
+    {:item/n 7
+     :item/prompt ["You (all) need to wait for them."]
+     :item/answer ["Necesitan esperarlos."]}
+    {:item/n 8
+     :item/prompt ["Do you (all) want to invite him?"]
+     :item/answer ["¿Quieren invitarlo?"]}
+    {:item/n 9
+     :item/prompt ["Why can’t you (all) invite me?"]
+     :item/answer ["¿Por qué no pueden invitarme?"]}
+    {:item/n 10
+     :item/prompt ["Do you (all) want to go back with us?"]
+     :item/answer ["¿Quieren regresar con nosotros?"]}
+    {:item/n 11
+     :item/prompt
+     ["Tomorrow we need to drive as far as (until) La Paz. You (all) need to drive a lot."]
+     :item/answer ["Mañana necesitamos manejar hasta La Paz. Necesitan manejar mucho."]}
+    {:item/n 12
+     :item/prompt ["Do you (all) want to rest tonight? No, we would like to go out."]
+     :item/answer ["¿Quieren descansar esta noche? No, nos gustaría salir."]}
+    {:item/n 13
+     :item/prompt ["What do you (all) want to do? We want to rest a while."]
+     :item/answer ["¿Qué quieren hacer? Queremos descansar un rato."]}
+    {:item/n 14
+     :item/prompt ["When do you (all) need to go? We need to go before the summer."]
+     :item/answer ["¿Cuándo necesitan ir? Necesitamos ir antes del verano."]}
+    {:item/n 15
+     :item/prompt ["Do you (all) need a taxi? No, we would like to walk,thanks."]
+     :item/answer ["¿Necesitan un taxi? No, nos gustaría caminar, gracias."]}
+    {:item/n 16
+     :item/prompt ["You (all) need to visit us again."]
+     :item/answer ["Necesitan visitarnos otra vez."]}
+    {:item/n 17
+     :item/prompt
+     ["Where do you (all) want to spend the summer? We want to spend the summer in Spain with our family."]
+     :item/answer
+     ["¿Dónde quieren pasar el verano? Queremos pasar el verano en España con nuestra familia."]}
+    {:item/n 18
+     :item/prompt
+     ["Why do you (all) want to learn Spanish? In order to speak with you (all)."]
+     :item/answer ["¿Por qué quieren aprender español? Para hablar con ustedes."]}
+    {:item/n 19
+     :item/prompt
+     ["Can you (all) return to México in the summer? Yes, we can come back in summer."]
+     :item/answer ["¿Pueden regresar a México en verano? Sí, podemos regresar en verano."]}
+    {:item/n 20
+     :item/prompt ["Do you (all) want to finish soon? Yes, as soon as possible."]
+     :item/answer ["¿Quieren terminar pronto? Sí, cuanto antes."]}
+    {:item/n 21
+     :item/prompt ["Where can we wait for her? You (all) can wait for her in the house."]
+     :item/answer ["¿Dónde podemos esperarla? Pueden esperarla en la casa."]}
+    {:item/n 22
+     :item/prompt
+     ["Do you (all) want to study with us? Yes, we would like to study with you (all)."]
+     :item/answer ["¿Quieren estudiar con nosotros? Sí, nos gustaría estudiar con ustedes."]}
+    {:item/n 23
+     :item/prompt
+     ["Do you (all) want to have dinner with us? Yes, we would love to have dinner with you (all)."]
+     :item/answer ["¿Quieren cenar con nosotros? Sí, nos encantaría cenar con ustedes."]}
+    {:item/n 24
+     :item/prompt ["Can you (all) speak more Spanish with us?"]
+     :item/answer ["¿Pueden hablar más español con nosotros?"]}]
+   :exercise/notes []}]
+ :lesson/closing []}

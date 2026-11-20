@@ -1,0 +1,353 @@
+{:lesson/number 9
+ :lesson/label "Lesson 9"
+ :lesson/title "Let’s add dialog and conversation"
+ :lesson/spanish-title "Lección nueve"
+ :lesson/step
+ {:step/number 2
+  :step/title "Learning to use dialog for Spanish conversation"}
+ :lesson/pages [78 86]
+ :lesson/intro []
+ :lesson/sections []
+ :lesson/vocabulary
+ [{:vocab/id 49
+   :vocab/kind :synergy-verb
+   :vocab/spanish "quiere"
+   :vocab/english "you want"
+   :vocab/pronunciation "KEE AR EH"
+   :vocab/mnemonic "Do you want to watch the Drew Carey show?"}
+  {:vocab/id 50
+   :vocab/kind :synergy-verb
+   :vocab/spanish "necesita"
+   :vocab/english "you need"
+   :vocab/pronunciation "NEH SEH SEE TAH"
+   :vocab/mnemonic "This is the most common pattern in Spanish Necesito = I need Necesita = you need"}
+  {:vocab/id 51
+   :vocab/kind :sentence-starter
+   :vocab/spanish "cuándo"
+   :vocab/english "when"
+   :vocab/pronunciation "KOO AHN DOH"
+   :vocab/mnemonic "When are you going to do tae quon do?"}
+  {:vocab/id 52
+   :vocab/kind :mortar
+   :vocab/spanish "conmigo"
+   :vocab/english "with me"
+   :vocab/pronunciation "KOHN MEE GOH"
+   :vocab/mnemonic "If you try and con me go away you can't partner with me."}
+  {:vocab/id 53
+   :vocab/kind :mortar
+   :vocab/spanish "pero"
+   :vocab/english "but"
+   :vocab/pronunciation "PEH ROH"
+   :vocab/mnemonic "I thought it was a pear but it was a nashi."}
+  {:vocab/id 54
+   :vocab/kind :mortar
+   :vocab/spanish "o"
+   :vocab/english "or"
+   :vocab/pronunciation "OH"
+   :vocab/mnemonic "Just remember to give it a nice round sound."}]
+ :lesson/exercises
+ [{:exercise/id "9A"
+   :exercise/skill :recall
+   :exercise/direction :to-english
+   :exercise/dialog? false
+   :exercise/instructions "See how well you remembered your new Spanish Synergy Verbs and Mortar. Write the English words on the line"
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["The English words for quiere are"]
+     :item/answer ["you want"]}
+    {:item/n 2
+     :item/prompt ["The English words for necesita are"]
+     :item/answer ["you need"]}
+    {:item/n 3
+     :item/prompt ["The English words for conmigo are"]
+     :item/answer ["with me"]}
+    {:item/n 4
+     :item/prompt ["The English word for cuándo is"]
+     :item/answer ["when"]}
+    {:item/n 5
+     :item/prompt ["The English word for pero is"]
+     :item/answer ["but"]}
+    {:item/n 6
+     :item/prompt ["The English word for o is"]
+     :item/answer ["or"]}]
+   :exercise/notes []}
+  {:exercise/id "9B"
+   :exercise/skill :translate
+   :exercise/direction :to-english
+   :exercise/dialog? false
+   :exercise/instructions "You’ll start using Spanish dialog shortly. But before you practice two part Spanish conversations in exercise 9C, get the feel for 2nd person Spanish in this exercise."
+   :exercise/hints ["en casa = at home" "agua = water" "y = and"]
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["Para ver la luna no necesita un telescopio."]
+     :item/answer ["In order to see the moon you don't need a telescope."]}
+    {:item/n 2
+     :item/prompt ["Necesita estudiar mucho español para hablar en sus vacaciones."]
+     :item/answer ["You need to study a lot of Spanish in order to speak in your vacation."]}
+    {:item/n 3
+     :item/prompt ["¿Quiere invitar a la maestra a la fiesta?"]
+     :item/answer ["Do you want to invite the teacher to the party?"]}
+    {:item/n 4
+     :item/prompt ["¿Cuándo quiere visitar a su familia?"]
+     :item/answer ["When do you want to visit your family?"]}
+    {:item/n 5
+     :item/prompt ["¿Quiere rentar o comprar una casa?"]
+     :item/answer ["Do you want to rent or buy a house?"]}
+    {:item/n 6
+     :item/prompt
+     ["¿Quiere regresar al restaurante otra vez para comer más de los tacos deliciosos?"]
+     :item/answer
+     ["Do you want to go back (return) to the restaurant again to eat more of the delicious tacos?"]}
+    {:item/n 7
+     :item/prompt ["Necesita regresar el video a Blockbuster."]
+     :item/answer ["You need to return the video to Blockbuster."]}
+    {:item/n 8
+     :item/prompt ["Necesita estar en casa con su familia esta noche."]
+     :item/answer ["You need to be at home with your family tonight."]}
+    {:item/n 9
+     :item/prompt ["Necesita pasar más tiempo conmigo y con su familia."]
+     :item/answer ["You need to spend more time with me and with your family."]}
+    {:item/n 10
+     :item/prompt ["¿Quiere rentar una casa en Puerto Vallarta este año?"]
+     :item/answer ["Do you want to rent a house in Puerto Vallarta this year?"]}
+    {:item/n 11
+     :item/prompt ["¿Quiere trabajar en México este año?"]
+     :item/answer ["Do you want to work in Mexico this year?"]}
+    {:item/n 12
+     :item/prompt ["¿Quiere regresar al restaurante mañana en la noche?"]
+     :item/answer ["Do you want to go back (return) to the restaurant tomorrow night?"]}
+    {:item/n 13
+     :item/prompt ["Necesita pasar la noche en un hotel."]
+     :item/answer ["You need to spend the night in a hotel."]}
+    {:item/n 14
+     :item/prompt ["Necesita tomar mucha agua en el desierto."]
+     :item/answer ["You need to drink a lot of water in the desert."]}
+    {:item/n 15
+     :item/prompt ["¿Cuándo quiere regresar a México?"]
+     :item/answer ["When do you want to go back (return) to Mexico?"]}
+    {:item/n 16
+     :item/prompt ["¿Quiere ir a mi casa por un rato para ver a mi familia?"]
+     :item/answer ["Do you want to go to my house for a while in order to see my family?"]}
+    {:item/n 17
+     :item/prompt ["Necesita continuar mañana."]
+     :item/answer ["You need to continue tomorrow."]}
+    {:item/n 18
+     :item/prompt ["¿Quiere trabajar esta noche o mañana?"]
+     :item/answer ["Do you want to work tonight or tomorrow?"]}
+    {:item/n 19
+     :item/prompt ["Señor, necesita ir al doctor pronto."]
+     :item/answer ["Sir, you need to go to the doctor soon."]}
+    {:item/n 20
+     :item/prompt ["Necesita hablar más español."]
+     :item/answer ["You need to speak more Spanish."]}]
+   :exercise/notes []}
+  {:exercise/id "9C"
+   :exercise/skill :translate
+   :exercise/direction :to-english
+   :exercise/dialog? true
+   :exercise/instructions "As promised it is time for dialog. I am sure you will be able to understand these two part conversations."
+   :exercise/hints ["sólo = only"]
+   :exercise/items
+   [{:item/n 1
+     :item/prompt
+     ["¿Necesita viajar esta semana?" "No, voy a estar en casa hasta la próxima semana."]
+     :item/answer
+     ["Do you need to travel this week?" "No, I am going to be home until (the) next week."]}
+    {:item/n 2
+     :item/prompt
+     ["¿Quiere trabajar conmigo en el proyecto?"
+      "Sí, puedo trabajar con usted la próxima semana."]
+     :item/answer
+     ["Do you want to work with me on the project?" "Yes, I can work with you (the) next week."]}
+    {:item/n 3
+     :item/prompt
+     ["¿Quiere tomar un tequila conmigo?" "Gracias, pero no me gusta mucho el tequila."]
+     :item/answer
+     ["Do you want to drink a tequila with me?" "Thank you, but I don't much like tequila."]}
+    {:item/n 4
+     :item/prompt
+     ["¿Quiere hablar español conmigo?"
+      "Sí, me gustaría mucho la oportunidad para practicar español con usted."]
+     :item/answer
+     ["Do you want to speak Spanish with me?"
+      "Yes, I would like (very) much the opportunity (in order) to practice Spanish with you."]}
+    {:item/n 5
+     :item/prompt
+     ["¿Necesita hablar español en la compañía?"
+      "Sí, necesito hablar español cada día con mis clientes."]
+     :item/answer
+     ["Do you need to speak Spanish in the company?"
+      "Yes, I need to speak Spanish every day with my clients."]}
+    {:item/n 6
+     :item/prompt
+     ["¿Quiere comer en un restaurante tradicional?"
+      "Francamente no, esta noche preferiría comer comida americana."]
+     :item/answer
+     ["Do you want to eat in a traditional restaurant?"
+      "Frankly no, tonight I would prefer to eat American food."]}
+    {:item/n 7
+     :item/prompt
+     ["¿Quiere comer en el restaurante esta noche?" "Sí, ¿puedo invitar a un amigo?"]
+     :item/answer
+     ["Do you want to eat in the restaurant tonight?" "Yes, can I invite a friend?"]}
+    {:item/n 8
+     :item/prompt
+     ["¿Quiere ir a España en mayo conmigo?" "Quiero ir, pero no puedo, tengo que trabajar."]
+     :item/answer
+     ["Do you want to go to Spain in May with me?" "I want to go, but I can’t, I have to work."]}
+    {:item/n 9
+     :item/prompt
+     ["¿Cuándo necesita ir al hotel?" "Necesito ir pronto para confirmar la reservación."]
+     :item/answer
+     ["When do you need to go to the hotel?"
+      "I need to go soon in order to confirm the reservation."]}
+    {:item/n 10
+     :item/prompt
+     ["¿Quiere comer un burrito en el mercado?"
+      "Quiero comer en el mercado pero prefiero enchiladas que burritos."]
+     :item/answer
+     ["Do you want to eat a burrito in the market?"
+      "I want to eat in the market, but I prefer enchiladas (than) to burritos."]}
+    {:item/n 11
+     :item/prompt ["¿Quiere ver el menú?" "No, sólo quiero un café por favor."]
+     :item/answer ["Do you want to see the menu?" "No, I only want a coffee please."]}
+    {:item/n 12
+     :item/prompt ["¿Quiere ir a una fiesta conmigo?" "Sí, ¿cuándo es la fiesta?"]
+     :item/answer ["Do you want to go to a party with me?" "Yes, when is the party?"]}
+    {:item/n 13
+     :item/prompt
+     ["¿Necesita hablar español?" "Sí, necesito hablar español, es muy importante para mí."]
+     :item/answer
+     ["Do you need to speak Spanish?"
+      "Yes, I need to speak Spanish, it is very important for me."]}
+    {:item/n 14
+     :item/prompt ["¿Quiere comer algo diferente?" "Depende!"]
+     :item/answer ["Do you want to eat something different?" "It depends."]}
+    {:item/n 15
+     :item/prompt
+     ["¿Quiere ver los Mariachis en Plaza Garibaldi esta noche?"
+      "Sí, quiero pero tengo que estar en el aeropuerto a las 8:00 p.m."]
+     :item/answer
+     ["Do you want to see the mariachis in Plaza Garibaldi tonight?"
+      "Yes, I want to but I have to be (in) at the airport at 8:00 p.m."]}
+    {:item/n 16
+     :item/prompt
+     ["¿Necesita ver los pasaportes?" "Sí, necesito ver los pasaportes y las visas."]
+     :item/answer
+     ["Do you need to see the passports?" "Yes, I need to see the passports and the visas."]}]
+   :exercise/notes []}
+  {:exercise/id "9D"
+   :exercise/skill :recall
+   :exercise/direction :to-spanish
+   :exercise/dialog? false
+   :exercise/instructions ""
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["The Spanish word for you want is"]
+     :item/answer ["quiere"]}
+    {:item/n 2
+     :item/prompt ["The Spanish word for you need is"]
+     :item/answer ["necesita"]}
+    {:item/n 3
+     :item/prompt ["The Spanish word for with me is"]
+     :item/answer ["conmigo"]}
+    {:item/n 4
+     :item/prompt ["The Spanish word for when is"]
+     :item/answer ["cuándo"]}
+    {:item/n 5
+     :item/prompt ["The Spanish word for or is"]
+     :item/answer ["o"]}
+    {:item/n 6
+     :item/prompt ["The Spanish word for but is"]
+     :item/answer ["pero"]}]
+   :exercise/notes []}
+  {:exercise/id "9E"
+   :exercise/skill :translate
+   :exercise/direction :to-spanish
+   :exercise/dialog? true
+   :exercise/instructions "Now it is time for you to create your own Spanish dialog."
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["When do you need to see the doctor?" "Tomorrow."]
+     :item/answer ["¿Cuándo necesita ver al doctor?" "Mañana."]}
+    {:item/n 2
+     :item/prompt ["When do you need to go?" "I need to go tomorrow."]
+     :item/answer ["¿Cuándo necesita ir?" "Necesito ir mañana."]}
+    {:item/n 3
+     :item/prompt ["When do you want to eat?" "I want to eat now."]
+     :item/answer ["¿Cuándo quiere comer?" "Quiero comer ahora."]}
+    {:item/n 4
+     :item/prompt ["Do you want to see my house?" "Yes, I would like to see your house."]
+     :item/answer ["¿Quiere ver mi casa?" "Sí, me gustaría ver su casa."]}
+    {:item/n 5
+     :item/prompt
+     ["When do you need to go back to your house?" "I need to go back tomorrow night."]
+     :item/answer
+     ["¿Cuándo necesita regresar a su casa?" "Necesito regresar mañana en la noche."]}
+    {:item/n 6
+     :item/prompt
+     ["Do you want to eat in my house or do you want to eat in a restaurant?"
+      "I would like (very) much to eat in your house."]
+     :item/answer
+     ["¿Quiere comer en mi casa, o quiere comer en un restaurante?"
+      "Me gustaría mucho comer en su casa."]}
+    {:item/n 7
+     :item/prompt
+     ["Do you want to go to Tijuana tonight?" "No, I don't like to go to Tijuana in the night."]
+     :item/answer
+     ["¿Quiere ir a Tijuana esta noche?" "No, no me gusta ir a Tijuana en la noche."]}
+    {:item/n 8
+     :item/prompt ["Do you want more?" "No, I don’t want (any) more,thank you."]
+     :item/answer ["¿Quiere más?" "No, no quiero más, gracias."]}
+    {:item/n 9
+     :item/prompt
+     ["You need to help your dad tomorrow." "I can’t, I have to go to the doctor."]
+     :item/answer ["Necesita ayudar a su papá mañana." "No puedo, tengo que ir al doctor."]}
+    {:item/n 10
+     :item/prompt
+     ["Do you want to visit Mexico again?" "Yes, I want to go back (the) next year."]
+     :item/answer ["¿Quiere visitar México otra vez?" "Sí, quiero regresar el próximo año"]}
+    {:item/n 11
+     :item/prompt
+     ["Do you want to go to a party in my house (the) next weekend?"
+      "Yes, I would like to go but I can’t."]
+     :item/answer
+     ["¿Quiere ir a una fiesta en mi casa el próximo fin de semana?"
+      "Sí, me gustaría ir pero no puedo."]}
+    {:item/n 12
+     :item/prompt ["Do you need to go to Mexico?" "Yes, I have to go tomorrow."]
+     :item/answer ["¿Necesita ir a México?" "Sí, tengo que ir mañana."]}
+    {:item/n 13
+     :item/prompt
+     ["Do you want to go to a restaurant with me?" "Yes, I would like to go with you."]
+     :item/answer ["¿Quiere ir a un restaurante conmigo?" "Sí, me gustaría ir con usted."]}
+    {:item/n 14
+     :item/prompt
+     ["Do you want to eat with me in the restaurant tonight?"
+      "Yes, I would like (very) much to eat with you."]
+     :item/answer
+     ["¿Quiere comer conmigo en el restaurante esta noche?"
+      "Sí, me gustaría mucho comer con usted."]}
+    {:item/n 15
+     :item/prompt
+     ["You need to go with me (in order) to see my mom." "Yes, I am going to go with you."]
+     :item/answer ["Necesita ir conmigo para ver a mi mamá." "Sí, voy a ir con usted."]}
+    {:item/n 16
+     :item/prompt
+     ["Do you want to go back with me?" "Thank you, but I am going to go back with Mario."]
+     :item/answer ["¿Quiere regresar conmigo?" "Gracias, pero voy a regresar con Mario."]}
+    {:item/n 17
+     :item/prompt ["You need to work with me today." "Yes, I am going to work with you."]
+     :item/answer ["Necesita trabajar conmigo hoy." "Sí, voy a trabajar con usted."]}
+    {:item/n 18
+     :item/prompt
+     ["Do you want to spend the weekend with me in Mexico?"
+      "I am sorry, but I can’t, I have to work."]
+     :item/answer
+     ["¿Quiere pasar el fin de semana conmigo en México?"
+      "Lo siento, pero no puedo, tengo que trabajar."]}]
+   :exercise/notes []}]
+ :lesson/closing []}

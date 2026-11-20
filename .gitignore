@@ -1,0 +1,11 @@
+node_modules/
+out/
+dist/
+public/lessons.json
+.clj-kondo
+.kilo
+.lsp
+.playwright-mcp
+*.pdf
+.~lock.*
+.nrepl-port

@@ -1,0 +1,308 @@
+{:lesson/number 4
+ :lesson/label "Lesson 4"
+ :lesson/title nil
+ :lesson/spanish-title "Lección cuatro"
+ :lesson/step
+ {:step/number 1
+  :step/title "The first steps to Speaking Spanish"}
+ :lesson/pages [38 44]
+ :lesson/intro []
+ :lesson/sections []
+ :lesson/vocabulary
+ [{:vocab/id 19
+   :vocab/kind :mortar
+   :vocab/spanish "otra vez"
+   :vocab/english "again"
+   :vocab/pronunciation "OH TRAH VEHS"
+   :vocab/mnemonic "Imagine a friend has a bright red vest you say, \"please don't wear that ultra red vest again.\""}
+  {:vocab/id 20
+   :vocab/kind :mortar
+   :vocab/spanish "con"
+   :vocab/english "with"
+   :vocab/pronunciation "KOHN"
+   :vocab/mnemonic "Imagine a con man with a pack of cards."}
+  {:vocab/id 21
+   :vocab/kind :mortar
+   :vocab/spanish "la próxima"
+   :vocab/english "the next"
+   :vocab/pronunciation "LAH PROH XEE MAH"
+   :vocab/mnemonic "The Next month is approximately 30 days from now."}
+  {:vocab/id 22
+   :vocab/kind :mortar
+   :vocab/spanish "esta"
+   :vocab/english "this"
+   :vocab/pronunciation "EHS TAH"
+   :vocab/mnemonic "Remember the word for tonight (esta noche) from lesson 1. In Spanish to say tonight you literally say this night esta noche."}
+  {:vocab/id 23
+   :vocab/kind :mortar
+   :vocab/spanish "semana"
+   :vocab/english "week"
+   :vocab/pronunciation "SEH MAHN AH"
+   :vocab/mnemonic "God Says \"man I am bored I will create an earth in a week.\""}
+  {:vocab/id 24
+   :vocab/kind :mortar
+   :vocab/spanish "mañana"
+   :vocab/english "tomorrow and morning"
+   :vocab/pronunciation "MAHN YAH NAH"
+   :vocab/mnemonic "A friend is grumpy in the morning you say, \"man ya nah good in the morning.\" * Mañana means both tomorrow and morning. So to say tomorrow morning you say, mañana en la mañana."}]
+ :lesson/exercises
+ [{:exercise/id "4A"
+   :exercise/skill :recall
+   :exercise/direction :to-english
+   :exercise/dialog? false
+   :exercise/instructions "See how well you remembered your Spanish Synergy Verbs and Brick Verbs from lesson 3 plus your new Mortar words from this lesson. Write the English words on the line"
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["The English word for otra vez is"]
+     :item/answer ["again"]}
+    {:item/n 2
+     :item/prompt ["The English word for con is"]
+     :item/answer ["with"]}
+    {:item/n 3
+     :item/prompt ["The English words for la próxima are"]
+     :item/answer ["the next"]}
+    {:item/n 4
+     :item/prompt ["The English word for esta is"]
+     :item/answer ["this"]}
+    {:item/n 5
+     :item/prompt ["The English word for semana is"]
+     :item/answer ["week"]}
+    {:item/n 6
+     :item/prompt ["The English word for mañana is"]
+     :item/answer ["tomorrow/morning"]}
+    {:item/n 7
+     :item/prompt ["The English words for voy a are"]
+     :item/answer ["I am going to"]}
+    {:item/n 8
+     :item/prompt ["The English words for me gustaría are"]
+     :item/answer ["I would like"]}
+    {:item/n 9
+     :item/prompt ["The English words for invitar are"]
+     :item/answer ["to invite"]}
+    {:item/n 10
+     :item/prompt ["The English words for visitar are"]
+     :item/answer ["to visit"]}
+    {:item/n 11
+     :item/prompt ["The English words for llamar are"]
+     :item/answer ["to call"]}
+    {:item/n 12
+     :item/prompt ["The English words for ayudar are"]
+     :item/answer ["to help"]}]
+   :exercise/notes []}
+  {:exercise/id "4B"
+   :exercise/skill :translate
+   :exercise/direction :to-english
+   :exercise/dialog? false
+   :exercise/instructions "These Spanish sentences are getting longer and more complex. Remember I promised real Spanish. This is real Spanish and you already know enough to understand it."
+   :exercise/hints ["Maleta = case" "del = of the" "por = for/by"]
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["Esta noche me gustaría ir al cine con mis amigos."]
+     :item/answer ["Tonight I would like to go to the cinema with my friends."]}
+    {:item/n 2
+     :item/prompt ["Me gustaría comer en el restaurante con usted otra vez."]
+     :item/answer ["I would like to eat in the restaurant with you again."]}
+    {:item/n 3
+     :item/prompt ["Necesito hablar con mi esposa por teléfono otra vez."]
+     :item/answer ["I need to speak with my wife by telephone again."]}
+    {:item/n 4
+     :item/prompt ["Necesito llamar al hotel para confirmar la reservación de mañana."]
+     :item/answer
+     ["I need to call the hotel in order to confirm the reservation of tomorrow (tomorrow’s reservation)."]}
+    {:item/n 5
+     :item/prompt ["Esta noche me gustaría ir a un bar con mis amigos."]
+     :item/answer ["Tonight I would like to go to a bar with my friends."]}
+    {:item/n 6
+     :item/prompt ["Voy a visitarla otra vez en mayo."]
+     :item/answer ["I am going to visit her again in May."]}
+    {:item/n 7
+     :item/prompt ["Voy a estudiar español en un curso de tres semanas."]
+     :item/answer ["I am going to study Spanish in a 3 week course."]}
+    {:item/n 8
+     :item/prompt ["Voy a ayudarla con las maletas."]
+     :item/answer ["I am going to help her with the cases."]}
+    {:item/n 9
+     :item/prompt ["Me gustaría ir a la catedral esta semana."]
+     :item/answer ["I would like to go to the cathedral this week."]}
+    {:item/n 10
+     :item/prompt ["Voy a ir a Guatemala por tres semanas."]
+     :item/answer ["I am going to go to Guatemala for three weeks."]}
+    {:item/n 11
+     :item/prompt ["Quiero ayudarlo con el estudio del español."]
+     :item/answer ["I want to help him with the study of (the) Spanish."]}
+    {:item/n 12
+     :item/prompt ["Quiero rentar esta casa."]
+     :item/answer ["I want to rent this house."]}
+    {:item/n 13
+     :item/prompt ["Esta semana y la próxima necesito estudiar mucho."]
+     :item/answer ["This week and the next I need to study a lot."]}
+    {:item/n 14
+     :item/prompt ["Necesito un hotel por dos semanas."]
+     :item/answer ["I need a hotel for two weeks."]}
+    {:item/n 15
+     :item/prompt
+     ["Me gustaría invitar a José a mi fiesta de graduación la próxima semana."]
+     :item/answer ["I would like to invite Jose to my graduation party the next week."]}
+    {:item/n 16
+     :item/prompt
+     ["La próxima semana, voy a ir a las pirámides en Yucatán con un grupo de amigos."]
+     :item/answer
+     ["(The) next week, I am going to go to the pyramids in Yucatan with a group of friends."]}
+    {:item/n 17
+     :item/prompt ["Quiero verlo en la clase de español con más frecuencia."]
+     :item/answer
+     ["I want to see him in the Spanish class with more frequency (more often)."]}
+    {:item/n 18
+     :item/prompt ["Necesito ir al dentista esta semana."]
+     :item/answer ["I need to go to the dentist this week."]}
+    {:item/n 19
+     :item/prompt ["Voy a hablar con el policía para reportar el robo."]
+     :item/answer ["I am going to speak with the policeman to report the robbery."]}
+    {:item/n 20
+     :item/prompt ["Necesito ver la visa y el pasaporte otra vez."]
+     :item/answer ["I need to see the visa and the passport again."]}
+    {:item/n 21
+     :item/prompt ["Voy a hablar más español con los mexicanos en mis vacaciones."]
+     :item/answer ["I am going to speak more Spanish with the Mexicans in my vacation."]}]
+   :exercise/notes []}
+  {:exercise/id "4C"
+   :exercise/skill :recall
+   :exercise/direction :to-spanish
+   :exercise/dialog? false
+   :exercise/instructions "See how well you remembered your Spanish Synergy Verbs and Brick Verbs from lesson 3 plus your new Mortar words from this lesson. Write the English words on the line"
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["The Spanish words for again are"]
+     :item/answer ["otra vez"]}
+    {:item/n 2
+     :item/prompt ["The Spanish word for with is"]
+     :item/answer ["con"]}
+    {:item/n 3
+     :item/prompt ["The Spanish words for the next are"]
+     :item/answer ["la próxima"]}
+    {:item/n 4
+     :item/prompt ["The Spanish word for this is"]
+     :item/answer ["esta"]}
+    {:item/n 5
+     :item/prompt ["The Spanish word for week is"]
+     :item/answer ["semana"]}
+    {:item/n 6
+     :item/prompt ["The Spanish for tomorrow/morning is"]
+     :item/answer ["mañana"]}
+    {:item/n 7
+     :item/prompt ["The Spanish words for I am going to are"]
+     :item/answer ["voy a"]}
+    {:item/n 8
+     :item/prompt ["The Spanish words for I would like are"]
+     :item/answer ["me gustaría"]}
+    {:item/n 9
+     :item/prompt ["The Spanish word for to invite is"]
+     :item/answer ["invitar"]}
+    {:item/n 10
+     :item/prompt ["The Spanish word for to visit is"]
+     :item/answer ["visitar"]}
+    {:item/n 11
+     :item/prompt ["The Spanish word for to call is"]
+     :item/answer ["llamar"]}
+    {:item/n 12
+     :item/prompt ["The Spanish word for to help is"]
+     :item/answer ["ayudar"]}]
+   :exercise/notes []}
+  {:exercise/id "4D"
+   :exercise/skill :translate
+   :exercise/direction :to-spanish
+   :exercise/dialog? false
+   :exercise/instructions ""
+   :exercise/hints ["The house = la casa"]
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["I am going to visit my friends this week."]
+     :item/answer ["Voy a visitar a mis amigos esta semana."]}
+    {:item/n 2
+     :item/prompt ["I am going to go to Costa Rica with my family."]
+     :item/answer ["Voy a ir a Costa Rica con mi familia."]}
+    {:item/n 3
+     :item/prompt ["I would like to invite him to my house in order to eat with my family."]
+     :item/answer ["Me gustaría invitarlo a mi casa para comer con mi familia."]}
+    {:item/n 4
+     :item/prompt ["I need to help my father tomorrow."]
+     :item/answer ["Necesito ayudar a mi papá mañana."]}
+    {:item/n 5
+     :item/prompt ["I am going to call her again tomorrow."]
+     :item/answer ["Voy a llamarla otra vez mañana."]}
+    {:item/n 6
+     :item/prompt ["I am going to call my mother again."]
+     :item/answer ["Voy a llamar a mi mamá otra vez."]}
+    {:item/n 7
+     :item/prompt ["I want to eat again."]
+     :item/answer ["Quiero comer otra vez."]}
+    {:item/n 8
+     :item/prompt ["I want to visit Alma in Dallas (the) next week."]
+     :item/answer ["Quiero visitar a Alma en Dallas la próxima semana."]}
+    {:item/n 9
+     :item/prompt ["I am going to call her (the) next week."]
+     :item/answer ["Voy a llamarla la próxima semana."]}
+    {:item/n 10
+     :item/prompt ["I want to visit Mexico again soon."]
+     :item/answer ["Quiero visitar México otra vez pronto."]}
+    {:item/n 11
+     :item/prompt ["I am not going to eat in the restaurant again."]
+     :item/answer ["No voy a comer en el restaurante otra vez."]}
+    {:item/n 12
+     :item/prompt ["I would like to invite my friend to the party the next week."]
+     :item/answer ["Me gustaría invitar a mi amigo a la fiesta la próxima semana."]}
+    {:item/n 13
+     :item/prompt ["I am not going to go to San Jose tomorrow."]
+     :item/answer ["No voy a ir a San José mañana."]}
+    {:item/n 14
+     :item/prompt ["I would like to see her again."]
+     :item/answer ["Me gustaría verla otra vez."]}
+    {:item/n 15
+     :item/prompt ["I want to invite him to a party in my house the next week."]
+     :item/answer ["Quiero invitarlo a una fiesta en mi casa la próxima semana."]}
+    {:item/n 16
+     :item/prompt ["I am not going to go to Los Angeles again this week."]
+     :item/answer ["No voy a ir a Los Ángeles otra vez esta semana."]}
+    {:item/n 17
+     :item/prompt ["I need to call my dad again."]
+     :item/answer ["Necesito llamar a mi papá otra vez."]}
+    {:item/n 18
+     :item/prompt ["I am going to speak with Roman tomorrow."]
+     :item/answer ["Voy a hablar con Román mañana."]}
+    {:item/n 19
+     :item/prompt ["I would like to eat in the restaurant again tomorrow."]
+     :item/answer ["Me gustaría comer en el restaurante otra vez mañana."]}
+    {:item/n 20
+     :item/prompt ["I want to go to the party with you the next week."]
+     :item/answer ["Quiero ir a la fiesta con usted la próxima semana."]}
+    {:item/n 21
+     :item/prompt ["I need to help my friend tomorrow."]
+     :item/answer ["Necesito ayudar a mi amigo mañana."]}
+    {:item/n 22
+     :item/prompt ["I want to visit my family this week."]
+     :item/answer ["Quiero visitar a mi familia esta semana."]}
+    {:item/n 23
+     :item/prompt ["I am going to see him in the party tomorrow."]
+     :item/answer ["Voy a verlo en la fiesta mañana."]}
+    {:item/n 24
+     :item/prompt ["Now I am going to speak more Spanish with my friend."]
+     :item/answer ["Ahora voy a hablar más español con mi amigo."]}
+    {:item/n 25
+     :item/prompt ["I want to eat in my house with my family."]
+     :item/answer ["Quiero comer en mi casa con mi familia."]}
+    {:item/n 26
+     :item/prompt ["I am going to see her again next week."]
+     :item/answer ["Voy a verla otra vez la próxima semana."]}
+    {:item/n 27
+     :item/prompt ["I would like to see the house again."]
+     :item/answer ["Me gustaría ver la casa otra vez."]}
+    {:item/n 28
+     :item/prompt ["I would like to speak more Spanish with your family."]
+     :item/answer ["Me gustaría hablar más español con su familia."]}
+    {:item/n 29
+     :item/prompt ["I am going to speak with María in Spanish soon."]
+     :item/answer ["Voy a hablar con María en español pronto."]}]
+   :exercise/notes []}]
+ :lesson/closing []}

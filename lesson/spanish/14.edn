@@ -1,0 +1,343 @@
+{:lesson/number 14
+ :lesson/label "Lesson 14"
+ :lesson/title nil
+ :lesson/spanish-title "Lección catorce"
+ :lesson/step
+ {:step/number 3
+  :step/title "Let’s talk about us"}
+ :lesson/pages [122 129]
+ :lesson/intro []
+ :lesson/sections
+ [{:section/type :accuracy-pointer
+   :section/id 11
+   :section/title "It pleases us to learn Spanish"
+   :section/body
+   ["Nos gustaría aprender (el) Espanola Again the pattern of gustaría - would like, is different from the other Synergy Verbs."
+    "Remember Le gustaría To you it would please Me gustaría To me it would please Now we ad Nos gustaría To us it would please Just use nos gustaría as you did with me gustaría and le gustaría. Use them as complete phrases."]}]
+ :lesson/vocabulary
+ [{:vocab/id 79
+   :vocab/kind :synergy-verb
+   :vocab/spanish "vamos a"
+   :vocab/english "we are going"
+   :vocab/pronunciation "BAH MOHS AH"
+   :vocab/mnemonic "Imagine saying, \"we are going to go to the Bahamas?\""}
+  {:vocab/id 80
+   :vocab/kind :synergy-verb
+   :vocab/spanish "nos gustaría"
+   :vocab/english "we would like"
+   :vocab/pronunciation "NOS GOOS TAH REE AH"
+   :vocab/mnemonic "See Spanish speaking hints below."}
+  {:vocab/id 81
+   :vocab/kind :brick-verb
+   :vocab/spanish "encontrar"
+   :vocab/english "to find"
+   :vocab/pronunciation "EHN KOHN TRAHR"
+   :vocab/mnemonic "If we are ever to find life on another planet There will be a close encounter of the 3rd kind. Encontrar can also be used for to meet. Vamos a encontrar a nuestro amigo en el restaurante. E.g. We are going to meet our friend in the restaurant."}
+  {:vocab/id 82
+   :vocab/kind :brick-verb
+   :vocab/spanish "empezar"
+   :vocab/english "to start"
+   :vocab/pronunciation "EHM PEH SAHR"
+   :vocab/mnemonic "Imagine an emperor and a czar are about to start the meeting."}
+  {:vocab/id 83
+   :vocab/kind :brick-verb
+   :vocab/spanish "comprar"
+   :vocab/english "to buy"
+   :vocab/pronunciation "KOHM PRAHR"
+   :vocab/mnemonic "Imagine comparing prices when you go to buy something new."}
+  {:vocab/id 84
+   :vocab/kind :brick-verb
+   :vocab/spanish "gastar"
+   :vocab/english "to spend"
+   :vocab/pronunciation "GAHS TAHR"
+   :vocab/mnemonic "I had to spend the money so fast it was like a gust a wind swept it away."}]
+ :lesson/exercises
+ [{:exercise/id "14A"
+   :exercise/skill :recall
+   :exercise/direction :to-english
+   :exercise/dialog? false
+   :exercise/instructions "Write the English words on the line."
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["The English words for vamos a are"]
+     :item/answer ["we are going to"]}
+    {:item/n 2
+     :item/prompt ["The English words for nos gustaría are"]
+     :item/answer ["we would like"]}
+    {:item/n 3
+     :item/prompt ["The English words for comprar are"]
+     :item/answer ["to buy"]}
+    {:item/n 4
+     :item/prompt ["The English words for gastar are"]
+     :item/answer ["to spend"]}
+    {:item/n 5
+     :item/prompt ["The English words for empezar are"]
+     :item/answer ["to start"]}
+    {:item/n 6
+     :item/prompt ["The English words for encontrar are"]
+     :item/answer ["to find /to meet"]}
+    {:item/n 7
+     :item/prompt ["The English words for queremos are"]
+     :item/answer ["we want"]}
+    {:item/n 8
+     :item/prompt ["The English words for necesitamos are"]
+     :item/answer ["we need"]}
+    {:item/n 9
+     :item/prompt ["The English word for nuestra is"]
+     :item/answer ["our"]}
+    {:item/n 10
+     :item/prompt ["The English words for descansar are"]
+     :item/answer ["to rest"]}
+    {:item/n 11
+     :item/prompt ["The English words for manejar are"]
+     :item/answer ["to drive"]}
+    {:item/n 12
+     :item/prompt ["The English words for cuanto antes are"]
+     :item/answer ["as soon as possible"]}]
+   :exercise/notes []}
+  {:exercise/id "14B"
+   :exercise/skill :translate
+   :exercise/direction :to-english
+   :exercise/dialog? false
+   :exercise/instructions ""
+   :exercise/hints ["dinero = money"]
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["Vamos a aprender mucho más español en esta clase."]
+     :item/answer ["We are going to learn a lot more Spanish in this class."]}
+    {:item/n 2
+     :item/prompt ["Nos gustaría ir al fútbol para ver a Beckham y Real Madrid."]
+     :item/answer
+     ["We would like to go to the football in order to see Beckham and Real Madrid."]}
+    {:item/n 3
+     :item/prompt ["Necesitamos llamar a la policía."]
+     :item/answer ["We need to call the police."]}
+    {:item/n 4
+     :item/prompt ["No necesita gastar mucho dinero en Oaxaca."]
+     :item/answer ["You don't need to spend much money in Oaxaca."]}
+    {:item/n 5
+     :item/prompt
+     ["Necesitamos estudiar mucho ahora para hablar español en nuestras vacaciones."]
+     :item/answer ["We need to study a lot now in order to speak Spanish in our vacation."]}
+    {:item/n 6
+     :item/prompt ["Vamos a rentar una casa allá por tres meses."]
+     :item/answer ["We are going to rent a house there for three months."]}
+    {:item/n 7
+     :item/prompt ["No queremos gastar más de 150 pesos por una botella de tequila."]
+     :item/answer ["We don't want to spend more than 150 pesos for a bottle of tequila."]}
+    {:item/n 8
+     :item/prompt ["Vamos a un bar para tomar un tequila."]
+     :item/answer ["We are going to a bar in order to drink a tequila."]}
+    {:item/n 9
+     :item/prompt ["Nos gustaría ir allá en abril."]
+     :item/answer ["We would like to go there in April."]}
+    {:item/n 10
+     :item/prompt
+     ["Vamos a estudiar en casa con casetes y también tomar clases de español."]
+     :item/answer
+     ["We are going to study at home with cassettes and also take Spanish classes."]}
+    {:item/n 11
+     :item/prompt ["Nos gustaría trabajar con usted."]
+     :item/answer ["We would like to work with you."]}
+    {:item/n 12
+     :item/prompt ["Necesitamos ir en cinco minutos."]
+     :item/answer ["We need to go in five minutes."]}
+    {:item/n 13
+     :item/prompt ["Nos gustaría comer comida vegetariana."]
+     :item/answer ["We would like to eat vegetarian food."]}
+    {:item/n 14
+     :item/prompt ["Queremos empezar antes de las 8:00 p.m."]
+     :item/answer ["We want to start before 8:00 p.m."]}
+    {:item/n 15
+     :item/prompt ["Nos gustaría ir al teatro para ver el baile folklórico."]
+     :item/answer
+     ["We would like to go to the theater in order to see the folkloric dancing."]}
+    {:item/n 16
+     :item/prompt ["Vamos a empezar en 5 minutos."]
+     :item/answer ["We are going to start in five minutes."]}
+    {:item/n 17
+     :item/prompt ["Me gustaría ir allá el fin de semana."]
+     :item/answer ["I would like to go there (on) the weekend."]}
+    {:item/n 18
+     :item/prompt
+     ["Nos gustaría ver más partes de México, especialmente queremos ver Chichen Itzá."]
+     :item/answer
+     ["We would like to see more parts of Mexico, we especially want to see Chichen Itzá."]}
+    {:item/n 19
+     :item/prompt ["Nos gustaría ir allá para ver las pirámides."]
+     :item/answer ["We would like to go there to see the pyramids."]}
+    {:item/n 20
+     :item/prompt ["Vamos a estudiar allá por un mes."]
+     :item/answer ["We are going to study there for a month."]}
+    {:item/n 21
+     :item/prompt ["¿Le gustaría un café?"]
+     :item/answer ["Would you like a coffee?"]}
+    {:item/n 22
+     :item/prompt ["No vamos a gastar mucho dinero en estas vacaciones."]
+     :item/answer ["We are not going to spend much money in this vacation."]}
+    {:item/n 23
+     :item/prompt ["Queremos encontrar una casa para rentar."]
+     :item/answer ["We want to find a house (in order) to rent."]}
+    {:item/n 24
+     :item/prompt ["Necesitamos encontrar un hospital."]
+     :item/answer ["We need to find a hospital."]}
+    {:item/n 25
+     :item/prompt ["Queremos encontrar un restaurante típico con mariachis."]
+     :item/answer ["We want to find a typical restaurant with mariachis."]}
+    {:item/n 26
+     :item/prompt ["No puedo encontrar nuestros pasaportes."]
+     :item/answer ["I can’t find our passports."]}
+    {:item/n 27
+     :item/prompt ["Queremos encontrar algo especial para nuestra mamá."]
+     :item/answer ["We want to find something special for our mom."]}
+    {:item/n 28
+     :item/prompt ["Voy a empezar la clase de español ahora mismo."]
+     :item/answer ["I am going to start the Spanish class right now."]}
+    {:item/n 29
+     :item/prompt ["Nos gustaría descansar un poco antes de la clase."]
+     :item/answer ["We would like to rest a little before the class."]}
+    {:item/n 30
+     :item/prompt ["Quiero comprar algo para mi mamá, pero no puedo gastar mucho."]
+     :item/answer ["I want to buy something for my mother, but I can’t spend much."]}]
+   :exercise/notes []}
+  {:exercise/id "14C"
+   :exercise/skill :recall
+   :exercise/direction :to-spanish
+   :exercise/dialog? false
+   :exercise/instructions ""
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["The Spanish words for we are going to are"]
+     :item/answer ["vamos a"]}
+    {:item/n 2
+     :item/prompt ["The Spanish words for we would like are"]
+     :item/answer ["nos gustaría"]}
+    {:item/n 3
+     :item/prompt ["The Spanish word for to buy is"]
+     :item/answer ["comprar"]}
+    {:item/n 4
+     :item/prompt ["The Spanish word for to spend is"]
+     :item/answer ["gastar"]}
+    {:item/n 5
+     :item/prompt ["The Spanish word for to begin is"]
+     :item/answer ["empezar"]}
+    {:item/n 6
+     :item/prompt ["The Spanish word for to find / to meet is"]
+     :item/answer ["encontrar"]}
+    {:item/n 7
+     :item/prompt ["The Spanish word for we want is"]
+     :item/answer ["queremos"]}
+    {:item/n 8
+     :item/prompt ["The Spanish word for we need is"]
+     :item/answer ["necesitamos"]}
+    {:item/n 9
+     :item/prompt ["The Spanish word for our is"]
+     :item/answer ["nuestra"]}
+    {:item/n 10
+     :item/prompt ["The Spanish word for to rest is"]
+     :item/answer ["descansar"]}
+    {:item/n 11
+     :item/prompt ["The Spanish word for to drive is"]
+     :item/answer ["manejar"]}
+    {:item/n 12
+     :item/prompt ["The Spanish words for as soon as possible are"]
+     :item/answer ["cuanto antes"]}]
+   :exercise/notes []}
+  {:exercise/id "14D"
+   :exercise/skill :translate
+   :exercise/direction :to-spanish
+   :exercise/dialog? false
+   :exercise/instructions ""
+   :exercise/hints []
+   :exercise/items
+   [{:item/n 1
+     :item/prompt ["We are going to help her."]
+     :item/answer ["Vamos a ayudarla."]}
+    {:item/n 2
+     :item/prompt ["We would like to finish as soon as possible."]
+     :item/answer ["Nos gustaría terminar cuanto antes."]}
+    {:item/n 3
+     :item/prompt ["We don't want to spend much."]
+     :item/answer ["No queremos gastar mucho."]}
+    {:item/n 4
+     :item/prompt ["We would like to learn more Spanish with you."]
+     :item/answer ["Nos gustaría aprender más español con usted."]}
+    {:item/n 5
+     :item/prompt ["We want to start tomorrow."]
+     :item/answer ["Queremos empezar mañana."]}
+    {:item/n 6
+     :item/prompt ["Do you want to go to a restaurant tonight?"]
+     :item/answer ["¿Quiere ir a un restaurante esta noche?"]}
+    {:item/n 7
+     :item/prompt ["We are going to buy a house in Baja California."]
+     :item/answer ["Vamos a comprar una casa en Baja California."]}
+    {:item/n 8
+     :item/prompt ["When are we going to go back?"]
+     :item/answer ["¿Cuándo vamos a regresar?"]}
+    {:item/n 9
+     :item/prompt ["We are going to travel a lot this year."]
+     :item/answer ["Vamos a viajar mucho este año."]}
+    {:item/n 10
+     :item/prompt ["I want to go with you."]
+     :item/answer ["Quiero ir con usted."]}
+    {:item/n 11
+     :item/prompt ["We are going to speak a lot of Spanish soon."]
+     :item/answer ["Vamos a hablar mucho español pronto."]}
+    {:item/n 12
+     :item/prompt ["We want to spend the night here."]
+     :item/answer ["Queremos pasar la noche aquí."]}
+    {:item/n 13
+     :item/prompt ["We are going to learn a lot of Spanish in Mexico."]
+     :item/answer ["Vamos a aprender mucho español en México."]}
+    {:item/n 14
+     :item/prompt ["We would like to see the house again."]
+     :item/answer ["Nos gustaría ver la casa otra vez."]}
+    {:item/n 15
+     :item/prompt ["We are going to go with José."]
+     :item/answer ["Vamos a ir con José."]}
+    {:item/n 16
+     :item/prompt ["Are you going to visit Mexico again (the) next year?"]
+     :item/answer ["¿Va a visitar México otra vez el próximo año?"]}
+    {:item/n 17
+     :item/prompt ["We would like to buy a tequila."]
+     :item/answer ["Nos gustaría comprar un tequila."]}
+    {:item/n 18
+     :item/prompt ["I don't want to drive."]
+     :item/answer ["No quiero manejar."]}
+    {:item/n 19
+     :item/prompt ["Are you are going to start today?"]
+     :item/answer ["¿Va a empezar hoy?"]}
+    {:item/n 20
+     :item/prompt ["We are going to rest now."]
+     :item/answer ["Vamos a descansar ahora."]}
+    {:item/n 21
+     :item/prompt ["We need to find a hotel soon."]
+     :item/answer ["Necesitamos encontrar un hotel pronto."]}
+    {:item/n 22
+     :item/prompt ["We are going to spend 300 pesos for the hotel."]
+     :item/answer ["Vamos a gastar 300 pesos por el hotel."]}
+    {:item/n 23
+     :item/prompt ["I need to find my visa."]
+     :item/answer ["Necesito encontrar mi visa."]}
+    {:item/n 24
+     :item/prompt ["We are going to meet our friend (female) in the restaurant."]
+     :item/answer ["Vamos a encontrar a nuestra amiga en el restaurante."]}
+    {:item/n 25
+     :item/prompt ["We need to start as soon as possible."]
+     :item/answer ["Necesitamos empezar cuanto antes."]}
+    {:item/n 26
+     :item/prompt ["We are going to call Dad again soon."]
+     :item/answer ["Vamos a llamar a papá otra vez pronto."]}
+    {:item/n 27
+     :item/prompt ["I have to start right now."]
+     :item/answer ["Tengo que empezar ahora mismo."]}
+    {:item/n 28
+     :item/prompt ["We are going to drive to San Felipe."]
+     :item/answer ["Vamos a manejar a San Felipe."]}
+    {:item/n 29
+     :item/prompt ["We would like to rest soon."]
+     :item/answer ["Nos gustaría descansar pronto."]}]
+   :exercise/notes []}]
+ :lesson/closing []}

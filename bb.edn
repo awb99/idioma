@@ -1,0 +1,31 @@
+{:paths ["script"]
+ :tasks
+ {:requires ([babashka.process :as p])
+  install {:doc "Install npm dependencies"
+           :task (shell "npm install")}
+  lessons {:doc "Transform lesson/spanish/1.edn..25.edn into public/lessons.json"
+           :requires ([lessons :as lessons])
+           :task (apply lessons/-main *command-line-args*)}
+  test    {:doc "Run transform tests"
+           :extra-paths ["test"]
+           :task (do (require (quote lessons-test))
+                     (let [{:keys [fail error]} (clojure.test/run-tests (quote lessons-test))]
+                       (when (pos? (+ (or fail 0) (or error 0)))
+                         (System/exit 1))))}
+  check   {:doc "Validate EDN and compile all squint sources"
+           :requires ([babashka.process :as p])
+           :task (do (p/shell {:out :inherit} "bb lessons --check")
+                     (p/shell {:out :inherit} "npx squint compile"))}
+  dev     {:doc "Lessons watcher + Vite (Squint compile, HMR, browser nREPL)"
+           :depends [install lessons]
+           :task (do (p/process ["bb" "lessons" "--watch"] {:inherit true :shutdown p/destroy-tree})
+                     (p/process ["npx" "vite"] {:inherit true :shutdown p/destroy-tree})
+                     (deref (promise)))}
+  build   {:doc "Lessons JSON + production bundle in dist/"
+           :depends [lessons]
+           :task (p/shell {:out :inherit} "npx vite build")}
+  serve   {:doc "Serve dist/ on http://localhost:8080"
+           :requires ([serve :as serve])
+           :task (apply serve/-main *command-line-args*)}
+  preview {:doc "Build then serve"
+           :depends [build serve]}}}
