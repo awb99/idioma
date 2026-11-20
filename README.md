@@ -1,6 +1,6 @@
-# Synergy Spanish
+# Spanish
 
-Browser app for the 25 Synergy Spanish lessons. ClojureScript syntax is
+Browser app for the 25 Spanish lessons. ClojureScript syntax is
 compiled to JavaScript by Squint, the UI is rendered with Reagami, and
 Babashka drives install, development, build, and serving.
 
