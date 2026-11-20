@@ -10,6 +10,10 @@ Babashka drives install, development, build, and serving.
 - Node.js 20.19+ (or 22.12+) and npm
 - No global Clojure/JVM installation is needed for the app
 
+## Live demo
+
+<https://awb99.github.io/idioma/>
+
 ## Quick start
 
 ```bash
@@ -30,6 +34,11 @@ bb serve
 ```
 
 Open <http://localhost:8080>. `bb serve` requires a completed build in `dist/`.
+
+Pushing to `main` builds `dist/` and deploys it to GitHub Pages via the
+workflow in `.github/workflows/pages.yml`; `bb serve` remains the local static
+server. The repository must have **Settings → Pages → Build and deployment →
+Source** set to **GitHub Actions** for the deploy job to succeed.
 
 Use `bb preview` to build and serve in one command, or change the port:
 

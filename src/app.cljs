@@ -41,7 +41,7 @@
 
 (defn ^:async load! []
   (try
-    (let [res (await (js/fetch "/lessons.json"))
+    (let [res (await (js/fetch "lessons.json"))
           _ (when-not (.-ok res)
               (throw (js/Error. (str "HTTP " (.-status res)))))
           body (await (.json res))
