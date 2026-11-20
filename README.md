@@ -1,5 +1,10 @@
 # Spanish
 
+## I want to learn Spanish
+
+<https://awb99.github.io/idioma/>
+
+
 Browser app for the 25 Spanish lessons. ClojureScript syntax is
 compiled to JavaScript by Squint, the UI is rendered with Reagami, and
 Babashka drives install, development, build, and serving.
@@ -10,9 +15,7 @@ Babashka drives install, development, build, and serving.
 - Node.js 20.19+ (or 22.12+) and npm
 - No global Clojure/JVM installation is needed for the app
 
-## Live demo
 
-<https://awb99.github.io/idioma/>
 
 ## Quick start
 
