@@ -1,0 +1,296 @@
+{:lesson/vocabulary
+ [{:vocab/id 115,
+   :vocab/kind :synergy-verb,
+   :vocab/target "les gusta",
+   :vocab/base "you (all) like",
+   :vocab/pronunciation "LEHS GOOS TAH",
+   :vocab/mnemonic "See Spanish speaking hints."}
+  {:vocab/id 116,
+   :vocab/kind :synergy-verb,
+   :vocab/target "les gustaría",
+   :vocab/base "You (all) would like",
+   :vocab/pronunciation "LEHS GOOS TAH REE AH",
+   :vocab/mnemonic "See Spanish speaking hints."}
+  {:vocab/id 117,
+   :vocab/kind :brick-verb,
+   :vocab/target "leer",
+   :vocab/base "to read",
+   :vocab/pronunciation "LEH AIR",
+   :vocab/mnemonic "Imagine reading a book in a Lear jet."}
+  {:vocab/id 118,
+   :vocab/kind :brick-verb,
+   :vocab/target "vivir",
+   :vocab/base "to live",
+   :vocab/pronunciation "BEE BEER",
+   :vocab/mnemonic "Imagine asking, \"is viv here is this where he lives\""}
+  {:vocab/id 119,
+   :vocab/kind :brick-verb,
+   :vocab/target "practicar",
+   :vocab/base "to practice",
+   :vocab/pronunciation "PRAHK TEE KAHR",
+   :vocab/mnemonic "Close enough to English to be an instant Spanish word."}
+  {:vocab/id 120,
+   :vocab/kind :brick-verb,
+   :vocab/target "ordenar",
+   :vocab/base "to order",
+   :vocab/pronunciation "OHR DEH NAHR",
+   :vocab/mnemonic "Again very close to English just notice the N"}],
+ :lesson/title nil,
+ :lesson/source-pages [172 179],
+ :lesson/target-title "Lección Veinte",
+ :lesson/label "Lesson 20",
+ :lesson/sections
+ [{:section/type :accuracy-pointer,
+   :section/id 17,
+   :section/title "Would you all like a coffee?",
+   :section/body
+   ["Les gustaría un café?"
+    "You will remember these structures Le gusta you like Le gustaría you would like A more literal translation could be to you it is pleasing Le gusta to you it would be pleasing Le gustaría Le means to you So to say to you plural (to you all) in Spanish is les Therefore to you all it is pleasing Les gusta to you all it would be pleasing Les gustaría Again I remind you to think of these as complete phrases and use them as complete phrases and you won't go wrong."]}],
+ :lesson/number 20,
+ :lesson/intro [],
+ :lesson/step {:step/number 4, :step/title "They do talk, don’t they?"},
+ :lesson/closing
+ ["Congratulations you have almost finished step 4 You are almost finish with this part, you have a little more to learn."
+  "No more Synergy Verbs."
+  "11 more Mortar in step 5 You just need to learn another 3 Brick Verbs and an easy structure to make your Spanish more natural."],
+ :lesson/exercises
+ [{:exercise/id "20A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Write the English words on the line",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["The English words for les gusta are"],
+     :item/answer ["you (all) like"]}
+    {:item/n 2,
+     :item/prompt ["The English words for les gustaría are"],
+     :item/answer ["you all would like"]}
+    {:item/n 3, :item/prompt ["The English words for vivir are"], :item/answer ["to live"]}
+    {:item/n 4, :item/prompt ["The English word for leer are"], :item/answer ["to read"]}
+    {:item/n 5, :item/prompt ["The English word for practicar are"], :item/answer ["to practice"]}
+    {:item/n 6, :item/prompt ["The English words for ordenar are"], :item/answer ["to order"]}
+    {:item/n 7,
+     :item/prompt ["The English words for tienen que are"],
+     :item/answer ["you (all) have to"]}
+    {:item/n 8,
+     :item/prompt ["The English words for van a are"],
+     :item/answer ["you (all) are going to"]}
+    {:item/n 9, :item/prompt ["The English word for siempre is"], :item/answer ["always"]}
+    {:item/n 10, :item/prompt ["The English word for si is"], :item/answer ["if"]}
+    {:item/n 11, :item/prompt ["The English words for pagar are"], :item/answer ["to pay"]}
+    {:item/n 12, :item/prompt ["The English words for llegar are"], :item/answer ["to arrive"]}],
+   :exercise/notes []}
+  {:exercise/id "20B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints
+   ["corrida de toros = bullfight" "periódico = newspaper" "primera = first" "palabra = word"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Tienen que practicar español."],
+     :item/answer ["You (all) have to practice Spanish."]}
+    {:item/n 2,
+     :item/prompt ["¿Le gusta leer el periódico?"],
+     :item/answer ["Do you like to read the newspaper?"]}
+    {:item/n 3,
+     :item/prompt ["Si quieren, vamos a salir temprano para evitar el tráfico."],
+     :item/answer
+     ["If you (all) want, we are going to leave early in order to avoid the traffic."]}
+    {:item/n 4,
+     :item/prompt ["Voy a practicar mucho español con mis amigos mexicanos."],
+     :item/answer ["I am going to practice a lot of Spanish with my Mexican friends."]}
+    {:item/n 5,
+     :item/prompt ["¿Les gustaría leer el menú?"],
+     :item/answer ["Would you (all) like to read the menu?"]}
+    {:item/n 6,
+     :item/prompt ["¿Cuándo van a regresar? Vamos a regresar el próximo año para vivir aquí."],
+     :item/answer
+     ["When are you (all) going to come back? We are going to come back (the) next year in order to live here."]}
+    {:item/n 7,
+     :item/prompt ["¿Qué tipo de comida les gusta?"],
+     :item/answer ["What type of food do you (all) like?"]}
+    {:item/n 8,
+     :item/prompt ["Tiene que leer las instrucciones."],
+     :item/answer ["You have to read the instructions."]}
+    {:item/n 9,
+     :item/prompt ["Queremos ordenar ahora. ¿Qué les gustaría ordenar?"],
+     :item/answer ["We want to order now. What would you (all) like to order?"]}
+    {:item/n 10,
+     :item/prompt ["Necesitan leer mucho más para avanzar su español."],
+     :item/answer ["You (all) need to read a lot more in order to advance your Spanish."]}
+    {:item/n 11,
+     :item/prompt ["No puedo vivir con este salario."],
+     :item/answer ["I can’t live (with) on this salary."]}
+    {:item/n 12,
+     :item/prompt ["¿Les gustaría tomar un café aquí antes de regresar al hotel?"],
+     :item/answer
+     ["Would you (all) like to drink a coffee here before (to return) going back to the hotel?"]}
+    {:item/n 13,
+     :item/prompt ["¿Por qué no les gusta viajar a México?"],
+     :item/answer ["Why don't you all like to travel to Mexico?"]}
+    {:item/n 14,
+     :item/prompt ["¿Les gusta la comida mexicana? Nos encanta la comida mexicana."],
+     :item/answer ["Do you (all) like Mexican food? We love Mexican food."]}
+    {:item/n 15,
+     :item/prompt ["¿Les gustaría tomar un café aquí?"],
+     :item/answer ["Would you (all) like to drink a coffee here?"]}
+    {:item/n 16,
+     :item/prompt ["¿Qué les gustaría hacer hoy? Nos gustaría ver una corrida de toros."],
+     :item/answer ["What would you (all) like to do today? We would like to see a bullfight."]}
+    {:item/n 17,
+     :item/prompt ["¿Les gusta la clase de español? Si, nos gusta mucho."],
+     :item/answer ["Do you like the Spanish class? Yes, we like (it) a lot."]}
+    {:item/n 18,
+     :item/prompt ["¿Les gustaría ir a Xochimilco?"],
+     :item/answer ["Would you (all) like to go to Xochimilco?"]}
+    {:item/n 19,
+     :item/prompt ["Necesito practicar mucho mi español."],
+     :item/answer ["I need to practice (much) my Spanish a lot."]}
+    {:item/n 20,
+     :item/prompt ["¿El domingo les gustaría ir conmigo para ver una corrida de toros?"],
+     :item/answer
+     ["(The) on Sunday would you (all) like to go with me in order to see a bullfight?"]}
+    {:item/n 21,
+     :item/prompt ["¿Puede leer la primera línea?"],
+     :item/answer ["Can you read the first line?"]}
+    {:item/n 22,
+     :item/prompt ["¿Les gustaría pasar un fin de semana en mi casa de playa en Acapulco?"],
+     :item/answer ["Would you (all) like to spend a weekend (in) at my beach house in Acapulco?"]}
+    {:item/n 23,
+     :item/prompt
+     ["¿En qué parte de México le gustaría vivir? Me gustaría vivir en Puerto Vallarta."],
+     :item/answer
+     ["In what part of Mexico would you like to live? I would like to live in Puerto Vallarta."]}
+    {:item/n 24,
+     :item/prompt
+     ["Me gusta leer mucho en español porque hay muchas palabras similares al inglés."],
+     :item/answer
+     ["I like to read a lot in Spanish, because there are many similar words to (the) English."]}
+    {:item/n 25,
+     :item/prompt ["¿Antes de ordenar, quieren tomar un tequila?"],
+     :item/answer ["Before (to order) ordering, do you (all) want to drink a tequila?"]}],
+   :exercise/notes []}
+  {:exercise/id "20C",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Translate these words into Spanish.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["The Spanish words for you (all) like are"],
+     :item/answer ["les gusta"]}
+    {:item/n 2,
+     :item/prompt ["The Spanish words for you (all) would like are"],
+     :item/answer ["les gustaría"]}
+    {:item/n 3, :item/prompt ["The Spanish word for to live is"], :item/answer ["vivir"]}
+    {:item/n 4, :item/prompt ["The Spanish word for to read is"], :item/answer ["leer"]}
+    {:item/n 5, :item/prompt ["The Spanish word for to practice is"], :item/answer ["practicar"]}
+    {:item/n 6, :item/prompt ["The Spanish word for to order is"], :item/answer ["ordenar"]}
+    {:item/n 7,
+     :item/prompt ["The Spanish words for you (all) have to are"],
+     :item/answer ["tienen que"]}
+    {:item/n 8,
+     :item/prompt ["The Spanish words for you are (all) going to are"],
+     :item/answer ["van a"]}
+    {:item/n 9, :item/prompt ["The Spanish word for always is"], :item/answer ["siempre"]}
+    {:item/n 10, :item/prompt ["The Spanish word for if is"], :item/answer ["si"]}
+    {:item/n 11, :item/prompt ["The Spanish word for to pay is"], :item/answer ["pagar"]}
+    {:item/n 12, :item/prompt ["The Spanish word for to arrive is"], :item/answer ["llegar"]}],
+   :exercise/notes []}
+  {:exercise/id "20D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Do you (all) like (to practice) practicing Spanish with her?"],
+     :item/answer ["¿Les gusta practicar español con ella?"]}
+    {:item/n 2,
+     :item/prompt ["Where would you like to live? I would like to live in Australia."],
+     :item/answer ["¿Dónde le gustaría vivir? Me gustaría vivir en Australia."]}
+    {:item/n 3,
+     :item/prompt ["Do you (all) want to order something?"],
+     :item/answer ["¿Quieren ordenar algo?"]}
+    {:item/n 4,
+     :item/prompt ["You (all) can practice Spanish in Guatemala."],
+     :item/answer ["Pueden practicar español en Guatemala."]}
+    {:item/n 5,
+     :item/prompt ["I am going to read a lot in Spanish."],
+     :item/answer ["Voy a leer mucho en español."]}
+    {:item/n 6, :item/prompt ["Do you (all) like to walk?"], :item/answer ["¿Les gusta caminar?"]}
+    {:item/n 7,
+     :item/prompt ["I am going to read the menu."],
+     :item/answer ["Voy a leer el menú."]}
+    {:item/n 8,
+     :item/prompt ["Would you (all) like to live here a while?"],
+     :item/answer ["¿Les gustaría vivir aquí un rato?"]}
+    {:item/n 9,
+     :item/prompt ["Do you (all) like the restaurant?"],
+     :item/answer ["¿Les gusta el restaurante?"]}
+    {:item/n 10,
+     :item/prompt ["What would you (all) like to do this weekend?"],
+     :item/answer ["¿Qué les gustaría hacer este fin de semana?"]}
+    {:item/n 11,
+     :item/prompt ["Do you (all) like (to work) working with him?"],
+     :item/answer ["¿Les gusta trabajar con él?"]}
+    {:item/n 12,
+     :item/prompt ["Do you (all) like Mexico? Yes, we love Mexico."],
+     :item/answer ["¿Les gusta México? Si, nos encanta Mexico."]}
+    {:item/n 13,
+     :item/prompt ["Tonight would you (all) like to eat with us in our house?"],
+     :item/answer ["¿Esta noche les gustaría comer con nosotros en nuestra casa?"]}
+    {:item/n 14,
+     :item/prompt ["Would you (all) like to go there?"],
+     :item/answer ["¿Les gustaría ir allá?"]}
+    {:item/n 15,
+     :item/prompt ["Would you (all) like to order now?"],
+     :item/answer ["¿Les gustaría ordenar ahora?"]}
+    {:item/n 16,
+     :item/prompt ["Do you (all) want to see the house again?"],
+     :item/answer ["¿Quieren ver la casa otra vez?"]}
+    {:item/n 17,
+     :item/prompt ["Do you like to read? No, I don’t like (to read) reading much."],
+     :item/answer ["¿Le gusta leer? No, no me gusta leer mucho."]}
+    {:item/n 18,
+     :item/prompt ["What do you (all) want to order?"],
+     :item/answer ["¿Qué quieren ordenar?"]}
+    {:item/n 19,
+     :item/prompt ["Do you (all) like football? Yes, we love (the) football."],
+     :item/answer ["¿Les gusta el fútbol? Sí, nos encanta el fútbol."]}
+    {:item/n 20,
+     :item/prompt ["What are you going to order? I am going to order a paella."],
+     :item/answer ["¿Qué va a ordenar? Voy a ordenar una paella."]}
+    {:item/n 21,
+     :item/prompt
+     ["Do you like (to live) living here? Yes, I like a lot to live here. (Yes, I like living here a lot)"],
+     :item/answer ["¿Le gusta vivir aquí? Si, me gusta mucho vivir aquí."]}
+    {:item/n 22,
+     :item/prompt ["I want to practice more Spanish."],
+     :item/answer ["Quiero practicar más español."]}
+    {:item/n 23,
+     :item/prompt ["Why don't you (all) like (to live) living here?"],
+     :item/answer ["¿Por qué no les gusta vivir aquí?"]}
+    {:item/n 24,
+     :item/prompt ["I would like to live in Spain."],
+     :item/answer ["Me gustaría vivir en España."]}
+    {:item/n 25, :item/prompt ["I can’t read."], :item/answer ["No puedo leer."]}
+    {:item/n 26,
+     :item/prompt ["Would you (all) like to practice Spanish with me?"],
+     :item/answer ["¿Les gustaría practicar español conmigo?"]}
+    {:item/n 27,
+     :item/prompt ["I would love to live in Barcelona."],
+     :item/answer ["Me encantaría vivir en Barcelona."]}
+    {:item/n 28,
+     :item/prompt ["Do you (all) like (to study) studying Spanish?"],
+     :item/answer ["¿Les gusta estudiar español?"]}
+    {:item/n 29,
+     :item/prompt ["I need to live there in summer in order to work."],
+     :item/answer ["Necesito vivir allá en el verano para trabajar."]}],
+   :exercise/notes []}]}

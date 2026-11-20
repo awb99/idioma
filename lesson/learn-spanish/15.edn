@@ -1,0 +1,289 @@
+{:lesson/vocabulary
+ [{:vocab/id 85,
+   :vocab/kind :synergy-verb,
+   :vocab/target "tenemos que",
+   :vocab/base "we have to",
+   :vocab/pronunciation "TEHN EH MOHS KEH",
+   :vocab/mnemonic
+   "You have the ten from tengo kay - I have to Plus the emos that makes Spanish verbs into we."}
+  {:vocab/id 86,
+   :vocab/kind :synergy-verb,
+   :vocab/target "podemos",
+   :vocab/base "we can",
+   :vocab/pronunciation "POH DEH MOHS",
+   :vocab/mnemonic
+   "Imagine doing some gardening and saying \"We can pod the moss in the flower pot.\""}
+  {:vocab/id 87,
+   :vocab/kind :brick-verb,
+   :vocab/target "salir",
+   :vocab/base "to leave",
+   :vocab/pronunciation "SAH LEER",
+   :vocab/mnemonic
+   "Imagine you are in a restaurant and your friend says \"I don't want to leave yet, they have good salad here.\""}
+  {:vocab/id 88,
+   :vocab/kind :mortar,
+   :vocab/target "sin",
+   :vocab/base "without",
+   :vocab/pronunciation "SEEN",
+   :vocab/mnemonic "Let he who is without sin cast the first stone"}
+  {:vocab/id 89,
+   :vocab/kind :mortar,
+   :vocab/target "temprano",
+   :vocab/base "early",
+   :vocab/pronunciation "TEHM PRAH NOH",
+   :vocab/mnemonic "Early in the morning I have a bad temper, ya know what I mean."}
+  {:vocab/id 90,
+   :vocab/kind :mortar,
+   :vocab/target "con ella",
+   :vocab/base "with her",
+   :vocab/pronunciation "KOHN EH YA",
+   :vocab/mnemonic
+   "Remember con él means with him Just add la, remove the accent and you have con ella - with her"}],
+ :lesson/title nil,
+ :lesson/source-pages [130 137],
+ :lesson/target-title "Lección Quince",
+ :lesson/label "Lesson 15",
+ :lesson/sections
+ [{:section/type :accuracy-pointer,
+   :section/id 12,
+   :section/title "Goofy Synergy Verb Patterns",
+   :section/body
+   ["Goofy pattern is the technical term for irregular verbs."
+    "Notice this pattern I can Puedo You can puede But we can podemos Notice the different pattern for - we can."
+    "I used to say, \"puedemos\" for about 3 years. Fortunately people understood what I meant. But you can avoid this error right away with a little attention. Just remember when you say we can - make sure to use podemos."]}
+  {:section/type :communication-multiplied,
+   :section/id 12,
+   :section/title "You want to see us",
+   :section/body
+   ["In Spanish there are two ways to say, \"you want to see us.\" Do you remember?"
+    "Quiere verlo you want to see him Quiere verla you want to see her Quiere verme you want to see me Here is the pattern to say you want to see us"
+    "Method 1 us you want to see nos quiere ver Or you can use the easier method and attach nos to the Brick Verb."
+    "Method 2 Quiere vernos you want to see us Familiar ground again. Continue using method 2, it's a faster path to communicate in Spanish."]}],
+ :lesson/number 15,
+ :lesson/intro [],
+ :lesson/step {:step/number 3, :step/title "Let’s talk about us"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "15A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Write the English words on the line.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["The English word for sin is"], :item/answer ["without"]}
+    {:item/n 2, :item/prompt ["The English word for temprano is"], :item/answer ["early"]}
+    {:item/n 3, :item/prompt ["The English words for salir are"], :item/answer ["to leave"]}
+    {:item/n 4, :item/prompt ["The English words for con ella are"], :item/answer ["with her"]}
+    {:item/n 5,
+     :item/prompt ["The English words for tenemos que are"],
+     :item/answer ["we have to"]}
+    {:item/n 6, :item/prompt ["The English words for podemos are"], :item/answer ["we can"]}],
+   :exercise/notes []}
+  {:exercise/id "15B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints ["tarjeta = card" "evitar = avoid" "habitación = room"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["¿Puede ayudarnos con las maletas por favor?"],
+     :item/answer ["Can you help us with the cases please?"]}
+    {:item/n 2,
+     :item/prompt ["¿Podemos salir de la clase temprano hoy?"],
+     :item/answer ["Can we leave the class early today?"]}
+    {:item/n 3,
+     :item/prompt ["Vamos a salir temprano para evitar el tráfico."],
+     :item/answer ["We are going to leave early to avoid the traffic."]}
+    {:item/n 4,
+     :item/prompt ["No puedo trabajar más sin comer."],
+     :item/answer ["I can’t work (any)more without (to eat) eating."]}
+    {:item/n 5,
+     :item/prompt ["Tenemos que llamar al consulado."],
+     :item/answer ["We have to call the consulate."]}
+    {:item/n 6,
+     :item/prompt ["Puedo terminar el proyecto hoy."],
+     :item/answer ["I can finish the project today."]}
+    {:item/n 7,
+     :item/prompt ["¿Puede prepararnos los burritos sin chile por favor?"],
+     :item/answer ["Can you prepare us the burritos without chili please?"]}
+    {:item/n 8,
+     :item/prompt ["No podemos salir sin nuestras visas."],
+     :item/answer ["We can’t leave without our visas."]}
+    {:item/n 9,
+     :item/prompt ["Va a aprender mucho español con ella."],
+     :item/answer ["You are going to learn a lot of Spanish with her."]}
+    {:item/n 10,
+     :item/prompt ["No podemos entrar sin permiso de la policía."],
+     :item/answer ["We can’t enter without police permission."]}
+    {:item/n 11,
+     :item/prompt ["Tenemos que llamar a la policía."],
+     :item/answer ["We have to call the police."]}
+    {:item/n 12,
+     :item/prompt ["Podemos estudiar más en casa."],
+     :item/answer ["We can study more at home."]}
+    {:item/n 13,
+     :item/prompt ["No me gusta comer un taco sin sal."],
+     :item/answer ["I don't like to eat a taco without salt."]}
+    {:item/n 14,
+     :item/prompt ["No podemos hacer la llamada sin tarjeta telefónica."],
+     :item/answer ["We can’t make the call without (a) phone card."]}
+    {:item/n 15,
+     :item/prompt ["No puede ir a México sin vernos."],
+     :item/answer ["You can’t go to Mexico without (to see) seeing us."]}
+    {:item/n 16,
+     :item/prompt ["No puedo estudiar más sin café."],
+     :item/answer ["I can’t study (any) more without coffee."]}
+    {:item/n 17,
+     :item/prompt ["Tenemos que encontrar un hotel para esta noche pronto."],
+     :item/answer ["We have to find a hotel for tonight soon."]}
+    {:item/n 18,
+     :item/prompt ["¿Podemos empezar en cinco minutos por favor?"],
+     :item/answer ["Can we start in five minutes please?"]}
+    {:item/n 19,
+     :item/prompt ["Tenemos que comprar gasolina pronto."],
+     :item/answer ["We have to buy gas soon."]}
+    {:item/n 20,
+     :item/prompt ["Podemos ir allá el fin de semana."],
+     :item/answer ["We can go there (on) the weekend."]}
+    {:item/n 21,
+     :item/prompt ["Vamos a gastar más para una habitación con aire acondicionado."],
+     :item/answer ["We are going to spend more for a room with air-conditioning."]}
+    {:item/n 22,
+     :item/prompt ["Podemos ver más partes de España en las próximas vacaciones."],
+     :item/answer ["We can see more parts of Spain in the next vacation."]}
+    {:item/n 23,
+     :item/prompt ["Vamos a estudiar con ella."],
+     :item/answer ["We are going to study with her."]}
+    {:item/n 24,
+     :item/prompt ["No puedo tomar café sin azúcar."],
+     :item/answer ["I can’t drink coffee without sugar."]}
+    {:item/n 25,
+     :item/prompt ["Tenemos que encontrar un hospital."],
+     :item/answer ["We have to find a hospital."]}
+    {:item/n 26,
+     :item/prompt ["Me gusta caminar temprano en las mañanas."],
+     :item/answer ["I like to walk early in the mornings."]}
+    {:item/n 27,
+     :item/prompt ["¿Por qué tenemos que estudiar en casa? Para aprender más rápido español."],
+     :item/answer ["Why do we have to study at home? In order to learn more quickly Spanish."]}
+    {:item/n 28,
+     :item/prompt ["No podemos salir sin ver las pirámides."],
+     :item/answer ["We can’t leave without seeing the pyramids."]}
+    {:item/n 29,
+     :item/prompt ["No quiero trabajar allá más."],
+     :item/answer ["I don't want to work there (any) more."]}],
+   :exercise/notes []}
+  {:exercise/id "15C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["The Spanish word for without is"], :item/answer ["sin"]}
+    {:item/n 2, :item/prompt ["The Spanish word for early is"], :item/answer ["temprano"]}
+    {:item/n 3, :item/prompt ["The Spanish word for to leave is"], :item/answer ["salir"]}
+    {:item/n 4, :item/prompt ["The Spanish words for with her are"], :item/answer ["con ella"]}
+    {:item/n 5,
+     :item/prompt ["The Spanish words for we have to are"],
+     :item/answer ["tenemos que"]}
+    {:item/n 6, :item/prompt ["The Spanish word for we can is"], :item/answer ["podemos"]}],
+   :exercise/notes []}
+  {:exercise/id "15D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Today, we have to go early."],
+     :item/answer ["Hoy tenemos que ir temprano."]}
+    {:item/n 2,
+     :item/prompt ["I am going to have breakfast with her."],
+     :item/answer ["Voy a desayunar con ella."]}
+    {:item/n 3,
+     :item/prompt ["Can we eat early tonight?"],
+     :item/answer ["¿Podemos comer temprano esta noche?"]}
+    {:item/n 4,
+     :item/prompt ["We have to work early tomorrow."],
+     :item/answer ["Tenemos que trabajar temprano mañana."]}
+    {:item/n 5,
+     :item/prompt ["We need to learn more Spanish (in order) to speak with her."],
+     :item/answer ["Necesitamos aprender más español para hablar con ella."]}
+    {:item/n 6,
+     :item/prompt ["I am sorry, we have to finish now because I have to go."],
+     :item/answer ["Lo siento, tenemos que terminar ahora porque tengo que ir."]}
+    {:item/n 7,
+     :item/prompt ["We need to speak more Spanish with her."],
+     :item/answer ["Necesitamos hablar más español con ella."]}
+    {:item/n 8,
+     :item/prompt ["We can’t (return) come back until tomorrow afternoon."],
+     :item/answer ["No podemos regresar hasta mañana en la tarde."]}
+    {:item/n 9,
+     :item/prompt ["We want to visit her (the) next week."],
+     :item/answer ["Queremos visitarla la próxima semana."]}
+    {:item/n 10,
+     :item/prompt ["We are going to go there with her (the) next year."],
+     :item/answer ["Vamos a ir allá con ella el próximo año."]}
+    {:item/n 11,
+     :item/prompt ["We can’t leave until the weekend."],
+     :item/answer ["No podemos salir hasta el fin de semana."]}
+    {:item/n 12,
+     :item/prompt ["We are going to finish our house this year."],
+     :item/answer ["Vamos a terminar nuestra casa este año."]}
+    {:item/n 13,
+     :item/prompt ["Can you help us in the afternoon?"],
+     :item/answer ["¿Puede ayudarnos en la tarde?"]}
+    {:item/n 14,
+     :item/prompt ["Are we going to visit your mother this afternoon?"],
+     :item/answer ["¿Vamos a visitar a su mamá esta tarde?"]}
+    {:item/n 15,
+     :item/prompt ["We have to go back right now."],
+     :item/answer ["Tenemos que regresar ahora mismo."]}
+    {:item/n 16,
+     :item/prompt ["You have to visit us again soon."],
+     :item/answer ["Tiene que visitarnos otra vez pronto."]}
+    {:item/n 17, :item/prompt ["I want to go with her."], :item/answer ["Quiero ir con ella."]}
+    {:item/n 18,
+     :item/prompt ["Can we see the house again?"],
+     :item/answer ["¿Podemos ver la casa otra vez?"]}
+    {:item/n 19,
+     :item/prompt ["When do we need to finish? We have to finish tonight."],
+     :item/answer ["¿Cuándo necesitamos terminar? Tenemos que terminar esta noche."]}
+    {:item/n 20,
+     :item/prompt ["We can’t leave before tonight."],
+     :item/answer ["No podemos salir antes de esta noche."]}
+    {:item/n 21,
+     :item/prompt ["We have to leave early tomorrow."],
+     :item/answer ["Tenemos que salir temprano mañana."]}
+    {:item/n 22,
+     :item/prompt ["We can’t return until tomorrow."],
+     :item/answer ["No podemos regresar hasta mañana."]}
+    {:item/n 23,
+     :item/prompt ["Why don't you want to invite us to your party?"],
+     :item/answer ["¿Por qué no quiere invitarnos a su fiesta?"]}
+    {:item/n 24,
+     :item/prompt ["Can you cook us something?"],
+     :item/answer ["¿Puede cocinarnos algo?"]}
+    {:item/n 25,
+     :item/prompt ["We have to finish soon."],
+     :item/answer ["Tenemos que terminar pronto."]}
+    {:item/n 26,
+     :item/prompt ["Do you want to walk for a while?"],
+     :item/answer ["¿Quiere caminar por un rato?"]}
+    {:item/n 27,
+     :item/prompt ["We want to have breakfast with her tomorrow."],
+     :item/answer ["Queremos desayunar con ella mañana."]}
+    {:item/n 28,
+     :item/prompt ["Can we rest a while?"],
+     :item/answer ["¿Podemos descansar un rato?"]}
+    {:item/n 29,
+     :item/prompt ["We can’t spend much money."],
+     :item/answer ["No podemos gastar mucho dinero."]}
+    {:item/n 30,
+     :item/prompt ["We are going to start early today."],
+     :item/answer ["Vamos a empezar temprano hoy."]}],
+   :exercise/notes []}]}

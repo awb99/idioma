@@ -1,0 +1,297 @@
+{:lesson/vocabulary
+ [{:vocab/id 97,
+   :vocab/kind :brick-verb,
+   :vocab/target "to wait for",
+   :vocab/base "esperar",
+   :vocab/pronunciation "tu uéit for",
+   :vocab/mnemonic nil}
+  {:vocab/id 98,
+   :vocab/kind :brick-verb,
+   :vocab/target "to look for",
+   :vocab/base "buscar",
+   :vocab/pronunciation "tu luk for",
+   :vocab/mnemonic nil}
+  {:vocab/id 99,
+   :vocab/kind :brick-verb,
+   :vocab/target "to forget",
+   :vocab/base "olvidar",
+   :vocab/pronunciation "tu forguét",
+   :vocab/mnemonic nil}
+  {:vocab/id 100,
+   :vocab/kind :brick-verb,
+   :vocab/target "to kiss",
+   :vocab/base "Besar",
+   :vocab/pronunciation "tu kis",
+   :vocab/mnemonic nil}
+  {:vocab/id 101,
+   :vocab/kind :brick-verb,
+   :vocab/target "to know (people)",
+   :vocab/base "conocer",
+   :vocab/pronunciation "tu nóu",
+   :vocab/mnemonic nil}
+  {:vocab/id 102,
+   :vocab/kind :brick-verb,
+   :vocab/target "to listen to",
+   :vocab/base "escuchar",
+   :vocab/pronunciation "tu lisen tu",
+   :vocab/mnemonic nil}],
+ :lesson/title "Fin del paso 3",
+ :lesson/target-title "End of Step 3",
+ :lesson/label "Lección 17",
+ :lesson/sections
+ [{:section/type :accuracy-pointer,
+   :section/id 15,
+   :section/title "Know: personas y hechos",
+   :section/body
+   ["En inglés know sirve para personas y para hechos: I know Ana, I know the answer."
+    "No hay dos verbos como conocer y saber; know cubre ambos."
+    "Para conocer a alguien por primera vez usas meet."
+    "I am going to meet my granddaughter = voy a conocer a mi nieta."]}
+  {:section/type :communication-multiplied,
+   :section/id 15,
+   :section/title "We want to see them",
+   :section/body
+   ["them se usa para personas o cosas: We want to see them."
+    "them = los/las; en inglés no distingue el género."
+    "La estructura es: sujeto + want + to + verbo + them."
+    "We want to see them = queremos verlos o verlas."]}],
+ :lesson/number 17,
+ :lesson/intro [],
+ :lesson/step {:step/number 3, :step/title "Hablemos de nosotros"},
+ :lesson/closing
+ ["Enhorabuena, has terminado el paso 3."
+  "Has cubierto muchísima estructura con muy pocas palabras."
+  "Todavía quedan palabras y estructuras para ampliar tu comunicación."
+  "Nos vemos en la lección 18."],
+ :lesson/exercises
+ [{:exercise/id "17A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “to wait (for)” son"],
+     :item/answer ["esperar"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en español para “to look for” son"],
+     :item/answer ["buscar"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “to forget” son"],
+     :item/answer ["olvidar"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en español para “to kiss” son"],
+     :item/answer ["besar"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en español para “to know” son"],
+     :item/answer ["conocer"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “to listen (to)” son"],
+     :item/answer ["escuchar"]}],
+   :exercise/notes []}
+  {:exercise/id "17B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["cheek = mejilla" "parents = padres"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["We are going to see her tomorrow."],
+     :item/answer ["Vamos a verla mañana."]}
+    {:item/n 2,
+     :item/prompt ["We want to speak with you as soon as possible."],
+     :item/answer ["Queremos hablar con usted cuanto antes."]}
+    {:item/n 3,
+     :item/prompt ["I have to help them tonight."],
+     :item/answer ["Tengo que ayudarlos esta noche."]}
+    {:item/n 4,
+     :item/prompt ["We are going to (find) meet her in the hotel."],
+     :item/answer ["Vamos a encontrarla en el hotel."]}
+    {:item/n 5,
+     :item/prompt ["I have to call them soon."],
+     :item/answer ["Tengo que llamarlos pronto."]}
+    {:item/n 6,
+     :item/prompt ["In Mexico it is common to kiss the women on the cheek."],
+     :item/answer ["En México es común besar a las mujeres en la mejilla."]}
+    {:item/n 7,
+     :item/prompt ["I can wait for them, but only for five minutes more."],
+     :item/answer ["Puedo esperarlos pero sólo por cinco minutos más."]}
+    {:item/n 8,
+     :item/prompt ["I am going to look for her in the office."],
+     :item/answer ["Voy a buscarla en la oficina."]}
+    {:item/n 9,
+     :item/prompt ["We can wait for them (the girls) (in) at the party."],
+     :item/answer ["Podemos esperarlas en la fiesta."]}
+    {:item/n 10,
+     :item/prompt ["Are you going to look for them (the girls)?"],
+     :item/answer ["¿Va a buscarlas?"]}
+    {:item/n 11,
+     :item/prompt ["I have to listen to him every day."],
+     :item/answer ["Tengo que escucharlo cada día."]}
+    {:item/n 12, :item/prompt ["You are going to forget me."], :item/answer ["Va a olvidarme."]}
+    {:item/n 13,
+     :item/prompt ["I want to (know) meet him soon."],
+     :item/answer ["Quiero conocerlo pronto."]}
+    {:item/n 14,
+     :item/prompt
+     ["When are you going to (know) meet the parents of your wife? (Meet for the first time.) I am going to meet them in March."],
+     :item/answer ["¿Cuándo va a conocer a los padres de su esposa? Voy a conocerlos en marzo."]}
+    {:item/n 15,
+     :item/prompt
+     ["Are we going to wait for him? No, I don't want to wait for him, I want to go."],
+     :item/answer ["¿Vamos a esperarlo? No, no quiero esperarlo, quiero ir."]}
+    {:item/n 16,
+     :item/prompt ["I need to look for him in the hospital."],
+     :item/answer ["Necesito buscarlo en el hospital."]}
+    {:item/n 17,
+     :item/prompt ["I want to kiss her and hug her."],
+     :item/answer ["Quiero besarla y abrazarla."]}
+    {:item/n 18,
+     :item/prompt ["I am going to visit them in December."],
+     :item/answer ["Voy a visitarlos en diciembre."]}
+    {:item/n 19,
+     :item/prompt ["Quiet (silence) please, I want to listen to him."],
+     :item/answer ["Silencio por favor, quiero escucharlo."]}
+    {:item/n 20,
+     :item/prompt
+     ["It is important. You need to listen to him. Pardon, yes, I am going to listen to him."],
+     :item/answer ["Es importante. Necesita escucharlo. Perdón, sí, voy a escucharlo."]}
+    {:item/n 21,
+     :item/prompt ["We like to see her in Mexico every Christmas."],
+     :item/answer ["Nos gusta verla en México cada Navidad."]}
+    {:item/n 22,
+     :item/prompt ["When do you need to call your wife? I need to call her early in the morning."],
+     :item/answer
+     ["¿Cuándo necesita llamar a su esposa? Necesito llamarla temprano en la mañana."]}
+    {:item/n 23,
+     :item/prompt ["Can you help her with the cases please?"],
+     :item/answer ["¿Puede ayudarla con las maletas por favor?"]}
+    {:item/n 24,
+     :item/prompt ["Can we finish the project today?"],
+     :item/answer ["¿Podemos terminar el proyecto hoy?"]}
+    {:item/n 25,
+     :item/prompt ["You are probably going to find her at home."],
+     :item/answer ["Probablemente va a encontrarla en casa."]}
+    {:item/n 26,
+     :item/prompt ["Where can we find her? We need to see her, it is urgent."],
+     :item/answer ["¿Dónde podemos encontrarla? Necesitamos verla, es urgente."]}
+    {:item/n 27,
+     :item/prompt ["I am going to the auditorium to listen to him."],
+     :item/answer ["Voy al auditorio para escucharlo."]}],
+   :exercise/notes []}
+  {:exercise/id "17C",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["esperar"], :item/answer ["The Spanish word for to wait for is"]}
+    {:item/n 2, :item/prompt ["buscar"], :item/answer ["The Spanish word for to look for is"]}
+    {:item/n 3, :item/prompt ["olvidar"], :item/answer ["The Spanish word for to forget is"]}
+    {:item/n 4, :item/prompt ["besar"], :item/answer ["The Spanish word for to kiss is"]}
+    {:item/n 5,
+     :item/prompt ["conocer"],
+     :item/answer ["The Spanish word for to know (to meet) is"]}
+    {:item/n 6, :item/prompt ["escuchar"], :item/answer ["The Spanish word for to listen to is"]}],
+   :exercise/notes []}
+  {:exercise/id "17D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al inglés.",
+   :exercise/hints ["English = inglés"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["¿Quiere invitarlos a su graduación?"],
+     :item/answer ["Do you want to invite them to your graduation?"]}
+    {:item/n 2, :item/prompt ["Quiero besarlo."], :item/answer ["I want to kiss him."]}
+    {:item/n 3,
+     :item/prompt ["¿Dónde va a esperarlo?"],
+     :item/answer ["Where are you going to wait for him?"]}
+    {:item/n 4, :item/prompt ["Me gusta besarla."], :item/answer ["I like to kiss her."]}
+    {:item/n 5,
+     :item/prompt ["Me encantaría conocerlo."],
+     :item/answer ["I would love to (know) meet him."]}
+    {:item/n 6,
+     :item/prompt ["Vamos a buscarlo ahora."],
+     :item/answer ["We are going to look for him now."],
+     :item/alternatives [["we're going to look for him now."]]}
+    {:item/n 7,
+     :item/prompt ["Voy a besarla."],
+     :item/answer ["I am going to kiss her."],
+     :item/alternatives [["I'm going to kiss her."]]}
+    {:item/n 8, :item/prompt ["Necesitamos buscarla."], :item/answer ["We need to look for her."]}
+    {:item/n 9, :item/prompt ["Tenemos que esperarla."], :item/answer ["We have to wait for her."]}
+    {:item/n 10,
+     :item/prompt ["¿Quiere escucharlo?"],
+     :item/answer ["Do you want to listen to him?"]}
+    {:item/n 11,
+     :item/prompt ["Me gustaría conocerla."],
+     :item/answer ["I would like to (know) meet her."]}
+    {:item/n 12,
+     :item/prompt ["Tiene que olvidarlo. No puedo olvidarlo."],
+     :item/answer ["You have to forget him. I can’t forget him."],
+     :item/alternatives [["You have to forget him. I cannot forget him."]]}
+    {:item/n 13,
+     :item/prompt ["Puedo esperarla con usted."],
+     :item/answer ["I can wait for her with you."]}
+    {:item/n 14,
+     :item/prompt ["Tengo que escucharlo cada día y no quiero escuchar más."],
+     :item/answer ["I have to listen to him every day and I don't want to listen (any) more."],
+     :item/alternatives
+     [["I have to listen to him every day and I do not want to listen (any) more."]]}
+    {:item/n 15,
+     :item/prompt ["Voy a esperarla."],
+     :item/answer ["I am going to wait for her."],
+     :item/alternatives [["I'm going to wait for her."]]}
+    {:item/n 16,
+     :item/prompt ["¿Dónde podemos encontrarla?"],
+     :item/answer ["Where can we find her?"]}
+    {:item/n 17,
+     :item/prompt ["No voy a olvidarla."],
+     :item/answer ["I am not going to forget her."],
+     :item/alternatives [["I'm not going to forget her."]]}
+    {:item/n 18,
+     :item/prompt ["Nos encantaría ayudarlos con el inglés."],
+     :item/answer ["We would (love) be delighted to help them with English."]}
+    {:item/n 19,
+     :item/prompt ["Vamos a llamarlo más tarde."],
+     :item/answer ["We are going to call him later."],
+     :item/alternatives [["we're going to call him later."]]}
+    {:item/n 20,
+     :item/prompt ["¿Por qué no puede vernos hoy? Porque tengo que ir temprano."],
+     :item/answer ["Why can’t you see us today? Because I have to go early."],
+     :item/alternatives [["Why cannot you see us today? Because I have to go early."]]}
+    {:item/n 21,
+     :item/prompt ["Voy a hablar con él más tarde."],
+     :item/answer ["I am going to talk with him later."],
+     :item/alternatives [["I'm going to talk with him later."]]}
+    {:item/n 22,
+     :item/prompt ["Nos encantaría visitarlas otra vez."],
+     :item/answer ["We would love to visit them (women) again."]}
+    {:item/n 23, :item/prompt ["Puedo verla más tarde."], :item/answer ["I can see her later."]}
+    {:item/n 24,
+     :item/prompt ["Tenemos que llamarlo pronto."],
+     :item/answer ["We have to call him soon."]}
+    {:item/n 25,
+     :item/prompt ["Queremos visitarlo la próxima semana."],
+     :item/answer ["We want to visit him next week."]}
+    {:item/n 26,
+     :item/prompt ["¿Puede ayudarla otra vez en la tarde?"],
+     :item/answer ["Can you help her again in the afternoon?"]}
+    {:item/n 27,
+     :item/prompt ["Tiene que visitarnos otra vez."],
+     :item/answer ["You have to visit us again."]}
+    {:item/n 28,
+     :item/prompt ["¿Por qué no quiere invitarme a su fiesta?"],
+     :item/answer ["Why don't you want to invite me to your party?"],
+     :item/alternatives [["Why do not you want to invite me to your party?"]]}
+    {:item/n 29,
+     :item/prompt ["Vamos a llamarlos mañana en la mañana."],
+     :item/answer ["We are going to call them tomorrow morning."],
+     :item/alternatives [["we're going to call them tomorrow morning."]]}],
+   :exercise/notes []}]}

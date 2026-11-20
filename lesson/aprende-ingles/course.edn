@@ -1,0 +1,12 @@
+{:course/slug "aprende-ingles"
+ :course/ui :es
+ :course/title "Aprende inglés"
+ :course/tagline "25 lecciones para hispanohablantes"
+ :course/html-title "Aprende inglés"
+ :course/languages {:base {:code "es"}
+                    :target {:code "en"}}
+ :course/lesson-count 25
+ :course/vocabulary-count 138
+ :course/empty-vocabulary-lessons [21 24]
+ :course/legacy-hash? false
+ :course/legacy-progress? false}

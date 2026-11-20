@@ -1,0 +1,299 @@
+{:lesson/vocabulary
+ [{:vocab/id 37,
+   :vocab/kind :synergy-verb,
+   :vocab/target "me gusta",
+   :vocab/base "I like",
+   :vocab/pronunciation "MEH GOOS TAH",
+   :vocab/mnemonic
+   "You will remember me gustaría means I would like If we take off the suffix ría we are left with I like."}
+  {:vocab/id 38,
+   :vocab/kind :sentence-starter,
+   :vocab/target "Lo siento",
+   :vocab/base "I am sorry",
+   :vocab/pronunciation "LOH SEE EHN TOH",
+   :vocab/mnemonic "See Spanish hints below"}
+  {:vocab/id 39,
+   :vocab/kind :brick-verb,
+   :vocab/target "viajar",
+   :vocab/base "to travel",
+   :vocab/pronunciation "VEE AH HAHR",
+   :vocab/mnemonic "I am going to travel via Harlem"}
+  {:vocab/id 40,
+   :vocab/kind :brick-verb,
+   :vocab/target "pasar",
+   :vocab/base "to spend (time)",
+   :vocab/pronunciation "PAHS AHR",
+   :vocab/mnemonic "When you have to spend time you also pass time"}
+  {:vocab/id 41,
+   :vocab/kind :brick-verb,
+   :vocab/target "cocinar",
+   :vocab/base "to cook",
+   :vocab/pronunciation "KOH SEEN AHR",
+   :vocab/mnemonic "The cooks are in the kitchen cos in a kitchen is the place to cook."}
+  {:vocab/id 42,
+   :vocab/kind :brick-verb,
+   :vocab/target "tomar",
+   :vocab/base "to drink",
+   :vocab/pronunciation "TOHM AHR",
+   :vocab/mnemonic "\"Tom are you going to drink anything?\""}],
+ :lesson/title nil,
+ :lesson/source-pages [62 69],
+ :lesson/target-title "Lección siete",
+ :lesson/label "Lesson 7",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 8,
+   :section/title "New type of word the Sentence starter",
+   :section/body
+   ["In the remainder of the course, we will introduce some sentence starters and sentence builders."
+    "“I am sorry” is a good sentence starter."
+    "I am sorry, I can't help him today."
+    "Lo siento, no puedo ayudarlo hoy."
+    "It also stands alone."
+    "Lo siento."
+    "I am sorry."
+    "It literally means “I feel it,” something like \"I feel your pain.\" Perhaps a better translation would be “I regret.” I regret, I can't help him today."
+    "Lo siento, no puedo ayudarlo hoy."
+    "If you want to say I am sorry, and you really mean excuse me, you can also say, Forgive me. Disculpe."
+    "Pardon me. Perdón."
+    "I like to use perdón because it is so close to English."]}
+  {:section/type :accuracy-pointer,
+   :section/id 5,
+   :section/title "Spending time and money",
+   :section/body
+   ["In Spanish there is a different verb for spending time and spending money."
+    "To spend time Pasar tiempo To spend money Gastar dinero"]}
+  {:section/type :accuracy-pointer,
+   :section/id 6,
+   :section/title "To take a drink",
+   :section/body
+   ["If you look in your Spanish English dictionary for to drink you will see beber and tomar."
+    "Both are correct."
+    "Tomar also means to take."
+    "To take a drink Tomar is more commonly used than beber."]}],
+ :lesson/number 7,
+ :lesson/intro [],
+ :lesson/step {:step/number 1, :step/title "The first steps to Speaking Spanish"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "7A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "See how well you remembered your new Spanish Synergy Verbs and Brick Verbs. Write the English words on the line",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["The English words for me gusta are"], :item/answer ["I like"]}
+    {:item/n 2, :item/prompt ["The English words for lo siento are"], :item/answer ["I am sorry"]}
+    {:item/n 3,
+     :item/prompt ["The English words for tomar are"],
+     :item/answer ["to drink (also to take)"]}
+    {:item/n 4, :item/prompt ["The English word for cocinar are"], :item/answer ["to cook"]}
+    {:item/n 5, :item/prompt ["The English words for pasar are"], :item/answer ["to spend (time)"]}
+    {:item/n 6, :item/prompt ["The English words for viajar are"], :item/answer ["to travel"]}],
+   :exercise/notes []}
+  {:exercise/id "7B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints
+   ["tiempo = time" "para = in order (also, for)" "mañana = tomorrow (also, morning)"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["No me gusta tomar alcohol."],
+     :item/answer ["I don’t like to drink alcohol."]}
+    {:item/n 2,
+     :item/prompt ["Lo siento, esta noche no puedo ir al cine, tengo que estudiar."],
+     :item/answer ["I am sorry, tonight I can’t go to the cinema, I have to study."]}
+    {:item/n 3,
+     :item/prompt ["Me gusta estar con mi familia los fines de semana."],
+     :item/answer ["I like to be with my family on the weekends."]}
+    {:item/n 4,
+     :item/prompt ["Me gustaría pasar esta noche en casa para ver el fútbol por televisión."],
+     :item/answer
+     ["I would like to spend tonight at home in order to see the football on television."]}
+    {:item/n 5,
+     :item/prompt ["Me gusta ayudar a las personas con el español."],
+     :item/answer ["I like to help the (persons) people with the Spanish."]}
+    {:item/n 6,
+     :item/prompt ["Lo siento, no puedo trabajar hoy."],
+     :item/answer ["I am sorry, I can’t work today."]}
+    {:item/n 7,
+     :item/prompt ["No me gusta trabajar en la noche."],
+     :item/answer ["I don't like to work in the night."]}
+    {:item/n 8,
+     :item/prompt ["Lo siento, no puedo llamarlo hasta mañana."],
+     :item/answer ["I am sorry, I can’t call him until tomorrow."]}
+    {:item/n 9,
+     :item/prompt ["Me gusta pasar las noches en casa."],
+     :item/answer ["I like to spend the nights at home."]}
+    {:item/n 10,
+     :item/prompt ["Me gusta tomar café en la mañana."],
+     :item/answer ["I like to drink coffee in the morning."]}
+    {:item/n 11,
+     :item/prompt ["Me gustaría pasar mis próximas vacaciones en México."],
+     :item/answer ["I would like to spend my next vacation in Mexico."]}
+    {:item/n 12, :item/prompt ["Me gusta tomar té."], :item/answer ["I like to drink tea."]}
+    {:item/n 13,
+     :item/prompt ["Lo siento, no puedo ayudarla otra vez hasta el próximo mes."],
+     :item/answer ["I am sorry, I can’t help her again until (the) next month."]}
+    {:item/n 14,
+     :item/prompt ["Me gusta cocinar para mi familia."],
+     :item/answer ["I like to cook for my family."]}
+    {:item/n 15,
+     :item/prompt ["Lo siento, no puedo estar en Madrid otra vez hasta octubre."],
+     :item/answer ["I am sorry, I can’t be in Madrid again until October."]}
+    {:item/n 16,
+     :item/prompt ["Puedo viajar a México en los meses de abril y mayo."],
+     :item/answer ["I can travel to Mexico in the months of April and May."]}
+    {:item/n 17,
+     :item/prompt ["Me gusta cocinar comida española."],
+     :item/answer ["I like to cook Spanish food."]}
+    {:item/n 18,
+     :item/prompt ["Me gustaría cocinar una paella."],
+     :item/answer ["I would like to cook a paella."]}
+    {:item/n 19,
+     :item/prompt ["Me gustaría tomar un café."],
+     :item/answer ["I would like to drink a coffee."]}
+    {:item/n 20,
+     :item/prompt ["Puedo viajar a España en mayo."],
+     :item/answer ["I can travel to Spain in May."]}
+    {:item/n 21,
+     :item/prompt ["Necesito tomar algo pronto."],
+     :item/answer ["I need to drink something soon."]}
+    {:item/n 22, :item/prompt ["No puedo tomar alcohol."], :item/answer ["I can’t drink alcohol."]}
+    {:item/n 23,
+     :item/prompt ["Voy a pasar un mes en México."],
+     :item/answer ["I am going to spend a month in Mexico."]}
+    {:item/n 24,
+     :item/prompt ["Quiero pasar más tiempo en casa con mi familia."],
+     :item/answer ["I want to spend more time at home with my family."]}
+    {:item/n 25,
+     :item/prompt ["Me gusta viajar con usted."],
+     :item/answer ["I like to travel with you."]}
+    {:item/n 26,
+     :item/prompt ["Voy a pasar una semana en casa."],
+     :item/answer ["I am going to spend a week at home."]}
+    {:item/n 27,
+     :item/prompt ["Me gusta ver los deportes por televisión."],
+     :item/answer ["I like to see the sports on television."]}
+    {:item/n 28,
+     :item/prompt ["Tengo que cocinar para la familia."],
+     :item/answer ["I have to cook for the family."]}
+    {:item/n 29,
+     :item/prompt ["Lo siento, necesito ver los pasaportes y las visas otra vez por favor."],
+     :item/answer ["I am sorry, I need to see the passports and the visas again please."]}
+    {:item/n 30,
+     :item/prompt ["Quiero pasar la noche en un hotel."],
+     :item/answer ["I want to spend the night in a hotel."]}
+    {:item/n 31,
+     :item/prompt ["Lo siento, no puedo invitar a muchas personas a la fiesta."],
+     :item/answer ["I am sorry, I can’t invite many people to the party."]}],
+   :exercise/notes []}
+  {:exercise/id "7C",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Translate these words into Spanish.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["The Spanish words for I like are"], :item/answer ["me gusta"]}
+    {:item/n 2, :item/prompt ["The Spanish words for I am sorry are"], :item/answer ["lo siento"]}
+    {:item/n 3, :item/prompt ["The Spanish word for to drink is"], :item/answer ["tomar"]}
+    {:item/n 4, :item/prompt ["The Spanish word for to spend (time) is"], :item/answer ["pasar"]}
+    {:item/n 5, :item/prompt ["The Spanish word for to travel is"], :item/answer ["viajar"]}
+    {:item/n 6, :item/prompt ["The Spanish word for to cook is"], :item/answer ["cocinar"]}],
+   :exercise/notes []}
+  {:exercise/id "7D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["I don’t like to travel."], :item/answer ["No me gusta viajar."]}
+    {:item/n 2,
+     :item/prompt ["I am sorry, I can’t be with you today."],
+     :item/answer ["Lo siento, no puedo estar con usted hoy."]}
+    {:item/n 3,
+     :item/prompt ["I like to study with you."],
+     :item/answer ["Me gusta estudiar con usted."]}
+    {:item/n 4,
+     :item/prompt ["I am sorry, I can’t see her today."],
+     :item/answer ["Lo siento, no puedo verla hoy."]}
+    {:item/n 5,
+     :item/prompt ["I am sorry, I can’t speak much Spanish."],
+     :item/answer ["Lo siento, no puedo hablar mucho español."]}
+    {:item/n 6, :item/prompt ["I have to travel a lot."], :item/answer ["Tengo que viajar mucho."]}
+    {:item/n 7, :item/prompt ["I like to help her."], :item/answer ["Me gusta ayudarla."]}
+    {:item/n 8,
+     :item/prompt ["I am going to spend the weekend with my family."],
+     :item/answer ["Voy a pasar el fin de semana con mi familia."]}
+    {:item/n 9, :item/prompt ["I can’t drink (any) more."], :item/answer ["No puedo tomar más."]}
+    {:item/n 10,
+     :item/prompt ["I am sorry, I can’t study with you this weekend."],
+     :item/answer ["Lo siento, no puedo estudiar con usted este fin de semana."]}
+    {:item/n 11,
+     :item/prompt ["I need to spend this week in LA."],
+     :item/answer ["Necesito pasar esta semana en LA."]}
+    {:item/n 12,
+     :item/prompt ["I like to drink tequila."],
+     :item/answer ["Me gusta tomar tequila."]}
+    {:item/n 13,
+     :item/prompt ["I am sorry, I can’t invite him to my party."],
+     :item/answer ["Lo siento, no puedo invitarlo a mi fiesta."]}
+    {:item/n 14,
+     :item/prompt ["I am sorry, I can’t help her now."],
+     :item/answer ["Lo siento, no puedo ayudarla ahora."]}
+    {:item/n 15,
+     :item/prompt ["I don't like to drink tequila."],
+     :item/answer ["No me gusta tomar tequila."]}
+    {:item/n 16, :item/prompt ["I like to travel a lot."], :item/answer ["Me gusta viajar mucho."]}
+    {:item/n 17,
+     :item/prompt ["I am going to spend four months in Spain."],
+     :item/answer ["Voy a pasar cuatro meses en España."]}
+    {:item/n 18,
+     :item/prompt ["I like to eat with my family."],
+     :item/answer ["Me gusta comer con mi familia."]}
+    {:item/n 19,
+     :item/prompt ["I am sorry, I can’t go with you."],
+     :item/answer ["Lo siento, no puedo ir con usted."]}
+    {:item/n 20,
+     :item/prompt ["I like to cook with my mother."],
+     :item/answer ["Me gusta cocinar con mi mamá."]}
+    {:item/n 21,
+     :item/prompt ["I am going to cook tonight."],
+     :item/answer ["Voy a cocinar esta noche."]}
+    {:item/n 22,
+     :item/prompt ["I want to go back (return) to Mexico this year."],
+     :item/answer ["Quiero regresar a México este año."]}
+    {:item/n 23,
+     :item/prompt ["I don’t want to travel again."],
+     :item/answer ["No quiero viajar otra vez."]}
+    {:item/n 24,
+     :item/prompt ["I like to speak Spanish."],
+     :item/answer ["Me gusta hablar español."]}
+    {:item/n 25,
+     :item/prompt ["I don't need to travel this week."],
+     :item/answer ["No necesito viajar esta semana."]}
+    {:item/n 26,
+     :item/prompt ["I have to travel to Mexico today in order to work."],
+     :item/answer ["Tengo que viajar a México hoy para trabajar."]}
+    {:item/n 27,
+     :item/prompt ["I would like to cook more."],
+     :item/answer ["Me gustaría cocinar más."]}
+    {:item/n 28,
+     :item/prompt ["I am going to travel more (the) next year."],
+     :item/answer ["Voy a viajar más el próximo año."]}
+    {:item/n 29,
+     :item/prompt ["I can’t travel this year."],
+     :item/answer ["No puedo viajar este año."]}
+    {:item/n 30,
+     :item/prompt ["I am going to spend the next week in Costa Rica."],
+     :item/answer ["Voy a pasar la próxima semana en Costa Rica."]}
+    {:item/n 31,
+     :item/prompt ["I am sorry, I don't want to work (any) more with you."],
+     :item/answer ["Lo siento, no quiero trabajar más con usted."]}],
+   :exercise/notes []}]}

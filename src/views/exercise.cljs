@@ -4,6 +4,7 @@
             [answer :as answer]
             [data :as data]
             [progress :as progress]
+            [ui :as i18n]
             [views.shared :as shared]))
 
 (defn- input-id [lesson-number exercise-id item-number turn]
@@ -17,7 +18,12 @@
               (if el (.-value el) "")))
           (range turns))))
 
-(defn- store-feedback! [!state lesson-number exercise-id item status entered]
+(defn- apply-progress [state next-store slug]
+  (-> state
+      (assoc :progress-store next-store)
+      (assoc :progress (progress/course-progress next-store slug))))
+
+(defn- store-feedback! [!state item status entered]
   (swap! !state
          (fn [state]
            (-> state
@@ -28,21 +34,22 @@
 
 (defn- check-item! [!state lesson exercise item]
   (let [entered (read-entered (:number lesson) (:id exercise) item)
-        result (answer/check entered (:answer item))]
+        result (answer/check-any entered (:answer item) (:alternatives item))]
     (if (= :empty result)
-      (store-feedback! !state (:number lesson) (:id exercise) item :empty entered)
+      (store-feedback! !state item :empty entered)
       (swap! !state
              (fn [state]
                (let [requested (if (= :correct-accent result)
                                  "correct"
                                  (name result))
-                     next-progress (progress/record! (:progress state)
-                                                     (:number lesson)
-                                                     (:id exercise)
-                                                     (:n item)
-                                                     requested)]
+                     next-store (progress/record! (:progress-store state)
+                                                  (get-in state [:course :slug])
+                                                  (:number lesson)
+                                                  (:id exercise)
+                                                  (:n item)
+                                                  requested)]
                  (-> state
-                     (assoc :progress next-progress)
+                     (apply-progress next-store (get-in state [:course :slug]))
                      (assoc-in [:feedback (str (:n item))]
                                {:status result
                                 :entered entered
@@ -52,13 +59,15 @@
   (let [entered (read-entered (:number lesson) (:id exercise) item)]
     (swap! !state
            (fn [state]
-             (let [next-progress (progress/record! (:progress state)
-                                                   (:number lesson)
-                                                   (:id exercise)
-                                                   (:n item)
-                                                   "revealed")]
+             (let [slug (get-in state [:course :slug])
+                   next-store (progress/record! (:progress-store state)
+                                                slug
+                                                (:number lesson)
+                                                (:id exercise)
+                                                (:n item)
+                                                "revealed")]
                (-> state
-                   (assoc :progress next-progress)
+                   (apply-progress next-store slug)
                    (assoc-in [:feedback (str (:n item))]
                              {:status :revealed
                               :entered entered
@@ -68,13 +77,15 @@
   (let [entered (read-entered (:number lesson) (:id exercise) item)]
     (swap! !state
            (fn [state]
-             (let [next-progress (progress/record! (:progress state)
-                                                   (:number lesson)
-                                                   (:id exercise)
-                                                   (:n item)
-                                                   "correct")]
+             (let [slug (get-in state [:course :slug])
+                   next-store (progress/record! (:progress-store state)
+                                                slug
+                                                (:number lesson)
+                                                (:id exercise)
+                                                (:n item)
+                                                "correct")]
                (-> state
-                   (assoc :progress next-progress)
+                   (apply-progress next-store slug)
                    (assoc-in [:feedback (str (:n item))]
                              {:status :correct
                               :override? true
@@ -84,13 +95,16 @@
 (defn- reset-exercise! [!state lesson exercise]
   (swap! !state
          (fn [state]
-           (-> state
-               (assoc :progress (progress/reset-exercise! (:progress state)
-                                                          (:number lesson)
-                                                          (:id exercise)))
-               (assoc :feedback {})))))
+           (let [slug (get-in state [:course :slug])
+                 next-store (progress/reset-exercise! (:progress-store state)
+                                                      slug
+                                                      (:number lesson)
+                                                      (:id exercise))]
+             (-> state
+                 (apply-progress next-store slug)
+                 (assoc :feedback {}))))))
 
-(defn- feedback-view [feedback]
+(defn- feedback-view [ui feedback]
   (let [status (:status feedback)
         entered (:entered feedback)
         expected (:expected feedback)]
@@ -98,25 +112,27 @@
            :aria-live "polite"}
      [:p.feedback-status
       (case status
-        :correct "Correct!"
-        :correct-accent "Correct — check the accents."
-        :wrong "Not quite."
-        :revealed "Here is the answer."
-        :empty "Type an answer first."
+        :correct (i18n/t ui :correct)
+        :correct-accent (i18n/t ui :correct-accent)
+        :wrong (i18n/t ui :wrong)
+        :revealed (i18n/t ui :revealed)
+        :empty (i18n/t ui :empty)
         "")]
      (when (and (seq entered) (not= status :empty))
        [:p.feedback-entered
-        [:span.feedback-label "You: "]
+        [:span.feedback-label (i18n/t ui :you)]
         (str/join " / " entered)])
      (when (or (= status :wrong) (= status :revealed) (= status :correct-accent))
        [:p.feedback-expected
-        [:span.feedback-label "Expected: "]
+        [:span.feedback-label (i18n/t ui :expected)]
         (str/join " / " expected)])
      (when (:override? feedback)
-       [:p.feedback-hint "Marked correct by you."])]))
+       [:p.feedback-hint (i18n/t ui :marked-correct)])]))
 
 (defn- item-view [state !state lesson exercise item]
-  (let [lesson-number (:number lesson)
+  (let [ui (get-in state [:course :ui])
+        course (:course state)
+        lesson-number (:number lesson)
         exercise-id (:id exercise)
         item-number (:n item)
         feedback (get-in (:feedback state) [(str item-number)])
@@ -130,15 +146,18 @@
                              "wrong" :wrong
                              nil))
         turns (max 1 (count (:answer item)))
-        source-lang (if (= :to-english (:direction exercise)) "es" nil)
-        answer-lang (if (= :to-spanish (:direction exercise)) "es" nil)]
+        base-code (get-in course [:languages :base :code])
+        target-code (get-in course [:languages :target :code])
+        direction (:direction exercise)
+        source-lang (if (= :to-base direction) target-code base-code)
+        answer-lang (if (= :to-base direction) base-code target-code)]
     [:div {:class (str "item" (when display-status
                                 (str " item-" (name display-status))))
            :key (str item-number)}
      [:div.item-head
       [:span.item-number (str item-number ".")]
       (when display-status
-        [shared/status-chip display-status])]
+        [shared/status-chip ui display-status])]
      [:div.item-prompt
       (map (fn [turn] [:p.prompt-turn {:lang source-lang} turn]) (:prompt item))]
      [:div.item-inputs
@@ -152,7 +171,8 @@
                       :autocapitalize "off"
                       :spellcheck "false"
                       :lang answer-lang
-                      :aria-label (str "Answer for item " item-number " turn " (inc turn))
+                      :aria-label (i18n/t ui :answer-aria {:item item-number
+                                                         :turn (inc turn)})
                       :on-keydown (fn [e]
                                     (when (= (.-key e) "Enter")
                                       (.preventDefault e)
@@ -161,29 +181,31 @@
      [:div.item-actions
       [:button {:type "button"
                 :on-click (fn [_] (check-item! !state lesson exercise item))}
-       "Check"]
+       (i18n/t ui :check)]
       [:button.secondary {:type "button"
                           :on-click (fn [_] (reveal-item! !state lesson exercise item))}
-       "Show answer"]
+       (i18n/t ui :show-answer)]
       (when (= status :wrong)
         [:button.link {:type "button"
                        :on-click (fn [_] (override-item! !state lesson exercise item))}
-         "I was right"])]
+         (i18n/t ui :i-was-right)])]
      (when feedback
-       (feedback-view feedback))]))
+       (feedback-view ui feedback))]))
 
-(defn- not-found []
+(defn- not-found [ui]
   [:div.not-found
-   [:h1 "Exercise not found"]
-   [:p [:a {:href (router/home-href)} "Back to all lessons"]]])
+   [:h1 (i18n/t ui :exercise-not-found)]
+   [:p [:a {:href (router/home-href)} (i18n/t ui :back-home)]]])
 
 (defn view [state]
   (let [route (:route state)
+        course (:course state)
+        ui (:ui course)
         lesson (data/lesson-by-number (:lessons state) (:lesson route))
         exercise (data/exercise-by-id lesson (:exercise route))]
     (cond
-      (nil? lesson) (not-found)
-      (nil? exercise) (not-found)
+      (nil? lesson) (not-found ui)
+      (nil? exercise) (not-found ui)
       :else
       (let [!state (:state-atom state)
             stats (data/exercise-stats (:progress state) (:number lesson) exercise)
@@ -194,20 +216,22 @@
           [:a {:href (router/lesson-href (:number lesson))}
            (str "← " (:label lesson))]]
          [:header.exercise-header
-          [:p.step-label (str "Step " (:number (:step lesson)) " · " (:title (:step lesson)))]
-          [:h1 (str "Exercise " (:id exercise))]
+          [:p.step-label
+           (i18n/t ui :step-title {:number (get-in lesson [:step :number])
+                                 :title (get-in lesson [:step :title])})]
+          [:h1 (i18n/t ui :exercise-heading {:id (:id exercise)})]
           [:p.exercise-meta
-           (str (shared/skill-label (:skill exercise))
+           (str (shared/skill-label ui (:skill exercise))
                 " · "
-                (shared/direction-label (:direction exercise)))]
+                (shared/direction-label ui course (:direction exercise)))]
           (when (not-empty (:instructions exercise))
             [:p.instructions (:instructions exercise)])
           [:div.exercise-progress
-           [:span (str (:done stats) " of " (:total stats) " items correct")]
-           [shared/progress-bar stats]]]
+           [:span (i18n/t ui :items-correct {:done (:done stats) :total (:total stats)})]
+           [shared/progress-bar ui stats]]]
          (when (seq (:hints exercise))
            [:details.hints
-            [:summary "Hints"]
+            [:summary (i18n/t ui :hints)]
             [:ul (map (fn [hint] [:li {:key hint} hint]) (:hints exercise))]])
          (when (seq (:notes exercise))
            [:div.exercise-notes
@@ -219,8 +243,9 @@
           [:div.footer-actions
            [:button.secondary {:type "button"
                                :on-click (fn [_] (reset-exercise! !state lesson exercise))}
-            "Reset exercise"]
-           [:a.back-link {:href (router/lesson-href (:number lesson))} "Back to lesson"]
+            (i18n/t ui :reset-exercise)]
+           [:a.back-link {:href (router/lesson-href (:number lesson))}
+            (i18n/t ui :back-to-lesson)]
            (when previous
              [:a {:href (router/exercise-href (:number lesson) (:id previous))}
               (str "← " (:id previous))])
@@ -228,4 +253,4 @@
              [:a {:href (router/exercise-href (:number lesson) (:id following))}
               (str (:id following) " →")])]
           [:p.footer-progress
-           (str (:done stats) " of " (:total stats) " answers correct")]]]))))
+           (i18n/t ui :lesson-answers-correct {:done (:done stats) :total (:total stats)})]]]))))

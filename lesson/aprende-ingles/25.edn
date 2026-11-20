@@ -1,0 +1,290 @@
+{:lesson/vocabulary
+ [{:vocab/id 133,
+   :vocab/kind :mortar,
+   :vocab/target "hour",
+   :vocab/base "hora",
+   :vocab/pronunciation "áuer",
+   :vocab/mnemonic nil}
+  {:vocab/id 134,
+   :vocab/kind :mortar,
+   :vocab/target "no one or nobody",
+   :vocab/base "nadie",
+   :vocab/pronunciation "nóu uán",
+   :vocab/mnemonic nil}
+  {:vocab/id 135,
+   :vocab/kind :mortar,
+   :vocab/target "almost",
+   :vocab/base "casi",
+   :vocab/pronunciation "ólmoust",
+   :vocab/mnemonic nil,
+   :vocab/ipa "ɔːl.ˈməʊst"}
+  {:vocab/id 136,
+   :vocab/kind :mortar,
+   :vocab/target "with them",
+   :vocab/base "con ellos",
+   :vocab/pronunciation "uid dem",
+   :vocab/mnemonic nil}
+  {:vocab/id 137,
+   :vocab/kind :mortar,
+   :vocab/target "with them (all females)",
+   :vocab/base "con ellas",
+   :vocab/pronunciation "uid dem",
+   :vocab/mnemonic nil}
+  {:vocab/id 138,
+   :vocab/kind :mortar,
+   :vocab/target "maybe",
+   :vocab/base "tal vez",
+   :vocab/pronunciation "méibi",
+   :vocab/mnemonic nil}],
+ :lesson/title "Cerrar el círculo: otras personas",
+ :lesson/target-title "Bringing it home: other people",
+ :lesson/label "Lección 25",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 22,
+   :section/title "Would they like...?",
+   :section/body
+   ["Would they like a coffee? = ¿Les gustaría un café?"
+    "would like sirve para I, you, he, she, we y they sin cambiar."
+    "Para preguntar: Would they like...?"
+    "Para negar: They wouldn't like... / They would not like..."]}],
+ :lesson/number 25,
+ :lesson/intro [],
+ :lesson/step {:step/number 5, :step/title "Hablar de otras personas"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "25A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “maybe” son"],
+     :item/answer ["tal vez"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en español para “with them” son"],
+     :item/answer ["con ellos"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “with them (women)” son"],
+     :item/answer ["con ellas"]}
+    {:item/n 4, :item/prompt ["Las palabras en español para “almost” son"], :item/answer ["casi"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en español para “no one / nobody” son"],
+     :item/answer ["nadie"]}
+    {:item/n 6, :item/prompt ["Las palabras en español para “hour” son"], :item/answer ["hora"]}],
+   :exercise/notes []}
+  {:exercise/id "25B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? true,
+   :exercise/instructions "Traduce cada intervención del diálogo al español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Maybe you all can practice Spanish with them."],
+     :item/answer ["Tal vez ustedes pueden practicar el español con ellos."]}
+    {:item/n 2,
+     :item/prompt
+     ["They need to learn more Spanish in order to speak with us."
+      "Yes, they are going to study in private classes."],
+     :item/answer
+     ["Ellos necesitan aprender más español para hablar con nosotros."
+      "Si, van a estudiar en clases privadas."]}
+    {:item/n 3,
+     :item/prompt ["They (women) need a taxi." "I am going to call a taxi for them right now."],
+     :item/answer ["Ellas necesitan un taxi." "Voy a llamar un taxi para ellas ahora mismo."]}
+    {:item/n 4,
+     :item/prompt ["Many Mexicans like to eat tacos after to go out (to dance) dancing."],
+     :item/answer ["A muchos mexicanos les gusta comer tacos después de salir a bailar."]}
+    {:item/n 5,
+     :item/prompt
+     ["The students don't want to invite their teacher to the party."
+      "Why don't they want to invite him?"
+      "Because they don't like the teacher."],
+     :item/answer
+     ["Los estudiantes no quieren invitar a su maestro a la fiesta."
+      "¿Por qué no quieren invitarlo?"
+      "Porque no les gusta el maestro."]}
+    {:item/n 6,
+     :item/prompt
+     ["They (women) want to go to a typical restaurant, they would like to try the traditional food (of) here."],
+     :item/answer
+     ["Ellas quieren ir a un restaurante típico, les gustaría probar la comida tradicional de aquí."]}
+    {:item/n 7,
+     :item/prompt ["He is going to spend almost all his money."],
+     :item/answer ["Él va a gastar casi todo su dinero."]}
+    {:item/n 8,
+     :item/prompt ["Nobody wants to go with me."],
+     :item/answer ["Nadie quiere ir conmigo."]}
+    {:item/n 9,
+     :item/prompt ["Do they like the food?" "Yes, they love the food."],
+     :item/answer ["¿A ellos les gusta la comida?" "Sí, ellos les encanta la comida."]}
+    {:item/n 10,
+     :item/prompt ["Who can help Lisa?" "No body can help her today."],
+     :item/answer ["¿Quién puede ayudar a Lisa?" "Nadie puede ayudarla hoy."]}
+    {:item/n 11,
+     :item/prompt ["She can speak all the night without (to breath) breathing."],
+     :item/answer ["Ella puede hablar toda la noche sin respirar."]}
+    {:item/n 12,
+     :item/prompt ["I want to try almost all the food on the menu."],
+     :item/answer ["Quiero probar casi toda la comida en el menú."]}
+    {:item/n 13,
+     :item/prompt ["The company is going to pay almost all the costs."],
+     :item/answer ["La compañía va a pagar casi todos los costos."]}
+    {:item/n 14,
+     :item/prompt ["He is going to speak for an hour."],
+     :item/answer ["Él va a hablar por una hora."]}
+    {:item/n 15,
+     :item/prompt ["They would like to speak with you all."],
+     :item/answer ["A ellos les gustaría hablar con ustedes."]}
+    {:item/n 16,
+     :item/prompt ["I would like to be able to speak more Spanish with you all."],
+     :item/answer ["Me gustaría poder hablar más español con ustedes."]}
+    {:item/n 17,
+     :item/prompt ["I am sorry, I don't want to work (any) more with you all."],
+     :item/answer ["Lo siento, no quiero trabajar más con ustedes."]}
+    {:item/n 18,
+     :item/prompt ["You all have to learn more Spanish in order to be able to speak with him."],
+     :item/answer ["Tienen que aprender más español para poder hablar con él."]}
+    {:item/n 19,
+     :item/prompt
+     ["Maybe you all can study with Miguel."
+      "Yes, we are going to study with him (all the afternoons) every afternoon in the cafeteria."],
+     :item/answer
+     ["Tal vez ustedes pueden estudiar con Miguel."
+      "Sí, vamos a estudiar con él todas las tardes en la cafetería."]}
+    {:item/n 20,
+     :item/prompt
+     ["You need to speak more with him in order to practice Spanish."
+      "Yes, I am going to speak with him (all the days) every day."],
+     :item/answer
+     ["Necesita hablar más con él para practicar español."
+      "Sí, voy a hablar con él todos los días."]}
+    {:item/n 21,
+     :item/prompt ["I like to practice Spanish with her."],
+     :item/answer ["Me gusta practicar español con ella."]}
+    {:item/n 22,
+     :item/prompt ["He is going to work there with her."],
+     :item/answer ["Él va a trabajar allá con ella."]}
+    {:item/n 23,
+     :item/prompt ["Maybe they are going to speak with her later."],
+     :item/answer ["Tal vez ellos van a hablar con ella más tarde."]}
+    {:item/n 24, :item/prompt ["Nobody can help me."], :item/answer ["Nadie puede ayudarme."]}],
+   :exercise/notes []}
+  {:exercise/id "25C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en inglés las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Las palabras en inglés para “tal vez” son"], :item/answer ["maybe"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en inglés para “con ellos” son"],
+     :item/answer ["with them"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en inglés para “con ellas” son"],
+     :item/answer ["with them (women)"]}
+    {:item/n 4, :item/prompt ["Las palabras en inglés para “casi” son"], :item/answer ["almost"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en inglés para “nadie” son"],
+     :item/answer ["no one / nobody"]}
+    {:item/n 6, :item/prompt ["Las palabras en inglés para “hora” son"], :item/answer ["hour"]}],
+   :exercise/notes []}
+  {:exercise/id "25D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? true,
+   :exercise/instructions "Traduce cada intervención del diálogo al inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Tal vez vamos a poder hablar más español con ustedes pronto."],
+     :item/answer ["Maybe we are going to be able to speak more Spanish with you all soon."],
+     :item/alternatives
+     [["Maybe we're going to be able to speak more Spanish with you all soon."]]}
+    {:item/n 2,
+     :item/prompt ["Vamos a estar con ustedes en México el próximo fin de semana."],
+     :item/answer ["We are going to be with you all in Mexico next weekend."],
+     :item/alternatives [["we're going to be with you all in Mexico next weekend."]]}
+    {:item/n 3,
+     :item/prompt ["Lo siento, no puedo estar con ustedes hoy."],
+     :item/answer ["I am sorry, I can’t be with you all today."],
+     :item/alternatives [["I'm sorry, I cannot be with you all today."]]}
+    {:item/n 4,
+     :item/prompt ["Tal vez ella va a regresar con Mario." "Sí, va a regresar con él."],
+     :item/answer
+     ["Maybe (she) is going to go back with Mario." "Yes, she is going to go back with him."]}
+    {:item/n 5,
+     :item/prompt ["¿A ellos les gusta México?" "Si, les encanta México."],
+     :item/answer ["Do (they) like Mexico?" "Yes, they love Mexico."]}
+    {:item/n 6,
+     :item/prompt ["Vamos a desayunar con ellas mañana."],
+     :item/answer ["We are going to have breakfast with them (women) tomorrow."],
+     :item/alternatives [["we're going to have breakfast with them (women) tomorrow."]]}
+    {:item/n 7,
+     :item/prompt ["Ustedes necesitan hablar con ellos cuanto antes."],
+     :item/answer ["(You all) need to speak with them as soon as possible."]}
+    {:item/n 8,
+     :item/prompt ["Voy a cenar con ella mañana en la noche."],
+     :item/answer ["I am going to have dinner with her tomorrow night."],
+     :item/alternatives [["I'm going to have dinner with her tomorrow night."]]}
+    {:item/n 9,
+     :item/prompt ["Tengo que estudiar casi todos los días."],
+     :item/answer ["I have to study almost (all the days) everyday."]}
+    {:item/n 10,
+     :item/prompt ["Ellos tienen que trabajar casi todos los fines de semana."],
+     :item/answer ["(They) have to work almost all the weekends."]}
+    {:item/n 11,
+     :item/prompt ["Nadie tiene que trabajar este fin de semana."],
+     :item/answer ["Nobody has to work this weekend."]}
+    {:item/n 12,
+     :item/prompt
+     ["Tal vez a ellos no les gusta vivir aquí." "No, a ellos les encanta vivir aquí."],
+     :item/answer
+     ["Maybe (they) don't like (to live) living here." "No, they love (to live) living here."],
+     :item/alternatives
+     [["Maybe (they) do not like (to live) living here." "No, they love (to live) living here."]]}
+    {:item/n 13,
+     :item/prompt ["A ellas les gusta cantar."],
+     :item/answer ["(They females) like to sing."]}
+    {:item/n 14,
+     :item/prompt ["Ustedes van a poder hablar español pronto."],
+     :item/answer ["(You all) are going to be able to speak Spanish soon."]}
+    {:item/n 15,
+     :item/prompt ["¿Por qué a ellos no les gusta viajar?"],
+     :item/answer ["Why don't (they) like to travel?"],
+     :item/alternatives [["Why do not (they) like to travel?"]]}
+    {:item/n 16,
+     :item/prompt ["¿A ellas les gustaría ir a un restaurante mexicano?"],
+     :item/answer ["Would (they females) like to go to a Mexican restaurant?"]}
+    {:item/n 17,
+     :item/prompt ["Podemos caminar con ella al hotel."],
+     :item/answer ["We can walk with her to the hotel."]}
+    {:item/n 18,
+     :item/prompt ["¿A ellos les gusta leer?" "No, no les gusta leer mucho."],
+     :item/answer ["Do (they) like to read?" "No, they don’t like to read much."],
+     :item/alternatives [["Do (they) like to read?" "No, they do not like to read much."]]}
+    {:item/n 19,
+     :item/prompt ["Ustedes van a comprender más después de estudiar en México."],
+     :item/answer ["(You all) are going to understand more after (to study) studying in Mexico."]}
+    {:item/n 20,
+     :item/prompt ["¿Cuándo ustedes quieren viajar?" "Queremos ir pasado mañana en la tarde."],
+     :item/answer
+     ["When do (you all) want to travel?"
+      "We want to go the day after tomorrow in the afternoon."]}
+    {:item/n 21,
+     :item/prompt ["¿Ustedes pueden escucharme?" "Sí, podemos escucharlo."],
+     :item/answer ["Can (you all) hear (listen) me?" "Yes, we can hear you (man)."]}
+    {:item/n 22,
+     :item/prompt ["Puedo practicar casi todos los días."],
+     :item/answer ["I can practice almost every day (all the days)."]}
+    {:item/n 23,
+     :item/prompt
+     ["¿Ustedes quieren encontrar un hotel?" "Sí, queremos encontrar un hotel ahora."],
+     :item/answer ["Do (you all) want to find a hotel?" "Yes, we want to find a hotel now."]}],
+   :exercise/notes []}]}

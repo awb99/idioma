@@ -1,0 +1,275 @@
+{:lesson/vocabulary
+ [{:vocab/id 31,
+   :vocab/kind :mortar,
+   :vocab/target "hoy",
+   :vocab/base "today",
+   :vocab/pronunciation "OY",
+   :vocab/mnemonic "Imagine you are angered by slow service you yell \"oy I want it today\""}
+  {:vocab/id 32,
+   :vocab/kind :mortar,
+   :vocab/target "fin de semana",
+   :vocab/base "weekend",
+   :vocab/pronunciation "FEEN DEH SEH MAH NAH",
+   :vocab/mnemonic
+   "Semana means week and fin de means the finish of or the end of. So fin de semana means the end of the week"}
+  {:vocab/id 33,
+   :vocab/kind :mortar,
+   :vocab/target "mes",
+   :vocab/base "month",
+   :vocab/pronunciation "MEHS",
+   :vocab/mnemonic "This month is really busy it's a big mess"}
+  {:vocab/id 34,
+   :vocab/kind :mortar,
+   :vocab/target "año",
+   :vocab/base "year",
+   :vocab/pronunciation "AHN YOH",
+   :vocab/mnemonic "An ya know just like that there goes another year"}
+  {:vocab/id 35,
+   :vocab/kind :mortar,
+   :vocab/target "noche",
+   :vocab/base "night",
+   :vocab/pronunciation "NOH CHEH",
+   :vocab/mnemonic "Remember esta noche means tonight esta means this and noche means night"}
+  {:vocab/id 36,
+   :vocab/kind :mortar,
+   :vocab/target "mucho",
+   :vocab/base "much, many, a lot of",
+   :vocab/pronunciation "MOO CHOH",
+   :vocab/mnemonic "3 words for the price of one"}],
+ :lesson/title nil,
+ :lesson/source-pages [54 61],
+ :lesson/target-title "Lección seis",
+ :lesson/label "Lesson 6",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 7,
+   :section/title "I want to see her this weekend",
+   :section/body
+   ["Quiero verla este fin de semana Remember for this week we said Esta semana And for next week we said La próxima semana Many feminine words in Spanish end with the letter a."
+    "Semana ends with the letter a and is a feminine word."
+    "Mes and Año (month and year) are masculine words."
+    "To say this with Masculine words use este."
+    "This year Este año This month Este mes And to say the next with masculine words, use el próximo."
+    "The next year El próximo año The next month El próximo mes Something to remember about the weekend Semana - Week is feminine but Fin de semana - Weekend is masculine Therefore, how would you make the following phrases?"
+    "1. Next week 2. Next weekend 3. This week 4. This weekend Check your answer below. Then when you do exercise 6B notice the use of este and el próximo."
+    "Answers 1. la próxima semana, 2. el próximo fin de semana, 3. esta semana, 4.este fin de semana"]}],
+ :lesson/number 6,
+ :lesson/intro [],
+ :lesson/step {:step/number 1, :step/title "The first steps to Speaking Spanish"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "6A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Write the English words on the line",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["The English word or words for mucho are"],
+     :item/answer ["many/a lot of/ much"]}
+    {:item/n 2, :item/prompt ["The English word for noche is"], :item/answer ["night"]}
+    {:item/n 3, :item/prompt ["The English word for año is"], :item/answer ["year"]}
+    {:item/n 4, :item/prompt ["The English word for mes is"], :item/answer ["month"]}
+    {:item/n 5, :item/prompt ["The English word for fin de semana is"], :item/answer ["weekend"]}
+    {:item/n 6, :item/prompt ["The English word for hoy is"], :item/answer ["today"]}
+    {:item/n 7, :item/prompt ["The English words for trabajar are"], :item/answer ["to work"]}
+    {:item/n 8, :item/prompt ["The English words for estar are"], :item/answer ["to be"]}
+    {:item/n 9, :item/prompt ["The English words for regresar are"], :item/answer ["to return"]}
+    {:item/n 10, :item/prompt ["The English words for estudiar are"], :item/answer ["to study"]}
+    {:item/n 11, :item/prompt ["The English words for tengo que are"], :item/answer ["I have to"]}
+    {:item/n 12, :item/prompt ["The English words for puedo are"], :item/answer ["I can"]}],
+   :exercise/notes []}
+  {:exercise/id "6B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints ["de = from/of" "Escuela = school"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Voy a visitar a Bárbara hoy."],
+     :item/answer ["I am going to visit Barbara today."]}
+    {:item/n 2,
+     :item/prompt ["Tengo que estudiar mucho para el examen."],
+     :item/answer ["I have to study a lot for the exam."]}
+    {:item/n 3,
+     :item/prompt ["Me gustaría comer en este restaurante otra vez mañana en la noche."],
+     :item/answer
+     ["I would like to eat in this restaurant again tomorrow night. (tomorrow in the night)"]}
+    {:item/n 4,
+     :item/prompt ["Puedo ayudarlo mucho con el vocabulario en español."],
+     :item/answer ["I can help him a lot with the vocabulary in Spanish."]}
+    {:item/n 5,
+     :item/prompt ["Voy a hablar mucho español en mis vacaciones."],
+     :item/answer ["I am going to speak a lot of Spanish in my vacation."]}
+    {:item/n 6,
+     :item/prompt ["Tengo que llamar a mi esposa hoy."],
+     :item/answer ["I have to call my wife today."]}
+    {:item/n 7,
+     :item/prompt ["El fin de semana me gustaría ir a un bar con mis amigos."],
+     :item/answer ["On the weekend I would like to go to a bar with my friends. *"]}
+    {:item/n 8,
+     :item/prompt ["No tengo que trabajar este mes,voy a estar de vacaciones."],
+     :item/answer ["I don’t have to work this month, I am going to be on vacation."]}
+    {:item/n 9,
+     :item/prompt ["Tengo que regresar el video mañana en la noche."],
+     :item/answer ["I have to return the video tomorrow night. (tomorrow in the night)."]}
+    {:item/n 10,
+     :item/prompt ["Me gustaría comer algo diferente hoy."],
+     :item/answer ["I would like to eat something different today."]}
+    {:item/n 11,
+     :item/prompt ["Voy a invitar a muchos amigos a la fiesta este fin de semana."],
+     :item/answer ["I am going to invite a lot of friends to the party this weekend."]}
+    {:item/n 12,
+     :item/prompt ["Voy a ir a la isla este fin de semana."],
+     :item/answer ["I am going to go to the island this weekend."]}
+    {:item/n 13,
+     :item/prompt ["Voy a estudiar español en una escuela por tres meses."],
+     :item/answer ["I am going to study Spanish in a school for 3 months."]}
+    {:item/n 14,
+     :item/prompt ["Mañana en la noche, me gustaría comer en el restaurante con mis amigos."],
+     :item/answer ["Tomorrow night I would like to eat in the restaurant with my friends."]}
+    {:item/n 15,
+     :item/prompt ["Tengo que ir al doctor hoy."],
+     :item/answer ["I have to go to the doctor today."]}
+    {:item/n 16,
+     :item/prompt ["Voy a estar en Honduras por dos años."],
+     :item/answer ["I am going to be in Honduras for two years."]}
+    {:item/n 17,
+     :item/prompt ["Quiero rentar una casa en Puerto Vallarta este año."],
+     :item/answer ["I want to rent a house in Puerto Vallarta this year."]}
+    {:item/n 18,
+     :item/prompt ["Voy a ver los Rolling Stones el próximo fin de semana."],
+     :item/answer ["I am going to see the Rolling Stones (the) next weekend."]}
+    {:item/n 19,
+     :item/prompt ["Este fin de semana y el próximo necesito estudiar mucho."],
+     :item/answer ["This weekend and the next I need to study a lot."]}
+    {:item/n 20,
+     :item/prompt ["Necesito un hotel por un mes."],
+     :item/answer ["I need a hotel for one month."]}
+    {:item/n 21,
+     :item/prompt
+     ["El próximo mes, voy a ir a Cabo San Lucas con un grupo de amigos de mi escuela."],
+     :item/answer
+     ["The next month, I am going to go to Cabo San Lucas with a group of friends from my school."]}
+    {:item/n 22,
+     :item/prompt ["Necesito estudiar mucho más en la escuela de español."],
+     :item/answer ["I need to study a lot more in the Spanish school."]}
+    {:item/n 23,
+     :item/prompt ["Voy a estudiar mucho para hablar con usted en español."],
+     :item/answer ["I am going to study a lot in order to speak with you in Spanish."]}
+    {:item/n 24,
+     :item/prompt ["Hoy me gustaría ir al cine."],
+     :item/answer ["Today I would like to go to the cinema."]}
+    {:item/n 25,
+     :item/prompt ["Quiero trabajar en un hotel en Cancún este año."],
+     :item/answer ["I want to work in a hotel in Cancun this year."]}
+    {:item/n 26,
+     :item/prompt ["No puedo regresar a Madrid hasta el próximo mes."],
+     :item/answer ["I can’t return to Madrid until (the) next month."]}
+    {:item/n 27,
+     :item/prompt ["Me gustaría comer comida tradicional hoy."],
+     :item/answer
+     ["I would like to eat traditional food today. * Note: In Spanish to say, on the weekend, you just say, el fin de semana."]}],
+   :exercise/notes []}
+  {:exercise/id "6C",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Translate these words into Spanish.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["The Spanish word for a lot of, many, much is"],
+     :item/answer ["mucho"]}
+    {:item/n 2, :item/prompt ["The Spanish word for night is"], :item/answer ["noche"]}
+    {:item/n 3, :item/prompt ["The Spanish words for weekend are"], :item/answer ["fin de semana"]}
+    {:item/n 4, :item/prompt ["The Spanish word for today is"], :item/answer ["hoy"]}
+    {:item/n 5, :item/prompt ["The Spanish word for month is"], :item/answer ["mes"]}
+    {:item/n 6, :item/prompt ["The Spanish word for year is"], :item/answer ["año"]}
+    {:item/n 7, :item/prompt ["The Spanish words for I have to are"], :item/answer ["tengo que"]}
+    {:item/n 8, :item/prompt ["The Spanish word for I can is"], :item/answer ["puedo"]}
+    {:item/n 9, :item/prompt ["The Spanish word for to return is"], :item/answer ["regresar"]}
+    {:item/n 10, :item/prompt ["The Spanish word for to study is"], :item/answer ["estudiar"]}
+    {:item/n 11, :item/prompt ["The Spanish word for to be is"], :item/answer ["estar"]}
+    {:item/n 12, :item/prompt ["The Spanish word for to work is"], :item/answer ["trabajar"]}],
+   :exercise/notes []}
+  {:exercise/id "6D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints ["To say tomorrow night say tomorrow in the night = mañana en la noche"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["I am going to call him today."],
+     :item/answer ["Voy a llamarlo hoy."]}
+    {:item/n 2, :item/prompt ["Can I see her today?"], :item/answer ["¿Puedo verla hoy?"]}
+    {:item/n 3,
+     :item/prompt ["I am going to go to Spain (on) the weekend."],
+     :item/answer ["Voy a ir a España el fin de semana."]}
+    {:item/n 4,
+     :item/prompt ["I want to return again (the) next month."],
+     :item/answer ["Quiero regresar otra vez el próximo mes."]}
+    {:item/n 5,
+     :item/prompt ["This weekend I can’t go to the party, I have to work."],
+     :item/answer ["Este fin de semana no puedo ir a la fiesta, tengo que trabajar."]}
+    {:item/n 6,
+     :item/prompt ["I can’t speak much Spanish."],
+     :item/answer ["No puedo hablar mucho español."]}
+    {:item/n 7,
+     :item/prompt ["Do I have to work tomorrow night?"],
+     :item/answer ["¿Tengo que trabajar mañana en la noche?"]}
+    {:item/n 8,
+     :item/prompt ["I have to work in Mexico (the) next month."],
+     :item/answer ["Tengo que trabajar en México el próximo mes."]}
+    {:item/n 9,
+     :item/prompt ["I can see him (on) the weekend."],
+     :item/answer ["Puedo verlo el fin de semana."]}
+    {:item/n 10,
+     :item/prompt ["I am going to return tomorrow night."],
+     :item/answer ["Voy a regresar mañana en la noche."]}
+    {:item/n 11,
+     :item/prompt ["I have to study this weekend."],
+     :item/answer ["Tengo que estudiar este fin de semana."]}
+    {:item/n 12,
+     :item/prompt ["I can help her (the) next weekend."],
+     :item/answer ["Puedo ayudarla el próximo fin de semana."]}
+    {:item/n 13,
+     :item/prompt ["I have to go to Chile this week."],
+     :item/answer ["Tengo que ir a Chile esta semana."]}
+    {:item/n 14,
+     :item/prompt ["I need to help my dad today."],
+     :item/answer ["Necesito ayudar a mi papá hoy."]}
+    {:item/n 15,
+     :item/prompt ["I want to return to the restaurant tomorrow night."],
+     :item/answer ["Quiero regresar al restaurante mañana en la noche."]}
+    {:item/n 16,
+     :item/prompt ["I am going to work in Barcelona this year."],
+     :item/answer ["Voy a trabajar en Barcelona este año."]}
+    {:item/n 17,
+     :item/prompt ["I am going to visit my mother tomorrow night."],
+     :item/answer ["Voy a visitar a mi mamá mañana en la noche"]}
+    {:item/n 18,
+     :item/prompt ["I would like to invite her to my party this weekend."],
+     :item/answer ["Me gustaría invitarla a mi fiesta este fin de semana."]}
+    {:item/n 19,
+     :item/prompt ["I would like to go to Argentina this year in order to study more Spanish."],
+     :item/answer ["Me gustaría ir a Argentina este año para estudiar más español."]}
+    {:item/n 20,
+     :item/prompt ["I want to eat with my family today."],
+     :item/answer ["Quiero comer con mi familia hoy."]}
+    {:item/n 21,
+     :item/prompt ["I am not going to be (in house) home this weekend."],
+     :item/answer ["No voy a estar en casa este fin de semana."]}
+    {:item/n 22,
+     :item/prompt ["I have to go back (the) next weekend."],
+     :item/answer ["Tengo que regresar el próximo fin de semana."]}
+    {:item/n 23,
+     :item/prompt ["I am going to study a lot this year."],
+     :item/answer ["Voy a estudiar mucho este año."]}
+    {:item/n 24,
+     :item/prompt ["Can I invite my friends to the party (the) next weekend?"],
+     :item/answer ["¿Puedo invitar a mis amigos a la fiesta el próximo fin de semana?"]}],
+   :exercise/notes []}]}

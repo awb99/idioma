@@ -166,6 +166,47 @@ button {
   transition: width 180ms ease-out;
 }
 
+/* Course chooser ------------------------------------------------------- */
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-4);
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: var(--space-5);
+}
+
+.course-title {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.course-tagline {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.course-languages,
+.course-lesson-count {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+
+.course-link {
+  margin-top: auto;
+  padding-top: var(--space-3);
+  font-weight: 600;
+}
+
 /* Home ----------------------------------------------------------------- */
 
 .step {
@@ -216,7 +257,7 @@ button {
   font-size: 1rem;
 }
 
-.lesson-spanish {
+.lesson-target {
   margin: 0;
   font-family: var(--font-reading);
   font-style: italic;
@@ -317,7 +358,7 @@ button {
   margin-bottom: var(--space-1);
 }
 
-.lesson-spanish-title {
+.lesson-target-title {
   font-family: var(--font-reading);
   font-size: 1.15rem;
   font-style: italic;
@@ -402,13 +443,19 @@ button {
   border-bottom: 0;
 }
 
-.vocab-spanish {
+.vocab-target {
   font-family: var(--font-reading);
   font-size: 1rem;
   font-weight: 600;
 }
 
 .vocab-pronunciation {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.vocab-ipa {
   font-size: 0.82rem;
   color: var(--ink-soft);
   white-space: nowrap;
@@ -566,12 +613,6 @@ button {
 .prompt-turn {
   font-family: var(--font-reading);
   font-size: 1.02rem;
-}
-
-.prompt-turn[lang="es"],
-.vocab-spanish[lang="es"],
-.lesson-spanish-title[lang="es"] {
-  font-style: normal;
 }
 
 .item-inputs {

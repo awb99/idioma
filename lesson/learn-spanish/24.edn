@@ -1,0 +1,203 @@
+{:lesson/vocabulary [],
+ :lesson/title nil,
+ :lesson/source-pages [201 205],
+ :lesson/target-title "Lección veinte y cuatro",
+ :lesson/label "Lesson 24",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 21,
+   :section/title "They have to go",
+   :section/body
+   ["Tienen que ir You will remember that in Spanish the same verbs can be talking about you, he or she."
+    "For example Tiene que ir You have to go Or Tiene que ir He/she has to go This also applies in the plural forms, a Spanish verb can be referring to you all or they."
+    "For example Pueden ir You (all) can go/ they can go Van a ir You (all) are going to go/they are going to go Necesitan ir You (all) need to go/ they need to go If sentences are ambiguous you use a pronoun to identify who you are talking about, much like in English Él tiene que ir he has to go Ella tiene que ir she has to go Usted tiene que ir you have to go Now let´s examine the plural forms."
+    "Tienen que ir You (all) have to go Or Tienen que ir They have to go If sentences are ambiguous, again you use a pronoun as an identifier."
+    "Ellos tienen que ir They (men) have to go Ellas tienen que ir They (women) have to go Ustedes tienen que ir You (all) have to go If you are talking about a group of men and women you use ellos."
+    "Again the best way to understand this lesson is to use the language. Practice understanding this concept in exercise 24A and then create your own Spanish with and without pronouns in exercise 24B."]}],
+ :lesson/number 24,
+ :lesson/intro ["No new words in this lesson just a new structure to round out your Spanish."],
+ :lesson/step {:step/number 5, :step/title "Bringing it all home – talking about other people"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "24A",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? true,
+   :exercise/instructions "",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Ellos no pueden escucharlo." "Okay, voy a hablar más fuerte."],
+     :item/answer ["They can’t (listen to) hear you." "Okay, I am going to speak more loudly."]}
+    {:item/n 2,
+     :item/prompt ["Los estudiantes necesitan escuchar las CDs todos los días."],
+     :item/answer ["The students need to listen to the CDs (all the days) everyday."]}
+    {:item/n 3,
+     :item/prompt ["Con este método los estudiantes no pueden olvidar los verbos."],
+     :item/answer ["With this method the students can’t forget the verbs."]}
+    {:item/n 4,
+     :item/prompt
+     ["Ellas necesitan rentar un coche." "¿Qué tipo de coche quieren?" "Quieren un coche grande."],
+     :item/answer
+     ["They (females) need to rent a car."
+      "What type of car do they want?"
+      "They want a big car."]}
+    {:item/n 5,
+     :item/prompt
+     ["¿Qué documentación ellas van a necesitar para viajar a México?"
+      "Necesitan visas y pasaportes."],
+     :item/answer
+     ["What documentation are they (females) going to need in order to travel to Mexico?"
+      "They need visas and passports."]}
+    {:item/n 6,
+     :item/prompt
+     ["¿Dónde quieren ustedes rentar este verano?" "Queremos rentar una casa en la Riviera Maya."],
+     :item/answer
+     ["Where do you (all) want to rent this summer?"
+      "We want to rent a house in the Mayan Riviera."]}
+    {:item/n 7,
+     :item/prompt
+     ["Ellos quieren trabajar en México en el verano."
+      "Quieren trabajar como maestros de inglés."],
+     :item/answer
+     ["They want to work in Mexico in (the) summer."
+      "They want to work as (teachers of English) English teachers."]}
+    {:item/n 8,
+     :item/prompt ["Mis amigos quieren ir a México este invierno."],
+     :item/answer ["My friends want to go to Mexico this winter."]}
+    {:item/n 9,
+     :item/prompt ["Ellos van a pagar con una tarjeta de crédito."],
+     :item/answer ["They are going to pay with a credit card."]}
+    {:item/n 10,
+     :item/prompt ["¿Por qué ellos quieren aprender español?" "Para hablar en sus vacaciones."],
+     :item/answer ["Why do they want to learn Spanish?" "In order to speak on their vacation."]}
+    {:item/n 11,
+     :item/prompt ["Ellos pueden comprender más español ahora."],
+     :item/answer ["They can understand more Spanish now."]}
+    {:item/n 12,
+     :item/prompt ["Ellas necesitan llamar a la policía."],
+     :item/answer ["They (females) need to call the police."]}
+    {:item/n 13,
+     :item/prompt ["Ustedes van a hablar mucho español en sus vacaciones."],
+     :item/answer ["You (all) are going to speak a lot of Spanish in your vacation."]}
+    {:item/n 14,
+     :item/prompt ["¿Cuándo ellos van a llegar?" "Van a llegar el domingo."],
+     :item/answer ["When are they going to arrive?" "They are going to arrive on Sunday."]}
+    {:item/n 15,
+     :item/prompt ["Si ellos van a rentar un coche allá tienen que comprar un seguro."],
+     :item/answer ["If they are going to rent a car there, they have to buy an (some) insurance."]}
+    {:item/n 16,
+     :item/prompt ["Ellos pueden escuchar casetes de español en sus coches."],
+     :item/answer ["They can listen to (cassettes of Spanish) Spanish cassettes in their cars."]}
+    {:item/n 17,
+     :item/prompt ["¿Dónde ellos van a estudiar?" "Van a estudiar en un colegio en Costa Rica."],
+     :item/answer
+     ["Where are they going to study?" "They are going to study in a college in Costa Rica."]}
+    {:item/n 18,
+     :item/prompt ["Ustedes no van a gastar mucho dinero en Oaxaca."],
+     :item/answer ["You (all) are not going to spend much money in Oaxaca."]}
+    {:item/n 19,
+     :item/prompt ["¿Ustedes quieren encontrar una casa para rentar?"],
+     :item/answer ["Do you (all) want to find a house to rent?"]}
+    {:item/n 20,
+     :item/prompt ["¿Cuándo ellos van a empezar la clase de español?" "Van a empezar en julio."],
+     :item/answer
+     ["When are they going to start (they) the Spanish class?" "They are going to start in July."]}
+    {:item/n 21,
+     :item/prompt ["Ellos necesitan leer mucho más para avanzar en su español."],
+     :item/answer ["They need to read a lot more in order to advance in their Spanish."]}
+    {:item/n 22,
+     :item/prompt ["Ellas van a cocinar toda la comida para la fiesta."],
+     :item/answer ["They (females) are going to cook all the food for the party."]}],
+   :exercise/notes []}
+  {:exercise/id "24B",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? true,
+   :exercise/instructions
+   "If you see the pronouns in brackets (they), (you all) use the Spanish pronouns.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["(You all) are going to speak Spanish very well soon."],
+     :item/answer ["Ustedes van a hablar español muy bien pronto."]}
+    {:item/n 2,
+     :item/prompt ["(They females) want to find a hotel."],
+     :item/answer ["Ellas quieren encontrar un hotel."]}
+    {:item/n 3,
+     :item/prompt ["Lupita and Juan are not going to be able to visit us this winter."],
+     :item/answer ["Lupita y Juan no van a poder visitarnos este invierno."]}
+    {:item/n 4,
+     :item/prompt ["(They) want to invite us to a party."],
+     :item/answer ["Ellos quieren invitarnos a una fiesta."]}
+    {:item/n 5,
+     :item/prompt ["Can (you all) hear me?" "No, we can’t hear you (man)."],
+     :item/answer ["¿Ustedes pueden escucharme?" "No, no podemos escucharlo."]}
+    {:item/n 6,
+     :item/prompt ["(You all) are going to live well there."],
+     :item/answer ["Ustedes van a vivir bien allá."]}
+    {:item/n 7,
+     :item/prompt ["(They females) need a taxi."],
+     :item/answer ["Ellas necesitan un taxi."]}
+    {:item/n 8,
+     :item/prompt ["(You all) can practice (the) Spanish with us."],
+     :item/answer ["Ustedes pueden practicar el español con nosotros."]}
+    {:item/n 9,
+     :item/prompt ["(You all) need to learn more Spanish in order to be able speak with us."],
+     :item/answer ["Ustedes necesitan aprender más español para poder hablar con nosotros."]}
+    {:item/n 10,
+     :item/prompt ["(They females) can go with us, if they want."],
+     :item/answer ["Ellas pueden ir con nosotros si quieren."]}
+    {:item/n 11,
+     :item/prompt ["(They) want to return soon."],
+     :item/answer ["Ellos quieren regresar pronto."]}
+    {:item/n 12,
+     :item/prompt ["(They) are going to study Spanish in Guatemala in the summer."],
+     :item/answer ["Ellos van a estudiar español en Guatemala en el verano."]}
+    {:item/n 13,
+     :item/prompt ["When do (they) want to start?" "They want to start tomorrow."],
+     :item/answer ["¿Cuándo ellos quieren empezar?" "Quieren empezar mañana."]}
+    {:item/n 14,
+     :item/prompt ["Are (they) going to help us?"],
+     :item/answer ["¿Ellos van a ayudarnos?"]}
+    {:item/n 15,
+     :item/prompt
+     ["When are (you all) going to arrive?" "We are going to arrive the day after tomorrow."],
+     :item/answer ["¿Cuándo ustedes van a llegar?" "Vamos a llegar pasado mañana."]}
+    {:item/n 16, :item/prompt ["(They) can help us."], :item/answer ["Ellos pueden ayudarnos."]}
+    {:item/n 17,
+     :item/prompt ["Do (They) want to rest a while?"],
+     :item/answer ["¿Ellos quieren descansar un rato?"]}
+    {:item/n 18,
+     :item/prompt ["They are not going to be able to start until the summer."],
+     :item/answer ["Ellos no van a poder empezar hasta el verano."]}
+    {:item/n 19,
+     :item/prompt
+     ["(They females) don't want to go with him, because (he) can’t drive very well."],
+     :item/answer ["Ellas no quieren ir con él, porque él no puede manejar muy bien."]}
+    {:item/n 20,
+     :item/prompt ["(They) want to see our house."],
+     :item/answer ["Ellos quieren ver nuestra casa."]}
+    {:item/n 21,
+     :item/prompt ["(They females) can’t sing very well."],
+     :item/answer ["Ellas no pueden cantar muy bien."]}
+    {:item/n 22,
+     :item/prompt ["(They females) don't want to go to the party."],
+     :item/answer ["Ellas no quieren ir a la fiesta."]}
+    {:item/n 23,
+     :item/prompt ["(They) are going to be (in house) home today."],
+     :item/answer ["Ellos van a estar en casa hoy."]}
+    {:item/n 24,
+     :item/prompt ["(They) are going to invite me to the party."],
+     :item/answer ["Ellos van a invitarme a la fiesta."]}
+    {:item/n 25,
+     :item/prompt ["(They females) have to speak Spanish (all the days) every day."],
+     :item/answer ["Ellas tienen que hablar español todos los días."]}
+    {:item/n 26,
+     :item/prompt ["(They females) are going to call us tomorrow."],
+     :item/answer ["Ellas van a llamarnos mañana."]}
+    {:item/n 27,
+     :item/prompt ["(You all) need to study more."],
+     :item/answer ["Ustedes necesitan estudiar más."]}
+    {:item/n 28, :item/prompt ["They can’t read."], :item/answer ["No pueden leer."]}],
+   :exercise/notes []}]}

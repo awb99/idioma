@@ -3,10 +3,10 @@
  {:requires ([babashka.process :as p])
   install {:doc "Install npm dependencies"
            :task (shell "npm install")}
-  lessons {:doc "Transform lesson/spanish/1.edn..25.edn into public/lessons.json"
+  lessons {:doc "Transform lesson/<course>/ EDN into public/courses.json and public/lessons/<slug>.json"
            :requires ([lessons :as lessons])
            :task (apply lessons/-main *command-line-args*)}
-  test    {:doc "Run transform tests"
+  test    {:doc "Run transform and corpus tests"
            :extra-paths ["test"]
            :task (do (require (quote lessons-test))
                      (let [{:keys [fail error]} (clojure.test/run-tests (quote lessons-test))]
@@ -21,9 +21,12 @@
            :task (do (p/process ["bb" "lessons" "--watch"] {:inherit true :shutdown p/destroy-tree})
                      (p/process ["npx" "vite"] {:inherit true :shutdown p/destroy-tree})
                      (deref (promise)))}
-  build   {:doc "Lessons JSON + production bundle in dist/"
+  build   {:doc "Lessons JSON + production bundle + per-course entry pages in dist/"
            :depends [lessons]
-           :task (p/shell {:out :inherit} "npx vite build")}
+           :requires ([babashka.process :as p]
+                      [site :as site])
+           :task (do (p/shell {:out :inherit} "npx vite build")
+                     (site/emit-course-pages "dist"))}
   serve   {:doc "Serve dist/ on http://localhost:8080"
            :requires ([serve :as serve])
            :task (apply serve/-main *command-line-args*)}

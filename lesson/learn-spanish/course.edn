@@ -1,0 +1,12 @@
+{:course/slug "learn-spanish"
+ :course/ui :en
+ :course/title "Synergy Spanish"
+ :course/tagline "25 lessons from the Synergy Spanish book"
+ :course/html-title "Synergy Spanish"
+ :course/languages {:base {:code "en"}
+                    :target {:code "es"}}
+ :course/lesson-count 25
+ :course/vocabulary-count 138
+ :course/empty-vocabulary-lessons [21 24]
+ :course/legacy-hash? true
+ :course/legacy-progress? true}

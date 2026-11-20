@@ -1,0 +1,244 @@
+{:lesson/vocabulary
+ [{:vocab/id 61,
+   :vocab/kind :synergy-verb,
+   :vocab/target "tiene que",
+   :vocab/base "you have to",
+   :vocab/pronunciation "TEE EH NEH KEH",
+   :vocab/mnemonic
+   "Imagine saying \"you have to drink coffee to stay awake but I prefer tea any day\""}
+  {:vocab/id 62,
+   :vocab/kind :synergy-verb,
+   :vocab/target "puede",
+   :vocab/base "you can",
+   :vocab/pronunciation "POO EH DEH",
+   :vocab/mnemonic
+   "This one is easy the same pattern as Quiero - I want quiere -you want Puedo - I can puede - you can"}
+  {:vocab/id 63,
+   :vocab/kind :brick-verb,
+   :vocab/target "terminar",
+   :vocab/base "to finish or to end",
+   :vocab/pronunciation "TEHR MEE NAHR",
+   :vocab/mnemonic "Almost like English To terminate is to end."}
+  {:vocab/id 64,
+   :vocab/kind :mortar,
+   :vocab/target "ahora mismo",
+   :vocab/base "right now",
+   :vocab/pronunciation "AH OHR AH MEES MOH",
+   :vocab/mnemonic
+   "You will remember that ahora is now, so to say right now simple say ahora mismo"}
+  {:vocab/id 65,
+   :vocab/kind :mortar,
+   :vocab/target "tarde",
+   :vocab/base "afternoon",
+   :vocab/pronunciation "TAHR DEH",
+   :vocab/mnemonic "Hey don't be tardy this afternoon"}
+  {:vocab/id 66,
+   :vocab/kind :mortar,
+   :vocab/target "con él",
+   :vocab/base "with him",
+   :vocab/pronunciation "KOHN EHL",
+   :vocab/mnemonic "See Spanish speaking hints below."}],
+ :lesson/title nil,
+ :lesson/source-pages [97 104],
+ :lesson/target-title "Lección once",
+ :lesson/label "Lesson 11",
+ :lesson/sections
+ [{:section/type :accuracy-pointer,
+   :section/id 9,
+   :section/title "Tomorrow afternoon",
+   :section/body
+   ["In Spanish to say tomorrow afternoon you say, tomorrow in the afternoon mañana en la tarde and of course to say tomorrow night you say, tomorrow in the night mañana en la noche"]}
+  {:section/type :accuracy-pointer,
+   :section/id 10,
+   :section/title "he and the",
+   :section/body
+   ["él y el Notice the accent mark, Él es Mexicano. He is Mexican."
+    "El Mexicano The Mexican without an accent means the. El with an accent means he or him. Él You learned before to say ¿Quiere invitarlo? Do you want to invite him?"
+    "But to say with him You say con él."
+    "Grammarians would call that an object pronoun after a preposition. But all you need to know is that if you want to say with him you say con él."
+    "Notice the accents again in these sentences."
+    "Puede ir al fútbol con él. You can go to the football with him."
+    "Tiene que pasar el día con él. You have to spend the day with him."
+    "Go ahead now and get plenty of practice in exercises 11B and 11D."]}],
+ :lesson/number 11,
+ :lesson/intro [],
+ :lesson/step {:step/number 2, :step/title "Learning to use dialog for Spanish conversation"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "11A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["The English words for puede are"], :item/answer ["you can"]}
+    {:item/n 2, :item/prompt ["The English words for tiene que are"], :item/answer ["you have to"]}
+    {:item/n 3,
+     :item/prompt ["The English words for terminar are"],
+     :item/answer ["to finish / to end"]}
+    {:item/n 4, :item/prompt ["The English words for ahora mismo are"], :item/answer ["right now"]}
+    {:item/n 5, :item/prompt ["The English words for con él are"], :item/answer ["with him"]}
+    {:item/n 6, :item/prompt ["The English word for tarde is"], :item/answer ["afternoon"]}],
+   :exercise/notes []}
+  {:exercise/id "11B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints ["esposo = spouse/husband"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Tiene que aprender más español para hablar con él."],
+     :item/answer ["You have to learn more Spanish in order to speak with him."]}
+    {:item/n 2,
+     :item/prompt ["¿Puede estar aquí esta tarde?"],
+     :item/answer ["Can you be here this afternoon?"]}
+    {:item/n 3,
+     :item/prompt ["¿Puede ayudarme con el español esta noche?"],
+     :item/answer ["Can you help me with the Spanish tonight?"]}
+    {:item/n 4,
+     :item/prompt ["Me gustaría visitar la catedral esta tarde."],
+     :item/answer ["I would like to visit the cathedral this afternoon."]}
+    {:item/n 5,
+     :item/prompt ["¿Puede trabajar en la tarde?"],
+     :item/answer ["Can you work in the afternoon?"]}
+    {:item/n 6,
+     :item/prompt ["Tiene que estudiar con David cada día."],
+     :item/answer ["You have to study with David every day."]}
+    {:item/n 7,
+     :item/prompt ["¿Puede ir con él al dentista esta tarde?"],
+     :item/answer ["Can you go with him to the dentist this afternoon."]}
+    {:item/n 8,
+     :item/prompt ["¿Por qué tiene que ir con él a la escuela? Para ver a la maestra."],
+     :item/answer ["Why do you have to go with him to the school? In order to see the teacher."]}
+    {:item/n 9,
+     :item/prompt
+     ["Puede estudiar con Miguel. Sí, voy a estudiar con él cada tarde en la cafetería."],
+     :item/answer
+     ["You can study with Miguel. Yes, I am going to study with him every afternoon in the cafeteria."]}
+    {:item/n 10,
+     :item/prompt ["Tiene que llamar a su esposo. Sí, voy a llamarlo ahora mismo."],
+     :item/answer ["You have to call your husband. Yes, I am going to call him right now."]}
+    {:item/n 11,
+     :item/prompt ["¿Puede terminar ahora? No, tengo que continuar."],
+     :item/answer ["Can you finish now? No, I have to continue."]}
+    {:item/n 12,
+     :item/prompt ["Necesita hablar más español con él. Sí, voy a hablar con él cada día."],
+     :item/answer
+     ["You need to speak more Spanish with him. Yes, I am going to speak with him every day."]}
+    {:item/n 13,
+     :item/prompt
+     ["¿Le gustaría ver el fútbol por televisión con él esta tarde? Lo siento, necesito trabajar esta tarde."],
+     :item/answer
+     ["Would you like to see the football on television with him this afternoon? I am sorry, I need to work this afternoon."]}
+    {:item/n 14,
+     :item/prompt ["¿Puede regresar en la tarde? No, no puedo regresar hasta mañana en la tarde."],
+     :item/answer
+     ["Can you come back in the afternoon? No, I can’t come back until tomorrow afternoon."]}
+    {:item/n 15,
+     :item/prompt ["¿Puede visitarla hoy? Sí, voy a visitarla esta tarde."],
+     :item/answer ["Can you visit her today? Yes, I am going to visit her this afternoon."]}
+    {:item/n 16,
+     :item/prompt ["¿Puede trabajar otra vez mañana? No, sólo puedo trabajar hasta esta tarde."],
+     :item/answer ["Can you work again tomorrow? No, I can only work until this afternoon."]}
+    {:item/n 17,
+     :item/prompt ["¿Le gustaría ir ahora? No, primero quiero terminar este café"],
+     :item/answer ["Would you like to go now? No, first I want to finish this coffee."]}
+    {:item/n 18,
+     :item/prompt ["¿Va a ir allá con él? Sí, voy a ir ahora mismo."],
+     :item/answer ["Are you going to go there with him? Yes, I am going to go right now."]}],
+   :exercise/notes []}
+  {:exercise/id "11C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["The Spanish words for you have to are"], :item/answer ["tiene que"]}
+    {:item/n 2, :item/prompt ["The Spanish word for you can is"], :item/answer ["puede"]}
+    {:item/n 3, :item/prompt ["The Spanish word for to finish is"], :item/answer ["terminar"]}
+    {:item/n 4, :item/prompt ["The Spanish words for with him are"], :item/answer ["con él"]}
+    {:item/n 5, :item/prompt ["The Spanish word for afternoon is"], :item/answer ["tarde"]}
+    {:item/n 6,
+     :item/prompt ["The Spanish words for right now are"],
+     :item/answer ["ahora mismo"]}],
+   :exercise/notes []}
+  {:exercise/id "11D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["I would like to go there this afternoon."],
+     :item/answer ["Me gustaría ir allá esta tarde."]}
+    {:item/n 2,
+     :item/prompt ["Can you work with me this afternoon?"],
+     :item/answer ["¿Puede trabajar conmigo esta tarde?"]}
+    {:item/n 3,
+     :item/prompt ["Would you like to go this afternoon or tonight?"],
+     :item/answer ["¿Le gustaría ir esta tarde o esta noche?"]}
+    {:item/n 4,
+     :item/prompt ["I am going to help him right now."],
+     :item/answer ["Voy a ayudarlo ahora mismo."]}
+    {:item/n 5,
+     :item/prompt ["You have to finish tomorrow."],
+     :item/answer ["Tiene que terminar mañana."]}
+    {:item/n 6,
+     :item/prompt ["You are going to be with him in Mexico (the) next week."],
+     :item/answer ["Va a estar con él en México la próxima semana."]}
+    {:item/n 7,
+     :item/prompt ["You have to study right now."],
+     :item/answer ["Tiene que estudiar ahora mismo."]}
+    {:item/n 8,
+     :item/prompt ["I am going to finish my house this year."],
+     :item/answer ["Voy a terminar mi casa este año."]}
+    {:item/n 9,
+     :item/prompt ["Can you help her again this afternoon?"],
+     :item/answer ["¿Puede ayudarla otra vez esta tarde?"]}
+    {:item/n 10,
+     :item/prompt ["Would you like to eat in this restaurant again tomorrow afternoon?"],
+     :item/answer ["¿Le gustaría comer en este restaurante otra vez mañana en la tarde?"]}
+    {:item/n 11,
+     :item/prompt ["Are you going to visit your mother this afternoon?"],
+     :item/answer ["¿Va a visitar a su mamá esta tarde?"]}
+    {:item/n 12,
+     :item/prompt ["I have to go back right now."],
+     :item/answer ["Tengo que regresar ahora mismo."]}
+    {:item/n 13,
+     :item/prompt ["I am going to finish tonight."],
+     :item/answer ["Voy a terminar esta noche."]}
+    {:item/n 14,
+     :item/prompt ["You need to call your mother today."],
+     :item/answer ["Necesita llamar a su mamá hoy."]}
+    {:item/n 15, :item/prompt ["I want to finish soon."], :item/answer ["Quiero terminar pronto."]}
+    {:item/n 16,
+     :item/prompt
+     ["You have to visit me again soon. Yes, I am going to come back (return) again next month."],
+     :item/answer
+     ["Tiene que visitarme otra vez pronto. Sí, voy a regresar otra vez el próximo mes."]}
+    {:item/n 17,
+     :item/prompt ["You have to go back with Mario. Yes, I am going to go back with him."],
+     :item/answer ["Tiene que regresar con Mario. Sí, voy a regresar con él."]}
+    {:item/n 18,
+     :item/prompt ["When do you want to go to the hotel? I want to go right now."],
+     :item/answer ["¿Cuándo quiere ir al hotel? Quiero ir ahora mismo."]}
+    {:item/n 19,
+     :item/prompt ["Do you have to finish this week? No, I can finish (the) next month."],
+     :item/answer ["¿Tiene que terminar esta semana? No, puedo terminar el próximo mes."]}
+    {:item/n 20,
+     :item/prompt ["When do you want to travel? I want to travel tomorrow."],
+     :item/answer ["¿Cuándo quiere viajar? Quiero viajar mañana."]}
+    {:item/n 21,
+     :item/prompt ["Do you want to see the doctor tomorrow? I need to see the doctor right now."],
+     :item/answer ["¿Quiere ver al doctor mañana? Necesito ver al doctor ahora mismo."]}
+    {:item/n 22,
+     :item/prompt ["When do you have to finish? I have to finish tomorrow afternoon."],
+     :item/answer ["¿Cuándo tiene que terminar? Tengo que terminar mañana en la tarde."]}
+    {:item/n 23,
+     :item/prompt ["Can you finish today? No, I am sorry, I can’t finish today."],
+     :item/answer ["¿Puede terminar hoy? No, lo siento, no puedo terminar hoy."]}],
+   :exercise/notes []}]}

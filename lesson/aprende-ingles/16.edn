@@ -1,0 +1,354 @@
+{:lesson/vocabulary
+ [{:vocab/id 91,
+   :vocab/kind :synergy-verb,
+   :vocab/target "we like",
+   :vocab/base "nos gusta",
+   :vocab/pronunciation "ui láik",
+   :vocab/mnemonic nil}
+  {:vocab/id 92,
+   :vocab/kind :synergy-verb,
+   :vocab/target "we love (things)",
+   :vocab/base "nos encanta",
+   :vocab/pronunciation "ui lov",
+   :vocab/mnemonic nil}
+  {:vocab/id 93,
+   :vocab/kind :sentence-starter,
+   :vocab/target "after",
+   :vocab/base "después de",
+   :vocab/pronunciation "áfter",
+   :vocab/mnemonic nil,
+   :vocab/ipa "ˈæf.tə(ɹ)"}
+  {:vocab/id 94,
+   :vocab/kind :sentence-starter,
+   :vocab/target "where",
+   :vocab/base "dónde",
+   :vocab/pronunciation "uer",
+   :vocab/mnemonic nil,
+   :vocab/ipa "wɛə(ɹ)"}
+  {:vocab/id 95,
+   :vocab/kind :brick-verb,
+   :vocab/target "to have dinner",
+   :vocab/base "cenar",
+   :vocab/pronunciation "tu jav diner",
+   :vocab/mnemonic nil}
+  {:vocab/id 96,
+   :vocab/kind :mortar,
+   :vocab/target "later",
+   :vocab/base "más tarde",
+   :vocab/pronunciation "léiter",
+   :vocab/mnemonic nil}],
+ :lesson/title "Más verbos, más frases",
+ :lesson/target-title "More verbs, more sentences",
+ :lesson/label "Lección 16",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 13,
+   :section/title "Love: personas y cosas",
+   :section/body
+   ["love se usa con personas: I love my mother."
+    "Con cosas es más natural like o love según el contexto: I love beer = me encanta la cerveza."
+    "La estructura I love + sustantivo es muy común en inglés."
+    "I would love to visit Mexico = me encantaría visitar México."]}
+  {:section/type :communication-multiplied,
+   :section/id 14,
+   :section/title "After + verbo",
+   :section/body
+   ["after funciona como before: after having dinner, after I dine."
+    "Con el mismo sujeto puedes usar after + -ing: after studying, we like to play football."
+    "En inglés, after y before no llevan to delante del verbo."
+    "After dinner I like to walk = después de cenar, me gusta caminar."]}
+  {:section/type :accuracy-pointer,
+   :section/id 13,
+   :section/title "Where o to where",
+   :section/body
+   ["En inglés se dice Where do you want to go? No hace falta to al final."
+    "Where va al principio de la pregunta."
+    "Con lugares puedes usar where; con personas usas who."]}
+  {:section/type :accuracy-pointer,
+   :section/id 14,
+   :section/title "Tomorrow morning",
+   :section/body
+   ["tomorrow morning = mañana por la mañana."
+    "No digas *tomorrow in the morning*; en inglés se omite la preposición."
+    "tonight = esta noche; tomorrow night = mañana por la noche."]}],
+ :lesson/number 16,
+ :lesson/intro [],
+ :lesson/step {:step/number 3, :step/title "Hablemos de nosotros"},
+ :lesson/closing
+ ["Enhorabuena, casi has terminado el paso 3."
+  "Ya tienes una base muy amplia para hablar de nosotros y de nuestro entorno."
+  "Solo faltan unos cuantos verbos y una estructura sencilla para sonar más natural."],
+ :lesson/exercises
+ [{:exercise/id "16A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “we like” son"],
+     :item/answer ["nos gusta"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en español para “we would love” son"],
+     :item/answer ["nos encantaría"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “to have dinner” son"],
+     :item/answer ["cenar"]}
+    {:item/n 4, :item/prompt ["Las palabras en español para “where” son"], :item/answer ["dónde"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en español para “after” son"],
+     :item/answer ["después de"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “later” son"],
+     :item/answer ["más tarde"]}
+    {:item/n 7, :item/prompt ["Las palabras en español para “without” son"], :item/answer ["sin"]}
+    {:item/n 8,
+     :item/prompt ["Las palabras en español para “early” son"],
+     :item/answer ["temprano"]}
+    {:item/n 9,
+     :item/prompt ["Las palabras en español para “to leave” son"],
+     :item/answer ["salir"]}
+    {:item/n 10,
+     :item/prompt ["Las palabras en español para “with her” son"],
+     :item/answer ["con ella"]}
+    {:item/n 11,
+     :item/prompt ["Las palabras en español para “we have to” son"],
+     :item/answer ["tenemos que"]}
+    {:item/n 12,
+     :item/prompt ["Las palabras en español para “we can” son"],
+     :item/answer ["podemos"]}],
+   :exercise/notes []}
+  {:exercise/id "16B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["Christmas = Navidad" "Sunday = domingo" "beach = Playa"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Where can we rest? (We) can rest in the park."],
+     :item/answer ["¿Dónde podemos descansar? Podemos descansar en el parque."]}
+    {:item/n 2,
+     :item/prompt ["We like to see our friends in Mexico every Christmas."],
+     :item/answer ["Nos gusta ver a nuestros amigos en México cada Navidad."]}
+    {:item/n 3,
+     :item/prompt ["I am going to call Veronica later."],
+     :item/answer ["Voy a llamar a Veronica más tarde."]}
+    {:item/n 4,
+     :item/prompt ["We like to have breakfast in this restaurant (on) Sundays."],
+     :item/answer ["Nos gusta desayunar en este restaurante los domingos."]}
+    {:item/n 5,
+     :item/prompt ["We don't like football much."],
+     :item/answer ["No nos gusta el fútbol mucho."]}
+    {:item/n 6,
+     :item/prompt ["We can study here after the class."],
+     :item/answer ["Podemos estudiar aquí después de la clase."]}
+    {:item/n 7,
+     :item/prompt ["We like to walk in the park in the morning."],
+     :item/answer ["Nos gusta caminar en el parque en la mañana."]}
+    {:item/n 8,
+     :item/prompt
+     ["Are you going to come back after Christmas? Yes, I am going to come back in the new year."],
+     :item/answer ["¿Va a regresar después de Navidad? Sí, voy a regresar en el año nuevo."]}
+    {:item/n 9,
+     :item/prompt ["Where can we find a telephone?"],
+     :item/answer ["¿Dónde podemos encontrar un teléfono?"]}
+    {:item/n 10,
+     :item/prompt ["We have to make a reservation."],
+     :item/answer ["Tenemos que hacer una reservación."]}
+    {:item/n 11,
+     :item/prompt ["After (to have) dinner, can you help me with the cases?"],
+     :item/answer ["¿Después de cenar, puede ayudarme con las maletas?"]}
+    {:item/n 12,
+     :item/prompt ["We are going to spend a month there after the end of the year."],
+     :item/answer ["Vamos a pasar un mes allá después del fin de año."]}
+    {:item/n 13, :item/prompt ["Where are there taxis?"], :item/answer ["¿Dónde hay taxis?"]}
+    {:item/n 14,
+     :item/prompt ["I need to speak with my wife early in the morning."],
+     :item/answer ["Necesito hablar con mi esposa temprano en la mañana."]}
+    {:item/n 15,
+     :item/prompt ["I love to walk on the beach after (to) work."],
+     :item/answer ["Me encanta caminar en la playa después de trabajar."]}
+    {:item/n 16, :item/prompt ["Where is there a bathroom?"], :item/answer ["¿Dónde hay un baño?"]}
+    {:item/n 17,
+     :item/prompt ["We are going to finish the class after next week."],
+     :item/answer ["Vamos a terminar la clase después de la próxima semana."]}
+    {:item/n 18,
+     :item/prompt
+     ["What do you want to do after (to) work? I want to go to a bar and drink a beer."],
+     :item/answer
+     ["¿Qué quiere hacer después de trabajar? Quiero ir a un bar y tomar una cerveza."]}
+    {:item/n 19,
+     :item/prompt ["Would you like to do something tonight? I would love to see the mariachis."],
+     :item/answer ["¿Le gustaría hacer algo esta noche? Me encantaría ver los mariachis."]}
+    {:item/n 20,
+     :item/prompt ["We would love to speak more Spanish when we go to Madrid."],
+     :item/answer ["Nos encantaría hablar más español cuando vamos a Madrid."]}
+    {:item/n 21,
+     :item/prompt ["I am going to cook the food later because I have to study now."],
+     :item/answer ["Voy a cocinar la comida más tarde porque tengo que estudiar ahora."]}
+    {:item/n 22,
+     :item/prompt ["I would love to have breakfast in the restaurant (on) at the beach."],
+     :item/answer ["Me encantaría desayunar en el restaurante en la playa."]}
+    {:item/n 23,
+     :item/prompt ["We like to leave early to avoid the traffic."],
+     :item/answer ["Nos gusta salir temprano para evitar el tráfico."]}
+    {:item/n 24,
+     :item/prompt ["It is late, we have to find a hotel."],
+     :item/answer ["Es tarde, tenemos que encontrar un hotel."]}
+    {:item/n 25,
+     :item/prompt ["We love to walk early in the mornings."],
+     :item/answer ["Nos encanta caminar temprano en las mañanas."]}
+    {:item/n 26,
+     :item/prompt ["We can rest later. Now we have to finish the project."],
+     :item/answer ["Podemos descansar más tarde. Ahora tenemos que terminar el proyecto."]}
+    {:item/n 27,
+     :item/prompt ["We don't want to spend much."],
+     :item/answer ["No queremos gastar mucho."]}
+    {:item/n 28,
+     :item/prompt
+     ["Where would you like to have dinner? Frankly I want to have dinner (in the ) at home."],
+     :item/answer ["¿Dónde le gustaría cenar? Francamente quiero cenar en la casa."]}
+    {:item/n 29,
+     :item/prompt ["We like to have dinner with our family every Sunday."],
+     :item/answer ["Nos gusta cenar con nuestra familia cada domingo."]}],
+   :exercise/notes []}
+  {:exercise/id "16C",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Nos gusta"], :item/answer ["The Spanish words for we like are"]}
+    {:item/n 2, :item/prompt ["Nos encanta"], :item/answer ["The Spanish words for we love are"]}
+    {:item/n 3, :item/prompt ["cenar"], :item/answer ["The Spanish word for to have dinner is"]}
+    {:item/n 4, :item/prompt ["dónde"], :item/answer ["The Spanish word for where is"]}
+    {:item/n 5, :item/prompt ["después de"], :item/answer ["The Spanish words for after are"]}
+    {:item/n 6, :item/prompt ["más tarde"], :item/answer ["The Spanish words for later are"]}
+    {:item/n 7, :item/prompt ["sin"], :item/answer ["The Spanish word for without is"]}
+    {:item/n 8, :item/prompt ["temprano"], :item/answer ["The Spanish word for early is"]}
+    {:item/n 9, :item/prompt ["salir"], :item/answer ["The Spanish word for to leave is"]}
+    {:item/n 10, :item/prompt ["con ella"], :item/answer ["The Spanish words for with her are"]}
+    {:item/n 11,
+     :item/prompt ["tenemos que"],
+     :item/answer ["The Spanish words for we have to are"]}
+    {:item/n 12, :item/prompt ["podemos"], :item/answer ["The Spanish word for we can is"]}],
+   :exercise/notes []}
+  {:exercise/id "16D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al inglés.",
+   :exercise/hints ["los fines de semana = The weekends" "la comida mexicana = the Mexican food"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Nos gusta viajar a México cada año."],
+     :item/answer ["We like to travel to Mexico every year."]}
+    {:item/n 2,
+     :item/prompt ["Nos encantaría aprender español."],
+     :item/answer ["We would love to learn Spanish."]}
+    {:item/n 3,
+     :item/prompt ["¿Dónde quiere cenar?"],
+     :item/answer ["Where do you want to have dinner?"]}
+    {:item/n 4,
+     :item/prompt ["Vamos a regresar al hotel después de cenar."],
+     :item/answer ["We are going to go back to the hotel after (to have) dinner."],
+     :item/alternatives [["we're going to go back to the hotel after (to have) dinner."]]}
+    {:item/n 5,
+     :item/prompt ["Podemos estudiar con ella."],
+     :item/answer ["We can study with her."]}
+    {:item/n 6,
+     :item/prompt ["Me encantaría cenar aquí más tarde."],
+     :item/answer ["I would love to have dinner here later."]}
+    {:item/n 7,
+     :item/prompt ["¿A dónde le gustaría viajar? Me gustaría viajar a Cancún."],
+     :item/answer ["To where would you like to travel? I would like to travel to Cancun."]}
+    {:item/n 8,
+     :item/prompt ["Nos encantaría ayudarla con el español."],
+     :item/answer ["We would be delighted (love) to help her with the Spanish."]}
+    {:item/n 9,
+     :item/prompt ["¿A dónde le gusta ir los fines de semana? Me gusta ir a la casa de mi mamá."],
+     :item/answer
+     ["To where do you like to go (on) the weekends? I like to go to my mother’s house (the house of my mother)."],
+     :item/alternatives
+     [["To where do you like to go (on) the weekends? I like to go to my mother's house (the house of my mother)."]]}
+    {:item/n 10,
+     :item/prompt ["¿Qué vamos a hacer esta tarde?"],
+     :item/answer ["What are we going to do this afternoon?"]}
+    {:item/n 11,
+     :item/prompt ["Me encantaría trabajar en San Diego otra vez."],
+     :item/answer ["I would love to work in San Diego again."]}
+    {:item/n 12,
+     :item/prompt ["Voy a trabajar allá con ella."],
+     :item/answer ["I am going to work there with her."],
+     :item/alternatives [["I'm going to work there with her."]]}
+    {:item/n 13,
+     :item/prompt ["Vamos a llamarla más tarde."],
+     :item/answer ["We are going to call her later."],
+     :item/alternatives [["we're going to call her later."]]}
+    {:item/n 14,
+     :item/prompt ["No voy a regresar después de este año."],
+     :item/answer ["I am not going to return after this year."],
+     :item/alternatives [["I'm not going to return after this year."]]}
+    {:item/n 15,
+     :item/prompt ["¿Le gusta México? Sí, me encanta México."],
+     :item/answer ["Do you like Mexico? Yes, I love (am enchanted by) Mexico."]}
+    {:item/n 16,
+     :item/prompt ["¿Por qué no puede vernos hoy?"],
+     :item/answer ["Why can’t you see us today?"],
+     :item/alternatives [["Why cannot you see us today?"]]}
+    {:item/n 17, :item/prompt ["Necesitamos caminar más."], :item/answer ["We need to walk more."]}
+    {:item/n 18,
+     :item/prompt ["¿Le gusta cocinar? Sí, me encanta cocinar."],
+     :item/answer ["Do you like to cook? Yes, I love to cook."]}
+    {:item/n 19,
+     :item/prompt ["Vamos a hacer una fiesta en nuestra casa."],
+     :item/answer ["We are going to (make) have a party in our house."],
+     :item/alternatives [["we're going to (make) have a party in our house."]]}
+    {:item/n 20,
+     :item/prompt ["Nos encanta comer en este restaurante."],
+     :item/answer ["We love to eat in this restaurant."]}
+    {:item/n 21,
+     :item/prompt ["Nos encantaría regresar a México pero no podemos."],
+     :item/answer ["We would love to return to Mexico but we can’t."],
+     :item/alternatives [["We would love to return to Mexico but we cannot."]]}
+    {:item/n 22,
+     :item/prompt ["Podemos empezar más tarde mañana."],
+     :item/answer ["We can start later tomorrow."]}
+    {:item/n 23,
+     :item/prompt ["Necesitamos encontrar un hotel después de cenar."],
+     :item/answer ["We need to find a hotel after (to have) dinner."]}
+    {:item/n 24,
+     :item/prompt ["Podemos estudiar más tarde en casa."],
+     :item/answer ["We can study later at home."]}
+    {:item/n 25,
+     :item/prompt ["Nos encantaría ir allá el fin de semana."],
+     :item/answer ["We would love to go there in the weekend."]}
+    {:item/n 26,
+     :item/prompt ["Necesitamos trabajar temprano en la mañana."],
+     :item/answer ["We need to work early in the morning."]}
+    {:item/n 27,
+     :item/prompt ["Nos encanta la comida mexicana."],
+     :item/answer ["We love Mexican food."]}
+    {:item/n 28,
+     :item/prompt ["Voy a hablar con ella más tarde."],
+     :item/answer ["I am going to speak with her later."],
+     :item/alternatives [["I'm going to speak with her later."]]}
+    {:item/n 29,
+     :item/prompt ["No podemos regresar hasta mañana en la mañana."],
+     :item/answer ["We can’t return until tomorrow morning."],
+     :item/alternatives [["We cannot return until tomorrow morning."]]}
+    {:item/n 30,
+     :item/prompt ["Nos encantaría visitarlo otra vez."],
+     :item/answer ["We would love to visit him again."]}
+    {:item/n 31,
+     :item/prompt ["Podemos ver la casa más tarde."],
+     :item/answer ["We can see the house later."]}
+    {:item/n 32,
+     :item/prompt ["Voy a cenar con ella mañana."],
+     :item/answer ["I am going to have dinner with her tomorrow."],
+     :item/alternatives [["I'm going to have dinner with her tomorrow."]]}],
+   :exercise/notes []}]}

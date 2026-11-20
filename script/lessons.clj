@@ -1,27 +1,41 @@
 (ns lessons
-  "Transform extracted Synergy Spanish lesson EDN files into public/lessons.json.
+  "Transform course EDN files into JSON for the browser app.
+
+  Courses live in `lesson/<slug>/`: a `course.edn` marker plus lesson files
+  `1.edn` .. `N.edn`. UI language packs live in `lesson/ui/<lang>.edn`.
+
+  `bb lessons` writes `public/courses.json` and `public/lessons/<slug>.json`.
+  `--dir` keeps the single-course mode used by tests and one-off transforms.
 
   Every map key is normalized with `name` (namespace stripped), every keyword
   value is normalized to its unqualified name, and maps/vectors become JSON
-  objects/arrays. The transform validates the extraction schema first so a bad
-  lesson file fails the build with a readable report instead of shipping broken
-  data."
+  objects/arrays. Validation runs before writing so a bad file fails the build
+  with a readable report instead of shipping broken data."
   (:require [babashka.cli :as cli]
             [babashka.fs :as fs]
             [cheshire.core :as json]
             [clojure.edn :as edn]
             [clojure.string :as str]))
 
-(def expected-lesson-numbers
-  (range 1 26))
+(def default-lesson-count 25)
+(def default-empty-vocabulary-lessons [21 24])
 
-(def expected-vocabulary-count
-  138)
+(def course-required-keys
+  #{:course/slug :course/ui :course/title :course/tagline
+    :course/languages :course/lesson-count})
 
-(def top-keys
-  #{:lesson/number :lesson/label :lesson/title :lesson/spanish-title
-    :lesson/step :lesson/pages :lesson/intro :lesson/sections
-    :lesson/vocabulary :lesson/exercises :lesson/closing})
+(def course-optional-keys
+  #{:course/html-title :course/vocabulary-count
+    :course/empty-vocabulary-lessons :course/legacy-hash?
+    :course/legacy-progress?})
+
+(def lesson-required-keys
+  #{:lesson/number :lesson/label :lesson/title :lesson/target-title
+    :lesson/step :lesson/intro :lesson/sections :lesson/vocabulary
+    :lesson/exercises :lesson/closing})
+
+(def lesson-optional-keys
+  #{:lesson/source-pages})
 
 (def step-keys
   #{:step/number :step/title})
@@ -29,16 +43,22 @@
 (def section-keys
   #{:section/type :section/id :section/title :section/body})
 
-(def vocab-keys
-  #{:vocab/id :vocab/kind :vocab/spanish :vocab/english
+(def vocab-required-keys
+  #{:vocab/id :vocab/kind :vocab/target :vocab/base
     :vocab/pronunciation :vocab/mnemonic})
+
+(def vocab-optional-keys
+  #{:vocab/ipa})
 
 (def exercise-keys
   #{:exercise/id :exercise/skill :exercise/direction :exercise/dialog?
     :exercise/instructions :exercise/hints :exercise/items :exercise/notes})
 
-(def item-keys
+(def item-required-keys
   #{:item/n :item/prompt :item/answer})
+
+(def item-optional-keys
+  #{:item/alternatives})
 
 (def vocab-kinds
   #{:synergy-verb :brick-verb :mortar :sentence-starter :other})
@@ -47,15 +67,29 @@
   #{:recall :translate})
 
 (def exercise-directions
-  #{:to-english :to-spanish})
+  #{:to-base :to-target})
 
 (def section-types
   #{:speaking-hints :communication-multiplied :accuracy-pointer
     :sentence-builder :sentence-starter :multipurpose-word :step-intro
     :closing})
 
-(def empty-vocabulary-lessons
-  #{21 24})
+(def ui-required-keys
+  #{:site-title :site-tagline :choose-course :courses-label :open-course
+    :back-all-lessons :back-to-lesson :back-home :back-to-courses
+    :all-lessons :your-progress :answers-correct :answered-count
+    :lesson-answers-correct :step-title :open-lesson :continue
+    :progress-browser-only :exercises :closing :lesson-not-found
+    :item-count :hints :check :show-answer :i-was-right :reset-exercise
+    :previous :next :exercise-not-found :exercise-heading :items-correct
+    :correct :correct-accent :wrong :revealed :empty :you :expected
+    :marked-correct :status-correct :status-correct-accent :status-wrong
+    :status-revealed :status-empty :status-unseen :complete :in-progress
+    :not-started :percent-complete :vocab-pronunciation :vocab-mnemonic
+    :vocab-ipa :skill-recall :skill-translate :section-labels
+    :vocab-kind-labels :direction-template
+    :language-names :page-not-found :course-not-found :loading :load-error
+    :something-wrong :answer-aria :course-lessons})
 
 ;; ---------------------------------------------------------------------------
 ;; Reading
@@ -89,22 +123,21 @@
       {:error (str (fs/file-name file) ": cannot read EDN: "
                    (or (ex-message e) (str e)))})))
 
+(defn expected-lesson-numbers [lesson-count]
+  (range 1 (inc (or lesson-count default-lesson-count))))
+
 (defn collect
-  "Read the lesson files from dir. Returns
+  "Read lesson files from dir. Returns
   {:entries [{:file f :number n :lesson m}] :problems [str ...] :missing [n ...]}.
 
-  In full mode exactly 1..25 must exist. With --allow-partial every readable
-  N.edn file is accepted."
-  [dir allow-partial?]
-  (let [files (lesson-files dir)
-        files (if allow-partial?
-                files
-                (filterv (fn [f] (contains? (set expected-lesson-numbers)
-                                            (lesson-number-from-file f)))
-                         files))
+  In full mode every lesson 1..lesson-count must exist. With --allow-partial any
+  readable N.edn file is accepted."
+  [dir allow-partial? lesson-count]
+  (let [lesson-count (or lesson-count default-lesson-count)
+        files (lesson-files dir)
         present (set (map lesson-number-from-file files))
         missing (when-not allow-partial?
-                  (remove present expected-lesson-numbers))
+                  (remove present (expected-lesson-numbers lesson-count)))
         problems (atom [])
         entries (reduce
                  (fn [acc file]
@@ -118,6 +151,44 @@
     {:entries entries
      :problems @problems
      :missing (vec missing)}))
+
+(defn course-dirs
+  "Directories under root that contain a course.edn marker."
+  [root]
+  (try
+    (->> (fs/list-dir root)
+         (filter fs/directory?)
+         (filter (fn [dir] (fs/regular-file? (fs/path dir "course.edn"))))
+         (sort-by str))
+    (catch Exception _
+      [])))
+
+(defn read-course [dir]
+  (edn/read-string (slurp (str (fs/path dir "course.edn")))))
+
+(defn fixture-course
+  "Synthetic course used by --dir mode when the directory has no course.edn."
+  [dir]
+  {:course/slug (str (fs/file-name dir))
+   :course/ui :en
+   :course/title "Fixture course"
+   :course/tagline "Fixture lessons"
+   :course/languages {:base {:code "en"}
+                      :target {:code "es"}}
+   :course/lesson-count default-lesson-count
+   :course/empty-vocabulary-lessons default-empty-vocabulary-lessons
+   :course/legacy-hash? false
+   :course/legacy-progress? false})
+
+(defn load-course
+  "Read course.edn from dir, or synthesize one for fixture directories."
+  [dir]
+  (if (fs/regular-file? (fs/path dir "course.edn"))
+    (read-course dir)
+    (fixture-course dir)))
+
+(defn read-ui-pack [ui-root code]
+  (edn/read-string (slurp (str (fs/path ui-root (str (name code) ".edn"))))))
 
 ;; ---------------------------------------------------------------------------
 ;; Normalization
@@ -144,13 +215,63 @@
        (sort-by #(get % "number"))
        vec))
 
-(defn envelope [entries]
-  {"version" 1
+(defn- ui-pack-name [code]
+  (if (keyword? code) (name code) (str code)))
+
+(defn resolve-course
+  "Build the JSON-friendly course object from course.edn and its UI pack."
+  [course]
+  (let [ui-code (:course/ui course)
+        ui (normalize (read-ui-pack "lesson/ui" ui-code))
+        language-name (fn [code] (or (get-in ui ["language-names" code]) code))
+        base-code (get-in course [:course/languages :base :code])
+        target-code (get-in course [:course/languages :target :code])
+        title (:course/title course)]
+    {"slug" (:course/slug course)
+     "title" title
+     "tagline" (:course/tagline course)
+     "htmlTitle" (or (:course/html-title course) title)
+     "htmlLang" (ui-pack-name ui-code)
+     "lessonCount" (or (:course/lesson-count course) default-lesson-count)
+     "vocabularyCount" (:course/vocabulary-count course)
+     "emptyVocabularyLessons" (vec (or (:course/empty-vocabulary-lessons course)
+                                       default-empty-vocabulary-lessons))
+     "legacyHash" (boolean (:course/legacy-hash? course))
+     "legacyProgress" (boolean (:course/legacy-progress? course))
+     "languages" {"base" {"code" base-code
+                          "name" (language-name base-code)}
+                  "target" {"code" target-code
+                            "name" (language-name target-code)}}
+     "ui" ui}))
+
+(defn envelope
+  "JSON envelope for one course."
+  [course entries]
+  {"version" 2
+   "course" (resolve-course course)
    "count" (count entries)
    "lessons" (normalized-lessons entries)})
 
-(defn render-json [entries]
-  (str (json/generate-string (envelope entries)) "\n"))
+(defn render-json
+  ([entries] (render-json (fixture-course "fixture") entries))
+  ([course entries] (str (json/generate-string (envelope course entries)) "\n")))
+
+(defn courses-envelope
+  "JSON manifest for the course chooser."
+  [course-dirs]
+  (let [ui (normalize (read-ui-pack "lesson/ui" :en))]
+    {"version" 2
+     "site" {"title" (get ui "site-title")
+             "tagline" (get ui "site-tagline")
+             "chooseCourse" (get ui "choose-course")}
+     "ui" ui
+     "courses" (vec (for [dir course-dirs
+                          :let [course (load-course dir)]]
+                      (let [resolved (resolve-course course)]
+(select-keys resolved
+                                      ["slug" "title" "tagline" "htmlTitle"
+                                       "htmlLang" "lessonCount" "languages"
+                                       "legacyHash" "legacyProgress"]))))}))
 
 ;; ---------------------------------------------------------------------------
 ;; Validation
@@ -167,12 +288,95 @@
 (defn- vector-of-non-empty-strings? [x]
   (and (vector? x) (seq x) (every? non-empty-string? x)))
 
-(defn- key-problems [m expected path]
-  (let [missing (remove #(contains? m %) expected)
-        extra (remove #(contains? expected %) (keys m))]
-    (cond-> []
-      (seq missing) (conj (format "%s: missing %s" path (str/join ", " (map pr-str missing))))
-      (seq extra) (conj (format "%s: unexpected %s" path (str/join ", " (map pr-str extra)))))))
+(defn- vector-of-vectors? [x]
+  (and (vector? x) (every? vector? x)))
+
+(defn- key-problems
+  ([m required path] (key-problems m required #{} path))
+  ([m required optional path]
+   (let [allowed (into required optional)
+         missing (remove #(contains? m %) required)
+         extra (remove #(contains? allowed %) (keys m))]
+     (cond-> []
+       (seq missing) (conj (format "%s: missing %s" path (str/join ", " (map pr-str missing))))
+       (seq extra) (conj (format "%s: unexpected %s" path (str/join ", " (map pr-str extra))))))))
+
+(defn- validate-course-map [dir course]
+  (let [path "course.edn"
+        slug (:course/slug course)
+        languages (:course/languages course)
+        ui (:course/ui course)
+        lesson-count (:course/lesson-count course)]
+    (cond-> (key-problems course course-required-keys course-optional-keys path)
+      (not (non-empty-string? slug))
+      (conj (format "%s: :course/slug must be a non-empty string" path))
+
+      (and (non-empty-string? slug)
+           (not= slug (str (fs/file-name dir))))
+      (conj (format "%s: :course/slug %s must equal the directory name %s"
+                    path (pr-str slug) (pr-str (str (fs/file-name dir)))))
+
+      (not (keyword? ui))
+      (conj (format "%s: :course/ui must be a keyword" path))
+
+      (not (non-empty-string? (:course/title course)))
+      (conj (format "%s: :course/title must be a non-empty string" path))
+
+      (not (string-or-nil? (:course/tagline course)))
+      (conj (format "%s: :course/tagline must be a string or nil" path))
+
+      (not (string-or-nil? (:course/html-title course)))
+      (conj (format "%s: :course/html-title must be a string or nil" path))
+
+      (not (integer? lesson-count))
+      (conj (format "%s: :course/lesson-count must be an integer" path))
+
+      (not (and (map? languages)
+                (non-empty-string? (get-in languages [:base :code]))
+                (non-empty-string? (get-in languages [:target :code]))))
+      (conj (format "%s: :course/languages must provide :base/:code and :target/:code strings" path))
+
+      (and (map? languages)
+           (= (get-in languages [:base :code]) (get-in languages [:target :code])))
+      (conj (format "%s: :course/languages :base and :target must differ" path))
+
+      (and (some? (:course/vocabulary-count course))
+           (not (and (integer? (:course/vocabulary-count course))
+                     (pos? (:course/vocabulary-count course)))))
+      (conj (format "%s: :course/vocabulary-count must be a positive integer" path))
+
+      (and (contains? course :course/empty-vocabulary-lessons)
+           (not (and (vector? (:course/empty-vocabulary-lessons course))
+                     (every? integer? (:course/empty-vocabulary-lessons course)))))
+      (conj (format "%s: :course/empty-vocabulary-lessons must be a vector of integers" path))
+
+      (and (contains? course :course/legacy-hash?)
+           (not (boolean? (:course/legacy-hash? course))))
+      (conj (format "%s: :course/legacy-hash? must be a boolean" path))
+
+      (and (contains? course :course/legacy-progress?)
+           (not (boolean? (:course/legacy-progress? course))))
+      (conj (format "%s: :course/legacy-progress? must be a boolean" path)))))
+
+(defn- validate-ui-pack [code ui]
+  (let [path (str "ui/" (name code) ".edn")]
+    (cond-> (key-problems ui ui-required-keys path)
+      (not (map? (:section-labels ui)))
+      (conj (format "%s: :section-labels must be a map" path))
+
+      (and (map? (:section-labels ui))
+           (not (every? #(contains? (:section-labels ui) %) section-types)))
+      (conj (format "%s: :section-labels must label all section types" path))
+
+      (not (map? (:vocab-kind-labels ui)))
+      (conj (format "%s: :vocab-kind-labels must be a map" path))
+
+      (and (map? (:vocab-kind-labels ui))
+           (not (every? #(contains? (:vocab-kind-labels ui) %) vocab-kinds)))
+      (conj (format "%s: :vocab-kind-labels must label all vocabulary kinds" path))
+
+      (not (map? (:language-names ui)))
+      (conj (format "%s: :language-names must be a map" path)))))
 
 (defn- validate-section [idx section]
   (let [path (format "section %d" idx)]
@@ -191,28 +395,49 @@
 
 (defn- validate-vocab-item [idx item]
   (let [path (format "vocabulary %d" idx)]
-    (cond-> (key-problems item vocab-keys path)
+    (cond-> (key-problems item vocab-required-keys vocab-optional-keys path)
       (not (integer? (:vocab/id item)))
       (conj (format "%s: :vocab/id must be an integer" path))
 
       (not (contains? vocab-kinds (:vocab/kind item)))
       (conj (format "%s: unknown :vocab/kind %s" path (pr-str (:vocab/kind item))))
 
-      (not (string? (:vocab/spanish item)))
-      (conj (format "%s: :vocab/spanish must be a string" path))
+      (not (non-empty-string? (:vocab/target item)))
+      (conj (format "%s: :vocab/target must be a non-empty string" path))
 
-      (not (string? (:vocab/english item)))
-      (conj (format "%s: :vocab/english must be a string" path))
+      (not (non-empty-string? (:vocab/base item)))
+      (conj (format "%s: :vocab/base must be a non-empty string" path))
 
-      (not (string-or-nil? (:vocab/pronunciation item)))
-      (conj (format "%s: :vocab/pronunciation must be a string or nil" path))
+      (not (non-empty-string? (:vocab/pronunciation item)))
+      (conj (format "%s: :vocab/pronunciation must be a non-empty string" path))
 
       (not (string-or-nil? (:vocab/mnemonic item)))
-      (conj (format "%s: :vocab/mnemonic must be a string or nil" path)))))
+      (conj (format "%s: :vocab/mnemonic must be a string or nil" path))
+
+      (and (contains? item :vocab/ipa)
+           (not (string-or-nil? (:vocab/ipa item))))
+      (conj (format "%s: :vocab/ipa must be a string or nil" path)))))
+
+(defn- validate-alternatives [exercise-path idx item]
+  (let [alts (:item/alternatives item)
+        expected-turns (count (:item/answer item))
+        path (format "%s item %d" exercise-path idx)]
+    (cond-> []
+      (and (some? alts) (not (vector-of-vectors? alts)))
+      (conj (format "%s: :item/alternatives must be a vector of vectors" path))
+
+      (and (vector-of-vectors? alts)
+           (not (every? vector-of-non-empty-strings? alts)))
+      (conj (format "%s: every :item/alternatives entry must be a non-empty vector of strings" path))
+
+      (and (vector-of-vectors? alts)
+           (not (every? #(= expected-turns (count %)) alts)))
+      (conj (format "%s: every :item/alternatives entry must have %d turn(s)"
+                    path expected-turns)))))
 
 (defn- validate-item [exercise-path idx item]
   (let [path (format "%s item %d" exercise-path idx)]
-    (cond-> (key-problems item item-keys path)
+    (cond-> (key-problems item item-required-keys item-optional-keys path)
       (not (integer? (:item/n item)))
       (conj (format "%s: :item/n must be an integer" path))
 
@@ -220,7 +445,10 @@
       (conj (format "%s: :item/prompt must be a non-empty vector of non-empty strings" path))
 
       (not (vector-of-non-empty-strings? (:item/answer item)))
-      (conj (format "%s: :item/answer must be a non-empty vector of non-empty strings" path)))))
+      (conj (format "%s: :item/answer must be a non-empty vector of non-empty strings" path))
+
+      :always
+      (into (validate-alternatives exercise-path idx item)))))
 
 (defn- validate-exercise [idx exercise]
   (let [path (format "exercise %d (%s)" idx (pr-str (:exercise/id exercise)))
@@ -253,104 +481,126 @@
       :always
       (into (mapcat (fn [i item] (validate-item path i item)) (range) items)))))
 
-(defn- validate-lesson [number lesson]
-  (if-not (map? lesson)
-    {:errors [(format "%d.edn: top-level form is not a map" number)] :warnings []}
-    (let [errors (atom [])
-          warnings (atom [])
-          add! (fn [& msgs] (doseq [m msgs] (swap! errors conj (str number ".edn: " m))))
-          warn! (fn [& msgs] (doseq [m msgs] (swap! warnings conj (str number ".edn: " m))))]
-      (doseq [p (key-problems lesson top-keys (str number ".edn"))]
-        (swap! errors conj p))
+(defn validate-lesson
+  ([number lesson] (validate-lesson number lesson {}))
+  ([number lesson {:keys [empty-vocabulary-lessons]
+                   :or {empty-vocabulary-lessons (set default-empty-vocabulary-lessons)}}]
+   (if-not (map? lesson)
+     {:errors [(format "%d.edn: top-level form is not a map" number)] :warnings []}
+     (let [errors (atom [])
+           warnings (atom [])
+           add! (fn [& msgs] (doseq [m msgs] (swap! errors conj (str number ".edn: " m))))
+           warn! (fn [& msgs] (doseq [m msgs] (swap! warnings conj (str number ".edn: " m))))]
+       (doseq [p (key-problems lesson lesson-required-keys lesson-optional-keys (str number ".edn"))]
+         (swap! errors conj p))
 
-      (when-not (= number (:lesson/number lesson))
-        (add! (format ":lesson/number is %s but filename is %d.edn"
-                      (pr-str (:lesson/number lesson)) number)))
+       (when-not (= number (:lesson/number lesson))
+         (add! (format ":lesson/number is %s but filename is %d.edn"
+                       (pr-str (:lesson/number lesson)) number)))
 
-      (when-not (non-empty-string? (:lesson/label lesson))
-        (add! ":lesson/label must be a non-empty string"))
+       (when-not (non-empty-string? (:lesson/label lesson))
+         (add! ":lesson/label must be a non-empty string"))
 
-      (when-not (string-or-nil? (:lesson/title lesson))
-        (add! ":lesson/title must be a string or nil"))
+       (when-not (string-or-nil? (:lesson/title lesson))
+         (add! ":lesson/title must be a string or nil"))
 
-      (when-not (non-empty-string? (:lesson/spanish-title lesson))
-        (add! ":lesson/spanish-title must be a non-empty string"))
+       (when-not (non-empty-string? (:lesson/target-title lesson))
+         (add! ":lesson/target-title must be a non-empty string"))
 
-      (let [step (:lesson/step lesson)]
-        (when-not (map? step)
-          (add! ":lesson/step must be a map"))
-        (when (map? step)
-          (doseq [p (key-problems step step-keys (str number ".edn step"))]
-            (swap! errors conj p))
-          (when-not (integer? (:step/number step))
-            (add! ":step/number must be an integer"))
-          (when-not (non-empty-string? (:step/title step))
-            (add! ":step/title must be a non-empty string"))))
+       (let [step (:lesson/step lesson)]
+         (when-not (map? step)
+           (add! ":lesson/step must be a map"))
+         (when (map? step)
+           (doseq [p (key-problems step step-keys (str number ".edn step"))]
+             (swap! errors conj p))
+           (when-not (integer? (:step/number step))
+             (add! ":step/number must be an integer"))
+           (when-not (non-empty-string? (:step/title step))
+             (add! ":step/title must be a non-empty string"))))
 
-      (let [pages (:lesson/pages lesson)]
-        (when-not (and (vector? pages)
-                       (= 2 (count pages))
-                       (every? integer? pages)
-                       (<= (first pages) (second pages)))
-          (add! (format ":lesson/pages must be two integers [start end], got %s"
-                        (pr-str pages)))))
+       (when (contains? lesson :lesson/source-pages)
+         (let [pages (:lesson/source-pages lesson)]
+           (when-not (and (vector? pages)
+                          (= 2 (count pages))
+                          (every? integer? pages)
+                          (<= (first pages) (second pages)))
+             (add! (format ":lesson/source-pages must be two integers [start end], got %s"
+                           (pr-str pages))))))
 
-      (when-not (vector-of-strings? (:lesson/intro lesson))
-        (add! ":lesson/intro must be a vector of strings"))
+       (when-not (vector-of-strings? (:lesson/intro lesson))
+         (add! ":lesson/intro must be a vector of strings"))
 
-      (let [sections (:lesson/sections lesson)]
-        (when-not (vector? sections)
-          (add! ":lesson/sections must be a vector"))
-        (when (vector? sections)
-          (doseq [p (mapcat (fn [i s] (validate-section i s)) (range) sections)]
-            (swap! errors conj (str number ".edn: " p)))))
+       (let [sections (:lesson/sections lesson)]
+         (when-not (vector? sections)
+           (add! ":lesson/sections must be a vector"))
+         (when (vector? sections)
+           (doseq [p (mapcat (fn [i s] (validate-section i s)) (range) sections)]
+             (swap! errors conj (str number ".edn: " p)))))
 
-      (let [vocabulary (:lesson/vocabulary lesson)]
-        (when-not (vector? vocabulary)
-          (add! ":lesson/vocabulary must be a vector"))
-        (when (vector? vocabulary)
-          (doseq [p (mapcat (fn [i v] (validate-vocab-item i v)) (range) vocabulary)]
-            (swap! errors conj (str number ".edn: " p)))
-          (when (and (empty? vocabulary)
-                     (not (contains? empty-vocabulary-lessons number)))
-            (warn! ":lesson/vocabulary is empty (only lessons 21 and 24 may be empty)"))))
+       (let [vocabulary (:lesson/vocabulary lesson)]
+         (when-not (vector? vocabulary)
+           (add! ":lesson/vocabulary must be a vector"))
+         (when (vector? vocabulary)
+           (doseq [p (mapcat (fn [i v] (validate-vocab-item i v)) (range) vocabulary)]
+             (swap! errors conj (str number ".edn: " p)))
+           (when (and (empty? vocabulary)
+                      (not (contains? empty-vocabulary-lessons number)))
+             (warn! ":lesson/vocabulary is empty (not in :course/empty-vocabulary-lessons)"))))
 
-      (let [exercises (:lesson/exercises lesson)]
-        (when-not (vector? exercises)
-          (add! ":lesson/exercises must be a vector"))
-        (when (vector? exercises)
-          (doseq [p (mapcat (fn [i e] (validate-exercise i e)) (range) exercises)]
-            (swap! errors conj (str number ".edn: " p)))
-          (let [ids (map :exercise/id exercises)
-                duplicates (->> ids frequencies (filter #(> (val %) 1)) keys vec)]
-            (when (seq duplicates)
-              (add! (str ":exercise/id values are not unique: " (pr-str duplicates)))))
-          (doseq [exercise exercises
-                  :when (:exercise/dialog? exercise)
-                  item (:exercise/items exercise)
-                  :let [p (count (:item/prompt item))
-                        a (count (:item/answer item))]
-                  :when (not= p a)]
-            (warn! (format "exercise %s item %s: %d prompt turns but %d answer turns (dialog lengths differ)"
-                           (pr-str (:exercise/id exercise)) (pr-str (:item/n item)) p a)))))
+       (let [exercises (:lesson/exercises lesson)]
+         (when-not (vector? exercises)
+           (add! ":lesson/exercises must be a vector"))
+         (when (vector? exercises)
+           (doseq [p (mapcat (fn [i e] (validate-exercise i e)) (range) exercises)]
+             (swap! errors conj (str number ".edn: " p)))
+           (let [ids (map :exercise/id exercises)
+                 duplicates (->> ids frequencies (filter #(> (val %) 1)) keys vec)]
+             (when (seq duplicates)
+               (add! (str ":exercise/id values are not unique: " (pr-str duplicates)))))
+           (doseq [exercise exercises
+                   :when (:exercise/dialog? exercise)
+                   item (:exercise/items exercise)
+                   :let [p (count (:item/prompt item))
+                         a (count (:item/answer item))]
+                   :when (not= p a)]
+             (warn! (format "exercise %s item %s: %d prompt turns but %d answer turns (dialog lengths differ)"
+                            (pr-str (:exercise/id exercise)) (pr-str (:item/n item)) p a)))))
 
-      (when-not (vector-of-strings? (:lesson/closing lesson))
-        (add! ":lesson/closing must be a vector of strings"))
+       (when-not (vector-of-strings? (:lesson/closing lesson))
+         (add! ":lesson/closing must be a vector of strings"))
 
-      {:errors @errors :warnings @warnings})))
+       {:errors @errors :warnings @warnings}))))
+
+(defn- validate-lesson-numbers [entries course]
+  (let [expected (set (expected-lesson-numbers (:course/lesson-count course)))
+        numbers (set (map :number entries))
+        out-of-range (remove expected numbers)]
+    (cond-> []
+      (seq out-of-range)
+      (conj (str "lesson numbers out of range: " (pr-str (vec (sort out-of-range)))
+                 " (expected 1.." (:course/lesson-count course) ")")))))
 
 (defn validate-corpus
-  "Validate parsed lesson entries. Returns {:errors [...] :warnings [...]}."
-  [entries {:keys [allow-partial]}]
-  (let [errors (atom [])
+  "Validate parsed lesson entries for one course.
+  Returns {:errors [...] :warnings [...]}."
+  [entries {:keys [allow-partial course]
+            :or {course (fixture-course "fixture")}}]
+  (let [course (merge {:course/lesson-count default-lesson-count
+                       :course/empty-vocabulary-lessons default-empty-vocabulary-lessons}
+                      course)
+        empty-lessons (set (:course/empty-vocabulary-lessons course))
+        expected-numbers (vec (expected-lesson-numbers (:course/lesson-count course)))
+        errors (atom [])
         warnings (atom [])]
     (doseq [{:keys [number lesson]} entries]
-      (let [lesson-report (validate-lesson number lesson)]
+      (let [lesson-report (validate-lesson number lesson
+                                           {:empty-vocabulary-lessons empty-lessons})]
         (swap! errors into (:errors lesson-report))
         (swap! warnings into (:warnings lesson-report))))
 
-    (let [by-number (group-by :number entries)
-          numbers (set (map :number entries))]
+    (swap! errors into (validate-lesson-numbers entries course))
+
+    (let [by-number (group-by :number entries)]
       (when (some #(> (count %) 1) (vals by-number))
         (swap! errors conj (str "duplicate lesson numbers: "
                                 (pr-str (mapv key (filter #(> (count (val %)) 1) by-number))))))
@@ -359,58 +609,66 @@
                             (filter #(> (count (val %)) 1))
                             (mapv key))]
         (when (seq duplicates)
-          (swap! errors conj (str "duplicate lesson numbers: " (pr-str duplicates)))))
-      (when-not allow-partial
-        (let [missing (remove numbers expected-lesson-numbers)]
-          (when (seq missing)
-            (swap! errors conj (str "missing lessons: " (str/join ", " missing)
-                                    " (expected 1.edn through 25.edn)")))))
-      (let [ids (mapcat (fn [{:keys [lesson]}]
-                          (map :vocab/id (:lesson/vocabulary lesson)))
-                        entries)
-            sorted-ids (vec (sort ids))
-            expected (vec (range 1 (inc (count ids))))]
-        (when (not= sorted-ids expected)
-          (let [dupes (->> ids frequencies (filter #(> (val %) 1)) keys vec)]
-            (swap! errors conj
-                   (str "vocabulary ids are not globally contiguous from 1"
-                        (when (seq dupes) (str "; duplicates: " (pr-str dupes)))
-                        "; got " (pr-str sorted-ids)))))
-        (when (and (not allow-partial)
-                   (= (count entries) 25)
-                   (not= (count ids) expected-vocabulary-count))
+          (swap! errors conj (str "duplicate lesson numbers: " (pr-str duplicates))))))
+    (when-not allow-partial
+      (let [numbers (set (map :number entries))
+            missing (remove numbers expected-numbers)]
+        (when (seq missing)
+          (swap! errors conj (str "missing lessons: " (str/join ", " missing)
+                                  " (expected 1.edn through "
+                                  (:course/lesson-count course) ".edn)")))))
+    (let [ids (mapcat (fn [{:keys [lesson]}]
+                        (map :vocab/id (:lesson/vocabulary lesson)))
+                      entries)
+          sorted-ids (vec (sort ids))
+          expected (vec (range 1 (inc (count ids))))]
+      (when (not= sorted-ids expected)
+        (let [dupes (->> ids frequencies (filter #(> (val %) 1)) keys vec)]
           (swap! errors conj
-                 (str "expected " expected-vocabulary-count
-                      " vocabulary entries across the corpus, got " (count ids)))))
-      (let [numbers (vec (sort (map :number entries)))]
-        (println "Lessons:   " (count entries)
-                 (if allow-partial
-                   "(partial)"
-                   (str "(expected 1..25: "
-                        (if (= numbers (vec expected-lesson-numbers)) "all present" "gaps")
-                        ")")))
-        (println "Vocabulary:" (count (mapcat (fn [{:keys [lesson]}]
-                                                (:lesson/vocabulary lesson)) entries)))
-        (println "Exercises: " (count (mapcat (fn [{:keys [lesson]}]
-                                                (:lesson/exercises lesson)) entries)))
-        (println "Items:     " (count (mapcat (fn [{:keys [lesson]}]
-                                                (mapcat :exercise/items (:lesson/exercises lesson)))
-                                              entries)))))
+                 (str "vocabulary ids are not globally contiguous from 1"
+                      (when (seq dupes) (str "; duplicates: " (pr-str dupes)))
+                      "; got " (pr-str sorted-ids)))))
+      (when (and (not allow-partial)
+                 (:course/vocabulary-count course)
+                 (= (count entries) (:course/lesson-count course))
+                 (not= (count ids) (:course/vocabulary-count course)))
+        (swap! errors conj
+               (str "expected " (:course/vocabulary-count course)
+                    " vocabulary entries across the corpus, got " (count ids)))))
+    (let [numbers (vec (sort (map :number entries)))]
+      (println "Course:    " (or (:course/slug course) "(fixture)"))
+      (println "Lessons:   " (count entries)
+               (if allow-partial
+                 "(partial)"
+                 (str "(expected 1.." (:course/lesson-count course) ": "
+                      (if (= numbers expected-numbers) "all present" "gaps")
+                      ")")))
+      (println "Vocabulary:" (count (mapcat (fn [{:keys [lesson]}]
+                                              (:lesson/vocabulary lesson)) entries)))
+      (println "Exercises: " (count (mapcat (fn [{:keys [lesson]}]
+                                              (:lesson/exercises lesson)) entries)))
+      (println "Items:     " (count (mapcat (fn [{:keys [lesson]}]
+                                              (mapcat :exercise/items (:lesson/exercises lesson)))
+                                            entries)))
+      (println))
     {:errors @errors :warnings @warnings}))
 
 ;; ---------------------------------------------------------------------------
 ;; Commands
 
 (def cli-spec
-  {:dir {:default "lesson/spanish" :desc "Directory containing 1.edn .. 25.edn"}
-   :out {:default "public/lessons.json" :desc "Output JSON file"}
+  {:dir {:desc "Single course directory (fixture mode)"}
+   :out {:desc "Output JSON file in --dir mode"}
+   :out-dir {:default "public" :desc "Directory for courses.json and lessons/<slug>.json"}
    :check {:default false :coerce :boolean :desc "Validate and summarize without writing"}
    :allow-partial {:default false :coerce :boolean :desc "Accept whatever N.edn files exist"}
-   :watch {:default false :coerce :boolean :desc "Poll mtimes and regenerate on change"}})
+   :watch {:default false :coerce :boolean :desc "Poll EDN mtimes and regenerate on change"}})
 
 (defn parse-opts [args]
   (let [opts (cli/parse-opts args {:spec cli-spec})]
-    (update opts :dir str)))
+    (cond-> opts
+      (:dir opts) (update :dir str)
+      (:out opts) (update :out str))))
 
 (defn- print-report! [{:keys [errors warnings]}]
   (doseq [w warnings]
@@ -420,54 +678,127 @@
     (binding [*out* *err*]
       (println "error:  " e))))
 
-(defn run
-  "Load, validate, then either check or write. Returns {:ok bool}."
+(defn- write-json! [path value]
+  (let [parent (fs/parent path)]
+    (when parent (fs/create-dirs parent))
+    (spit (str path) (str (json/generate-string value) "\n"))
+    (println "Wrote" (str path) (str "(" (fs/size path) " bytes)"))))
+
+(defn- run-single!
+  "Transform one directory. Used by --dir, fixtures and tests."
   [{:keys [dir out check allow-partial]}]
-  (let [{:keys [entries problems missing]} (collect dir allow-partial)
+  (let [course (load-course dir)
+        lesson-count (:course/lesson-count course)
+        {course-errors :errors} (let [report (atom nil)]
+                                  (with-out-str
+                                    (reset! report (validate-course-map dir course)))
+                                  {:errors @report})
+        {ui-errors :errors :as ui-report}
+        (try
+          {:errors (validate-ui-pack (:course/ui course)
+                                     (read-ui-pack "lesson/ui" (:course/ui course)))}
+          (catch Exception e
+            {:errors [(format "ui/%s.edn: cannot read UI pack: %s"
+                              (name (:course/ui course))
+                              (or (ex-message e) (str e)))]}))
+        {entries :entries problems :problems missing :missing}
+        (collect dir allow-partial lesson-count)
         load-errors (cond-> (vec problems)
                       (seq missing)
                       (conj (str "missing lessons: " (str/join ", " missing)
-                                 " (expected 1.edn through 25.edn)"))
+                                 " (expected 1.edn through " lesson-count ".edn)"))
 
                       (and (empty? entries) (empty? missing))
                       (conj (str "no lesson files (N.edn) found in " dir)))]
-    (if (seq load-errors)
-      (do (doseq [e load-errors]
-            (binding [*out* *err*] (println "error:  " e)))
+    (if (or (seq load-errors) (seq course-errors) (seq ui-errors))
+      (do (print-report! {:errors (concat course-errors ui-errors load-errors)
+                          :warnings []})
           {:ok false})
-      (let [{:keys [errors warnings] :as report} (validate-corpus entries {:allow-partial allow-partial})]
+      (let [{:keys [errors warnings] :as report}
+            (validate-corpus entries {:allow-partial allow-partial :course course})]
         (print-report! report)
         (if (seq errors)
           {:ok false}
           (do
             (when check
-              (println "Check OK:" (count entries) "lesson(s)"))
+              (println "Check OK:" (count entries) "lesson(s) for" (:course/slug course)))
             (when-not check
-              (let [parent (fs/parent out)]
-                (when parent (fs/create-dirs parent))
-                (spit (str out) (render-json entries))
-                (println "Wrote" out
-                         (str "(" (count entries) " lesson(s), "
-                              (fs/size out) " bytes)"))))
+              (let [out (or out
+                            (fs/path "public" "lessons" (str (:course/slug course) ".json")))]
+                (write-json! out (envelope course entries))))
             {:ok true}))))))
 
-(defn- signature [dir]
-  (mapv (fn [f]
-          [(str (fs/file-name f))
-           (some-> (fs/last-modified-time f) str)
-           (fs/size f)])
-        (lesson-files dir)))
+(defn- run-all!
+  "Discover and transform every course under lesson/."
+  [{:keys [out-dir check allow-partial]}]
+  (let [dirs (course-dirs "lesson")]
+    (if (empty? dirs)
+      (do (binding [*out* *err*]
+            (println "error:  no course directories with course.edn found under lesson/"))
+          {:ok false})
+      (let [results (atom [])
+            slugs (atom [])]
+        (doseq [dir dirs]
+          (let [{:keys [ok] :as result}
+                (run-single! {:dir dir
+                              :out nil
+                              :check true
+                              :allow-partial allow-partial})]
+            (swap! results conj result)
+            (when ok
+              (swap! slugs conj (:course/slug (load-course dir))))))
+        (let [duplicate-slugs (->> @slugs frequencies (filter #(> (val %) 1)) keys vec)
+              ok? (and (every? :ok @results) (empty? duplicate-slugs))]
+          (when (seq duplicate-slugs)
+            (binding [*out* *err*]
+              (println "error:  duplicate course slugs:" (pr-str duplicate-slugs))))
+          (if-not ok?
+            {:ok false}
+            (do
+              (when-not check
+                (let [out-dir (fs/path (or out-dir "public"))
+                      courses (courses-envelope dirs)]
+                  (write-json! (fs/path out-dir "courses.json") courses)
+                  (doseq [dir dirs]
+                    (let [course (load-course dir)
+                          {entries :entries} (collect dir allow-partial
+                                                      (:course/lesson-count course))
+                          out (fs/path out-dir "lessons"
+                                       (str (:course/slug course) ".json"))]
+                      (write-json! out (envelope course entries))))))
+              (println "Check OK:" (count dirs) "course(s)")
+              {:ok true})))))))
 
-(defn watch! [{:keys [dir] :as opts}]
-  (println "Watching" (str dir) "for changes...")
+(defn run
+  "Load, validate, then either check or write. Returns {:ok bool}."
+  [opts]
+  (if (:dir opts)
+    (run-single! opts)
+    (run-all! opts)))
+
+(defn- edns-under [root]
+  (try
+    (->> (fs/glob root "**.edn") (map str) sort vec)
+    (catch Exception _
+      [])))
+
+(defn- signature [root]
+  (mapv (fn [path]
+          [path
+           (some-> (fs/last-modified-time path) str)
+           (fs/size path)])
+        (edns-under root)))
+
+(defn watch! [opts]
+  (println "Watching lesson/ for changes...")
   (loop [previous nil]
-    (let [current (signature dir)]
+    (let [current (signature "lesson")]
       (when (not= previous current)
         (try
           (let [{:keys [ok]} (run (assoc opts :watch false))]
             (when-not ok
               (binding [*out* *err*]
-                (println "Not writing lessons.json until the errors above are fixed."))))
+                (println "Not writing JSON until the errors above are fixed."))))
           (catch Exception e
             (binding [*out* *err*]
               (println "error:  " (or (ex-message e) (str e)))))))

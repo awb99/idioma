@@ -1,0 +1,317 @@
+{:lesson/vocabulary
+ [{:vocab/id 19,
+   :vocab/kind :mortar,
+   :vocab/target "again",
+   :vocab/base "otra vez",
+   :vocab/pronunciation "aguén",
+   :vocab/mnemonic nil,
+   :vocab/ipa "əˈɡeɪn"}
+  {:vocab/id 20,
+   :vocab/kind :mortar,
+   :vocab/target "with",
+   :vocab/base "con",
+   :vocab/pronunciation "uid",
+   :vocab/mnemonic nil}
+  {:vocab/id 21,
+   :vocab/kind :mortar,
+   :vocab/target "the next",
+   :vocab/base "la próxima",
+   :vocab/pronunciation "de nekst",
+   :vocab/mnemonic nil}
+  {:vocab/id 22,
+   :vocab/kind :mortar,
+   :vocab/target "this",
+   :vocab/base "esta",
+   :vocab/pronunciation "dis",
+   :vocab/mnemonic nil}
+  {:vocab/id 23,
+   :vocab/kind :mortar,
+   :vocab/target "week",
+   :vocab/base "semana",
+   :vocab/pronunciation "uiik",
+   :vocab/mnemonic nil,
+   :vocab/ipa "wiːk"}
+  {:vocab/id 24,
+   :vocab/kind :mortar,
+   :vocab/target "tomorrow and morning",
+   :vocab/base "mañana",
+   :vocab/pronunciation "tumórou and mórnin",
+   :vocab/mnemonic nil}],
+ :lesson/title "Palabras para el tiempo",
+ :lesson/target-title "Time words",
+ :lesson/label "Lección 4",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id nil,
+   :section/title "Palabras de tiempo y preposiciones",
+   :section/body
+   ["Las palabras de tiempo suelen ir con the o con una preposición: in the morning, in the afternoon."
+    "En inglés, the no cambia: the morning, the afternoon, the night."
+    "Por la noche se dice at night, no *in the night*."
+    "Con this y next no usas preposición: this week, next week."]}],
+ :lesson/number 4,
+ :lesson/intro [],
+ :lesson/step {:step/number 1, :step/title "Primeros pasos para hablar inglés"},
+ :lesson/closing
+ ["Ya tienes las palabras para moverte por el día, la semana y el mes."
+  "Úsalas en frases completas: I am going to work this afternoon."
+  "La práctica constante hará que las uses sin pensar."],
+ :lesson/exercises
+ [{:exercise/id "4A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “again” son"],
+     :item/answer ["otra vez"]}
+    {:item/n 2, :item/prompt ["Las palabras en español para “with” son"], :item/answer ["con"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “the next” son"],
+     :item/answer ["la próxima"]}
+    {:item/n 4, :item/prompt ["Las palabras en español para “this” son"], :item/answer ["esta"]}
+    {:item/n 5, :item/prompt ["Las palabras en español para “week” son"], :item/answer ["semana"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “tomorrow/morning” son"],
+     :item/answer ["mañana"]}
+    {:item/n 7,
+     :item/prompt ["Las palabras en español para “I am going to” son"],
+     :item/answer ["voy a"]}
+    {:item/n 8,
+     :item/prompt ["Las palabras en español para “I would like” son"],
+     :item/answer ["me gustaría"]}
+    {:item/n 9,
+     :item/prompt ["Las palabras en español para “to invite” son"],
+     :item/answer ["invitar"]}
+    {:item/n 10,
+     :item/prompt ["Las palabras en español para “to visit” son"],
+     :item/answer ["visitar"]}
+    {:item/n 11,
+     :item/prompt ["Las palabras en español para “to call” son"],
+     :item/answer ["llamar"]}
+    {:item/n 12,
+     :item/prompt ["Las palabras en español para “to help” son"],
+     :item/answer ["ayudar"]}],
+   :exercise/notes []}
+  {:exercise/id "4B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["case = Maleta" "of the = del" "for/by = por"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Tonight I would like to go to the cinema with my friends."],
+     :item/answer ["Esta noche me gustaría ir al cine con mis amigos."]}
+    {:item/n 2,
+     :item/prompt ["I would like to eat in the restaurant with you again."],
+     :item/answer ["Me gustaría comer en el restaurante con usted otra vez."]}
+    {:item/n 3,
+     :item/prompt ["I need to speak with my wife by telephone again."],
+     :item/answer ["Necesito hablar con mi esposa por teléfono otra vez."]}
+    {:item/n 4,
+     :item/prompt
+     ["I need to call the hotel in order to confirm the reservation of tomorrow (tomorrow’s reservation)."],
+     :item/answer ["Necesito llamar al hotel para confirmar la reservación de mañana."]}
+    {:item/n 5,
+     :item/prompt ["Tonight I would like to go to a bar with my friends."],
+     :item/answer ["Esta noche me gustaría ir a un bar con mis amigos."]}
+    {:item/n 6,
+     :item/prompt ["I am going to visit her again in May."],
+     :item/answer ["Voy a visitarla otra vez en mayo."]}
+    {:item/n 7,
+     :item/prompt ["I am going to study Spanish in a 3 week course."],
+     :item/answer ["Voy a estudiar español en un curso de tres semanas."]}
+    {:item/n 8,
+     :item/prompt ["I am going to help her with the cases."],
+     :item/answer ["Voy a ayudarla con las maletas."]}
+    {:item/n 9,
+     :item/prompt ["I would like to go to the cathedral this week."],
+     :item/answer ["Me gustaría ir a la catedral esta semana."]}
+    {:item/n 10,
+     :item/prompt ["I am going to go to Guatemala for three weeks."],
+     :item/answer ["Voy a ir a Guatemala por tres semanas."]}
+    {:item/n 11,
+     :item/prompt ["I want to help him with the study of Spanish."],
+     :item/answer ["Quiero ayudarlo con el estudio del español."]}
+    {:item/n 12,
+     :item/prompt ["I want to rent this house."],
+     :item/answer ["Quiero rentar esta casa."]}
+    {:item/n 13,
+     :item/prompt ["This week and the next I need to study a lot."],
+     :item/answer ["Esta semana y la próxima necesito estudiar mucho."]}
+    {:item/n 14,
+     :item/prompt ["I need a hotel for two weeks."],
+     :item/answer ["Necesito un hotel por dos semanas."]}
+    {:item/n 15,
+     :item/prompt ["I would like to invite Jose to my graduation party the next week."],
+     :item/answer ["Me gustaría invitar a José a mi fiesta de graduación la próxima semana."]}
+    {:item/n 16,
+     :item/prompt
+     ["(The) next week, I am going to go to the pyramids in Yucatan with a group of friends."],
+     :item/answer
+     ["La próxima semana, voy a ir a las pirámides en Yucatán con un grupo de amigos."]}
+    {:item/n 17,
+     :item/prompt ["I want to see him in the Spanish class with more frequency (more often)."],
+     :item/answer ["Quiero verlo en la clase de español con más frecuencia."]}
+    {:item/n 18,
+     :item/prompt ["I need to go to the dentist this week."],
+     :item/answer ["Necesito ir al dentista esta semana."]}
+    {:item/n 19,
+     :item/prompt ["I am going to speak with the policeman to report the robbery."],
+     :item/answer ["Voy a hablar con el policía para reportar el robo."]}
+    {:item/n 20,
+     :item/prompt ["I need to see the visa and the passport again."],
+     :item/answer ["Necesito ver la visa y el pasaporte otra vez."]}
+    {:item/n 21,
+     :item/prompt ["I am going to speak more Spanish with the Mexicans in my vacation."],
+     :item/answer ["Voy a hablar más español con los mexicanos en mis vacaciones."]}],
+   :exercise/notes []}
+  {:exercise/id "4C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en inglés las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en inglés para “otra vez” son"],
+     :item/answer ["again"]}
+    {:item/n 2, :item/prompt ["Las palabras en inglés para “con” son"], :item/answer ["with"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en inglés para “la próxima” son"],
+     :item/answer ["the next"]}
+    {:item/n 4, :item/prompt ["Las palabras en inglés para “esta” son"], :item/answer ["this"]}
+    {:item/n 5, :item/prompt ["Las palabras en inglés para “semana” son"], :item/answer ["week"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en inglés para “mañana” son"],
+     :item/answer ["tomorrow/morning"]}
+    {:item/n 7,
+     :item/prompt ["Las palabras en inglés para “voy a” son"],
+     :item/answer ["I am going to"]}
+    {:item/n 8,
+     :item/prompt ["Las palabras en inglés para “me gustaría” son"],
+     :item/answer ["I would like"]}
+    {:item/n 9,
+     :item/prompt ["Las palabras en inglés para “invitar” son"],
+     :item/answer ["to invite"]}
+    {:item/n 10,
+     :item/prompt ["Las palabras en inglés para “visitar” son"],
+     :item/answer ["to visit"]}
+    {:item/n 11,
+     :item/prompt ["Las palabras en inglés para “llamar” son"],
+     :item/answer ["to call"]}
+    {:item/n 12,
+     :item/prompt ["Las palabras en inglés para “ayudar” son"],
+     :item/answer ["to help"]}],
+   :exercise/notes []}
+  {:exercise/id "4D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al inglés.",
+   :exercise/hints ["la casa = The house"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Voy a visitar a mis amigos esta semana."],
+     :item/answer ["I am going to visit my friends this week."],
+     :item/alternatives [["I'm going to visit my friends this week."]]}
+    {:item/n 2,
+     :item/prompt ["Voy a ir a Costa Rica con mi familia."],
+     :item/answer ["I am going to go to Costa Rica with my family."],
+     :item/alternatives [["I'm going to go to Costa Rica with my family."]]}
+    {:item/n 3,
+     :item/prompt ["Me gustaría invitarlo a mi casa para comer con mi familia."],
+     :item/answer ["I would like to invite him to my house in order to eat with my family."]}
+    {:item/n 4,
+     :item/prompt ["Necesito ayudar a mi papá mañana."],
+     :item/answer ["I need to help my father tomorrow."]}
+    {:item/n 5,
+     :item/prompt ["Voy a llamarla otra vez mañana."],
+     :item/answer ["I am going to call her again tomorrow."],
+     :item/alternatives [["I'm going to call her again tomorrow."]]}
+    {:item/n 6,
+     :item/prompt ["Voy a llamar a mi mamá otra vez."],
+     :item/answer ["I am going to call my mother again."],
+     :item/alternatives [["I'm going to call my mother again."]]}
+    {:item/n 7, :item/prompt ["Quiero comer otra vez."], :item/answer ["I want to eat again."]}
+    {:item/n 8,
+     :item/prompt ["Quiero visitar a Alma en Dallas la próxima semana."],
+     :item/answer ["I want to visit Alma in Dallas next week."]}
+    {:item/n 9,
+     :item/prompt ["Voy a llamarla la próxima semana."],
+     :item/answer ["I am going to call her next week."],
+     :item/alternatives [["I'm going to call her next week."]]}
+    {:item/n 10,
+     :item/prompt ["Quiero visitar México otra vez pronto."],
+     :item/answer ["I want to visit Mexico again soon."]}
+    {:item/n 11,
+     :item/prompt ["No voy a comer en el restaurante otra vez."],
+     :item/answer ["I am not going to eat in the restaurant again."],
+     :item/alternatives [["I'm not going to eat in the restaurant again."]]}
+    {:item/n 12,
+     :item/prompt ["Me gustaría invitar a mi amigo a la fiesta la próxima semana."],
+     :item/answer ["I would like to invite my friend to the party the next week."]}
+    {:item/n 13,
+     :item/prompt ["No voy a ir a San José mañana."],
+     :item/answer ["I am not going to go to San Jose tomorrow."],
+     :item/alternatives [["I'm not going to go to San Jose tomorrow."]]}
+    {:item/n 14,
+     :item/prompt ["Me gustaría verla otra vez."],
+     :item/answer ["I would like to see her again."]}
+    {:item/n 15,
+     :item/prompt ["Quiero invitarlo a una fiesta en mi casa la próxima semana."],
+     :item/answer ["I want to invite him to a party in my house the next week."]}
+    {:item/n 16,
+     :item/prompt ["No voy a ir a Los Ángeles otra vez esta semana."],
+     :item/answer ["I am not going to go to Los Angeles again this week."],
+     :item/alternatives [["I'm not going to go to Los Angeles again this week."]]}
+    {:item/n 17,
+     :item/prompt ["Necesito llamar a mi papá otra vez."],
+     :item/answer ["I need to call my dad again."]}
+    {:item/n 18,
+     :item/prompt ["Voy a hablar con Román mañana."],
+     :item/answer ["I am going to speak with Roman tomorrow."],
+     :item/alternatives [["I'm going to speak with Roman tomorrow."]]}
+    {:item/n 19,
+     :item/prompt ["Me gustaría comer en el restaurante otra vez mañana."],
+     :item/answer ["I would like to eat in the restaurant again tomorrow."]}
+    {:item/n 20,
+     :item/prompt ["Quiero ir a la fiesta con usted la próxima semana."],
+     :item/answer ["I want to go to the party with you the next week."]}
+    {:item/n 21,
+     :item/prompt ["Necesito ayudar a mi amigo mañana."],
+     :item/answer ["I need to help my friend tomorrow."]}
+    {:item/n 22,
+     :item/prompt ["Quiero visitar a mi familia esta semana."],
+     :item/answer ["I want to visit my family this week."]}
+    {:item/n 23,
+     :item/prompt ["Voy a verlo en la fiesta mañana."],
+     :item/answer ["I am going to see him in the party tomorrow."],
+     :item/alternatives [["I'm going to see him in the party tomorrow."]]}
+    {:item/n 24,
+     :item/prompt ["Ahora voy a hablar más español con mi amigo."],
+     :item/answer ["Now I am going to speak more Spanish with my friend."],
+     :item/alternatives [["Now I'm going to speak more Spanish with my friend."]]}
+    {:item/n 25,
+     :item/prompt ["Quiero comer en mi casa con mi familia."],
+     :item/answer ["I want to eat in my house with my family."]}
+    {:item/n 26,
+     :item/prompt ["Voy a verla otra vez la próxima semana."],
+     :item/answer ["I am going to see her again next week."],
+     :item/alternatives [["I'm going to see her again next week."]]}
+    {:item/n 27,
+     :item/prompt ["Me gustaría ver la casa otra vez."],
+     :item/answer ["I would like to see the house again."]}
+    {:item/n 28,
+     :item/prompt ["Me gustaría hablar más español con su familia."],
+     :item/answer ["I would like to speak more Spanish with your family."]}
+    {:item/n 29,
+     :item/prompt ["Voy a hablar con María en español pronto."],
+     :item/answer ["I am going to speak with María in Spanish soon."],
+     :item/alternatives [["I'm going to speak with María in Spanish soon."]]}],
+   :exercise/notes []}]}

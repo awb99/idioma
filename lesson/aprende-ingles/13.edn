@@ -1,0 +1,298 @@
+{:lesson/vocabulary
+ [{:vocab/id 73,
+   :vocab/kind :synergy-verb,
+   :vocab/target "we want",
+   :vocab/base "queremos",
+   :vocab/pronunciation "ui uánt",
+   :vocab/mnemonic nil,
+   :vocab/ipa "wiː wɔnt"}
+  {:vocab/id 74,
+   :vocab/kind :synergy-verb,
+   :vocab/target "we need",
+   :vocab/base "necesitamos",
+   :vocab/pronunciation "ui niid",
+   :vocab/mnemonic nil}
+  {:vocab/id 75,
+   :vocab/kind :mortar,
+   :vocab/target "as soon as possible",
+   :vocab/base "cuanto antes",
+   :vocab/pronunciation "as suun as pósibol",
+   :vocab/mnemonic nil}
+  {:vocab/id 76,
+   :vocab/kind :mortar,
+   :vocab/target "our",
+   :vocab/base "nuestra",
+   :vocab/pronunciation "áuer",
+   :vocab/mnemonic nil}
+  {:vocab/id 77,
+   :vocab/kind :brick-verb,
+   :vocab/target "to drive",
+   :vocab/base "manejar",
+   :vocab/pronunciation "tu dráiv",
+   :vocab/mnemonic nil}
+  {:vocab/id 78,
+   :vocab/kind :brick-verb,
+   :vocab/target "to rest",
+   :vocab/base "descansar",
+   :vocab/pronunciation "tu rest",
+   :vocab/mnemonic nil}],
+ :lesson/title "Nosotros y nuestro",
+ :lesson/target-title "We and our",
+ :lesson/label "Lección 13",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 11,
+   :section/title "We y el presente",
+   :section/body
+   ["En inglés, el presente para we, you y they es igual al verbo base: we want, we need."
+    "Solo he, she e it añaden -s: she wants, he needs."
+    "Por eso no tienes que conjugar para cada persona."
+    "we want = queremos; we need = necesitamos."]}],
+ :lesson/number 13,
+ :lesson/intro [],
+ :lesson/step {:step/number 3, :step/title "Hablemos de nosotros"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "13A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “we want” son"],
+     :item/answer ["queremos"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en español para “we need” son"],
+     :item/answer ["necesitamos"]}
+    {:item/n 3, :item/prompt ["Las palabras en español para “our” son"], :item/answer ["nuestra"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en español para “to rest” son"],
+     :item/answer ["descansar"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en español para “to drive” son"],
+     :item/answer ["manejar"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “as soon as possible” son"],
+     :item/answer ["cuanto antes"]}],
+   :exercise/notes []}
+  {:exercise/id "13B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["car = coche"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["We want to rest before the conference (of) tonight."],
+     :item/answer ["Queremos descansar antes de la conferencia de esta noche."]}
+    {:item/n 2,
+     :item/prompt ["We need to drive for a day."],
+     :item/answer ["Necesitamos manejar por un día."]}
+    {:item/n 3,
+     :item/prompt ["We want to rest a week at the beach."],
+     :item/answer ["Queremos descansar una semana en la playa."]}
+    {:item/n 4,
+     :item/prompt ["Do you want to drink a tequila with us in order to celebrate our victory."],
+     :item/answer ["¿Quiere tomar un tequila con nosotros para celebrar nuestra victoria?"]}
+    {:item/n 5,
+     :item/prompt ["We want to drive along the coast."],
+     :item/answer ["Queremos manejar por la costa."]}
+    {:item/n 6,
+     :item/prompt ["We need to rent a car."],
+     :item/answer ["Necesitamos rentar un coche."]}
+    {:item/n 7,
+     :item/prompt ["I can’t drive for six months."],
+     :item/answer ["No puedo manejar por seis meses."]}
+    {:item/n 8,
+     :item/prompt ["We need to spend more time with our family."],
+     :item/answer ["Necesitamos pasar más tiempo con nuestra familia."]}
+    {:item/n 9,
+     :item/prompt ["We want to drive to Madrid in our vacation."],
+     :item/answer ["Queremos manejar a Madrid en nuestras vacaciones."]}
+    {:item/n 10,
+     :item/prompt ["We need to go as soon as possible."],
+     :item/answer ["Necesitamos ir cuanto antes."]}
+    {:item/n 11,
+     :item/prompt ["We want to learn Spanish because we need to speak with our clients."],
+     :item/answer ["Queremos aprender español porque necesitamos hablar con nuestros clientes."]}
+    {:item/n 12,
+     :item/prompt ["We want (to return) to come back as soon as possible."],
+     :item/answer ["Queremos regresar cuanto antes."]}
+    {:item/n 13,
+     :item/prompt
+     ["Do you like to drive? Yes, but only in the day, (daytime) I don’t like to drive (in the) at night."],
+     :item/answer ["¿Le gusta manejar? Sí, pero sólo en el día, no me gusta manejar en la noche."]}
+    {:item/n 14,
+     :item/prompt ["We need to see the documents as soon as possible."],
+     :item/answer ["Necesitamos ver los documentos cuanto antes."]}
+    {:item/n 15,
+     :item/prompt ["Are you going to drive? No, I would prefer to take a taxi."],
+     :item/answer ["¿Va a manejar? No, preferiría tomar un taxi."]}
+    {:item/n 16,
+     :item/prompt ["We want to rent a house in the Riviera Maya this year."],
+     :item/answer ["Queremos rentar una casa en la Riviera Maya este año."]}
+    {:item/n 17,
+     :item/prompt ["We need to study a lot of Spanish in order to speak in our vacation."],
+     :item/answer ["Necesitamos estudiar mucho español para hablar en nuestras vacaciones."]}
+    {:item/n 18,
+     :item/prompt ["I have to see him in my office as soon as possible."],
+     :item/answer ["Tengo que verlo en mi oficina cuanto antes."]}
+    {:item/n 19,
+     :item/prompt ["We don't want to invite the professor to the party."],
+     :item/answer ["No queremos invitar al profesor a la fiesta."]}
+    {:item/n 20,
+     :item/prompt ["We want to learn Spanish as soon as possible."],
+     :item/answer ["Queremos aprender español cuanto antes."]}
+    {:item/n 21,
+     :item/prompt ["We need to continue tomorrow."],
+     :item/answer ["Necesitamos continuar mañana."]}
+    {:item/n 22,
+     :item/prompt ["You have to call me as soon as possible."],
+     :item/answer ["Tiene que llamarme cuanto antes."]}
+    {:item/n 23,
+     :item/prompt ["We want to return to Mexico soon."],
+     :item/answer ["Queremos regresar a México pronto."]}
+    {:item/n 24,
+     :item/prompt ["We need to walk to the school."],
+     :item/answer ["Necesitamos caminar a la escuela."]}
+    {:item/n 25,
+     :item/prompt ["We want to drive all of Baja California (until) as far as Los Cabos."],
+     :item/answer ["Queremos manejar toda Baja California hasta Los Cabos."]}],
+   :exercise/notes []}
+  {:exercise/id "13C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en inglés las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en inglés para “queremos” son"],
+     :item/answer ["we want"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en inglés para “necesitamos” son"],
+     :item/answer ["we need"]}
+    {:item/n 3, :item/prompt ["Las palabras en inglés para “nuestra” son"], :item/answer ["our"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en inglés para “descansar” son"],
+     :item/answer ["to rest"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en inglés para “manejar” son"],
+     :item/answer ["to drive"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en inglés para “cuanto antes” son"],
+     :item/answer ["as soon as possible"]}],
+   :exercise/notes []}
+  {:exercise/id "13D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Queremos descansar un rato en el hotel."],
+     :item/answer ["We want to rest awhile in the hotel."]}
+    {:item/n 2,
+     :item/prompt ["Necesitamos manejar a México."],
+     :item/answer ["We need to drive to Mexico."]}
+    {:item/n 3,
+     :item/prompt ["Queremos descansar antes de ir al restaurante."],
+     :item/answer ["We want to rest before (to go) going to the restaurant."]}
+    {:item/n 4,
+     :item/prompt ["Queremos invitarlo a nuestra fiesta."],
+     :item/answer ["We want to invite him to our party."]}
+    {:item/n 5,
+     :item/prompt ["Necesitamos descansar esta noche."],
+     :item/answer ["We need to rest tonight."]}
+    {:item/n 6,
+     :item/prompt ["Queremos caminar al hotel."],
+     :item/answer ["We want to walk to the hotel."]}
+    {:item/n 7,
+     :item/prompt ["¿Cuándo necesitamos ir? Necesitamos ir ahora mismo."],
+     :item/answer ["When do we need to go? We need to go right now."]}
+    {:item/n 8,
+     :item/prompt ["Queremos descansar en casa este fin de semana."],
+     :item/answer ["We want to rest at home this weekend."]}
+    {:item/n 9,
+     :item/prompt ["Lo siento, pero necesitamos trabajar este fin de semana."],
+     :item/answer ["I am sorry, but we need to work this weekend."],
+     :item/alternatives [["I'm sorry, but we need to work this weekend."]]}
+    {:item/n 10,
+     :item/prompt
+     ["No queremos comer en Taco Bell, queremos comer en un restaurante tradicional."],
+     :item/answer
+     ["We don't want to eat in Taco Bell,we want to eat in a traditional restaurant."],
+     :item/alternatives
+     [["We do not want to eat in Taco Bell,we want to eat in a traditional restaurant."]]}
+    {:item/n 11,
+     :item/prompt ["Tiene que descansar por tres días."],
+     :item/answer ["You have to rest for three days."]}
+    {:item/n 12,
+     :item/prompt ["Queremos aprender español."],
+     :item/answer ["We want to learn Spanish."]}
+    {:item/n 13,
+     :item/prompt ["Voy a descansar ahora."],
+     :item/answer ["I am going to rest now."],
+     :item/alternatives [["I'm going to rest now."]]}
+    {:item/n 14,
+     :item/prompt ["¿Quiere ver nuestra casa?"],
+     :item/answer ["Do you want to see our house?"]}
+    {:item/n 15,
+     :item/prompt ["¿Cuándo va a descansar? Voy a descansar mañana."],
+     :item/answer ["When are you going to rest? I am going to rest tomorrow."],
+     :item/alternatives [["When are you going to rest? I'm going to rest tomorrow."]]}
+    {:item/n 16,
+     :item/prompt ["¿Cuándo necesitamos estar en el restaurante?"],
+     :item/answer ["When do we need to be in the restaurant?"]}
+    {:item/n 17,
+     :item/prompt ["¿Quiere manejar? No, no quiero manejar aquí."],
+     :item/answer ["Do you want to drive? No, I don't want to drive here."],
+     :item/alternatives [["Do you want to drive? No, I do not want to drive here."]]}
+    {:item/n 18,
+     :item/prompt ["Queremos ir a nuestra casa por un rato."],
+     :item/answer ["We want to go to our house for a while."]}
+    {:item/n 19,
+     :item/prompt ["Necesitamos estar en casa con nuestra familia esta noche."],
+     :item/answer ["We need to be at home with our family tonight."]}
+    {:item/n 20,
+     :item/prompt ["Queremos trabajar en México este año."],
+     :item/answer ["We want to work in Mexico this year."]}
+    {:item/n 21,
+     :item/prompt ["Necesitamos ir al hotel ahora mismo."],
+     :item/answer ["We need to go to the hotel right now."]}
+    {:item/n 22,
+     :item/prompt ["Necesito hablar más español cuanto antes."],
+     :item/answer ["I need to speak more Spanish as soon as possible."]}
+    {:item/n 23,
+     :item/prompt ["Mañana queremos manejar a Acapulco."],
+     :item/answer ["Tomorrow we want to drive to Acapulco."]}
+    {:item/n 24,
+     :item/prompt ["Necesitamos trabajar en nuestra casa este fin de semana."],
+     :item/answer ["We need to work in our house this weekend."]}
+    {:item/n 25,
+     :item/prompt ["Necesita hablar con él cuanto antes."],
+     :item/answer ["You need to speak with him as soon as possible."]}
+    {:item/n 26,
+     :item/prompt ["Queremos visitar México otra vez este año."],
+     :item/answer ["We want to visit Mexico again this year."]}
+    {:item/n 27,
+     :item/prompt ["Necesitamos un taxi cuanto antes."],
+     :item/answer ["We need a taxi as soon as possible."]}
+    {:item/n 28,
+     :item/prompt ["Queremos terminar pronto y descansar un rato."],
+     :item/answer ["We want to finish soon and rest for a while."]}
+    {:item/n 29,
+     :item/prompt ["Necesitamos ver a un doctor cuanto antes."],
+     :item/answer ["We need to see a doctor as soon as possible."]}
+    {:item/n 30,
+     :item/prompt ["Necesitamos pasar la noche en un hotel."],
+     :item/answer ["We need to spend the night in a hotel."]}
+    {:item/n 31,
+     :item/prompt ["Queremos hacer una fiesta en nuestra casa este fin de semana."],
+     :item/answer ["We want to (make) have a party in our house this weekend."]}],
+   :exercise/notes []}]}

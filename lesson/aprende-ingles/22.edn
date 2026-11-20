@@ -1,0 +1,296 @@
+{:lesson/vocabulary
+ [{:vocab/id 121,
+   :vocab/kind :brick-verb,
+   :vocab/target "to be able",
+   :vocab/base "poder",
+   :vocab/pronunciation "tu bi éibol",
+   :vocab/mnemonic nil}
+  {:vocab/id 122,
+   :vocab/kind :brick-verb,
+   :vocab/target "to sing",
+   :vocab/base "cantar",
+   :vocab/pronunciation "tu sing",
+   :vocab/mnemonic nil}
+  {:vocab/id 123,
+   :vocab/kind :mortar,
+   :vocab/target "very",
+   :vocab/base "muy",
+   :vocab/pronunciation "véri",
+   :vocab/mnemonic nil}
+  {:vocab/id 124,
+   :vocab/kind :mortar,
+   :vocab/target "also",
+   :vocab/base "también",
+   :vocab/pronunciation "ólsou",
+   :vocab/mnemonic nil,
+   :vocab/ipa "ˈɔːl.səʊ"}
+  {:vocab/id 125,
+   :vocab/kind :mortar,
+   :vocab/target "winter",
+   :vocab/base "invierno",
+   :vocab/pronunciation "uínter",
+   :vocab/mnemonic nil}
+  {:vocab/id 126,
+   :vocab/kind :mortar,
+   :vocab/target "well",
+   :vocab/base "bien",
+   :vocab/pronunciation "uel",
+   :vocab/mnemonic nil,
+   :vocab/ipa "wɛl"}],
+ :lesson/title "Él, ella y tú",
+ :lesson/target-title "He, she, and you",
+ :lesson/label "Lección 22",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 19,
+   :section/title "He, she y you",
+   :section/body
+   ["En inglés el verbo cambia en la tercera persona del singular: he works, she needs."
+    "Para preguntar con he o she usas does: Does he work?"
+    "Para negar usas doesn't: She doesn't work."
+    "El pronombre se usa casi siempre en inglés, a diferencia del español."]}],
+ :lesson/number 22,
+ :lesson/intro [],
+ :lesson/step {:step/number 5, :step/title "Hablar de otras personas"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "22A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Las palabras en español para “well” son"], :item/answer ["bien"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en español para “winter” son"],
+     :item/answer ["invierno"]}
+    {:item/n 3, :item/prompt ["Las palabras en español para “also” son"], :item/answer ["también"]}
+    {:item/n 4, :item/prompt ["Las palabras en español para “very” son"], :item/answer ["muy"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en español para “to be able” son"],
+     :item/answer ["poder"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “to sing” son"],
+     :item/answer ["cantar"]}],
+   :exercise/notes []}
+  {:exercise/id "22B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints
+   ["loud = fuerte"
+    "God = Dios"
+    "daughter = hija"
+    "so many = tantos"
+    "serenade = dar una serenata"
+    "your, his, her & their = su"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Also you need to buy something for Antonio."],
+     :item/answer ["También usted necesita comprar algo para Antonio."]}
+    {:item/n 2,
+     :item/prompt ["You need to speak more loudly, I can’t hear you (man) very well."],
+     :item/answer ["Usted necesita hablar más fuerte,no puedo escucharlo muy bien."]}
+    {:item/n 3,
+     :item/prompt ["With the favor of God, she is going to arrive (well) okay."],
+     :item/answer ["Con el favor de Dios, ella va a llegar bien."]}
+    {:item/n 4,
+     :item/prompt ["He is going to sing in the bar."],
+     :item/answer ["Él va a cantar en el bar."]}
+    {:item/n 5,
+     :item/prompt ["He is not going to be able to go out with my daughter."],
+     :item/answer ["Él no va a poder salir con mi hija."]}
+    {:item/n 6,
+     :item/prompt ["David also wants to sing in a rock group."],
+     :item/answer ["David también quiere cantar en un grupo de rock."]}
+    {:item/n 7,
+     :item/prompt ["He is going to work in South America for a year."],
+     :item/answer ["Él va a trabajar en Sudamérica por un año."]}
+    {:item/n 8,
+     :item/prompt ["I am not going to be able to pay until next month."],
+     :item/answer ["No voy a poder pagar hasta el próximo mes."]}
+    {:item/n 9,
+     :item/prompt ["Alejandro also wants to see the concert."],
+     :item/answer ["Alejandro también quiere ver el concierto."]}
+    {:item/n 10,
+     :item/prompt ["I am not going to be able to forget this."],
+     :item/answer ["No voy a poder olvidar esto."]}
+    {:item/n 11,
+     :item/prompt ["Noel wants to invite us to have dinner in his house."],
+     :item/answer ["Noel quiere invitarnos a cenar en su casa."]}
+    {:item/n 12,
+     :item/prompt ["He is going to sing in order to serenade the señorita (young lady)."],
+     :item/answer ["Él va a cantar para dar una serenata a la señorita."]}
+    {:item/n 13,
+     :item/prompt ["We have to sing \"Happy Birthday\"."],
+     :item/answer ["Tenemos que cantar \"Happy Birthday\"."]}
+    {:item/n 14,
+     :item/prompt ["I don't like to sing in public."],
+     :item/answer ["No me gusta cantar en público."]}
+    {:item/n 15,
+     :item/prompt ["We are not going to be able to start the class, we need more students."],
+     :item/answer ["No vamos a poder empezar la clase, necesitamos más estudiantes."]}
+    {:item/n 16,
+     :item/prompt
+     ["You are not going to be able to drive after (to drink) drinking so many tequilas."],
+     :item/answer ["Usted no va a poder manejar después de tomar tantos tequilas."]}
+    {:item/n 17,
+     :item/prompt ["We have to go very soon also."],
+     :item/answer ["Tenemos que ir muy pronto también."]}
+    {:item/n 18,
+     :item/prompt ["I can’t drink a tequila, it is very early for (to drink) drinking."],
+     :item/answer ["No puedo tomar un tequila, es muy temprano para tomar."]}
+    {:item/n 19,
+     :item/prompt ["We are not going to be able to buy gasoline until Mulege."],
+     :item/answer ["No vamos a poder comprar gasolina hasta Mulege."]}
+    {:item/n 20,
+     :item/prompt ["I am not going to be able to spend much money in the restaurant."],
+     :item/answer ["No voy a poder gastar mucho dinero en el restaurante."]}
+    {:item/n 21,
+     :item/prompt ["When do I have to return? You have to return before midnight."],
+     :item/answer ["¿Cuándo tengo que regresar? Tiene que regresar antes de media noche."]}
+    {:item/n 22,
+     :item/prompt ["My mom is going to vacation in Mexico in winter."],
+     :item/answer ["Mi mamá va a vacacionar en México en invierno."]}
+    {:item/n 23,
+     :item/prompt ["She is going to cook us my favorite (plate) dish."],
+     :item/answer ["Ella va a cocinarnos mi plato favorito."]}
+    {:item/n 24,
+     :item/prompt ["The teacher is going to finish the course in May."],
+     :item/answer ["El maestro va a terminar el curso en mayo."]}],
+   :exercise/notes []}
+  {:exercise/id "22C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en inglés las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Las palabras en inglés para “bien” son"], :item/answer ["well"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en inglés para “invierno” son"],
+     :item/answer ["winter"]}
+    {:item/n 3, :item/prompt ["Las palabras en inglés para “también” son"], :item/answer ["also"]}
+    {:item/n 4, :item/prompt ["Las palabras en inglés para “muy” son"], :item/answer ["very"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en inglés para “poder” son"],
+     :item/answer ["to be able"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en inglés para “cantar” son"],
+     :item/answer ["to sing"]}],
+   :exercise/notes []}
+  {:exercise/id "22D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al inglés.",
+   :exercise/hints ["esposo = Husband" "esposa = wife"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Quiero comer bien hoy."],
+     :item/answer ["I want to eat well today."]}
+    {:item/n 2,
+     :item/prompt ["Lupita no va a poder visitarnos este invierno."],
+     :item/answer ["Lupita is not going to be able to visit us this winter."],
+     :item/alternatives [["Lupita isn't going to be able to visit us this winter."]]}
+    {:item/n 3,
+     :item/prompt ["Usted va a hablar español muy bien pronto."],
+     :item/answer ["(you) are going to speak Spanish very well soon."]}
+    {:item/n 4,
+     :item/prompt ["George no puede leer muy bien."],
+     :item/answer ["George can’t read very well."],
+     :item/alternatives [["George cannot read very well."]]}
+    {:item/n 5,
+     :item/prompt ["Usted va a vivir bien allá."],
+     :item/answer ["(you) are going to live well there."]}
+    {:item/n 6,
+     :item/prompt ["Ella no va a poder empezar hasta el invierno."],
+     :item/answer ["(she) is not going to be able to start until winter."],
+     :item/alternatives [["(she) isn't going to be able to start until winter."]]}
+    {:item/n 7,
+     :item/prompt ["No quiero ir con él, no puede manejar muy bien."],
+     :item/answer ["I don't want to go with him. He can’t drive very well."],
+     :item/alternatives [["I do not want to go with him. He cannot drive very well."]]}
+    {:item/n 8,
+     :item/prompt ["María no va a poder cenar con nosotros esta noche, tiene que trabajar."],
+     :item/answer
+     ["María is not going to be able to have dinner with us tonight, she has to work."],
+     :item/alternatives
+     [["María isn't going to be able to have dinner with us tonight, she has to work."]]}
+    {:item/n 9,
+     :item/prompt
+     ["¿Puede esperarme después de trabajar? Lo siento, no voy a poder esperarla hoy."],
+     :item/answer
+     ["Can you wait for me after (to) work? I am sorry, I not going to be able to wait for you (woman) today."],
+     :item/alternatives
+     [["Can you wait for me after (to) work? I'm sorry, I not going to be able to wait for you (woman) today."]]}
+    {:item/n 10,
+     :item/prompt ["Usted va a poder leer el español muy pronto."],
+     :item/answer ["(You) are going to be able to read Spanish very soon."]}
+    {:item/n 11,
+     :item/prompt ["Él no puede cantar muy bien."],
+     :item/answer ["(he) can’t sing very well."],
+     :item/alternatives [["(he) cannot sing very well."]]}
+    {:item/n 12,
+     :item/prompt ["Luís también va a poder ayudarnos."],
+     :item/answer ["Luis also is going to be able to help us."]}
+    {:item/n 13,
+     :item/prompt ["Teresa no va a poder regresar hasta el invierno."],
+     :item/answer ["Teresa is not going to be able to return until the winter."],
+     :item/alternatives [["Teresa isn't going to be able to return until the winter."]]}
+    {:item/n 14,
+     :item/prompt ["El doctor va a poder verlo mañana."],
+     :item/answer ["The doctor is going to be able to see him tomorrow."]}
+    {:item/n 15,
+     :item/prompt ["No voy a poder estudiar este fin de semana."],
+     :item/answer ["I am not going to be able to study this weekend."],
+     :item/alternatives [["I'm not going to be able to study this weekend."]]}
+    {:item/n 16,
+     :item/prompt ["Jenny no va a poder llamarme hasta la próxima semana."],
+     :item/answer ["Jenny is not going to be able to call me until next week."],
+     :item/alternatives [["Jenny isn't going to be able to call me until next week."]]}
+    {:item/n 17,
+     :item/prompt ["John va a poder aprender mucho español allá."],
+     :item/answer ["John is going to be able to learn a lot of Spanish there."]}
+    {:item/n 18,
+     :item/prompt ["Sara no quiere ir a la fiesta."],
+     :item/answer ["Sara doesn’t want to go to the party."],
+     :item/alternatives [["Sara does not want to go to the party."]]}
+    {:item/n 19,
+     :item/prompt ["Juan quiere hablar con usted."],
+     :item/answer ["Juan wants to speak with you."]}
+    {:item/n 20,
+     :item/prompt ["Mi esposa también quiere ir a Europa este año."],
+     :item/answer ["My wife also wants to go to Europe this year."]}
+    {:item/n 21,
+     :item/prompt ["Él va a estudiar español en Guatemala en el verano."],
+     :item/answer ["(He) is going to study Spanish in Guatemala in the summer."]}
+    {:item/n 22,
+     :item/prompt ["Mi mamá va a viajar a España y también a Argentina."],
+     :item/answer ["My mom is going to travel to Spain and also to Argentina."]}
+    {:item/n 23,
+     :item/prompt ["Él va a estar en casa esta noche."],
+     :item/answer ["(He) is going to be home tonight."]}
+    {:item/n 24,
+     :item/prompt ["Él va a invitar a Ana a la fiesta."],
+     :item/answer ["(He) is going to invite Ana to the party."]}
+    {:item/n 25,
+     :item/prompt ["Jorge quiere ayudarnos."],
+     :item/answer ["Jorge wants to help us."]}
+    {:item/n 26,
+     :item/prompt ["Ella va a llamarnos mañana."],
+     :item/answer ["(She) is going to call us tomorrow."]}
+    {:item/n 27,
+     :item/prompt ["Mi amigo va a pasar el invierno en nuestra casa."],
+     :item/answer ["My friend is going to spend the winter in our house."]}
+    {:item/n 28,
+     :item/prompt ["Mi esposa quiere viajar a Paris."],
+     :item/answer ["My wife wants to travel to Paris."]}
+    {:item/n 29,
+     :item/prompt ["Mi esposo también tiene que manejar mucho cada día."],
+     :item/answer ["My husband also has to drive a lot every day."]}],
+   :exercise/notes []}]}

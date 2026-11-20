@@ -1,5 +1,9 @@
 (ns router
-  "Hash routes: #/, #/lesson/N, #/lesson/N/exercise/ID.")
+  "Course path + hash routes.
+
+  Path: <base><course-slug>/ ; empty slug is the chooser.
+  Hash: #/, #/lesson/N, #/lesson/N/exercise/ID."
+  (:require [clojure.string :as str]))
 
 (defn- segments [hash]
   (let [h (or hash "")
@@ -30,6 +34,32 @@
 
       :else
       {:name :not-found})))
+
+(defn normalized-base [base]
+  (let [b (or base "/")]
+    (if (str/ends-with? b "/") b (str b "/"))))
+
+(defn- relative-path [pathname base]
+  (let [b (normalized-base base)
+        b-no-slash (subs b 0 (dec (count b)))
+        p (if (or (= pathname b-no-slash) (str/starts-with? pathname b))
+            (subs pathname (if (= pathname b-no-slash)
+                             (count b-no-slash)
+                             (count b)))
+            pathname)]
+    (str/replace p #"^/+" "")))
+
+(defn path-segments [pathname base]
+  (vec (remove empty? (.split (relative-path pathname base) "/"))))
+
+(defn course-slug [pathname base]
+  (first (path-segments pathname base)))
+
+(defn course-href [base slug]
+  (str (normalized-base base) slug "/"))
+
+(defn chooser-href [base]
+  (normalized-base base))
 
 (defn home-href []
   "#/")

@@ -1,0 +1,274 @@
+{:lesson/vocabulary
+ [{:vocab/id 7,
+   :vocab/kind :other,
+   :vocab/target "with you",
+   :vocab/base "con usted",
+   :vocab/pronunciation "uid yu",
+   :vocab/mnemonic nil}
+  {:vocab/id 8,
+   :vocab/kind :other,
+   :vocab/target "now",
+   :vocab/base "ahora",
+   :vocab/pronunciation "náu",
+   :vocab/mnemonic nil}
+  {:vocab/id 9,
+   :vocab/kind :other,
+   :vocab/target "soon",
+   :vocab/base "pronto",
+   :vocab/pronunciation "suun",
+   :vocab/mnemonic nil}
+  {:vocab/id 10,
+   :vocab/kind :other,
+   :vocab/target "in order to",
+   :vocab/base "para",
+   :vocab/pronunciation "in órder tu",
+   :vocab/mnemonic nil}
+  {:vocab/id 11,
+   :vocab/kind :other,
+   :vocab/target "more",
+   :vocab/base "más",
+   :vocab/pronunciation "mor",
+   :vocab/mnemonic nil}
+  {:vocab/id 12,
+   :vocab/kind :other,
+   :vocab/target "tonight",
+   :vocab/base "esta noche",
+   :vocab/pronunciation "tunáit",
+   :vocab/mnemonic nil}],
+ :lesson/title "Tus primeras palabras conectoras",
+ :lesson/target-title "Your first connecting words",
+ :lesson/label "Lección 2",
+ :lesson/sections
+ [{:section/type :accuracy-pointer,
+   :section/id 1,
+   :section/title "Sonidos nuevos del inglés",
+   :section/body
+   ["La h del inglés se pronuncia con un soplo suave: have suena como «jav»."
+    "La v se parece a la b: very suena como «veri»."
+    "La th no existe en español: the suena como «de» y with como «uid»."
+    "No te preocupes por la perfección; imita el sonido y sigue adelante."]}
+  {:section/type :communication-multiplied,
+   :section/id 2,
+   :section/title "I want to see him / her",
+   :section/body
+   ["En inglés el pronombre de objeto va después del verbo: I want to see him."
+    "him = lo, her = la, me = me, us = nos, them = los/las."
+    "La estructura es: sujeto + verbo + to + verbo + pronombre."
+    "I want to see him = quiero verlo; I want to see her = quiero verla."
+    "A diferencia del español, el pronombre no se pega al verbo."]}],
+ :lesson/number 2,
+ :lesson/intro [],
+ :lesson/step {:step/number 1, :step/title "Primeros pasos para hablar inglés"},
+ :lesson/closing
+ ["Mira cómo se multiplica tu inglés."
+  "Con dos lecciones ya construyes frases completas y las puedes usar hoy mismo."
+  "Recuerda disfrutar del camino."
+  "Hasta mañana."],
+ :lesson/exercises
+ [{:exercise/id "2A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “with you” son"],
+     :item/answer ["con usted"]}
+    {:item/n 2, :item/prompt ["Las palabras en español para “now” son"], :item/answer ["ahora"]}
+    {:item/n 3, :item/prompt ["Las palabras en español para “soon” son"], :item/answer ["pronto"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en español para “in order to” son"],
+     :item/answer ["para"]}
+    {:item/n 5, :item/prompt ["Las palabras en español para “more” son"], :item/answer ["más"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “tonight” son"],
+     :item/answer ["esta noche"]}
+    {:item/n 7,
+     :item/prompt ["Las palabras en español para “I want” son"],
+     :item/answer ["quiero"]}
+    {:item/n 8,
+     :item/prompt ["Las palabras en español para “I need” son"],
+     :item/answer ["necesito"]}
+    {:item/n 9,
+     :item/prompt ["Las palabras en español para “to speak” son"],
+     :item/answer ["hablar"]}
+    {:item/n 10, :item/prompt ["Las palabras en español para “to see” son"], :item/answer ["ver"]}
+    {:item/n 11, :item/prompt ["Las palabras en español para “to go” son"], :item/answer ["ir"]}
+    {:item/n 12,
+     :item/prompt ["Las palabras en español para “to eat” son"],
+     :item/answer ["comer"]}],
+   :exercise/notes []}
+  {:exercise/id "2B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["and = Y" "there is/there are = Hay"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["I need to see your visa now."],
+     :item/answer ["Necesito ver su visa ahora."]}
+    {:item/n 2,
+     :item/prompt ["I want to see her at (in) the party"],
+     :item/answer ["Quiero verla en la fiesta."]}
+    {:item/n 3,
+     :item/prompt ["I need to go to the doctor now."],
+     :item/answer ["Necesito ir al doctor ahora."]}
+    {:item/n 4,
+     :item/prompt ["There is a problem, I need to see him."],
+     :item/answer ["Hay un problema, necesito verlo."]}
+    {:item/n 5,
+     :item/prompt ["I want to go to Peru in order to study and practice Spanish."],
+     :item/answer ["Quiero ir a Perú para estudiar y practicar español."]}
+    {:item/n 6,
+     :item/prompt ["I need to go to the hotel soon."],
+     :item/answer ["Necesito ir al hotel pronto."]}
+    {:item/n 7,
+     :item/prompt ["In order to see Venus I need a telescope."],
+     :item/answer ["Para ver Venus necesito un telescopio."]}
+    {:item/n 8,
+     :item/prompt ["I want to invite him to the party."],
+     :item/answer ["Quiero invitarlo a la fiesta."]}
+    {:item/n 9,
+     :item/prompt ["I don't want to eat in the restaurant tonight."],
+     :item/answer ["No quiero comer en el restaurante esta noche."]}
+    {:item/n 10,
+     :item/prompt ["I don’t want to go to Tijuana tonight."],
+     :item/answer ["No quiero ir a Tijuana esta noche."]}
+    {:item/n 11,
+     :item/prompt ["Tonight I want to go to the theater."],
+     :item/answer ["Esta noche quiero ir al teatro."]}
+    {:item/n 12,
+     :item/prompt ["I want to eat something different tonight."],
+     :item/answer ["Quiero comer algo diferente esta noche."]}
+    {:item/n 13,
+     :item/prompt ["I want to see more parts of Mexico."],
+     :item/answer ["Quiero ver más partes de México."]}
+    {:item/n 14,
+     :item/prompt ["I need to go to the hotel now."],
+     :item/answer ["Necesito ir al hotel ahora."]}
+    {:item/n 15,
+     :item/prompt ["I don’t want to eat Mexican food tonight, I would prefer American food."],
+     :item/answer ["No quiero comer comida mexicana esta noche, preferiría comida americana."]}
+    {:item/n 16,
+     :item/prompt ["I want to go to the party tonight."],
+     :item/answer ["Quiero ir a la fiesta esta noche."]}
+    {:item/n 17,
+     :item/prompt ["I need to go to Argentina soon."],
+     :item/answer ["Necesito ir a Argentina pronto."]}
+    {:item/n 18,
+     :item/prompt ["I need to go to Mexico in June in order to visit the plant."],
+     :item/answer ["Necesito ir a México en junio para visitar la planta."]}
+    {:item/n 19,
+     :item/prompt ["I want to visit her in December."],
+     :item/answer ["Quiero visitarla en diciembre."]}
+    {:item/n 20,
+     :item/prompt ["I want to see the Mariachis in Garibaldi Plaza tonight."],
+     :item/answer ["Quiero ver los mariachis en Plaza Garibaldi esta noche."]}
+    {:item/n 21,
+     :item/prompt ["I need to see the passports."],
+     :item/answer ["Necesito ver los pasaportes."]}
+    {:item/n 22,
+     :item/prompt ["I want to go to Greece in order to see the Olympic Games."],
+     :item/answer ["Quiero ir a Grecia para ver los Juegos Olímpicos."]}],
+   :exercise/notes []}
+  {:exercise/id "2C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en inglés las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en inglés para “con usted” son"],
+     :item/answer ["with you"]}
+    {:item/n 2, :item/prompt ["Las palabras en inglés para “ahora” son"], :item/answer ["now"]}
+    {:item/n 3, :item/prompt ["Las palabras en inglés para “pronto” son"], :item/answer ["soon"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en inglés para “para” son"],
+     :item/answer ["in order to"]}
+    {:item/n 5, :item/prompt ["Las palabras en inglés para “más” son"], :item/answer ["more"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en inglés para “esta noche” son"],
+     :item/answer ["tonight"]}
+    {:item/n 7, :item/prompt ["Las palabras en inglés para “quiero” son"], :item/answer ["I want"]}
+    {:item/n 8,
+     :item/prompt ["Las palabras en inglés para “necesito” son"],
+     :item/answer ["I need"]}
+    {:item/n 9,
+     :item/prompt ["Las palabras en inglés para “hablar” son"],
+     :item/answer ["to speak"]}
+    {:item/n 10, :item/prompt ["Las palabras en inglés para “ver” son"], :item/answer ["to see"]}
+    {:item/n 11, :item/prompt ["Las palabras en inglés para “ir” son"], :item/answer ["to go"]}
+    {:item/n 12,
+     :item/prompt ["Las palabras en inglés para “comer” son"],
+     :item/answer ["to eat"]}],
+   :exercise/notes []}
+  {:exercise/id "2D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al inglés.",
+   :exercise/hints ["por favor = please" "gracias = thank you"],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Quiero verlo ahora."], :item/answer ["I want to see him now."]}
+    {:item/n 2,
+     :item/prompt ["Necesito hablar español pronto."],
+     :item/answer ["I need to speak Spanish soon."]}
+    {:item/n 3, :item/prompt ["Necesito comer ahora."], :item/answer ["I need to eat now."]}
+    {:item/n 4,
+     :item/prompt ["Quiero ir a mi casa para comer."],
+     :item/answer ["I want to go to my house in order to eat."]}
+    {:item/n 5, :item/prompt ["Necesito verla pronto."], :item/answer ["I need to see her soon."]}
+    {:item/n 6,
+     :item/prompt ["Quiero ir a un restaurante para comer."],
+     :item/answer ["I want to go to a restaurant in order to eat."]}
+    {:item/n 7,
+     :item/prompt ["No quiero comer ahora."],
+     :item/answer ["I don't want to eat now."],
+     :item/alternatives [["I do not want to eat now."]]}
+    {:item/n 8,
+     :item/prompt ["No necesito más."],
+     :item/answer ["I don’t need more."],
+     :item/alternatives [["I do not need more."]]}
+    {:item/n 9,
+     :item/prompt ["Necesito hablar más español."],
+     :item/answer ["I need to speak more Spanish."]}
+    {:item/n 10,
+     :item/prompt ["Quiero verla esta noche."],
+     :item/answer ["I want to see her tonight."]}
+    {:item/n 11,
+     :item/prompt ["Quiero hablar más español con usted pronto."],
+     :item/answer ["I want to speak more Spanish with you soon."]}
+    {:item/n 12,
+     :item/prompt ["Necesito verlo esta noche."],
+     :item/answer ["I need to see him tonight."]}
+    {:item/n 13,
+     :item/prompt ["Quiero hablar con usted."],
+     :item/answer ["I want to speak with you."]}
+    {:item/n 14,
+     :item/prompt ["Necesito ir a mi casa ahora."],
+     :item/answer ["I need to go to my house now."]}
+    {:item/n 15, :item/prompt ["Quiero comer ahora."], :item/answer ["I want to eat now."]}
+    {:item/n 16, :item/prompt ["Quiero comer pronto."], :item/answer ["I want to eat soon."]}
+    {:item/n 17,
+     :item/prompt ["Quiero comer en un restaurante esta noche."],
+     :item/answer ["I want to eat in a restaurant tonight."]}
+    {:item/n 18,
+     :item/prompt ["Quiero ver Machu Picchu pronto."],
+     :item/answer ["I want to see Machu Picchu soon."]}
+    {:item/n 19, :item/prompt ["Quiero verla pronto."], :item/answer ["I want to see her soon."]}
+    {:item/n 20, :item/prompt ["Quiero más por favor."], :item/answer ["I want more please."]}
+    {:item/n 21,
+     :item/prompt ["No quiero más gracias."],
+     :item/answer ["I don't want more thank you."],
+     :item/alternatives [["I do not want more thank you."]]}
+    {:item/n 22,
+     :item/prompt ["Necesito hablar con usted."],
+     :item/answer ["I need to speak with you."]}
+    {:item/n 23, :item/prompt ["Necesito comer."], :item/answer ["I need to eat."]}
+    {:item/n 24, :item/prompt ["Necesito verlo ahora."], :item/answer ["I need to see him now."]}],
+   :exercise/notes []}]}

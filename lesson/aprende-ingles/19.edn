@@ -1,0 +1,303 @@
+{:lesson/vocabulary
+ [{:vocab/id 109,
+   :vocab/kind :synergy-verb,
+   :vocab/target "you (all) have to",
+   :vocab/base "tienen que",
+   :vocab/pronunciation "yu jav tu",
+   :vocab/mnemonic nil}
+  {:vocab/id 110,
+   :vocab/kind :synergy-verb,
+   :vocab/target "you (all) are going to",
+   :vocab/base "van a",
+   :vocab/pronunciation "yu ar góuin tu",
+   :vocab/mnemonic nil}
+  {:vocab/id 111,
+   :vocab/kind :brick-verb,
+   :vocab/target "to arrive",
+   :vocab/base "llegar",
+   :vocab/pronunciation "tu arráiv",
+   :vocab/mnemonic nil}
+  {:vocab/id 112,
+   :vocab/kind :brick-verb,
+   :vocab/target "to pay",
+   :vocab/base "pagar",
+   :vocab/pronunciation "tu péi",
+   :vocab/mnemonic nil}
+  {:vocab/id 113,
+   :vocab/kind :mortar,
+   :vocab/target "always",
+   :vocab/base "siempre",
+   :vocab/pronunciation "ólueis",
+   :vocab/mnemonic nil,
+   :vocab/ipa "ˈɔː(l).weɪz"}
+  {:vocab/id 114,
+   :vocab/kind :mortar,
+   :vocab/target "if",
+   :vocab/base "si",
+   :vocab/pronunciation "if",
+   :vocab/mnemonic nil}],
+ :lesson/title "Ustedes y sus cosas",
+ :lesson/target-title "You all and your things",
+ :lesson/label "Lección 19",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 17,
+   :section/title "You all: más ejemplos",
+   :section/body
+   ["you all también usa el verbo base: you all want, you all need, you all can."
+    "Con be: you all are going to; con have: you all have to."
+    "En inglés no se añade -n como en español (quieren, necesitan)."
+    "El contexto o la palabra all aclaran que hablas de varias personas."]}
+  {:section/type :accuracy-pointer,
+   :section/id 16,
+   :section/title "Yes e if",
+   :section/body
+   ["Yes se pronuncia «yes» e if se pronuncia «if»."
+    "No cambian de forma como sí y si en español."
+    "La diferencia está en el contexto y en la pronunciación."
+    "If introduce una condición: if you want, we can go."]}],
+ :lesson/number 19,
+ :lesson/intro [],
+ :lesson/step {:step/number 4, :step/title "Ellos también hablan, ¿no?"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "19A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “you all have to” son"],
+     :item/answer ["tienen que"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en español para “you all are going to” son"],
+     :item/answer ["van a"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “always” son"],
+     :item/answer ["siempre"]}
+    {:item/n 4, :item/prompt ["Las palabras en español para “if” son"], :item/answer ["si"]}
+    {:item/n 5, :item/prompt ["Las palabras en español para “to pay” son"], :item/answer ["pagar"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “to arrive” son"],
+     :item/answer ["llegar"]}],
+   :exercise/notes []}
+  {:exercise/id "19B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints
+   ["insurance = seguro" "crickets = chapulines" "good = bueno" "a little = un poco"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt
+     ["We need to drive for a day in order to arrive at Los Cabos in the morning early."],
+     :item/answer
+     ["Necesitamos manejar por un día para llegar a Los Cabos en la mañana temprano."]}
+    {:item/n 2,
+     :item/prompt ["You all can (comprehend) understand more Spanish."],
+     :item/answer ["Pueden comprender más español."]}
+    {:item/n 3,
+     :item/prompt ["You all need to call the police."],
+     :item/answer ["Necesitan llamar a la policía."]}
+    {:item/n 4,
+     :item/prompt ["We can’t pay with a check."],
+     :item/answer ["No podemos pagar con un cheque."]}
+    {:item/n 5,
+     :item/prompt ["Can you all call me after arriving at the airport?"],
+     :item/answer ["¿Pueden llamarme después de llegar al aeropuerto?"]}
+    {:item/n 6,
+     :item/prompt ["You all can pay the dentist with a credit card."],
+     :item/answer ["Pueden pagar al dentista con una tarjeta de crédito."]}
+    {:item/n 7,
+     :item/prompt ["You are all going to speak a lot of Spanish on your vacation."],
+     :item/answer ["Van a hablar mucho español en sus vacaciones."]}
+    {:item/n 8,
+     :item/prompt ["When are you all going to arrive? We are going to arrive on Sunday."],
+     :item/answer ["¿Cuándo van a llegar? Vamos a llegar el domingo."]}
+    {:item/n 9,
+     :item/prompt ["If you all are going to rent a car there you all have to buy insurance."],
+     :item/answer ["Si van a rentar un coche allá tienen que comprar seguro."]}
+    {:item/n 10,
+     :item/prompt ["You all always have to drink a lot of water in the desert."],
+     :item/answer ["Siempre tienen que tomar mucha agua en el desierto."]}
+    {:item/n 11,
+     :item/prompt ["You all can listen to (cassettes of Spanish) Spanish cassettes in your cars."],
+     :item/answer ["Pueden escuchar casetes de español en sus coches."]}
+    {:item/n 12,
+     :item/prompt ["We need to pay the servant."],
+     :item/answer ["Necesitamos pagar a la sirvienta."]}
+    {:item/n 13,
+     :item/prompt ["You all can eat crickets in Oaxaca."],
+     :item/answer ["Pueden comer chapulines en Oaxaca."]}
+    {:item/n 14,
+     :item/prompt ["When do you all want to start? We want to start now."],
+     :item/answer ["¿Cuándo quieren empezar? Queremos empezar ahora."]}
+    {:item/n 15,
+     :item/prompt ["You all have to finish soon."],
+     :item/answer ["Tienen que terminar pronto."]}
+    {:item/n 16,
+     :item/prompt ["Are you all going to help us?"],
+     :item/answer ["¿Van a ayudarnos?"]}
+    {:item/n 17,
+     :item/prompt
+     ["Where are you all going to study? We are going to study in a university in Costa Rica."],
+     :item/answer ["¿Dónde van a estudiar? Vamos a estudiar en una universidad en Costa Rica."]}
+    {:item/n 18,
+     :item/prompt ["You all have to pay a deposit."],
+     :item/answer ["Tienen que pagar un depósito."]}
+    {:item/n 19,
+     :item/prompt ["You are all not going to spend much money in these vacations."],
+     :item/answer ["No van a gastar mucho dinero en estas vacaciones."]}
+    {:item/n 20,
+     :item/prompt ["Do you all want to find a house (in order ) to rent?"],
+     :item/answer ["¿Quieren encontrar una casa para rentar?"]}
+    {:item/n 21,
+     :item/prompt
+     ["When are you all going to start your Spanish classes? We are going to start in July."],
+     :item/answer ["¿Cuándo van a empezar sus clases de español? Vamos a empezar en julio."]}
+    {:item/n 22,
+     :item/prompt ["I always have to study a lot the week before the exams."],
+     :item/answer ["Siempre tengo que estudiar mucho la semana antes de los exámenes."]}
+    {:item/n 23,
+     :item/prompt ["Do you all want to buy something special?"],
+     :item/answer ["¿Quieren comprar algo especial?"]}
+    {:item/n 24,
+     :item/prompt ["Are you all going to pay with a credit card?"],
+     :item/answer ["¿Van a pagar con una tarjeta de crédito?"]}
+    {:item/n 25,
+     :item/prompt
+     ["If you all want to study Spanish, this method is good in order to learn fast."],
+     :item/answer ["Si quieren estudiar español, este método es bueno para aprender rápido."]}
+    {:item/n 26,
+     :item/prompt
+     ["Are you all going to (arrive) go by (en) car? No, we are going to (arrive) go by train."],
+     :item/answer ["¿Van a llegar en coche? No, vamos a llegar en tren."]}
+    {:item/n 27,
+     :item/prompt ["You all always need to confirm the reservations a day before."],
+     :item/answer ["Siempre necesitan confirmar las reservaciones un día antes."]}
+    {:item/n 28,
+     :item/prompt ["You all have to arrive a little late to the parties in Mexico."],
+     :item/answer ["Tienen que llegar un poco tarde a las fiestas en México."]}
+    {:item/n 29,
+     :item/prompt ["We always like to spend Christmas with our family."],
+     :item/answer ["Siempre nos gusta pasar Navidad con nuestra familia."]}],
+   :exercise/notes []}
+  {:exercise/id "19C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en inglés las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en inglés para “tienen que” son"],
+     :item/answer ["you all have to"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en inglés para “van a” son"],
+     :item/answer ["You all are going to"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en inglés para “siempre” son"],
+     :item/answer ["always"]}
+    {:item/n 4, :item/prompt ["Las palabras en inglés para “si” son"], :item/answer ["if"]}
+    {:item/n 5, :item/prompt ["Las palabras en inglés para “pagar” son"], :item/answer ["to pay"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en inglés para “llegar” son"],
+     :item/answer ["to arrive"]}],
+   :exercise/notes []}
+  {:exercise/id "19D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al inglés.",
+   :exercise/hints ["langosta = Lobster" "comprender = to understand"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt
+     ["¿Qué quieren hacer el próximo verano? Queremos pasar el verano en México con nuestra familia."],
+     :item/answer
+     ["What do you all want to do next summer? We want to spend the summer in Mexico with our family."]}
+    {:item/n 2,
+     :item/prompt ["¿Cuándo van a visitarnos?"],
+     :item/answer ["When are you all going to visit us?"]}
+    {:item/n 3,
+     :item/prompt ["¿Cuándo quieren verla? Vamos a verla mañana."],
+     :item/answer ["When do you all want to see her? We are going to see her tomorrow."],
+     :item/alternatives [["When do you all want to see her? we're going to see her tomorrow."]]}
+    {:item/n 4,
+     :item/prompt ["¿Cuándo van a llegar? Vamos a llegar mañana en la tarde."],
+     :item/answer ["When are you all going to arrive? We are going to arrive tomorrow afternoon."],
+     :item/alternatives
+     [["When are you all going to arrive? we're going to arrive tomorrow afternoon."]]}
+    {:item/n 5,
+     :item/prompt ["¿Cuándo necesitan llegar? Necesitamos llegar antes de esta noche."],
+     :item/answer ["When do you all need to arrive? We need to arrive before tonight."]}
+    {:item/n 6,
+     :item/prompt
+     ["Lo siento, pero necesitan trabajar este fin de semana.!Otra vez tenemos que trabajar!"],
+     :item/answer ["I am sorry, but you all need to work this weekend. Again we have to work!"],
+     :item/alternatives
+     [["I'm sorry, but you all need to work this weekend. Again we have to work!"]]}
+    {:item/n 7,
+     :item/prompt ["¿Donde van a esperarla?"],
+     :item/answer ["Where are you all going to wait for her?"]}
+    {:item/n 8,
+     :item/prompt ["¿Quieren salir esta noche? No gracias, necesitamos descansar."],
+     :item/answer ["Do you all want to go out tonight? No thanks, we need to rest."]}
+    {:item/n 9,
+     :item/prompt
+     ["¿Dónde van a pasar el verano? Este año vamos a pasar el verano en casa con la familia."],
+     :item/answer
+     ["Where are you all going to spend summer? This year we are going to spend summer at home with the family."],
+     :item/alternatives
+     [["Where are you all going to spend summer? This year we're going to spend summer at home with the family."]]}
+    {:item/n 10,
+     :item/prompt ["Siempre me gusta comer aquí."],
+     :item/answer ["I always like to eat here."]}
+    {:item/n 11,
+     :item/prompt
+     ["¿Quieren regresar a Puerto Nuevo para comer langosta? Si, queremos regresar pronto."],
+     :item/answer
+     ["Do you all want to go back to Puerto Nuevo (in order) to eat lobster? Yes, we want to go back soon."]}
+    {:item/n 12,
+     :item/prompt ["¿Quieren desayunar con nosotros mañana?"],
+     :item/answer ["Do you all want to have breakfast with us tomorrow?"]}
+    {:item/n 13,
+     :item/prompt ["Van a comprender más después de estudiar en México."],
+     :item/answer ["You all are going to understand more after (to study) studying in Mexico."]}
+    {:item/n 14,
+     :item/prompt ["¿Cuándo van a llegar? Vamos a llegar esta noche."],
+     :item/answer ["When are you all going to arrive? We are going to arrive tonight."],
+     :item/alternatives [["When are you all going to arrive? we're going to arrive tonight."]]}
+    {:item/n 15,
+     :item/prompt ["¿Pueden ayudarnos con el español?"],
+     :item/answer ["Can you all help us with Spanish?"]}
+    {:item/n 16,
+     :item/prompt ["Tienen que pagar a David."],
+     :item/answer ["You all have to pay David."]}
+    {:item/n 17,
+     :item/prompt ["¿Por qué tienen que ir? Para trabajar."],
+     :item/answer ["Why do you all have to go? In order to work."]}
+    {:item/n 18,
+     :item/prompt ["¿Pueden pagar a Miguel por favor?"],
+     :item/answer ["Can you all pay Miguel please?"]}
+    {:item/n 19,
+     :item/prompt ["¿Quieren descansar un rato?"],
+     :item/answer ["Do you all want to rest a while?"]}
+    {:item/n 20,
+     :item/prompt ["¿Cuándo necesitamos pagar?"],
+     :item/answer ["When do we need to pay?"]}
+    {:item/n 21,
+     :item/prompt ["Si van a regresar, tienen que visitarnos."],
+     :item/answer ["If you all are going to return,you all have to visit us."]}
+    {:item/n 22,
+     :item/prompt ["Pueden terminar ahora si quieren."],
+     :item/answer ["You all can finish now if you all want."]}
+    {:item/n 23,
+     :item/prompt ["Siempre van a encontrarnos aquí."],
+     :item/answer ["You all are always going to find us here."]}],
+   :exercise/notes []}]}

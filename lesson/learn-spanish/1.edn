@@ -1,0 +1,197 @@
+{:lesson/vocabulary
+ [{:vocab/id 1,
+   :vocab/kind :synergy-verb,
+   :vocab/target "quiero",
+   :vocab/base "I want",
+   :vocab/pronunciation "KEE AIR OH",
+   :vocab/mnemonic "Imagine a friend says \"I want to help I care oh so much.\""}
+  {:vocab/id 2,
+   :vocab/kind :synergy-verb,
+   :vocab/target "necesito",
+   :vocab/base "I need",
+   :vocab/pronunciation "NEHS EH SEE TOH",
+   :vocab/mnemonic "Imagine saying, \"I need it because it is a necessity.\""}
+  {:vocab/id 3,
+   :vocab/kind :brick-verb,
+   :vocab/target "comer",
+   :vocab/base "to eat",
+   :vocab/pronunciation "KOHM AYIR",
+   :vocab/mnemonic "Imagine your mom saying \"come ere to eat\""}
+  {:vocab/id 4,
+   :vocab/kind :brick-verb,
+   :vocab/target "ir",
+   :vocab/base "to go",
+   :vocab/pronunciation "EER",
+   :vocab/mnemonic "Imagine that you have to go to the doctor because you have an ear ache"}
+  {:vocab/id 5,
+   :vocab/kind :brick-verb,
+   :vocab/target "ver",
+   :vocab/base "to see",
+   :vocab/pronunciation "VEHR",
+   :vocab/mnemonic "Look at something on your desk You need to see it up very close"}
+  {:vocab/id 6,
+   :vocab/kind :brick-verb,
+   :vocab/target "hablar",
+   :vocab/base "to speak",
+   :vocab/pronunciation "AH BLAHR",
+   :vocab/mnemonic "Imagine a kid trying to speak but he just says a blah a blah a blah"}],
+ :lesson/title "Your first Synergy Verbs and Brick Verbs",
+ :lesson/source-pages [10 17],
+ :lesson/target-title "Lección uno",
+ :lesson/label "Lesson 1",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 1,
+   :section/title "Negations",
+   :section/body
+   ["Negations are dead easy in Spanish."
+    "Just put no before the verb"
+    "E.G I want"
+    "= quiero"
+    "I don't want = no quiero"
+    "I need"
+    "= necesito"
+    "I don't need = no necesito"
+    "That's how easy it is to make negations in Spanish."]}
+  {:section/type :speaking-hints,
+   :section/id nil,
+   :section/title nil,
+   :section/body
+   ["Okay now you have two Synergy Verbs. We'll add more soon. For now let’s add some Brick Verbs. The Brick Verbs are Spanish infinitive verbs."]}],
+ :lesson/number 1,
+ :lesson/intro [],
+ :lesson/step {:step/number 1, :step/title "The first steps to Speaking Spanish"},
+ :lesson/closing
+ ["That's it for today."
+  "Tomorrow we will add some Mortar to the Brick Verbs and Synergy Verbs. Mortar words hold the Spanish together. They allow you to say more with your sentences."
+  "Do you see how you can say a lot with just a few words? Soon you’ll have a lot greater expressiveness. In fact we have 24 more lessons. So you have a long way to go and a lot more Spanish soon will be yours."
+  "You will learn 24 times more. But your ability to express yourself in Spanish will be thousands of times more."
+  "How is that possible?"
+  "Well each time you learn more of these essential words and structures you have more ability to make compound sentences. It is an exponential growth."
+  "If you are unfamiliar with exponential growth this is how it works Additional growth"
+  "6+6+6+6 = 24"
+  "Exponential growth 6x6x6x6 = 1296"
+  "Sorry, no more math I promise."
+  "The point is for you to learn not to just add more words to your Spanish, but to learn to multiply your Spanish. That way you can take a little Spanish and communicate a lot."
+  "Until tomorrow my friend Hasta mañana amigo."],
+ :lesson/exercises
+ [{:exercise/id "1A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "See how well you remembered your new Spanish Synergy Verbs and Brick Verbs. Write the English words on the line",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["The English words for quiero are"], :item/answer ["I want"]}
+    {:item/n 2, :item/prompt ["The English words for necesito are"], :item/answer ["I need"]}
+    {:item/n 3, :item/prompt ["The English words for hablar are"], :item/answer ["To speak"]}
+    {:item/n 4, :item/prompt ["The English words for ver are"], :item/answer ["To see"]}
+    {:item/n 5, :item/prompt ["The English words for ir are"], :item/answer ["To go"]}
+    {:item/n 6, :item/prompt ["The English words for comer are"], :item/answer ["To eat"]}],
+   :exercise/notes []}
+  {:exercise/id "1B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "In the following exercise you will see some new Spanish words. Don't use a translation dictionary. You will most likely be able to work out their meanings in Spanish from context or from their similarity to English words. Just relax and get used to understanding Spanish. You will be absorbing new Spanish words and structures while developing an important learning skill.",
+   :exercise/hints ["Al = to the"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Quiero hablar español en mis vacaciones."],
+     :item/answer ["I want to speak Spanish on my vacation."]}
+    {:item/n 2,
+     :item/prompt ["Necesito hablar español en la compañía."],
+     :item/answer ["I need to speak Spanish in the company."]}
+    {:item/n 3,
+     :item/prompt ["Necesito ver al doctor por favor."],
+     :item/answer ["I need to see the doctor please."]}
+    {:item/n 4,
+     :item/prompt ["Necesito ir al doctor."],
+     :item/answer ["I need to go to the doctor."]}
+    {:item/n 5,
+     :item/prompt ["Quiero comer en un restaurante tradicional."],
+     :item/answer ["I want to eat in a traditional restaurant."]}
+    {:item/n 6,
+     :item/prompt ["No necesito ir hasta mañana."],
+     :item/answer ["I don’t need to go until tomorrow."]}
+    {:item/n 7,
+     :item/prompt ["No quiero comer comida china,quiero comer comida mexicana."],
+     :item/answer ["I don’t want to eat Chinese food; I want to eat Mexican food."]}
+    {:item/n 8,
+     :item/prompt ["Quiero ir a España en mayo."],
+     :item/answer ["I want to go to Spain in May."]}
+    {:item/n 9, :item/prompt ["Necesito comer."], :item/answer ["I need to eat."]}
+    {:item/n 10,
+     :item/prompt ["Quiero comer algo diferente."],
+     :item/answer ["I want to eat something different."]}
+    {:item/n 11,
+     :item/prompt ["Necesito ir al hotel."],
+     :item/answer ["I need to go to the hotel."]}
+    {:item/n 12,
+     :item/prompt ["Quiero comer un burrito en el mercado."],
+     :item/answer ["I want to eat a burrito in the market."]}
+    {:item/n 13,
+     :item/prompt ["Quiero ver el menú por favor."],
+     :item/answer ["I want to see the menu please."]}
+    {:item/n 14,
+     :item/prompt ["Quiero ir a la fiesta."],
+     :item/answer ["I want to go to the party."]}
+    {:item/n 15,
+     :item/prompt ["Necesito ir a Argentina en junio."],
+     :item/answer ["I need to go to Argentina in June."]}
+    {:item/n 16,
+     :item/prompt ["No quiero ir en junio, quiero ir en septiembre."],
+     :item/answer ["I don’t want to go in June; I want to go in September."]}],
+   :exercise/notes []}
+  {:exercise/id "1C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "How well do you know your Spanish words? Have you internalized them? If you know them well you will be able to translate from English to Spanish.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["The Spanish word for I want is"], :item/answer ["quiero"]}
+    {:item/n 2, :item/prompt ["The Spanish word for I need is"], :item/answer ["necesito"]}
+    {:item/n 3, :item/prompt ["The Spanish word for to eat is"], :item/answer ["comer"]}
+    {:item/n 4, :item/prompt ["The Spanish word for to speak is"], :item/answer ["hablar"]}
+    {:item/n 5, :item/prompt ["The Spanish word for to see is"], :item/answer ["ver"]}
+    {:item/n 6, :item/prompt ["The Spanish word for to go is"], :item/answer ["ir"]}],
+   :exercise/notes []}
+  {:exercise/id "1D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "This is where you are going to really use your Spanish. Go ahead and make some real Spanish sentences.",
+   :exercise/hints
+   ["a restaurant = un restaurante"
+    "my house is your house = mi casa es su casa"
+    "To (a place) = a"],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["I want to speak Spanish."], :item/answer ["Quiero hablar español."]}
+    {:item/n 2, :item/prompt ["I don’t want to eat."], :item/answer ["No quiero comer."]}
+    {:item/n 3,
+     :item/prompt ["I need to speak Spanish."],
+     :item/answer ["Necesito hablar español."]}
+    {:item/n 4, :item/prompt ["I want to see your house."], :item/answer ["Quiero ver su casa."]}
+    {:item/n 5,
+     :item/prompt ["I need to go to my house."],
+     :item/answer ["Necesito ir a mi casa."]}
+    {:item/n 6, :item/prompt ["I want to eat."], :item/answer ["Quiero comer."]}
+    {:item/n 7, :item/prompt ["I want to go to Spain."], :item/answer ["Quiero ir a España."]}
+    {:item/n 8,
+     :item/prompt ["I don’t need to go to Chile."],
+     :item/answer ["No necesito ir a Chile."]}
+    {:item/n 9, :item/prompt ["I need to eat."], :item/answer ["Necesito comer."]}
+    {:item/n 10,
+     :item/prompt ["I don't want to eat in my house; I want to eat in a restaurant."],
+     :item/answer ["No quiero comer en mi casa, quiero comer en un restaurante."]}
+    {:item/n 11, :item/prompt ["I need to go to Mexico."], :item/answer ["Necesito ir a México."]}
+    {:item/n 12, :item/prompt ["I want to eat tacos."], :item/answer ["Quiero comer tacos."]}
+    {:item/n 13,
+     :item/prompt ["I want to see Chichen Itza."],
+     :item/answer ["Quiero ver Chichen Itza."]}],
+   :exercise/notes []}]}

@@ -1,0 +1,288 @@
+{:lesson/vocabulary
+ [{:vocab/id 67,
+   :vocab/kind :synergy-verb,
+   :vocab/target "le gusta",
+   :vocab/base "you like",
+   :vocab/pronunciation "LEH GOOS TAH",
+   :vocab/mnemonic
+   "You know this pattern now. Me gustaría I would like Me gusta I like Le gustaría you would like Le gusta you like"}
+  {:vocab/id 68,
+   :vocab/kind :sentence-starter,
+   :vocab/target "antes de",
+   :vocab/base "before",
+   :vocab/pronunciation "AHNT EHS DEH",
+   :vocab/mnemonic "You need to put the sugar away before the Ants get der"}
+  {:vocab/id 69,
+   :vocab/kind :sentence-starter,
+   :vocab/target "qué",
+   :vocab/base "what",
+   :vocab/pronunciation "KEH",
+   :vocab/mnemonic
+   "Just think Faulty Towers Manuel. If you haven't seen the show Faulty Towers, Imagine you friend Kay doesn't know what to do."}
+  {:vocab/id 70,
+   :vocab/kind :brick-verb,
+   :vocab/target "caminar",
+   :vocab/base "to walk",
+   :vocab/pronunciation "CAH MEE NAHR",
+   :vocab/mnemonic "The father bear came in after going to walk in the forest."}
+  {:vocab/id 71,
+   :vocab/kind :brick-verb,
+   :vocab/target "hacer",
+   :vocab/base "to make or to do",
+   :vocab/pronunciation "AH SAIR",
+   :vocab/mnemonic
+   "Imagine a sergeant asks for volunteers and two privates yell \"us sir we want to do it.\""}
+  {:vocab/id 72,
+   :vocab/kind :brick-verb,
+   :vocab/target "desayunar",
+   :vocab/base "to have breakfast",
+   :vocab/pronunciation "DEH SAH YOO NAHR",
+   :vocab/mnemonic "Des says \"una Cornflakes for breakfast please.\""}],
+ :lesson/title "End of Step 2",
+ :lesson/source-pages [105 113],
+ :lesson/target-title "Lección doce",
+ :lesson/label "Lesson 12",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 10,
+   :section/title "How to use antes de",
+   :section/body
+   ["The structure with Spanish is a little different to English. But the good news is it fits easily with the Synergy Verb + Brick Verb structures you have been using."
+    "For example in English you might say;"
+    "Before having breakfast I like to walk."
+    "Before I have breakfast I like to walk."
+    "In Spanish you simply follow before - antes de with a Brick Verb."
+    "Antes de desayunar, me gusta caminar."
+    "Before to have breakfast I like to walk."
+    "Another example."
+    "Antes de estudiar me gusta ver la televisión por un rato."
+    "Before (to study) studying I like to watch television for a while."]}],
+ :lesson/number 12,
+ :lesson/intro [],
+ :lesson/step {:step/number 2, :step/title "Learning to use dialog for Spanish conversation"},
+ :lesson/closing
+ ["Congratulations you have finished step 2 In just the last 4 chapters your ability has multiplied a lot."
+  "It still amazes me how much you can say with so few words."
+  "I hope you are seeing the potential to make a lot of Spanish sentences easily."
+  "Maybe you are already starting to make your own original sentences."
+  "If you are not making you own original sentences in Spanish yet, try it. Use your imagination and see yourself speaking Spanish and using the Spanish you know to make sentences. Imagine situations where you might use your Spanish. Find the way to say what you want to say in Spanish."
+  "Sounds a bit esoteric, but give it a try, it works. Just spend five minutes every day thinking about how you would say what you want in Spanish. Then imagine yourself saying what you want to say and getting your point across."
+  "Next chapter you will expand your ability to communicate again. We’ll enter plural territory. It’s easy to add extra dimension to what you already know."],
+ :lesson/exercises
+ [{:exercise/id "12A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Write the English words on the line",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["The English words for desayunar are"],
+     :item/answer ["to have breakfast"]}
+    {:item/n 2, :item/prompt ["The English words for hacer are"], :item/answer ["to do / to make"]}
+    {:item/n 3, :item/prompt ["The English words for caminar are"], :item/answer ["to walk"]}
+    {:item/n 4, :item/prompt ["The English word for qué is"], :item/answer ["what"]}
+    {:item/n 5, :item/prompt ["The English word for antes de is"], :item/answer ["before"]}
+    {:item/n 6, :item/prompt ["The English words for le gusta are"], :item/answer ["you like"]}
+    {:item/n 7, :item/prompt ["The English words for puede are"], :item/answer ["you can"]}
+    {:item/n 8, :item/prompt ["The English words for tiene que are"], :item/answer ["you have to"]}
+    {:item/n 9,
+     :item/prompt ["The English words for terminar are"],
+     :item/answer ["to finish / to end"]}
+    {:item/n 10,
+     :item/prompt ["The English words for ahora mismo are"],
+     :item/answer ["right now"]}
+    {:item/n 11, :item/prompt ["The English word for él is"], :item/answer ["him/he"]}
+    {:item/n 12, :item/prompt ["The English word for tarde is"], :item/answer ["afternoon"]}],
+   :exercise/notes []}
+  {:exercise/id "12B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "",
+   :exercise/hints ["llamada = call (phone call)"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["No puedo viajar con él antes de diciembre."],
+     :item/answer ["I can’t travel with him before December."]}
+    {:item/n 2,
+     :item/prompt ["¿Qué quiere hacer hoy? Quiero ir al cine."],
+     :item/answer ["What do you want to do today? I want to go to the cinema."]}
+    {:item/n 3,
+     :item/prompt ["Me gusta ver a mis amigos los fines de semana."],
+     :item/answer ["I like to see my friends (on) the weekends."]}
+    {:item/n 4,
+     :item/prompt ["Me gusta desayunar en este restaurante los fines de semana."],
+     :item/answer
+     ["I like (to have breakfast) having breakfast in this restaurant (on) the weekends."]}
+    {:item/n 5,
+     :item/prompt ["!No le gusta el fútbol!"],
+     :item/answer ["You don't like football!"]}
+    {:item/n 6,
+     :item/prompt ["¿Qué quiere tomar té o café?"],
+     :item/answer ["What do you want to drink, tea or coffee?"]}
+    {:item/n 7,
+     :item/prompt ["Voy a regresar al hotel antes de ir al restaurante."],
+     :item/answer ["I am going to return to the hotel before (to go) going to the restaurant."]}
+    {:item/n 8,
+     :item/prompt ["Puede estudiar aquí por un rato antes de regresar a su casa."],
+     :item/answer ["You can study here for a while before (to return) returning to your house."]}
+    {:item/n 9,
+     :item/prompt ["Quiero caminar en el parque."],
+     :item/answer ["I want to walk in the park."]}
+    {:item/n 10,
+     :item/prompt ["Tiene que terminar antes del fin de semana."],
+     :item/answer ["You have to finish before the weekend."]}
+    {:item/n 11,
+     :item/prompt ["¿Va a regresar antes del próximo año?"],
+     :item/answer ["Are you going to return before the next year?"]}
+    {:item/n 12,
+     :item/prompt ["Puede caminar con él al hotel."],
+     :item/answer ["You can walk with him to the hotel."]}
+    {:item/n 13,
+     :item/prompt ["¿Le gusta estudiar con él?"],
+     :item/answer ["Do you like (to study) studying with him?"]}
+    {:item/n 14,
+     :item/prompt ["Tengo que hacer una reservación."],
+     :item/answer ["I have to make a reservation."]}
+    {:item/n 15,
+     :item/prompt ["Necesito hacer una llamada ahora mismo."],
+     :item/answer ["I need to make a call right now."]}
+    {:item/n 16,
+     :item/prompt ["¿Puede ayudarme antes de desayunar?"],
+     :item/answer ["Can you help me before (to have breakfast) having breakfast?"]}
+    {:item/n 17,
+     :item/prompt ["Me gustaría tomar un café aquí antes de regresar al hotel."],
+     :item/answer
+     ["I would like to drink a coffee here before (to go back) going back to the hotel."]}
+    {:item/n 18,
+     :item/prompt ["¿Por qué no le gusta viajar?"],
+     :item/answer ["Why don't you like to travel?"]}
+    {:item/n 19,
+     :item/prompt ["Voy a pasar un mes allá antes del fin de año."],
+     :item/answer ["I am going to spend a month there before the end of the year."]}
+    {:item/n 20,
+     :item/prompt ["No puede caminar, necesita ir en taxi."],
+     :item/answer ["You can’t walk, you need to go (in) by taxi."]}
+    {:item/n 21, :item/prompt ["Necesito hacer pipi."], :item/answer ["I need to do a pee."]}
+    {:item/n 22,
+     :item/prompt ["¿Le gusta ir a los bares en Tijuana los fines de semana?"],
+     :item/answer ["Do you like to go to the bars in Tijuana on the weekends?"]}
+    {:item/n 23,
+     :item/prompt ["¿Le gusta estar en casa?"],
+     :item/answer ["Do you like being (to be) home?"]}
+    {:item/n 24,
+     :item/prompt ["Necesita hacer un doble clic aquí."],
+     :item/answer ["You need to do (to make) a double click here."]}
+    {:item/n 25,
+     :item/prompt ["¿Va a caminar o va a tomar un taxi?"],
+     :item/answer ["Are you going to walk or are you going to take a taxi?"]}
+    {:item/n 26,
+     :item/prompt ["No quiero hacer un comentario."],
+     :item/answer ["I don't want to make a comment."]}
+    {:item/n 27,
+     :item/prompt ["¿Le gusta la comida mexicana?"],
+     :item/answer ["Do you like Mexican food?"]}
+    {:item/n 28,
+     :item/prompt ["Necesito hablar con mi esposa antes de esta noche."],
+     :item/answer ["I need to speak with my wife before tonight."]}],
+   :exercise/notes []}
+  {:exercise/id "12C",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Translate these words into Spanish.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["The Spanish word for to have breakfast is"],
+     :item/answer ["desayunar"]}
+    {:item/n 2, :item/prompt ["The Spanish word for to do or to make is"], :item/answer ["hacer"]}
+    {:item/n 3, :item/prompt ["The Spanish word for to walk is"], :item/answer ["caminar"]}
+    {:item/n 4, :item/prompt ["The Spanish word for what is"], :item/answer ["qué"]}
+    {:item/n 5, :item/prompt ["The Spanish words for before are"], :item/answer ["antes de"]}
+    {:item/n 6, :item/prompt ["The Spanish words for you like are"], :item/answer ["le gusta"]}
+    {:item/n 7, :item/prompt ["The Spanish word for you can is"], :item/answer ["puede"]}
+    {:item/n 8, :item/prompt ["The Spanish words for you have to are"], :item/answer ["tiene que"]}
+    {:item/n 9, :item/prompt ["The Spanish word for to finish is"], :item/answer ["terminar"]}
+    {:item/n 10,
+     :item/prompt ["The Spanish words for right now are"],
+     :item/answer ["ahora mismo"]}
+    {:item/n 11, :item/prompt ["The Spanish word for he is"], :item/answer ["él"]}
+    {:item/n 12, :item/prompt ["The Spanish word for afternoon is"], :item/answer ["tarde"]}],
+   :exercise/notes []}
+  {:exercise/id "12D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "De el contracts to del",
+   :exercise/hints ["a doctor = un doctor"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["What are you going to do this afternoon?"],
+     :item/answer ["¿Qué va a hacer esta tarde?"]}
+    {:item/n 2,
+     :item/prompt ["I need to work again in San Diego before next week."],
+     :item/answer ["Necesito trabajar otra vez en San Diego antes de la próxima semana."]}
+    {:item/n 3,
+     :item/prompt ["What do you want (in order) to have (for) breakfast?"],
+     :item/answer ["¿Qué quiere para desayunar?"]}
+    {:item/n 4,
+     :item/prompt ["I am going work there with him before the next month."],
+     :item/answer ["Voy a trabajar allá con él antes del próximo mes."]}
+    {:item/n 5,
+     :item/prompt ["Do you like to work with him?"],
+     :item/answer ["¿Le gusta trabajar con él?"]}
+    {:item/n 6,
+     :item/prompt ["I am not going to return before the next year."],
+     :item/answer ["No voy a regresar antes del próximo año."]}
+    {:item/n 7,
+     :item/prompt ["What would you like to drink?"],
+     :item/answer ["¿Qué le gustaría tomar?"]}
+    {:item/n 8, :item/prompt ["I want to walk."], :item/answer ["Quiero caminar."]}
+    {:item/n 9,
+     :item/prompt ["I can have breakfast in the hotel."],
+     :item/answer ["Puedo desayunar en el hotel."]}
+    {:item/n 10,
+     :item/prompt ["I need to spend a day in LA before next week."],
+     :item/answer ["Necesito pasar un día en LA antes de la próxima semana."]}
+    {:item/n 11,
+     :item/prompt ["I have to walk everyday."],
+     :item/answer ["Tengo que caminar cada día."]}
+    {:item/n 12,
+     :item/prompt ["What do you need? I need to see a doctor right now."],
+     :item/answer ["¿Qué necesita? Necesito ver a un doctor ahora mismo."]}
+    {:item/n 13,
+     :item/prompt ["Do you like México? Yes, I like (it) a lot."],
+     :item/answer ["¿Le gusta México? Sí, me gusta mucho."]}
+    {:item/n 14,
+     :item/prompt ["I am sorry, I can’t see him before tomorrow."],
+     :item/answer ["Lo siento, no puedo verlo antes de mañana."]}
+    {:item/n 15,
+     :item/prompt ["Do you like being (to be) here? I like being (to be) here with you."],
+     :item/answer ["¿Le gusta estar aquí? Me gusta estar aquí con usted."]}
+    {:item/n 16,
+     :item/prompt
+     ["Do you like to study? Yes, I like to study because I want to learn more Spanish."],
+     :item/answer
+     ["¿Le gusta estudiar? Sí, me gusta estudiar, porque quiero aprender más español."]}
+    {:item/n 17, :item/prompt ["You need to walk more."], :item/answer ["Necesita caminar más."]}
+    {:item/n 18,
+     :item/prompt ["Do you like to cook? Yes, I like to cook."],
+     :item/answer ["¿Le gusta cocinar? Sí, me gusta cocinar."]}
+    {:item/n 19,
+     :item/prompt ["What do you want to do tonight? I want to go to a restaurant."],
+     :item/answer ["¿Qué quiere hacer esta noche? Quiero ir a un restaurante."]}
+    {:item/n 20,
+     :item/prompt ["I am going to have (to make) a party in my house."],
+     :item/answer ["Voy a hacer una fiesta en mi casa."]}
+    {:item/n 21,
+     :item/prompt ["I don't need a taxi, I can walk."],
+     :item/answer ["No necesito un taxi, puedo caminar."]}
+    {:item/n 22,
+     :item/prompt ["What do you have to do now?"],
+     :item/answer ["¿Qué tiene que hacer ahora?"]}
+    {:item/n 23,
+     :item/prompt ["Would you like to do something tonight?"],
+     :item/answer ["¿Le gustaría hacer algo esta noche?"]}],
+   :exercise/notes []}]}

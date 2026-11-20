@@ -1,0 +1,319 @@
+{:lesson/vocabulary
+ [{:vocab/id 25,
+   :vocab/kind :synergy-verb,
+   :vocab/target "I have to",
+   :vocab/base "tengo que",
+   :vocab/pronunciation "ái jav tu",
+   :vocab/mnemonic nil}
+  {:vocab/id 26,
+   :vocab/kind :synergy-verb,
+   :vocab/target "I can",
+   :vocab/base "puedo",
+   :vocab/pronunciation "ái can",
+   :vocab/mnemonic nil}
+  {:vocab/id 27,
+   :vocab/kind :brick-verb,
+   :vocab/target "to study",
+   :vocab/base "estudiar",
+   :vocab/pronunciation "tu stádi",
+   :vocab/mnemonic nil}
+  {:vocab/id 28,
+   :vocab/kind :brick-verb,
+   :vocab/target "to return",
+   :vocab/base "regresar",
+   :vocab/pronunciation "tu ritérn",
+   :vocab/mnemonic nil}
+  {:vocab/id 29,
+   :vocab/kind :brick-verb,
+   :vocab/target "to be",
+   :vocab/base "estar",
+   :vocab/pronunciation "tu bi",
+   :vocab/mnemonic nil}
+  {:vocab/id 30,
+   :vocab/kind :brick-verb,
+   :vocab/target "to work",
+   :vocab/base "trabajar",
+   :vocab/pronunciation "tu uérk",
+   :vocab/mnemonic nil}],
+ :lesson/title "Tengo que, puedo y las preguntas",
+ :lesson/target-title "Have to, can, and questions",
+ :lesson/label "Lección 5",
+ :lesson/sections
+ [{:section/type :accuracy-pointer,
+   :section/id 4,
+   :section/title "I have to = tengo que",
+   :section/body
+   ["I have to expresa obligación y es más fuerte que I need."
+    "La estructura es: I have to + verbo base: I have to eat."
+    "Con he, she o it usa has to: she has to work."
+    "I need to eat = necesito comer; I have to eat = tengo que comer."]}
+  {:section/type :communication-multiplied,
+   :section/id 4,
+   :section/title "I can + verbo, sin to",
+   :section/body
+   ["En inglés, can va seguido del verbo base sin to: I can work, I can study."
+    "No digas *I can to work*."
+    "En español también usas el infinitivo, pero en inglés can nunca lleva to."]}
+  {:section/type :communication-multiplied,
+   :section/id 5,
+   :section/title "Un verbo para muchas ideas",
+   :section/body
+   ["El verbo return cubre volver, regresar y devolver."
+    "I return = regreso; I return the book = devuelvo el libro."
+    "Aprende return como una palabra multiuso."]}
+  {:section/type :communication-multiplied,
+   :section/id 6,
+   :section/title "Preguntas con el mismo verbo",
+   :section/body
+   ["En inglés, para preguntar cambias el orden: Can I help her? / I can help her."
+    "Con can el orden es: can + sujeto + verbo base."
+    "Con have to usas do o does: Do I have to work? / Does she have to work?"
+    "La entonación también ayuda, pero en inglés el orden es la clave."]}],
+ :lesson/number 5,
+ :lesson/intro [],
+ :lesson/step {:step/number 1, :step/title "Primeros pasos para hablar inglés"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "5A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “to work” son"],
+     :item/answer ["trabajar"]}
+    {:item/n 2, :item/prompt ["Las palabras en español para “to be” son"], :item/answer ["estar"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “to return” son"],
+     :item/answer ["regresar"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en español para “to study” son"],
+     :item/answer ["estudiar"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en español para “I have to” son"],
+     :item/answer ["tengo que"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “I can” son"],
+     :item/answer ["puedo"]}],
+   :exercise/notes []}
+  {:exercise/id "5B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Can I speak with you (for) a moment?"],
+     :item/answer ["¿Puedo hablar con usted un momento?"]}
+    {:item/n 2,
+     :item/prompt ["I have to study Spanish tonight for the exam tomorrow."],
+     :item/answer ["Tengo que estudiar español esta noche para el examen de mañana."]}
+    {:item/n 3,
+     :item/prompt ["I can go to Spain in October."],
+     :item/answer ["Puedo ir a España en octubre."]}
+    {:item/n 4,
+     :item/prompt ["I want to return again in May."],
+     :item/answer ["Quiero regresar otra vez en mayo."]}
+    {:item/n 5,
+     :item/prompt ["I can help her with the cases."],
+     :item/answer ["Puedo ayudarla con las maletas."]}
+    {:item/n 6,
+     :item/prompt ["I have to study now in order to speak Spanish in my vacations."],
+     :item/answer ["Tengo que estudiar ahora para hablar español en mis vacaciones."]}
+    {:item/n 7,
+     :item/prompt ["Tonight I can’t go to the cinema, I have to study Spanish."],
+     :item/answer ["Esta noche no puedo ir al cine,tengo que estudiar español."]}
+    {:item/n 8,
+     :item/prompt ["I can speak a little (of) Spanish."],
+     :item/answer ["Puedo hablar un poco de español."]}
+    {:item/n 9,
+     :item/prompt ["Do I have to work tomorrow?"],
+     :item/answer ["¿Tengo que trabajar mañana?"]}
+    {:item/n 10,
+     :item/prompt ["I have to be in Mexico next week."],
+     :item/answer ["Tengo que estar en México la próxima semana."]}
+    {:item/n 11,
+     :item/prompt ["Can I work with you on this idea?"],
+     :item/answer ["¿Puedo trabajar con usted en esta idea?"]}
+    {:item/n 12,
+     :item/prompt ["I have to speak with the doctor."],
+     :item/answer ["Tengo que hablar con el doctor."]}
+    {:item/n 13,
+     :item/prompt ["I can’t be in Bolivia until October."],
+     :item/answer ["No puedo estar en Bolivia hasta octubre."]}
+    {:item/n 14,
+     :item/prompt ["I don't have to work in June. I am going to be on vacation."],
+     :item/answer ["No tengo que trabajar en junio,voy a estar de vacaciones."]}
+    {:item/n 15,
+     :item/prompt ["I have to return the video tomorrow."],
+     :item/answer ["Tengo que regresar el video mañana."]}
+    {:item/n 16,
+     :item/prompt ["I can’t call him until tomorrow."],
+     :item/answer ["No puedo llamarlo hasta mañana."]}
+    {:item/n 17,
+     :item/prompt ["I am going to return to my house this week."],
+     :item/answer ["Voy a regresar a mi casa esta semana."]}
+    {:item/n 18,
+     :item/prompt ["I can see the Olympic games on television this week."],
+     :item/answer ["Puedo ver los Juegos Olímpicos por televisión esta semana."]}
+    {:item/n 19,
+     :item/prompt ["I want to return to the restaurant again in order to eat more tacos."],
+     :item/answer ["Quiero regresar al restaurante otra vez para comer más tacos."]}
+    {:item/n 20,
+     :item/prompt ["I can visit more parts of Mexico on the next vacation."],
+     :item/answer ["Puedo visitar más partes de México en las próximas vacaciones."]}
+    {:item/n 21,
+     :item/prompt ["I need to return your cassette."],
+     :item/answer ["Necesito regresar su cassette."]}
+    {:item/n 22,
+     :item/prompt ["I want to work in the United Nations."],
+     :item/answer ["Quiero trabajar en las Naciones Unidas."]}
+    {:item/n 23,
+     :item/prompt ["I am going to work in Bolivia next week."],
+     :item/answer ["Voy a trabajar en Bolivia la próxima semana."]}
+    {:item/n 24,
+     :item/prompt ["Can I see the passports again please?"],
+     :item/answer ["¿Puedo ver los pasaportes otra vez por favor?"]}
+    {:item/n 25,
+     :item/prompt ["I have to see your visa."],
+     :item/answer ["Tengo que ver su visa."]}
+    {:item/n 26,
+     :item/prompt ["Can I see the menu please?"],
+     :item/answer ["¿Puedo ver el menú por favor?"]}
+    {:item/n 27,
+     :item/prompt ["I have to go to the hotel soon."],
+     :item/answer ["Tengo que ir al hotel pronto."]}
+    {:item/n 28,
+     :item/prompt ["I want to work in a hotel in Acapulco."],
+     :item/answer ["Quiero trabajar en un hotel en Acapulco."]}
+    {:item/n 29,
+     :item/prompt ["I can’t invite many people to the party."],
+     :item/answer ["No puedo invitar a muchas personas a la fiesta."]}
+    {:item/n 30,
+     :item/prompt ["In order to see the island I need to use binoculars."],
+     :item/answer ["Para ver la isla necesito usar binoculares."]}
+    {:item/n 31,
+     :item/prompt ["Can I see the doctor please?"],
+     :item/answer ["¿Puedo ver al doctor por favor?"]}],
+   :exercise/notes []}
+  {:exercise/id "5C",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["tengo que"], :item/answer ["The Spanish words for I have to are"]}
+    {:item/n 2, :item/prompt ["puedo"], :item/answer ["The Spanish word for I can is"]}
+    {:item/n 3, :item/prompt ["regresar"], :item/answer ["The Spanish word for to return is"]}
+    {:item/n 4, :item/prompt ["estudiar"], :item/answer ["The Spanish word for to study is"]}
+    {:item/n 5, :item/prompt ["estar"], :item/answer ["The Spanish word for to be is"]}
+    {:item/n 6, :item/prompt ["trabajar"], :item/answer ["The Spanish word for to work is"]}],
+   :exercise/notes []}
+  {:exercise/id "5D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["¿Puedo invitar a mis amigos a la fiesta la próxima semana?"],
+     :item/answer ["Can I invite my friends to the party next week?"]}
+    {:item/n 2,
+     :item/prompt ["Voy a estudiar español con Luisa."],
+     :item/answer ["I am going to study Spanish with Luisa."],
+     :item/alternatives [["I'm going to study Spanish with Luisa."]]}
+    {:item/n 3, :item/prompt ["Puedo llamarlo."], :item/answer ["I can call him."]}
+    {:item/n 4, :item/prompt ["Tengo que regresar ahora."], :item/answer ["I have to return now."]}
+    {:item/n 5,
+     :item/prompt ["Voy a regresar esta noche."],
+     :item/answer ["I am going to return tonight."],
+     :item/alternatives [["I'm going to return tonight."]]}
+    {:item/n 6,
+     :item/prompt ["Quiero estudiar español con usted."],
+     :item/answer ["I want to study Spanish with you."]}
+    {:item/n 7,
+     :item/prompt ["Voy a estudiar más español en México."],
+     :item/answer ["I am going to study more Spanish in Mexico."],
+     :item/alternatives [["I'm going to study more Spanish in Mexico."]]}
+    {:item/n 8,
+     :item/prompt ["Tengo que trabajar otra vez mañana."],
+     :item/answer ["I have to work again tomorrow."]}
+    {:item/n 9,
+     :item/prompt ["Voy a estar con usted en México la próxima semana."],
+     :item/answer ["I am going to be with you in Mexico next week."],
+     :item/alternatives [["I'm going to be with you in Mexico next week."]]}
+    {:item/n 10,
+     :item/prompt ["No voy a trabajar con Luís."],
+     :item/answer ["I am not going to work with Luis."],
+     :item/alternatives [["I'm not going to work with Luis."]]}
+    {:item/n 11,
+     :item/prompt ["Tengo que estudiar esta semana."],
+     :item/answer ["I have to study this week."]}
+    {:item/n 12, :item/prompt ["Puedo ayudarlo."], :item/answer ["I can help him."]}
+    {:item/n 13,
+     :item/prompt ["Tengo que estar en México esta noche."],
+     :item/answer ["I have to be in Mexico tonight."]}
+    {:item/n 14,
+     :item/prompt ["No puedo trabajar con usted."],
+     :item/answer ["I can’t work with you."],
+     :item/alternatives [["I cannot work with you."]]}
+    {:item/n 15,
+     :item/prompt ["Tengo que regresar pronto."],
+     :item/answer ["I have to go back soon."]}
+    {:item/n 16,
+     :item/prompt ["No puedo trabajar la próxima semana."],
+     :item/answer ["I can’t work next week."],
+     :item/alternatives [["I cannot work next week."]]}
+    {:item/n 17,
+     :item/prompt ["Quiero estudiar español otra vez."],
+     :item/answer ["I want to study Spanish again."]}
+    {:item/n 18,
+     :item/prompt ["Necesito estudiar más español."],
+     :item/answer ["I need to study more Spanish."]}
+    {:item/n 19,
+     :item/prompt ["Necesito estar en mi casa esta noche."],
+     :item/answer ["I need to be in my house tonight."]}
+    {:item/n 20,
+     :item/prompt ["¿Puedo estudiar español con usted otra vez?"],
+     :item/answer ["Can I study Spanish with you again?"]}
+    {:item/n 21, :item/prompt ["Quiero estar con usted."], :item/answer ["I want to be with you."]}
+    {:item/n 22,
+     :item/prompt ["Puedo regresar mañana."],
+     :item/answer ["I can come back (return) tomorrow."]}
+    {:item/n 23,
+     :item/prompt ["Voy a estar con usted pronto."],
+     :item/answer ["I am going to be with you soon."],
+     :item/alternatives [["I'm going to be with you soon."]]}
+    {:item/n 24,
+     :item/prompt ["Quiero visitar México pronto."],
+     :item/answer ["I want to visit Mexico soon."]}
+    {:item/n 25, :item/prompt ["Quiero regresar pronto."], :item/answer ["I want to return soon."]}
+    {:item/n 26,
+     :item/prompt ["Necesito regresar a mi casa."],
+     :item/answer ["I need to return to my house."]}
+    {:item/n 27, :item/prompt ["Necesito trabajar."], :item/answer ["I need to work."]}
+    {:item/n 28,
+     :item/prompt ["No puedo trabajar, tengo que ir a mi casa para estar con mi familia."],
+     :item/answer ["I can’t work, I have to go to my house in order to be with my family."],
+     :item/alternatives
+     [["I cannot work, I have to go to my house in order to be with my family."]]}
+    {:item/n 29,
+     :item/prompt ["Quiero trabajar con usted."],
+     :item/answer ["I want to work with you."]}
+    {:item/n 30,
+     :item/prompt ["No quiero trabajar ahora."],
+     :item/answer ["I don't want to work now."],
+     :item/alternatives [["I do not want to work now."]]}
+    {:item/n 31,
+     :item/prompt ["Necesito estudiar para hablar más español."],
+     :item/answer ["I need to study in order to speak more Spanish."]}
+    {:item/n 32,
+     :item/prompt ["¿Tengo que trabajar mañana?"],
+     :item/answer ["Do I have to work tomorrow?"]}],
+   :exercise/notes []}]}

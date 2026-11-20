@@ -38,7 +38,11 @@
     (java.net.URLDecoder/decode (str/replace s "+" "%2B") "UTF-8")
     (catch Exception _ nil)))
 
-(defn- safe-relative [uri]
+(defn- safe-relative
+  "Map a request URI to a path below the root. A trailing slash means a
+  directory index; a path without an extension that resolves to a directory is
+  treated the same way by `resolve-request`."
+  [uri]
   (when (string? uri)
     (let [decoded (percent-decode uri)]
       (when (and decoded (not (str/includes? decoded "\u0000")))
@@ -57,7 +61,10 @@
 
 (defn- resolve-request [root root-str uri]
   (when-let [rel (safe-relative uri)]
-    (let [candidate (fs/path root rel)]
+    (let [candidate (fs/path root rel)
+          candidate (if (fs/directory? candidate)
+                      (fs/path candidate "index.html")
+                      candidate)]
       (try
         (let [canonical (fs/canonicalize candidate)]
           {:path canonical
@@ -73,10 +80,19 @@
    :headers headers
    :body body})
 
-(defn- not-found []
-  (response 404 {"content-type" "text/plain; charset=utf-8"
-                 "cache-control" "no-cache"}
-              "not found"))
+(defn- text-response [status body]
+  (response status {"content-type" "text/plain; charset=utf-8"
+                    "cache-control" "no-cache"}
+               body))
+
+(defn- not-found [root body?]
+  (let [page (fs/path root "404.html")]
+    (if (and body? (fs/regular-file? page))
+      (response 404 {"content-type" "text/html; charset=utf-8"
+                     "cache-control" "no-cache"
+                     "content-length" (str (fs/size page))}
+                (fs/read-all-bytes page))
+      (text-response 404 "not found"))))
 
 (defn handler
   "Ring handler serving files below root. GET and HEAD only."
@@ -91,10 +107,9 @@
                     "method not allowed")
           (let [{:keys [path rel inside?]} (resolve-request root root-str (:uri req))]
             (cond
-              (nil? path) (response 400 {"content-type" "text/plain; charset=utf-8"}
-                                    "bad request")
-              (not inside?) (not-found)
-              (not (fs/regular-file? path)) (not-found)
+              (nil? path) (text-response 400 "bad request")
+              (not inside?) (not-found root (= :get method))
+              (not (fs/regular-file? path)) (not-found root (= :get method))
               :else
               (let [immutable? (str/starts-with? rel "assets/")
                     headers {"content-type" (content-type path)

@@ -1,0 +1,202 @@
+{:lesson/vocabulary
+ [{:vocab/id 1,
+   :vocab/kind :synergy-verb,
+   :vocab/target "I want",
+   :vocab/base "quiero",
+   :vocab/pronunciation "ái uánt",
+   :vocab/mnemonic nil}
+  {:vocab/id 2,
+   :vocab/kind :synergy-verb,
+   :vocab/target "I need",
+   :vocab/base "necesito",
+   :vocab/pronunciation "ái niid",
+   :vocab/mnemonic nil}
+  {:vocab/id 3,
+   :vocab/kind :brick-verb,
+   :vocab/target "to eat",
+   :vocab/base "comer",
+   :vocab/pronunciation "tu iit",
+   :vocab/mnemonic nil}
+  {:vocab/id 4,
+   :vocab/kind :brick-verb,
+   :vocab/target "to go",
+   :vocab/base "ir",
+   :vocab/pronunciation "tu góu",
+   :vocab/mnemonic nil}
+  {:vocab/id 5,
+   :vocab/kind :brick-verb,
+   :vocab/target "to see",
+   :vocab/base "ver",
+   :vocab/pronunciation "tu sii",
+   :vocab/mnemonic nil}
+  {:vocab/id 6,
+   :vocab/kind :brick-verb,
+   :vocab/target "to speak",
+   :vocab/base "hablar",
+   :vocab/pronunciation "tu spiik",
+   :vocab/mnemonic nil}],
+ :lesson/title "Tus primeros bloques de inglés",
+ :lesson/target-title "Your first English chunks",
+ :lesson/label "Lección 1",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 1,
+   :section/title "La negación con don't",
+   :section/body
+   ["En inglés, para negar usas don't antes del verbo: I don't want, I don't need."
+    "La estructura es: sujeto + don't + verbo base."
+    "I want = quiero; I don't want = no quiero."
+    "I need = necesito; I don't need = no necesito."
+    "Con he, she o it usa doesn't: she doesn't want."]}
+  {:section/type :speaking-hints,
+   :section/id nil,
+   :section/title nil,
+   :section/body
+   ["Ya tienes dos verbos muy útiles: want y need."
+    "Después de want y need puedes usar otro verbo con to: I want to eat, I need to go."
+    "Esos segundos verbos son los verbos base: eat, go, see, speak."]}],
+ :lesson/number 1,
+ :lesson/intro [],
+ :lesson/step {:step/number 1, :step/title "Primeros pasos para hablar inglés"},
+ :lesson/closing
+ ["Eso es todo por hoy."
+  "Mañana añadiremos palabras que unen las frases y te permiten decir mucho más."
+  "Con pocas palabras ya puedes comunicar bastante; cada lección multiplicará tu inglés."
+  "No solo sumas palabras: multiplicas posibilidades."
+  "Hasta mañana."],
+ :lesson/exercises
+ [{:exercise/id "1A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en inglés.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “I want” son"],
+     :item/answer ["quiero"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en español para “I need” son"],
+     :item/answer ["necesito"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “to speak” son"],
+     :item/answer ["hablar"]}
+    {:item/n 4, :item/prompt ["Las palabras en español para “to see” son"], :item/answer ["ver"]}
+    {:item/n 5, :item/prompt ["Las palabras en español para “to go” son"], :item/answer ["ir"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “to eat” son"],
+     :item/answer ["comer"]}],
+   :exercise/notes []}
+  {:exercise/id "1B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["to the = Al"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["I want to speak Spanish on my vacation."],
+     :item/answer ["Quiero hablar español en mis vacaciones."]}
+    {:item/n 2,
+     :item/prompt ["I need to speak Spanish in the company."],
+     :item/answer ["Necesito hablar español en la compañía."]}
+    {:item/n 3,
+     :item/prompt ["I need to see the doctor please."],
+     :item/answer ["Necesito ver al doctor por favor."]}
+    {:item/n 4,
+     :item/prompt ["I need to go to the doctor."],
+     :item/answer ["Necesito ir al doctor."]}
+    {:item/n 5,
+     :item/prompt ["I want to eat in a traditional restaurant."],
+     :item/answer ["Quiero comer en un restaurante tradicional."]}
+    {:item/n 6,
+     :item/prompt ["I don’t need to go until tomorrow."],
+     :item/answer ["No necesito ir hasta mañana."]}
+    {:item/n 7,
+     :item/prompt ["I don’t want to eat Chinese food; I want to eat Mexican food."],
+     :item/answer ["No quiero comer comida china,quiero comer comida mexicana."]}
+    {:item/n 8,
+     :item/prompt ["I want to go to Spain in May."],
+     :item/answer ["Quiero ir a España en mayo."]}
+    {:item/n 9, :item/prompt ["I need to eat."], :item/answer ["Necesito comer."]}
+    {:item/n 10,
+     :item/prompt ["I want to eat something different."],
+     :item/answer ["Quiero comer algo diferente."]}
+    {:item/n 11,
+     :item/prompt ["I need to go to the hotel."],
+     :item/answer ["Necesito ir al hotel."]}
+    {:item/n 12,
+     :item/prompt ["I want to eat a burrito in the market."],
+     :item/answer ["Quiero comer un burrito en el mercado."]}
+    {:item/n 13,
+     :item/prompt ["I want to see the menu please."],
+     :item/answer ["Quiero ver el menú por favor."]}
+    {:item/n 14,
+     :item/prompt ["I want to go to the party."],
+     :item/answer ["Quiero ir a la fiesta."]}
+    {:item/n 15,
+     :item/prompt ["I need to go to Argentina in June."],
+     :item/answer ["Necesito ir a Argentina en junio."]}
+    {:item/n 16,
+     :item/prompt ["I don’t want to go in June; I want to go in September."],
+     :item/answer ["No quiero ir en junio, quiero ir en septiembre."]}],
+   :exercise/notes []}
+  {:exercise/id "1C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en inglés las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Las palabras en inglés para “quiero” son"], :item/answer ["I want"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en inglés para “necesito” son"],
+     :item/answer ["I need"]}
+    {:item/n 3, :item/prompt ["Las palabras en inglés para “comer” son"], :item/answer ["to eat"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en inglés para “hablar” son"],
+     :item/answer ["to speak"]}
+    {:item/n 5, :item/prompt ["Las palabras en inglés para “ver” son"], :item/answer ["to see"]}
+    {:item/n 6, :item/prompt ["Las palabras en inglés para “ir” son"], :item/answer ["to go"]}],
+   :exercise/notes []}
+  {:exercise/id "1D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al inglés.",
+   :exercise/hints
+   ["un restaurante = a restaurant"
+    "mi casa es su casa = my house is your house"
+    "a = To (a place)"],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Quiero hablar español."], :item/answer ["I want to speak Spanish."]}
+    {:item/n 2,
+     :item/prompt ["No quiero comer."],
+     :item/answer ["I don’t want to eat."],
+     :item/alternatives [["I do not want to eat."]]}
+    {:item/n 3,
+     :item/prompt ["Necesito hablar español."],
+     :item/answer ["I need to speak Spanish."]}
+    {:item/n 4, :item/prompt ["Quiero ver su casa."], :item/answer ["I want to see your house."]}
+    {:item/n 5,
+     :item/prompt ["Necesito ir a mi casa."],
+     :item/answer ["I need to go to my house."]}
+    {:item/n 6, :item/prompt ["Quiero comer."], :item/answer ["I want to eat."]}
+    {:item/n 7, :item/prompt ["Quiero ir a España."], :item/answer ["I want to go to Spain."]}
+    {:item/n 8,
+     :item/prompt ["No necesito ir a Chile."],
+     :item/answer ["I don’t need to go to Chile."],
+     :item/alternatives [["I do not need to go to Chile."]]}
+    {:item/n 9, :item/prompt ["Necesito comer."], :item/answer ["I need to eat."]}
+    {:item/n 10,
+     :item/prompt ["No quiero comer en mi casa, quiero comer en un restaurante."],
+     :item/answer ["I don't want to eat in my house; I want to eat in a restaurant."],
+     :item/alternatives [["I do not want to eat in my house; I want to eat in a restaurant."]]}
+    {:item/n 11, :item/prompt ["Necesito ir a México."], :item/answer ["I need to go to Mexico."]}
+    {:item/n 12, :item/prompt ["Quiero comer tacos."], :item/answer ["I want to eat tacos."]}
+    {:item/n 13,
+     :item/prompt ["Quiero ver Chichen Itza."],
+     :item/answer ["I want to see Chichen Itza."]}],
+   :exercise/notes []}]}
