@@ -1,0 +1,308 @@
+{:lesson/vocabulary
+ [{:vocab/id 25,
+   :vocab/kind :synergy-verb,
+   :vocab/target "ich muss",
+   :vocab/base "tengo que",
+   :vocab/pronunciation "ích mus",
+   :vocab/mnemonic nil}
+  {:vocab/id 26,
+   :vocab/kind :synergy-verb,
+   :vocab/target "ich kann",
+   :vocab/base "puedo",
+   :vocab/pronunciation "ích kan",
+   :vocab/mnemonic nil}
+  {:vocab/id 27,
+   :vocab/kind :brick-verb,
+   :vocab/target "lernen",
+   :vocab/base "estudiar",
+   :vocab/pronunciation "lérnen",
+   :vocab/mnemonic nil}
+  {:vocab/id 28,
+   :vocab/kind :brick-verb,
+   :vocab/target "zurückkommen",
+   :vocab/base "regresar",
+   :vocab/pronunciation "tsu-rück-ko-men",
+   :vocab/mnemonic nil}
+  {:vocab/id 29,
+   :vocab/kind :brick-verb,
+   :vocab/target "sein",
+   :vocab/base "estar",
+   :vocab/pronunciation "sain",
+   :vocab/mnemonic nil}
+  {:vocab/id 30,
+   :vocab/kind :brick-verb,
+   :vocab/target "arbeiten",
+   :vocab/base "trabajar",
+   :vocab/pronunciation "ár-bai-ten",
+   :vocab/mnemonic nil}],
+ :lesson/title "Tengo que, puedo y las preguntas en alemán",
+ :lesson/target-title "Müssen, können und Fragen",
+ :lesson/label "Lección 5",
+ :lesson/sections
+ [{:section/type :accuracy-pointer,
+   :section/id 4,
+   :section/title "ich muss = tengo que",
+   :section/body
+   ["ich muss expresa obligación y es más fuerte que ich brauche."
+    "La estructura es: ich muss + infinitivo al final: Ich muss essen."
+    "Con er, sie o es usa muss igual: er muss arbeiten. Con Sie formal: Sie müssen arbeiten."
+    "Ich muss essen = tengo que comer; ich muss nicht arbeiten = no tengo que trabajar."]}
+  {:section/type :communication-multiplied,
+   :section/id 4,
+   :section/title "ich kann + infinitivo, sin zu",
+   :section/body
+   ["En alemán, können va seguido del infinitivo sin zu: Ich kann arbeiten, Ich kann lernen."
+    "No digas *Ich kann zu arbeiten*."
+    "En español también usas el infinitivo, y en alemán el infinitivo siempre va al final de la frase."]}
+  {:section/type :communication-multiplied,
+   :section/id 5,
+   :section/title "Un verbo para muchas ideas",
+   :section/body
+   ["El verbo zurückkommen cubre volver y regresar."
+    "Ich komme zurück = regreso; el prefijo zurück se separa y va al final."
+    "Aprende zurückkommen como una palabra multiuso; para devolver un objeto se usa zurückbringen."]}
+  {:section/type :communication-multiplied,
+   :section/id 6,
+   :section/title "Preguntas en alemán",
+   :section/body
+   ["En las preguntas de sí o no el verbo conjugado va primero: Kann ich Ihnen helfen?"
+    "En las preguntas con palabra interrogativa (W-Frage) el verbo va en segundo lugar: Wann müssen Sie arbeiten?"
+    "Con los modales el infinitivo sigue al final: Kann ich heute arbeiten?"
+    "La entonación también ayuda, pero en alemán el orden de las palabras es la clave."]}],
+ :lesson/number 5,
+ :lesson/intro [],
+ :lesson/step {:step/number 1, :step/title "Primeros pasos para hablar alemán"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "5A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “arbeiten” son"],
+     :item/answer ["trabajar"]}
+    {:item/n 2, :item/prompt ["Las palabras en español para “sein” son"], :item/answer ["estar"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “zurückkommen” son"],
+     :item/answer ["regresar"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en español para “lernen” son"],
+     :item/answer ["estudiar"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en español para “ich muss” son"],
+     :item/answer ["tengo que"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “ich kann” son"],
+     :item/answer ["puedo"]}],
+   :exercise/notes []}
+  {:exercise/id "5B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Kann ich einen Moment mit Ihnen sprechen?"],
+     :item/answer ["¿Puedo hablar con usted un momento?"]}
+    {:item/n 2,
+     :item/prompt ["Ich muss heute Abend für die Prüfung morgen Spanisch lernen."],
+     :item/answer ["Tengo que estudiar español esta noche para el examen de mañana."]}
+    {:item/n 3,
+     :item/prompt ["Ich kann im Oktober nach Spanien gehen."],
+     :item/answer ["Puedo ir a España en octubre."]}
+    {:item/n 4,
+     :item/prompt ["Ich will im Mai wieder zurückkommen."],
+     :item/answer ["Quiero regresar otra vez en mayo."]}
+    {:item/n 5,
+     :item/prompt ["Ich kann ihr mit den Koffern helfen."],
+     :item/answer ["Puedo ayudarla con las maletas."]}
+    {:item/n 6,
+     :item/prompt ["Ich muss jetzt lernen, um im Urlaub Spanisch zu sprechen."],
+     :item/answer ["Tengo que estudiar ahora para hablar español en mis vacaciones."]}
+    {:item/n 7,
+     :item/prompt ["Heute Abend kann ich nicht ins Kino gehen, ich muss Spanisch lernen."],
+     :item/answer ["Esta noche no puedo ir al cine,tengo que estudiar español."]}
+    {:item/n 8,
+     :item/prompt ["Ich kann ein wenig Spanisch sprechen."],
+     :item/answer ["Puedo hablar un poco de español."]}
+    {:item/n 9,
+     :item/prompt ["Muss ich morgen arbeiten?"],
+     :item/answer ["¿Tengo que trabajar mañana?"]}
+    {:item/n 10,
+     :item/prompt ["Ich muss nächste Woche in Mexiko sein."],
+     :item/answer ["Tengo que estar en México la próxima semana."]}
+    {:item/n 11,
+     :item/prompt ["Kann ich mit Ihnen an dieser Idee arbeiten?"],
+     :item/answer ["¿Puedo trabajar con usted en esta idea?"]}
+    {:item/n 12,
+     :item/prompt ["Ich muss mit dem Arzt sprechen."],
+     :item/answer ["Tengo que hablar con el doctor."]}
+    {:item/n 13,
+     :item/prompt ["Ich kann erst im Oktober in Bolivien sein."],
+     :item/answer ["No puedo estar en Bolivia hasta octubre."]}
+    {:item/n 14,
+     :item/prompt ["Ich muss im Juni nicht arbeiten. Ich werde im Urlaub sein."],
+     :item/answer ["No tengo que trabajar en junio,voy a estar de vacaciones."]}
+    {:item/n 15,
+     :item/prompt ["Ich muss das Video morgen zurückbringen."],
+     :item/answer ["Tengo que regresar el video mañana."]}
+    {:item/n 16,
+     :item/prompt ["Ich kann ihn erst morgen anrufen."],
+     :item/answer ["No puedo llamarlo hasta mañana."]}
+    {:item/n 17,
+     :item/prompt ["Ich werde diese Woche nach Hause zurückkommen."],
+     :item/answer ["Voy a regresar a mi casa esta semana."]}
+    {:item/n 18,
+     :item/prompt ["Ich kann diese Woche die Olympischen Spiele im Fernsehen sehen."],
+     :item/answer ["Puedo ver los Juegos Olímpicos por televisión esta semana."]}
+    {:item/n 19,
+     :item/prompt ["Ich will wieder ins Restaurant zurückkommen, um mehr Tacos zu essen."],
+     :item/answer ["Quiero regresar al restaurante otra vez para comer más tacos."]}
+    {:item/n 20,
+     :item/prompt ["Ich kann im nächsten Urlaub mehr Teile von Mexiko besuchen."],
+     :item/answer ["Puedo visitar más partes de México en las próximas vacaciones."]}
+    {:item/n 21,
+     :item/prompt ["Ich muss Ihre Kassette zurückbringen."],
+     :item/answer ["Necesito regresar su cassette."]}
+    {:item/n 22,
+     :item/prompt ["Ich will bei den Vereinten Nationen arbeiten."],
+     :item/answer ["Quiero trabajar en las Naciones Unidas."]}
+    {:item/n 23,
+     :item/prompt ["Ich werde nächste Woche in Bolivien arbeiten."],
+     :item/answer ["Voy a trabajar en Bolivia la próxima semana."]}
+    {:item/n 24,
+     :item/prompt ["Kann ich bitte die Pässe wieder sehen?"],
+     :item/answer ["¿Puedo ver los pasaportes otra vez por favor?"]}
+    {:item/n 25,
+     :item/prompt ["Ich muss Ihr Visum sehen."],
+     :item/answer ["Tengo que ver su visa."]}
+    {:item/n 26,
+     :item/prompt ["Kann ich bitte die Speisekarte sehen?"],
+     :item/answer ["¿Puedo ver el menú por favor?"]}
+    {:item/n 27,
+     :item/prompt ["Ich muss bald zum Hotel gehen."],
+     :item/answer ["Tengo que ir al hotel pronto."]}
+    {:item/n 28,
+     :item/prompt ["Ich will in einem Hotel in Acapulco arbeiten."],
+     :item/answer ["Quiero trabajar en un hotel en Acapulco."]}
+    {:item/n 29,
+     :item/prompt ["Ich kann nicht viele Leute zur Party einladen."],
+     :item/answer ["No puedo invitar a muchas personas a la fiesta."]}
+    {:item/n 30,
+     :item/prompt ["Um die Insel zu sehen, brauche ich ein Fernglas."],
+     :item/answer ["Para ver la isla necesito usar binoculares."]}
+    {:item/n 31,
+     :item/prompt ["Kann ich bitte den Arzt sehen?"],
+     :item/answer ["¿Puedo ver al doctor por favor?"]}],
+   :exercise/notes []}
+  {:exercise/id "5C",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["tengo que"], :item/answer ["ich muss"]}
+    {:item/n 2, :item/prompt ["puedo"], :item/answer ["ich kann"]}
+    {:item/n 3, :item/prompt ["regresar"], :item/answer ["zurückkommen"]}
+    {:item/n 4, :item/prompt ["estudiar"], :item/answer ["lernen"]}
+    {:item/n 5, :item/prompt ["estar"], :item/answer ["sein"]}
+    {:item/n 6, :item/prompt ["trabajar"], :item/answer ["arbeiten"]}],
+   :exercise/notes []}
+  {:exercise/id "5D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["¿Puedo invitar a mis amigos a la fiesta la próxima semana?"],
+     :item/answer ["Kann ich nächste Woche meine Freunde zur Party einladen?"]}
+    {:item/n 2,
+     :item/prompt ["Voy a estudiar español con Luisa."],
+     :item/answer ["Ich werde mit Luisa Spanisch lernen."]}
+    {:item/n 3, :item/prompt ["Puedo llamarlo."], :item/answer ["Ich kann ihn anrufen."]}
+    {:item/n 4, :item/prompt ["Tengo que regresar ahora."], :item/answer ["Ich muss jetzt zurückkommen."]}
+    {:item/n 5,
+     :item/prompt ["Voy a regresar esta noche."],
+     :item/answer ["Ich werde heute Abend zurückkommen."]}
+    {:item/n 6,
+     :item/prompt ["Quiero estudiar español con usted."],
+     :item/answer ["Ich will mit Ihnen Spanisch lernen."]}
+    {:item/n 7,
+     :item/prompt ["Voy a estudiar más español en México."],
+     :item/answer ["Ich werde in Mexiko mehr Spanisch lernen."]}
+    {:item/n 8,
+     :item/prompt ["Tengo que trabajar otra vez mañana."],
+     :item/answer ["Ich muss morgen wieder arbeiten."]}
+    {:item/n 9,
+     :item/prompt ["Voy a estar con usted en México la próxima semana."],
+     :item/answer ["Ich werde nächste Woche mit Ihnen in Mexiko sein."]}
+    {:item/n 10,
+     :item/prompt ["No voy a trabajar con Luís."],
+     :item/answer ["Ich werde nicht mit Luis arbeiten."]}
+    {:item/n 11,
+     :item/prompt ["Tengo que estudiar esta semana."],
+     :item/answer ["Ich muss diese Woche lernen."]}
+    {:item/n 12, :item/prompt ["Puedo ayudarlo."], :item/answer ["Ich kann ihm helfen."]}
+    {:item/n 13,
+     :item/prompt ["Tengo que estar en México esta noche."],
+     :item/answer ["Ich muss heute Abend in Mexiko sein."]}
+    {:item/n 14,
+     :item/prompt ["No puedo trabajar con usted."],
+     :item/answer ["Ich kann nicht mit Ihnen arbeiten."]}
+    {:item/n 15,
+     :item/prompt ["Tengo que regresar pronto."],
+     :item/answer ["Ich muss bald zurückkommen."]}
+    {:item/n 16,
+     :item/prompt ["No puedo trabajar la próxima semana."],
+     :item/answer ["Ich kann nächste Woche nicht arbeiten."]}
+    {:item/n 17,
+     :item/prompt ["Quiero estudiar español otra vez."],
+     :item/answer ["Ich will wieder Spanisch lernen."]}
+    {:item/n 18,
+     :item/prompt ["Necesito estudiar más español."],
+     :item/answer ["Ich muss mehr Spanisch lernen."]}
+    {:item/n 19,
+     :item/prompt ["Necesito estar en mi casa esta noche."],
+     :item/answer ["Ich muss heute Abend zu Hause sein."]}
+    {:item/n 20,
+     :item/prompt ["¿Puedo estudiar español con usted otra vez?"],
+     :item/answer ["Kann ich wieder mit Ihnen Spanisch lernen?"]}
+    {:item/n 21, :item/prompt ["Quiero estar con usted."], :item/answer ["Ich will mit Ihnen sein."]}
+    {:item/n 22,
+     :item/prompt ["Puedo regresar mañana."],
+     :item/answer ["Ich kann morgen zurückkommen."]}
+    {:item/n 23,
+     :item/prompt ["Voy a estar con usted pronto."],
+     :item/answer ["Ich werde bald mit Ihnen sein."]}
+    {:item/n 24,
+     :item/prompt ["Quiero visitar México pronto."],
+     :item/answer ["Ich will bald Mexiko besuchen."]}
+    {:item/n 25, :item/prompt ["Quiero regresar pronto."], :item/answer ["Ich will bald zurückkommen."]}
+    {:item/n 26,
+     :item/prompt ["Necesito regresar a mi casa."],
+     :item/answer ["Ich muss nach Hause zurückkommen."]}
+    {:item/n 27, :item/prompt ["Necesito trabajar."], :item/answer ["Ich muss arbeiten."]}
+    {:item/n 28,
+     :item/prompt ["No puedo trabajar, tengo que ir a mi casa para estar con mi familia."],
+     :item/answer ["Ich kann nicht arbeiten, ich muss nach Hause gehen, um bei meiner Familie zu sein."]}
+    {:item/n 29,
+     :item/prompt ["Quiero trabajar con usted."],
+     :item/answer ["Ich will mit Ihnen arbeiten."]}
+    {:item/n 30,
+     :item/prompt ["No quiero trabajar ahora."],
+     :item/answer ["Ich will jetzt nicht arbeiten."]}
+    {:item/n 31,
+     :item/prompt ["Necesito estudiar para hablar más español."],
+     :item/answer ["Ich muss lernen, um mehr Spanisch zu sprechen."]}
+    {:item/n 32,
+     :item/prompt ["¿Tengo que trabajar mañana?"],
+     :item/answer ["Muss ich morgen arbeiten?"]}],
+   :exercise/notes []}]}

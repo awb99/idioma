@@ -1,0 +1,394 @@
+#:lesson{:vocabulary
+         [#:vocab{:id 109,
+                  :kind :synergy-verb,
+                  :target "Sie müssen",
+                  :base "tienen que",
+                  :pronunciation "zi mü-sen",
+                  :mnemonic nil}
+          #:vocab{:id 110,
+                  :kind :synergy-verb,
+                  :target "Sie werden",
+                  :base "van a",
+                  :pronunciation "zi vér-den",
+                  :mnemonic nil}
+          #:vocab{:id 111,
+                  :kind :brick-verb,
+                  :target "ankommen",
+                  :base "llegar",
+                  :pronunciation "án-ko-men",
+                  :mnemonic nil}
+          #:vocab{:id 112,
+                  :kind :brick-verb,
+                  :target "bezahlen",
+                  :base "pagar",
+                  :pronunciation "be-tsá-len",
+                  :mnemonic nil}
+          #:vocab{:id 113,
+                  :kind :mortar,
+                  :target "immer",
+                  :base "siempre",
+                  :pronunciation "í-mer",
+                  :mnemonic nil}
+          #:vocab{:id 114,
+                  :kind :mortar,
+                  :target "wenn",
+                  :base "si",
+                  :pronunciation "ven",
+                  :mnemonic nil}],
+         :title "Ustedes y sus cosas",
+         :target-title "Sie und Ihre Sachen",
+         :label "Lección 19",
+         :sections
+         [#:section{:type :communication-multiplied,
+                    :id 17,
+                    :title "Sie: más ejemplos",
+                    :body
+                    ["La forma formal Sie usa siempre el verbo en plural: Sie wollen, Sie brauchen, Sie können, Sie müssen."
+                     "Para el futuro se usa werden + infinitivo: Sie werden ankommen = ustedes llegarán."
+                     "Sie sirve para una o varias personas; el contexto o alle lo aclaran."
+                     "El plural informal es ihr: ihr wollt, ihr braucht, ihr könnt; no lo mezcles con Sie."]}
+          #:section{:type :accuracy-pointer,
+                    :id 16,
+                    :title "ja y wenn",
+                    :body
+                    ["ja significa «sí» y wenn significa «si» condicional; se distinguen claramente."
+                     "wenn introduce una condición: wenn Sie wollen, können wir gehen."
+                     "Para preguntas indirectas también se usa ob: Ich weiß nicht, ob er kommt."
+                     "No confundas wenn con wann, que significa «cuándo»."]}],
+         :number 19,
+         :intro [],
+         :step #:step{:number 4, :title "Ellos también hablan, ¿no?"},
+         :closing [],
+         :exercises
+         [#:exercise{:id "19A",
+                     :skill :recall,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en español para “Sie müssen” son"],
+                             :answer ["tienen que"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en español para “Sie werden” son"],
+                             :answer ["van a"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en español para “immer” son"],
+                             :answer ["siempre"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en español para “wenn” son"],
+                             :answer ["si"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en español para “bezahlen” son"],
+                             :answer ["pagar"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en español para “ankommen” son"],
+                             :answer ["llegar"]}],
+                     :notes []}
+          #:exercise{:id "19B",
+                     :skill :translate,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al español.",
+                     :hints
+                     ["Versicherung = seguro"
+                      "Grillen = chapulines"
+                      "gut = bueno"
+                      "ein wenig = un poco"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Wir müssen einen Tag fahren, um früh am Morgen in Los Cabos anzukommen."],
+                             :answer
+                             ["Necesitamos manejar por un día para llegar a Los Cabos en la mañana temprano."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Sie können mehr Spanisch verstehen."],
+                             :answer
+                             ["Pueden comprender más español."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Sie müssen die Polizei anrufen."],
+                             :answer
+                             ["Necesitan llamar a la policía."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Wir können nicht mit einem Scheck bezahlen."],
+                             :answer
+                             ["No podemos pagar con un cheque."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Können Sie mich anrufen, nachdem Sie am Flughafen angekommen sind?"],
+                             :answer
+                             ["¿Pueden llamarme después de llegar al aeropuerto?"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Sie können den Zahnarzt mit einer Kreditkarte bezahlen."],
+                             :answer
+                             ["Pueden pagar al dentista con una tarjeta de crédito."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Sie werden im Urlaub viel Spanisch sprechen."],
+                             :answer
+                             ["Van a hablar mucho español en sus vacaciones."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Wann werden Sie ankommen? Wir werden am Sonntag ankommen."],
+                             :answer
+                             ["¿Cuándo van a llegar? Vamos a llegar el domingo."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Wenn Sie dort ein Auto mieten, müssen Sie eine Versicherung kaufen."],
+                             :answer
+                             ["Si van a rentar un coche allá tienen que comprar seguro."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Sie müssen in der Wüste immer viel Wasser trinken."],
+                             :answer
+                             ["Siempre tienen que tomar mucha agua en el desierto."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Sie können in Ihren Autos spanische Kassetten hören."],
+                             :answer
+                             ["Pueden escuchar casetes de español en sus coches."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Wir müssen die Haushaltshilfe bezahlen."],
+                             :answer
+                             ["Necesitamos pagar a la sirvienta."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Sie können in Oaxaca Grillen essen."],
+                             :answer
+                             ["Pueden comer chapulines en Oaxaca."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Wann wollen Sie anfangen? Wir wollen jetzt anfangen."],
+                             :answer
+                             ["¿Cuándo quieren empezar? Queremos empezar ahora."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Sie müssen bald fertig werden."],
+                             :answer ["Tienen que terminar pronto."]}
+                      #:item{:n 16,
+                             :prompt ["Werden Sie uns helfen?"],
+                             :answer ["¿Van a ayudarnos?"]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Wo werden Sie studieren? Wir werden an einer Universität in Costa Rica studieren."],
+                             :answer
+                             ["¿Dónde van a estudiar? Vamos a estudiar en una universidad en Costa Rica."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Sie müssen eine Kaution bezahlen."],
+                             :answer ["Tienen que pagar un depósito."]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Sie werden in diesem Urlaub nicht viel Geld ausgeben."],
+                             :answer
+                             ["No van a gastar mucho dinero en estas vacaciones."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Wollen Sie ein Haus zum Mieten finden?"],
+                             :answer
+                             ["¿Quieren encontrar una casa para rentar?"]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Wann werden Sie Ihre Spanischkurse beginnen? Wir werden im Juli beginnen."],
+                             :answer
+                             ["¿Cuándo van a empezar sus clases de español? Vamos a empezar en julio."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Ich muss in der Woche vor den Prüfungen immer viel lernen."],
+                             :answer
+                             ["Siempre tengo que estudiar mucho la semana antes de los exámenes."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Wollen Sie etwas Besonderes kaufen?"],
+                             :answer
+                             ["¿Quieren comprar algo especial?"]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Werden Sie mit einer Kreditkarte bezahlen?"],
+                             :answer
+                             ["¿Van a pagar con una tarjeta de crédito?"]}
+                      #:item{:n 25,
+                             :prompt
+                             ["Wenn Sie Spanisch lernen wollen, ist diese Methode gut, um schnell zu lernen."],
+                             :answer
+                             ["Si quieren estudiar español, este método es bueno para aprender rápido."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["Werden Sie mit dem Auto kommen? Nein, wir werden mit dem Zug kommen."],
+                             :answer
+                             ["¿Van a llegar en coche? No, vamos a llegar en tren."]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Sie müssen die Reservierungen immer einen Tag vorher bestätigen."],
+                             :answer
+                             ["Siempre necesitan confirmar las reservaciones un día antes."]}
+                      #:item{:n 28,
+                             :prompt
+                             ["Sie müssen in Mexiko etwas später zu den Partys kommen."],
+                             :answer
+                             ["Tienen que llegar un poco tarde a las fiestas en México."]}
+                      #:item{:n 29,
+                             :prompt
+                             ["Wir verbringen Weihnachten immer gern mit unserer Familie."],
+                             :answer
+                             ["Siempre nos gusta pasar Navidad con nuestra familia."]}],
+                     :notes []}
+          #:exercise{:id "19C",
+                     :skill :recall,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en alemán para “tienen que” son"],
+                             :answer ["Sie müssen"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en alemán para “van a” son"],
+                             :answer ["Sie werden"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en alemán para “siempre” son"],
+                             :answer ["immer"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en alemán para “si” son"],
+                             :answer ["wenn"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en alemán para “pagar” son"],
+                             :answer ["bezahlen"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en alemán para “llegar” son"],
+                             :answer ["ankommen"]}],
+                     :notes []}
+          #:exercise{:id "19D",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints
+                     ["Hummer = langosta" "verstehen = comprender"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["¿Qué quieren hacer el próximo verano? Queremos pasar el verano en México con nuestra familia."],
+                             :answer
+                             ["Was wollen Sie nächsten Sommer machen? Wir wollen den Sommer mit unserer Familie in Mexiko verbringen."]}
+                      #:item{:n 2,
+                             :prompt ["¿Cuándo van a visitarnos?"],
+                             :answer ["Wann werden Sie uns besuchen?"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["¿Cuándo quieren verla? Vamos a verla mañana."],
+                             :answer
+                             ["Wann wollen Sie sie sehen? Wir werden sie morgen sehen."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["¿Cuándo van a llegar? Vamos a llegar mañana en la tarde."],
+                             :answer
+                             ["Wann werden Sie ankommen? Wir werden morgen Nachmittag ankommen."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["¿Cuándo necesitan llegar? Necesitamos llegar antes de esta noche."],
+                             :answer
+                             ["Wann müssen Sie ankommen? Wir müssen vor heute Abend ankommen."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Lo siento, pero necesitan trabajar este fin de semana.!Otra vez tenemos que trabajar!"],
+                             :answer
+                             ["Es tut mir leid, aber Sie müssen dieses Wochenende arbeiten. Schon wieder müssen wir arbeiten!"]}
+                      #:item{:n 7,
+                             :prompt ["¿Donde van a esperarla?"],
+                             :answer ["Wo werden Sie auf sie warten?"]}
+                      #:item{:n 8,
+                             :prompt
+                             ["¿Quieren salir esta noche? No gracias, necesitamos descansar."],
+                             :answer
+                             ["Wollen Sie heute Abend weggehen? Nein danke, wir müssen uns ausruhen."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["¿Dónde van a pasar el verano? Este año vamos a pasar el verano en casa con la familia."],
+                             :answer
+                             ["Wo werden Sie den Sommer verbringen? Dieses Jahr werden wir den Sommer zu Hause mit der Familie verbringen."]}
+                      #:item{:n 10,
+                             :prompt ["Siempre me gusta comer aquí."],
+                             :answer ["Ich esse hier immer gern."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["¿Quieren regresar a Puerto Nuevo para comer langosta? Si, queremos regresar pronto."],
+                             :answer
+                             ["Wollen Sie zurück nach Puerto Nuevo fahren, um Hummer zu essen? Ja, wir wollen bald zurückfahren."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["¿Quieren desayunar con nosotros mañana?"],
+                             :answer
+                             ["Wollen Sie morgen mit uns frühstücken?"]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Van a comprender más después de estudiar en México."],
+                             :answer
+                             ["Sie werden mehr verstehen, nachdem Sie in Mexiko gelernt haben."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["¿Cuándo van a llegar? Vamos a llegar esta noche."],
+                             :answer
+                             ["Wann werden Sie ankommen? Wir werden heute Abend ankommen."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["¿Pueden ayudarnos con el español?"],
+                             :answer
+                             ["Können Sie uns beim Spanischlernen helfen?"]}
+                      #:item{:n 16,
+                             :prompt ["Tienen que pagar a David."],
+                             :answer ["Sie müssen David bezahlen."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["¿Por qué tienen que ir? Para trabajar."],
+                             :answer
+                             ["Warum müssen Sie gehen? Um zu arbeiten."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["¿Pueden pagar a Miguel por favor?"],
+                             :answer
+                             ["Können Sie Miguel bitte bezahlen?"]}
+                      #:item{:n 19,
+                             :prompt ["¿Quieren descansar un rato?"],
+                             :answer
+                             ["Wollen Sie sich eine Weile ausruhen?"]}
+                      #:item{:n 20,
+                             :prompt ["¿Cuándo necesitamos pagar?"],
+                             :answer ["Wann müssen wir bezahlen?"]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Si van a regresar, tienen que visitarnos."],
+                             :answer
+                             ["Wenn Sie zurückkommen, müssen Sie uns besuchen."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Pueden terminar ahora si quieren."],
+                             :answer
+                             ["Sie können jetzt fertig werden, wenn Sie wollen."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Siempre van a encontrarnos aquí."],
+                             :answer
+                             ["Sie werden uns hier immer finden."]}],
+                     :notes []}]}

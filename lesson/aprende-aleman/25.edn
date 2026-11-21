@@ -1,0 +1,282 @@
+{:lesson/vocabulary
+ [{:vocab/id 133,
+   :vocab/kind :mortar,
+   :vocab/target "die Stunde",
+   :vocab/base "hora",
+   :vocab/pronunciation "di schtún-de",
+   :vocab/mnemonic nil}
+  {:vocab/id 134,
+   :vocab/kind :mortar,
+   :vocab/target "niemand",
+   :vocab/base "nadie",
+   :vocab/pronunciation "ní-mand",
+   :vocab/mnemonic nil}
+  {:vocab/id 135,
+   :vocab/kind :mortar,
+   :vocab/target "fast",
+   :vocab/base "casi",
+   :vocab/pronunciation "fast",
+   :vocab/mnemonic nil}
+  {:vocab/id 136,
+   :vocab/kind :mortar,
+   :vocab/target "mit ihnen",
+   :vocab/base "con ellos",
+   :vocab/pronunciation "mit í-nen",
+   :vocab/mnemonic nil}
+  {:vocab/id 137,
+   :vocab/kind :mortar,
+   :vocab/target "mit ihnen (Frauen)",
+   :vocab/base "con ellas",
+   :vocab/pronunciation "mit í-nen",
+   :vocab/mnemonic nil}
+  {:vocab/id 138,
+   :vocab/kind :mortar,
+   :vocab/target "vielleicht",
+   :vocab/base "tal vez",
+   :vocab/pronunciation "fi-láicht",
+   :vocab/mnemonic nil}],
+ :lesson/title "Cerrar el círculo: otras personas en alemán",
+ :lesson/target-title "Zum Abschluss: andere Menschen",
+ :lesson/label "Lección 25",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 22,
+   :section/title "¿Les gustaría a ellos...?",
+   :section/body
+   ["«¿Les gustaría un café?» = Möchten sie einen Kaffee?"
+    "«möchten» sirve para ich, du, er, sie, wir, ihr, sie y Sie."
+    "Para preguntar: Möchten sie ...?"
+    "Para negar: Sie möchten keinen Kaffee. / Sie möchten nicht ..."]}],
+ :lesson/number 25,
+ :lesson/intro [],
+ :lesson/step {:step/number 5, :step/title "Hablar de otras personas"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "25A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “vielleicht” son"],
+     :item/answer ["tal vez"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en español para “mit ihnen” son"],
+     :item/answer ["con ellos"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “mit ihnen (Frauen)” son"],
+     :item/answer ["con ellas"]}
+    {:item/n 4, :item/prompt ["Las palabras en español para “fast” son"], :item/answer ["casi"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en español para “niemand” son"],
+     :item/answer ["nadie"]}
+    {:item/n 6, :item/prompt ["Las palabras en español para “die Stunde” son"], :item/answer ["hora"]}],
+   :exercise/notes []}
+  {:exercise/id "25B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? true,
+   :exercise/instructions "Traduce cada intervención del diálogo al español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Vielleicht können Sie mit ihnen Spanisch üben."],
+     :item/answer ["Tal vez ustedes pueden practicar el español con ellos."]}
+    {:item/n 2,
+     :item/prompt
+     ["Sie müssen mehr Spanisch lernen, um mit uns sprechen zu können."
+      "Ja, sie werden Privatunterricht nehmen."],
+     :item/answer
+     ["Ellos necesitan aprender más español para hablar con nosotros."
+      "Si, van a estudiar en clases privadas."]}
+    {:item/n 3,
+     :item/prompt ["Sie brauchen ein Taxi." "Ich werde ihnen sofort ein Taxi rufen."],
+     :item/answer ["Ellas necesitan un taxi." "Voy a llamar un taxi para ellas ahora mismo."]}
+    {:item/n 4,
+     :item/prompt ["Viele Mexikaner essen nach dem Tanzen gern Tacos."],
+     :item/answer ["A muchos mexicanos les gusta comer tacos después de salir a bailar."]}
+    {:item/n 5,
+     :item/prompt
+     ["Die Studenten wollen ihren Lehrer nicht zur Party einladen."
+      "Warum wollen sie ihn nicht einladen?"
+      "Weil sie den Lehrer nicht mögen."],
+     :item/answer
+     ["Los estudiantes no quieren invitar a su maestro a la fiesta."
+      "¿Por qué no quieren invitarlo?"
+      "Porque no les gusta el maestro."]}
+    {:item/n 6,
+     :item/prompt
+     ["Sie wollen in ein typisches Restaurant gehen; sie würden gern die traditionelle Küche dieser Gegend probieren."],
+     :item/answer
+     ["Ellas quieren ir a un restaurante típico, les gustaría probar la comida tradicional de aquí."]}
+    {:item/n 7,
+     :item/prompt ["Er wird fast sein ganzes Geld ausgeben."],
+     :item/answer ["Él va a gastar casi todo su dinero."]}
+    {:item/n 8,
+     :item/prompt ["Niemand will mit mir gehen."],
+     :item/answer ["Nadie quiere ir conmigo."]}
+    {:item/n 9,
+     :item/prompt ["Schmeckt ihnen das Essen?" "Ja, sie lieben das Essen."],
+     :item/answer ["¿A ellos les gusta la comida?" "Sí, ellos les encanta la comida."]}
+    {:item/n 10,
+     :item/prompt ["Wer kann Lisa helfen?" "Niemand kann ihr heute helfen."],
+     :item/answer ["¿Quién puede ayudar a Lisa?" "Nadie puede ayudarla hoy."]}
+    {:item/n 11,
+     :item/prompt ["Sie kann die ganze Nacht sprechen, ohne zu atmen."],
+     :item/answer ["Ella puede hablar toda la noche sin respirar."]}
+    {:item/n 12,
+     :item/prompt ["Ich möchte fast alle Gerichte auf der Speisekarte probieren."],
+     :item/answer ["Quiero probar casi toda la comida en el menú."]}
+    {:item/n 13,
+     :item/prompt ["Die Firma wird fast alle Kosten bezahlen."],
+     :item/answer ["La compañía va a pagar casi todos los costos."]}
+    {:item/n 14,
+     :item/prompt ["Er wird eine Stunde sprechen."],
+     :item/answer ["Él va a hablar por una hora."]}
+    {:item/n 15,
+     :item/prompt ["Sie würden gern mit Ihnen sprechen."],
+     :item/answer ["A ellos les gustaría hablar con ustedes."]}
+    {:item/n 16,
+     :item/prompt ["Ich würde gern mehr Spanisch mit Ihnen sprechen können."],
+     :item/answer ["Me gustaría poder hablar más español con ustedes."]}
+    {:item/n 17,
+     :item/prompt ["Es tut mir leid, ich will nicht mehr mit Ihnen arbeiten."],
+     :item/answer ["Lo siento, no quiero trabajar más con ustedes."]}
+    {:item/n 18,
+     :item/prompt ["Sie müssen mehr Spanisch lernen, um mit ihm sprechen zu können."],
+     :item/answer ["Tienen que aprender más español para poder hablar con él."]}
+    {:item/n 19,
+     :item/prompt
+     ["Vielleicht können Sie mit Miguel lernen."
+      "Ja, wir werden jeden Nachmittag mit ihm in der Cafeteria lernen."],
+     :item/answer
+     ["Tal vez ustedes pueden estudiar con Miguel."
+      "Sí, vamos a estudiar con él todas las tardes en la cafetería."]}
+    {:item/n 20,
+     :item/prompt
+     ["Sie müssen mehr mit ihm sprechen, um Spanisch zu üben."
+      "Ja, ich werde jeden Tag mit ihm sprechen."],
+     :item/answer
+     ["Necesita hablar más con él para practicar español."
+      "Sí, voy a hablar con él todos los días."]}
+    {:item/n 21,
+     :item/prompt ["Ich übe gern Spanisch mit ihr."],
+     :item/answer ["Me gusta practicar español con ella."]}
+    {:item/n 22,
+     :item/prompt ["Er wird dort mit ihr arbeiten."],
+     :item/answer ["Él va a trabajar allá con ella."]}
+    {:item/n 23,
+     :item/prompt ["Vielleicht werden sie später mit ihr sprechen."],
+     :item/answer ["Tal vez ellos van a hablar con ella más tarde."]}
+    {:item/n 24,
+     :item/prompt ["Niemand kann mir helfen."],
+     :item/answer ["Nadie puede ayudarme."]}],
+   :exercise/notes []}
+  {:exercise/id "25C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Las palabras en alemán para “tal vez” son"], :item/answer ["vielleicht"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en alemán para “con ellos” son"],
+     :item/answer ["mit ihnen"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en alemán para “con ellas” son"],
+     :item/answer ["mit ihnen (Frauen)"]}
+    {:item/n 4, :item/prompt ["Las palabras en alemán para “casi” son"], :item/answer ["fast"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en alemán para “nadie” son"],
+     :item/answer ["niemand"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en alemán para “hora” son"],
+     :item/answer ["die Stunde"]}],
+   :exercise/notes []}
+  {:exercise/id "25D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? true,
+   :exercise/instructions "Traduce cada intervención del diálogo al alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Tal vez vamos a poder hablar más español con ustedes pronto."],
+     :item/answer ["Vielleicht werden wir bald mehr Spanisch mit Ihnen sprechen können."]}
+    {:item/n 2,
+     :item/prompt ["Vamos a estar con ustedes en México el próximo fin de semana."],
+     :item/answer ["Wir werden nächstes Wochenende in Mexiko bei Ihnen sein."]}
+    {:item/n 3,
+     :item/prompt ["Lo siento, no puedo estar con ustedes hoy."],
+     :item/answer ["Es tut mir leid, ich kann heute nicht bei Ihnen sein."]}
+    {:item/n 4,
+     :item/prompt ["Tal vez ella va a regresar con Mario." "Sí, va a regresar con él."],
+     :item/answer
+     ["Vielleicht wird sie mit Mario zurückkommen." "Ja, sie wird mit ihm zurückkommen."]}
+    {:item/n 5,
+     :item/prompt ["¿A ellos les gusta México?" "Si, les encanta México."],
+     :item/answer ["Gefällt ihnen Mexiko?" "Ja, sie lieben Mexiko."]}
+    {:item/n 6,
+     :item/prompt ["Vamos a desayunar con ellas mañana."],
+     :item/answer ["Wir werden morgen mit ihnen frühstücken."]}
+    {:item/n 7,
+     :item/prompt ["Ustedes necesitan hablar con ellos cuanto antes."],
+     :item/answer ["Sie müssen so schnell wie möglich mit ihnen sprechen."]}
+    {:item/n 8,
+     :item/prompt ["Voy a cenar con ella mañana en la noche."],
+     :item/answer ["Ich werde morgen Abend mit ihr zu Abend essen."]}
+    {:item/n 9,
+     :item/prompt ["Tengo que estudiar casi todos los días."],
+     :item/answer ["Ich muss fast jeden Tag lernen."]}
+    {:item/n 10,
+     :item/prompt ["Ellos tienen que trabajar casi todos los fines de semana."],
+     :item/answer ["Sie müssen fast jedes Wochenende arbeiten."]}
+    {:item/n 11,
+     :item/prompt ["Nadie tiene que trabajar este fin de semana."],
+     :item/answer ["Niemand muss dieses Wochenende arbeiten."]}
+    {:item/n 12,
+     :item/prompt
+     ["Tal vez a ellos no les gusta vivir aquí." "No, a ellos les encanta vivir aquí."],
+     :item/answer
+     ["Vielleicht leben sie nicht gern hier." "Nein, sie lieben es, hier zu leben."]}
+    {:item/n 13,
+     :item/prompt ["A ellas les gusta cantar."],
+     :item/answer ["Sie singen gern."]}
+    {:item/n 14,
+     :item/prompt ["Ustedes van a poder hablar español pronto."],
+     :item/answer ["Sie werden bald Spanisch sprechen können."]}
+    {:item/n 15,
+     :item/prompt ["¿Por qué a ellos no les gusta viajar?"],
+     :item/answer ["Warum reisen sie nicht gern?"]}
+    {:item/n 16,
+     :item/prompt ["¿A ellas les gustaría ir a un restaurante mexicano?"],
+     :item/answer ["Würden sie gern in ein mexikanisches Restaurant gehen?"]}
+    {:item/n 17,
+     :item/prompt ["Podemos caminar con ella al hotel."],
+     :item/answer ["Wir können mit ihr zum Hotel gehen."]}
+    {:item/n 18,
+     :item/prompt ["¿A ellos les gusta leer?" "No, no les gusta leer mucho."],
+     :item/answer ["Lesen sie gern?" "Nein, sie lesen nicht sehr gern."]}
+    {:item/n 19,
+     :item/prompt ["Ustedes van a comprender más después de estudiar en México."],
+     :item/answer ["Sie werden nach dem Studium in Mexiko mehr verstehen."]}
+    {:item/n 20,
+     :item/prompt ["¿Cuándo ustedes quieren viajar?" "Queremos ir pasado mañana en la tarde."],
+     :item/answer
+     ["Wann möchten Sie reisen?"
+      "Wir möchten übermorgen am Nachmittag fahren."]}
+    {:item/n 21,
+     :item/prompt ["¿Ustedes pueden escucharme?" "Sí, podemos escucharlo."],
+     :item/answer ["Können Sie mich hören?" "Ja, wir können Sie hören."]}
+    {:item/n 22,
+     :item/prompt ["Puedo practicar casi todos los días."],
+     :item/answer ["Ich kann fast jeden Tag üben."]}
+    {:item/n 23,
+     :item/prompt ["¿Ustedes quieren encontrar un hotel?" "Sí, queremos encontrar un hotel ahora."],
+     :item/answer ["Möchten Sie ein Hotel finden?" "Ja, wir möchten jetzt ein Hotel finden."]}],
+   :exercise/notes []}]}

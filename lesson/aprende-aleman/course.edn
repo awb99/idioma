@@ -1,0 +1,12 @@
+{:course/slug "aprende-aleman"
+ :course/ui :es
+ :course/title "Aprende alemán"
+ :course/tagline "25 lecciones para hispanohablantes"
+ :course/html-title "Aprende alemán"
+ :course/languages {:base {:code "es"}
+                    :target {:code "de"}}
+ :course/lesson-count 25
+ :course/vocabulary-count 138
+ :course/empty-vocabulary-lessons [21 24]
+ :course/legacy-hash? false
+ :course/legacy-progress? false}

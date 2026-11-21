@@ -1,0 +1,320 @@
+{:lesson/vocabulary
+ [{:vocab/id 13,
+   :vocab/kind :synergy-verb,
+   :vocab/target "ich werde",
+   :vocab/base "voy a",
+   :vocab/pronunciation "ích ver-de",
+   :vocab/mnemonic nil}
+  {:vocab/id 14,
+   :vocab/kind :synergy-verb,
+   :vocab/target "ich möchte",
+   :vocab/base "me gustaría",
+   :vocab/pronunciation "ích möch-te",
+   :vocab/mnemonic nil}
+  {:vocab/id 15,
+   :vocab/kind :brick-verb,
+   :vocab/target "besuchen",
+   :vocab/base "visitar",
+   :vocab/pronunciation "be-súchen",
+   :vocab/mnemonic nil}
+  {:vocab/id 16,
+   :vocab/kind :brick-verb,
+   :vocab/target "einladen",
+   :vocab/base "invitar",
+   :vocab/pronunciation "áin-la-den",
+   :vocab/mnemonic nil}
+  {:vocab/id 17,
+   :vocab/kind :brick-verb,
+   :vocab/target "helfen",
+   :vocab/base "ayudar",
+   :vocab/pronunciation "hélfen",
+   :vocab/mnemonic nil}
+  {:vocab/id 18,
+   :vocab/kind :brick-verb,
+   :vocab/target "anrufen",
+   :vocab/base "llamar",
+   :vocab/pronunciation "án-rufen",
+   :vocab/mnemonic nil}],
+ :lesson/title "Multiplica tu alemán",
+ :lesson/target-title "Deutsch vervielfachen",
+ :lesson/label "Lección 3",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 3,
+   :section/title "El futuro con werden",
+   :section/body
+   ["Para hablar del futuro usas werden + infinitivo al final: Ich werde meine Freundin besuchen."
+    "Con er, sie o es usa wird: er wird reisen. Con wir y sie (plural) usa werden."
+    "Con Sie (formal) el verbo es werden: Sie werden essen."
+    "El verbo que sigue a werden va en infinitivo y ocupa el final: gehen, sehen, sprechen, besuchen."
+    "ich werde = voy a; ich möchte = me gustaría. möchte también lleva el infinitivo al final."]}
+  {:section/type :accuracy-pointer,
+   :section/id 2,
+   :section/title "La terminación -en del infinitivo",
+   :section/body
+   ["La mayoría de los infinitivos alemanes terminan en -en: gehen, sehen, sprechen, lernen."
+    "La -e final se pronuncia de forma breve y relajada; no alargues la vocal."
+    "Escucha y repite: gehen, essen, sprechen."]}
+  {:section/type :accuracy-pointer,
+   :section/id 3,
+   :section/title "Personas sin preposición",
+   :section/body
+   ["Con einladen, besuchen, anrufen o helfen, la persona va como objeto, sin preposición: Ich werde Diego einladen."
+    "anrufen y einladen son separables: el prefijo se va al final: Ich rufe Sie an; Ich lade Sie ein."
+    "Con lugares sí usas preposiciones como nach o in: Ich werde nach Mexiko gehen."
+    "Con estas estructuras ya puedes invitar, visitar y llamar a alguien sin miedo."
+    "Sé valiente: equivocarse es parte de aprender y la comunicación es lo primero."]}],
+ :lesson/number 3,
+ :lesson/intro [],
+ :lesson/step {:step/number 1, :step/title "Primeros pasos para hablar alemán"},
+ :lesson/closing
+ ["Enhorabuena, has dado otro paso en tu alemán."
+  "Todo lo que aprendes está pensado para usarlo en el mundo real."
+  "La repetición convierte las frases en algo automático."
+  "Sigue practicando y muy pronto hablarás sin pensar."],
+ :lesson/exercises
+ [{:exercise/id "3A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “ich werde” son"],
+     :item/answer ["voy a"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en español para “ich möchte” son"],
+     :item/answer ["me gustaría"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “einladen” son"],
+     :item/answer ["invitar"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en español para “besuchen” son"],
+     :item/answer ["visitar"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en español para “anrufen” son"],
+     :item/answer ["llamar"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “helfen” son"],
+     :item/answer ["ayudar"]}],
+   :exercise/notes []}
+  {:exercise/id "3B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["meine Frau = mi esposa" "um ... zu = para" "es gibt = hay"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Ich werde jetzt zum Arzt gehen."],
+     :item/answer ["Voy a ir a ver al doctor ahora."]}
+    {:item/n 2,
+     :item/prompt ["Es gibt ein Problem; ich muss meinem Vater helfen."],
+     :item/answer ["Hay un problema, necesito ayudar a mi papá."]}
+    {:item/n 3,
+     :item/prompt ["Ich möchte nach Costa Rica gehen, um mehr Spanisch zu lernen."],
+     :item/answer ["Me gustaría ir a Costa Rica para estudiar más español."]}
+    {:item/n 4,
+     :item/prompt ["Ich werde bald zum Hotel gehen."],
+     :item/answer ["Voy a ir al hotel pronto."]}
+    {:item/n 5,
+     :item/prompt ["Um früher mit Ihnen zu sprechen, werde ich viel lernen."],
+     :item/answer ["Para hablar con usted más pronto voy a estudiar mucho."]}
+    {:item/n 6,
+     :item/prompt ["Heute Abend möchte ich ins Kino gehen."],
+     :item/answer ["Esta noche me gustaría ir al cine."]}
+    {:item/n 7,
+     :item/prompt ["Ich möchte heute Abend etwas anderes essen."],
+     :item/answer ["Me gustaría comer algo diferente esta noche."]}
+    {:item/n 8,
+     :item/prompt ["Ich werde heute Abend meine Frau anrufen."],
+     :item/answer ["Voy a llamar a mi esposa esta noche."]}
+    {:item/n 9,
+     :item/prompt ["Ich möchte mehr Teile von Mexiko sehen."],
+     :item/answer ["Me gustaría ver más partes de México."]}
+    {:item/n 10,
+     :item/prompt ["Ich möchte heute Abend kubanisch essen."],
+     :item/answer ["Me gustaría comer comida cubana esta noche."]}
+    {:item/n 11,
+     :item/prompt ["Ich werde im Februar nach Argentinien gehen."],
+     :item/answer ["Voy a ir a Argentina en febrero."]}
+    {:item/n 12,
+     :item/prompt ["Ich werde Isela im August in Mexiko besuchen."],
+     :item/answer ["Voy a visitar a Isela en México en agosto."]}
+    {:item/n 13,
+     :item/prompt ["Heute Abend möchte ich ins Theater gehen."],
+     :item/answer ["Esta noche me gustaría ir al teatro."]}
+    {:item/n 14,
+     :item/prompt ["Ich werde sie im November besuchen."],
+     :item/answer ["Voy a visitarla en noviembre."]}
+    {:item/n 15,
+     :item/prompt ["Ich möchte die Pyramiden sehen."],
+     :item/answer ["Me gustaría ver las pirámides."]}
+    {:item/n 16,
+     :item/prompt ["Ich möchte nach Griechenland gehen, um die Olympischen Spiele zu sehen."],
+     :item/answer ["Me gustaría ir a Grecia para ver los Juegos Olímpicos."]}
+    {:item/n 17,
+     :item/prompt ["Ich werde die Mexikaner einladen, auf der Party Musik zu spielen."],
+     :item/answer ["Voy a invitar a los mexicanos a tocar la música en la fiesta."]}
+    {:item/n 18,
+     :item/prompt ["Ich werde heute Abend meine Freunde besuchen."],
+     :item/answer ["Voy a visitar a mis amigos esta noche."]}
+    {:item/n 19, :item/prompt ["Ich werde Juan anrufen."], :item/answer ["Voy a llamar a Juan."]}
+    {:item/n 20,
+     :item/prompt ["Ich möchte Gerardo einladen."],
+     :item/answer ["Me gustaría invitar a Gerardo."]}
+    {:item/n 21,
+     :item/prompt ["Ich werde Francisco bei Englisch helfen."],
+     :item/answer ["Voy a ayudar a Francisco con el inglés."]}
+    {:item/n 22,
+     :item/prompt ["Ich will ihn heute Abend im Spanischkurs sehen."],
+     :item/answer ["Quiero verlo en la clase de español esta noche."]}
+    {:item/n 23,
+     :item/prompt ["Ich muss den Arzt anrufen."],
+     :item/answer ["Necesito llamar al doctor."]}
+    {:item/n 24,
+     :item/prompt ["Es gibt ein Problem; ich muss die Polizei anrufen."],
+     :item/answer ["Hay un problema, necesito llamar a la policía."]}
+    {:item/n 25,
+     :item/prompt ["Ich werde nach Costa Rica gehen, um Spanisch zu lernen."],
+     :item/answer ["Voy a ir a Costa Rica para estudiar español."]}
+    {:item/n 26,
+     :item/prompt ["Ich will die Lehrerin zur Party einladen."],
+     :item/answer ["Quiero invitar a la maestra a la fiesta."]}
+    {:item/n 27,
+     :item/prompt ["Ich werde heute Abend nicht im Restaurant essen."],
+     :item/answer ["No voy a comer en el restaurante esta noche."]}
+    {:item/n 28,
+     :item/prompt ["Ich werde heute Abend nicht nach Tijuana gehen."],
+     :item/answer ["No voy a ir a Tijuana esta noche."]}],
+   :exercise/notes []}
+  {:exercise/id "3C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en alemán para “voy a” son"],
+     :item/answer ["ich werde"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en alemán para “me gustaría” son"],
+     :item/answer ["ich möchte"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en alemán para “invitar” son"],
+     :item/answer ["einladen"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en alemán para “visitar” son"],
+     :item/answer ["besuchen"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en alemán para “llamar” son"],
+     :item/answer ["anrufen"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en alemán para “ayudar” son"],
+     :item/answer ["helfen"]}],
+   :exercise/notes []}
+  {:exercise/id "3D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al alemán.",
+   :exercise/hints
+   ["mi amigo = mein Freund"
+    "mi papá = mein Vater"
+    "mi familia = meine Familie"
+    "a la fiesta = zur Party"
+    "mi mamá = meine Mutter"],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Me gustaría ayudarlo."], :item/answer ["Ich möchte ihm helfen."]}
+    {:item/n 2,
+     :item/prompt ["Voy a llamarla esta noche."],
+     :item/answer ["Ich werde sie heute Abend anrufen."]}
+    {:item/n 3,
+     :item/prompt ["Me gustaría visitarla pronto."],
+     :item/answer ["Ich möchte sie bald besuchen."]}
+    {:item/n 4,
+     :item/prompt ["Quiero visitar su casa en México."],
+     :item/answer ["Ich will Ihr Haus in Mexiko besuchen."]}
+    {:item/n 5,
+     :item/prompt ["No voy a comer en el restaurante esta noche."],
+     :item/answer ["Ich werde heute Abend nicht im Restaurant essen."]}
+    {:item/n 6,
+     :item/prompt ["Voy a llamarlo pronto."],
+     :item/answer ["Ich werde ihn bald anrufen."]}
+    {:item/n 7,
+     :item/prompt ["Necesito llamar a mi mamá esta noche."],
+     :item/answer ["Ich muss heute Abend meine Mutter anrufen."]}
+    {:item/n 8,
+     :item/prompt ["Voy a invitarlo a mi casa."],
+     :item/answer ["Ich werde ihn zu mir nach Hause einladen."]}
+    {:item/n 9,
+     :item/prompt ["Me gustaría hablar con usted."],
+     :item/answer ["Ich möchte mit Ihnen sprechen."]}
+    {:item/n 10,
+     :item/prompt ["Quiero visitarlo en México."],
+     :item/answer ["Ich will ihn in Mexiko besuchen."]}
+    {:item/n 11,
+     :item/prompt ["No voy a ir a Los Ángeles esta noche."],
+     :item/answer ["Ich werde heute Abend nicht nach Los Angeles gehen."]}
+    {:item/n 12,
+     :item/prompt ["Quiero llamar a mi papá ahora."],
+     :item/answer ["Ich will jetzt meinen Vater anrufen."]}
+    {:item/n 13,
+     :item/prompt ["Voy a llamar a Carlos esta noche."],
+     :item/answer ["Ich werde heute Abend Carlos anrufen."]}
+    {:item/n 14,
+     :item/prompt ["Me gustaría más por favor."],
+     :item/answer ["Ich möchte mehr, bitte."]}
+    {:item/n 15,
+     :item/prompt ["Me gustaría ir a la fiesta con usted esta noche."],
+     :item/answer ["Ich möchte heute Abend mit Ihnen zur Party gehen."]}
+    {:item/n 16,
+     :item/prompt ["Quiero invitar a mi amigo."],
+     :item/answer ["Ich will meinen Freund einladen."]}
+    {:item/n 17,
+     :item/prompt ["Necesito ayudar a mi amigo."],
+     :item/answer ["Ich muss meinem Freund helfen."]}
+    {:item/n 18,
+     :item/prompt ["Quiero visitar a mi familia pronto."],
+     :item/answer ["Ich will meine Familie bald besuchen."]}
+    {:item/n 19,
+     :item/prompt ["Voy a verla en la fiesta."],
+     :item/answer ["Ich werde sie auf der Party sehen."]}
+    {:item/n 20,
+     :item/prompt ["Voy a hablar español pronto."],
+     :item/answer ["Ich werde bald Spanisch sprechen."]}
+    {:item/n 21,
+     :item/prompt ["Voy a ir a mi casa para comer."],
+     :item/answer ["Ich werde nach Hause gehen, um zu essen."]}
+    {:item/n 22,
+     :item/prompt ["Voy a verlo pronto."],
+     :item/answer ["Ich werde ihn bald sehen."]}
+    {:item/n 23,
+     :item/prompt ["Quiero invitar a María a un restaurante."],
+     :item/answer ["Ich will María in ein Restaurant einladen."]}
+    {:item/n 24,
+     :item/prompt ["No voy a comer ahora."],
+     :item/answer ["Ich werde jetzt nicht essen."]}
+    {:item/n 25,
+     :item/prompt ["Me gustaría verla esta noche."],
+     :item/answer ["Ich möchte sie heute Abend sehen."]}
+    {:item/n 26,
+     :item/prompt ["Me gustaría hablar más español con usted pronto."],
+     :item/answer ["Ich möchte bald mehr Spanisch mit Ihnen sprechen."]}
+    {:item/n 27,
+     :item/prompt ["Me gustaría comer pronto."],
+     :item/answer ["Ich möchte bald essen."]}
+    {:item/n 28,
+     :item/prompt ["Me gustaría invitarla a la fiesta."],
+     :item/answer ["Ich möchte sie zur Party einladen."]}
+    {:item/n 29,
+     :item/prompt ["Quiero invitarlo a mi casa para comer tamales."],
+     :item/answer ["Ich will ihn zu mir nach Hause einladen, um Tamales zu essen."]}
+    {:item/n 30,
+     :item/prompt ["Voy a hablar con usted en español pronto."],
+     :item/answer ["Ich werde bald Spanisch mit Ihnen sprechen."]}],
+   :exercise/notes []}]}

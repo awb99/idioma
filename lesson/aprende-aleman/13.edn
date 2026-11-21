@@ -1,0 +1,293 @@
+{:lesson/vocabulary
+ [{:vocab/id 73,
+   :vocab/kind :synergy-verb,
+   :vocab/target "wir wollen",
+   :vocab/base "queremos",
+   :vocab/pronunciation "vir vó-len",
+   :vocab/mnemonic nil}
+  {:vocab/id 74,
+   :vocab/kind :synergy-verb,
+   :vocab/target "wir brauchen",
+   :vocab/base "necesitamos",
+   :vocab/pronunciation "vir bráu-jen",
+   :vocab/mnemonic nil}
+  {:vocab/id 75,
+   :vocab/kind :mortar,
+   :vocab/target "so schnell wie möglich",
+   :vocab/base "cuanto antes",
+   :vocab/pronunciation "zo shnel vi mök-lich",
+   :vocab/mnemonic nil}
+  {:vocab/id 76,
+   :vocab/kind :mortar,
+   :vocab/target "unsere",
+   :vocab/base "nuestra",
+   :vocab/pronunciation "ún-ze-re",
+   :vocab/mnemonic nil}
+  {:vocab/id 77,
+   :vocab/kind :brick-verb,
+   :vocab/target "fahren",
+   :vocab/base "manejar",
+   :vocab/pronunciation "fá-ren",
+   :vocab/mnemonic nil}
+  {:vocab/id 78,
+   :vocab/kind :brick-verb,
+   :vocab/target "sich ausruhen",
+   :vocab/base "descansar",
+   :vocab/pronunciation "zich áus-ru-en",
+   :vocab/mnemonic nil}],
+ :lesson/title "Nosotros y lo nuestro",
+ :lesson/target-title "Wir und unser",
+ :lesson/label "Lección 13",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 11,
+   :section/title "Wir y el presente",
+   :section/body
+   ["En alemán el presente se conjuga para cada persona: ich will, du willst, er will, wir wollen, ihr wollt, sie wollen."
+    "Los verbos modales cambian la vocal en singular, pero la forma de wir es regular: wir wollen, wir müssen."
+    "El verbo conjugado ocupa la segunda posición y el infinitivo va al final: Wir wollen heute anfangen. En los verbos separables, la partícula va al final: wir fangen heute an."
+    "queremos = wir wollen; necesitamos = wir brauchen."]}],
+ :lesson/number 13,
+ :lesson/intro [],
+ :lesson/step {:step/number 3, :step/title "Hablemos de nosotros"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "13A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “wir wollen” son"],
+     :item/answer ["queremos"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en español para “wir brauchen” son"],
+     :item/answer ["necesitamos"]}
+    {:item/n 3, :item/prompt ["Las palabras en español para “unsere” son"], :item/answer ["nuestra"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en español para “sich ausruhen” son"],
+     :item/answer ["descansar"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en español para “fahren” son"],
+     :item/answer ["manejar"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “so schnell wie möglich” son"],
+     :item/answer ["cuanto antes"]}],
+   :exercise/notes []}
+  {:exercise/id "13B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["coche = das Auto"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Wir wollen uns vor der Konferenz heute Abend ausruhen."],
+     :item/answer ["Queremos descansar antes de la conferencia de esta noche."]}
+    {:item/n 2,
+     :item/prompt ["Wir müssen einen Tag lang fahren."],
+     :item/answer ["Necesitamos manejar por un día."]}
+    {:item/n 3,
+     :item/prompt ["Wir wollen uns eine Woche am Strand ausruhen."],
+     :item/answer ["Queremos descansar una semana en la playa."]}
+    {:item/n 4,
+     :item/prompt ["Wollen Sie mit uns einen Tequila trinken, um unseren Sieg zu feiern?"],
+     :item/answer ["¿Quiere tomar un tequila con nosotros para celebrar nuestra victoria?"]}
+    {:item/n 5,
+     :item/prompt ["Wir wollen an der Küste entlangfahren."],
+     :item/answer ["Queremos manejar por la costa."]}
+    {:item/n 6,
+     :item/prompt ["Wir müssen ein Auto mieten."],
+     :item/answer ["Necesitamos rentar un coche."]}
+    {:item/n 7,
+     :item/prompt ["Ich kann sechs Monate lang nicht fahren."],
+     :item/answer ["No puedo manejar por seis meses."]}
+    {:item/n 8,
+     :item/prompt ["Wir müssen mehr Zeit mit unserer Familie verbringen."],
+     :item/answer ["Necesitamos pasar más tiempo con nuestra familia."]}
+    {:item/n 9,
+     :item/prompt ["Wir wollen in unserem Urlaub nach Madrid fahren."],
+     :item/answer ["Queremos manejar a Madrid en nuestras vacaciones."]}
+    {:item/n 10,
+     :item/prompt ["Wir müssen so schnell wie möglich gehen."],
+     :item/answer ["Necesitamos ir cuanto antes."]}
+    {:item/n 11,
+     :item/prompt
+     ["Wir wollen Spanisch lernen, weil wir mit unseren Kunden sprechen müssen."],
+     :item/answer ["Queremos aprender español porque necesitamos hablar con nuestros clientes."]}
+    {:item/n 12,
+     :item/prompt ["Wir wollen so schnell wie möglich zurückkommen."],
+     :item/answer ["Queremos regresar cuanto antes."]}
+    {:item/n 13,
+     :item/prompt
+     ["Fahren Sie gern? Ja, aber nur tagsüber; nachts fahre ich nicht gern."],
+     :item/answer ["¿Le gusta manejar? Sí, pero sólo en el día, no me gusta manejar en la noche."]}
+    {:item/n 14,
+     :item/prompt ["Wir müssen die Dokumente so schnell wie möglich sehen."],
+     :item/answer ["Necesitamos ver los documentos cuanto antes."]}
+    {:item/n 15,
+     :item/prompt ["Werden Sie fahren? Nein, ich würde lieber ein Taxi nehmen."],
+     :item/answer ["¿Va a manejar? No, preferiría tomar un taxi."]}
+    {:item/n 16,
+     :item/prompt ["Wir wollen dieses Jahr ein Haus in der Riviera Maya mieten."],
+     :item/answer ["Queremos rentar una casa en la Riviera Maya este año."]}
+    {:item/n 17,
+     :item/prompt
+     ["Wir müssen viel Spanisch lernen, um in unserem Urlaub zu sprechen."],
+     :item/answer ["Necesitamos estudiar mucho español para hablar en nuestras vacaciones."]}
+    {:item/n 18,
+     :item/prompt ["Ich muss ihn so schnell wie möglich in meinem Büro sehen."],
+     :item/answer ["Tengo que verlo en mi oficina cuanto antes."]}
+    {:item/n 19,
+     :item/prompt ["Wir wollen den Professor nicht zur Party einladen."],
+     :item/answer ["No queremos invitar al profesor a la fiesta."]}
+    {:item/n 20,
+     :item/prompt ["Wir wollen so schnell wie möglich Spanisch lernen."],
+     :item/answer ["Queremos aprender español cuanto antes."]}
+    {:item/n 21,
+     :item/prompt ["Wir müssen morgen weitermachen."],
+     :item/answer ["Necesitamos continuar mañana."]}
+    {:item/n 22,
+     :item/prompt ["Sie müssen mich so schnell wie möglich anrufen."],
+     :item/answer ["Tiene que llamarme cuanto antes."]}
+    {:item/n 23,
+     :item/prompt ["Wir wollen bald nach Mexiko zurückkehren."],
+     :item/answer ["Queremos regresar a México pronto."]}
+    {:item/n 24,
+     :item/prompt ["Wir müssen zu Fuß zur Schule gehen."],
+     :item/answer ["Necesitamos caminar a la escuela."]}
+    {:item/n 25,
+     :item/prompt ["Wir wollen ganz Baja California bis nach Los Cabos fahren."],
+     :item/answer ["Queremos manejar toda Baja California hasta Los Cabos."]}],
+   :exercise/notes []}
+  {:exercise/id "13C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en alemán para “queremos” son"],
+     :item/answer ["wir wollen"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en alemán para “necesitamos” son"],
+     :item/answer ["wir brauchen"]}
+    {:item/n 3, :item/prompt ["Las palabras en alemán para “nuestra” son"], :item/answer ["unsere"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en alemán para “descansar” son"],
+     :item/answer ["sich ausruhen"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en alemán para “manejar” son"],
+     :item/answer ["fahren"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en alemán para “cuanto antes” son"],
+     :item/answer ["so schnell wie möglich"]}],
+   :exercise/notes []}
+  {:exercise/id "13D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Queremos descansar un rato en el hotel."],
+     :item/answer ["Wir wollen uns im Hotel ein bisschen ausruhen."]}
+    {:item/n 2,
+     :item/prompt ["Necesitamos manejar a México."],
+     :item/answer ["Wir müssen nach Mexiko fahren."]}
+    {:item/n 3,
+     :item/prompt ["Queremos descansar antes de ir al restaurante."],
+     :item/answer ["Wir wollen uns ausruhen, bevor wir ins Restaurant gehen."]}
+    {:item/n 4,
+     :item/prompt ["Queremos invitarlo a nuestra fiesta."],
+     :item/answer ["Wir wollen ihn zu unserer Party einladen."]}
+    {:item/n 5,
+     :item/prompt ["Necesitamos descansar esta noche."],
+     :item/answer ["Wir müssen uns heute Nacht ausruhen."]}
+    {:item/n 6,
+     :item/prompt ["Queremos caminar al hotel."],
+     :item/answer ["Wir wollen zu Fuß zum Hotel gehen."]}
+    {:item/n 7,
+     :item/prompt ["¿Cuándo necesitamos ir? Necesitamos ir ahora mismo."],
+     :item/answer ["Wann müssen wir gehen? Wir müssen sofort gehen."]}
+    {:item/n 8,
+     :item/prompt ["Queremos descansar en casa este fin de semana."],
+     :item/answer ["Wir wollen uns dieses Wochenende zu Hause ausruhen."]}
+    {:item/n 9,
+     :item/prompt ["Lo siento, pero necesitamos trabajar este fin de semana."],
+     :item/answer ["Es tut mir leid, aber wir müssen dieses Wochenende arbeiten."]}
+    {:item/n 10,
+     :item/prompt
+     ["No queremos comer en Taco Bell, queremos comer en un restaurante tradicional."],
+     :item/answer
+     ["Wir wollen nicht bei Taco Bell essen, wir wollen in einem traditionellen Restaurant essen."]}
+    {:item/n 11,
+     :item/prompt ["Tiene que descansar por tres días."],
+     :item/answer ["Sie müssen sich drei Tage ausruhen."]}
+    {:item/n 12,
+     :item/prompt ["Queremos aprender español."],
+     :item/answer ["Wir wollen Spanisch lernen."]}
+    {:item/n 13,
+     :item/prompt ["Voy a descansar ahora."],
+     :item/answer ["Ich werde mich jetzt ausruhen."]}
+    {:item/n 14,
+     :item/prompt ["¿Quiere ver nuestra casa?"],
+     :item/answer ["Wollen Sie unser Haus sehen?"]}
+    {:item/n 15,
+     :item/prompt ["¿Cuándo va a descansar? Voy a descansar mañana."],
+     :item/answer ["Wann werden Sie sich ausruhen? Ich werde mich morgen ausruhen."]}
+    {:item/n 16,
+     :item/prompt ["¿Cuándo necesitamos estar en el restaurante?"],
+     :item/answer ["Wann müssen wir im Restaurant sein?"]}
+    {:item/n 17,
+     :item/prompt ["¿Quiere manejar? No, no quiero manejar aquí."],
+     :item/answer ["Wollen Sie fahren? Nein, ich will hier nicht fahren."]}
+    {:item/n 18,
+     :item/prompt ["Queremos ir a nuestra casa por un rato."],
+     :item/answer ["Wir wollen für eine Weile zu unserem Haus gehen."]}
+    {:item/n 19,
+     :item/prompt ["Necesitamos estar en casa con nuestra familia esta noche."],
+     :item/answer ["Wir müssen heute Abend mit unserer Familie zu Hause sein."]}
+    {:item/n 20,
+     :item/prompt ["Queremos trabajar en México este año."],
+     :item/answer ["Wir wollen dieses Jahr in Mexiko arbeiten."]}
+    {:item/n 21,
+     :item/prompt ["Necesitamos ir al hotel ahora mismo."],
+     :item/answer ["Wir müssen sofort zum Hotel gehen."]}
+    {:item/n 22,
+     :item/prompt ["Necesito hablar más español cuanto antes."],
+     :item/answer ["Ich muss so schnell wie möglich mehr Spanisch sprechen."]}
+    {:item/n 23,
+     :item/prompt ["Mañana queremos manejar a Acapulco."],
+     :item/answer ["Morgen wollen wir nach Acapulco fahren."]}
+    {:item/n 24,
+     :item/prompt ["Necesitamos trabajar en nuestra casa este fin de semana."],
+     :item/answer ["Wir müssen dieses Wochenende in unserem Haus arbeiten."]}
+    {:item/n 25,
+     :item/prompt ["Necesita hablar con él cuanto antes."],
+     :item/answer ["Sie müssen so schnell wie möglich mit ihm sprechen."]}
+    {:item/n 26,
+     :item/prompt ["Queremos visitar México otra vez este año."],
+     :item/answer ["Wir wollen dieses Jahr wieder Mexiko besuchen."]}
+    {:item/n 27,
+     :item/prompt ["Necesitamos un taxi cuanto antes."],
+     :item/answer ["Wir brauchen so schnell wie möglich ein Taxi."]}
+    {:item/n 28,
+     :item/prompt ["Queremos terminar pronto y descansar un rato."],
+     :item/answer ["Wir wollen bald fertig werden und uns ein bisschen ausruhen."]}
+    {:item/n 29,
+     :item/prompt ["Necesitamos ver a un doctor cuanto antes."],
+     :item/answer ["Wir müssen so schnell wie möglich zum Arzt."]}
+    {:item/n 30,
+     :item/prompt ["Necesitamos pasar la noche en un hotel."],
+     :item/answer ["Wir müssen die Nacht in einem Hotel verbringen."]}
+    {:item/n 31,
+     :item/prompt ["Queremos hacer una fiesta en nuestra casa este fin de semana."],
+     :item/answer ["Wir wollen dieses Wochenende in unserem Haus eine Party feiern."]}],
+   :exercise/notes []}]}

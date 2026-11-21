@@ -1,0 +1,199 @@
+{:lesson/vocabulary
+ [{:vocab/id 1,
+   :vocab/kind :synergy-verb,
+   :vocab/target "ich will",
+   :vocab/base "quiero",
+   :vocab/pronunciation "ích wil",
+   :vocab/mnemonic nil}
+  {:vocab/id 2,
+   :vocab/kind :synergy-verb,
+   :vocab/target "ich muss",
+   :vocab/base "necesito",
+   :vocab/pronunciation "ích mus",
+   :vocab/mnemonic nil}
+  {:vocab/id 3,
+   :vocab/kind :brick-verb,
+   :vocab/target "essen",
+   :vocab/base "comer",
+   :vocab/pronunciation "ésen",
+   :vocab/mnemonic nil}
+  {:vocab/id 4,
+   :vocab/kind :brick-verb,
+   :vocab/target "gehen",
+   :vocab/base "ir",
+   :vocab/pronunciation "gué-en",
+   :vocab/mnemonic nil}
+  {:vocab/id 5,
+   :vocab/kind :brick-verb,
+   :vocab/target "sehen",
+   :vocab/base "ver",
+   :vocab/pronunciation "sé-en",
+   :vocab/mnemonic nil}
+  {:vocab/id 6,
+   :vocab/kind :brick-verb,
+   :vocab/target "sprechen",
+   :vocab/base "hablar",
+   :vocab/pronunciation "schpréchen",
+   :vocab/mnemonic nil}],
+ :lesson/title "Tus primeros bloques de alemán",
+ :lesson/target-title "Erste deutsche Bausteine",
+ :lesson/label "Lección 1",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 1,
+   :section/title "La negación con nicht",
+   :section/body
+   ["En alemán, para negar una frase usas nicht después del verbo conjugado: Ich will nicht essen = no quiero comer."
+    "El verbo conjugado ocupa el segundo lugar; el infinitivo del verbo principal va al final: Ich will heute im Restaurant essen."
+    "Con los modales wollen (querer) y müssen (necesitar, tener que) el segundo verbo va en infinitivo al final de la oración."
+    "ich will = quiero; ich muss = necesito. También existen Sie wollen y Sie müssen para el trato formal."
+    "La fórmula es: sujeto + modal conjugado + complementos + infinitivo al final."]}
+  {:section/type :speaking-hints,
+   :section/id nil,
+   :section/title nil,
+   :section/body
+   ["Ya tienes dos verbos muy útiles: wollen y müssen."
+    "Después de ellos puedes usar otro verbo en infinitivo, siempre al final: Ich will essen, Ich muss gehen."
+    "Esos verbos base son essen, gehen, sehen y sprechen; los usarás en todas las lecciones."]}],
+ :lesson/number 1,
+ :lesson/intro [],
+ :lesson/step {:step/number 1, :step/title "Primeros pasos para hablar alemán"},
+ :lesson/closing
+ ["Eso es todo por hoy."
+  "Mañana añadiremos palabras que unen las frases y te permiten decir mucho más."
+  "Con pocas palabras ya puedes comunicar bastante; cada lección multiplicará tu alemán."
+  "No solo sumas palabras: multiplicas posibilidades."
+  "Hasta mañana."],
+ :lesson/exercises
+ [{:exercise/id "1A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “ich will” son"],
+     :item/answer ["quiero"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en español para “ich muss” son"],
+     :item/answer ["necesito"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “sprechen” son"],
+     :item/answer ["hablar"]}
+    {:item/n 4, :item/prompt ["Las palabras en español para “sehen” son"], :item/answer ["ver"]}
+    {:item/n 5, :item/prompt ["Las palabras en español para “gehen” son"], :item/answer ["ir"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “essen” son"],
+     :item/answer ["comer"]}],
+   :exercise/notes []}
+  {:exercise/id "1B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["zum Arzt = al doctor" "im Urlaub = en las vacaciones" "nach Spanien = a España"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Ich will im Urlaub Spanisch sprechen."],
+     :item/answer ["Quiero hablar español en mis vacaciones."]}
+    {:item/n 2,
+     :item/prompt ["Ich muss in der Firma Spanisch sprechen."],
+     :item/answer ["Necesito hablar español en la compañía."]}
+    {:item/n 3,
+     :item/prompt ["Ich muss bitte den Arzt sehen."],
+     :item/answer ["Necesito ver al doctor por favor."]}
+    {:item/n 4,
+     :item/prompt ["Ich muss zum Arzt gehen."],
+     :item/answer ["Necesito ir al doctor."]}
+    {:item/n 5,
+     :item/prompt ["Ich will in einem traditionellen Restaurant essen."],
+     :item/answer ["Quiero comer en un restaurante tradicional."]}
+    {:item/n 6,
+     :item/prompt ["Ich muss erst morgen gehen."],
+     :item/answer ["No necesito ir hasta mañana."]}
+    {:item/n 7,
+     :item/prompt ["Ich will kein chinesisches Essen essen; ich will mexikanisches Essen essen."],
+     :item/answer ["No quiero comer comida china,quiero comer comida mexicana."]}
+    {:item/n 8,
+     :item/prompt ["Ich will im Mai nach Spanien gehen."],
+     :item/answer ["Quiero ir a España en mayo."]}
+    {:item/n 9, :item/prompt ["Ich muss essen."], :item/answer ["Necesito comer."]}
+    {:item/n 10,
+     :item/prompt ["Ich will etwas anderes essen."],
+     :item/answer ["Quiero comer algo diferente."]}
+    {:item/n 11,
+     :item/prompt ["Ich muss zum Hotel gehen."],
+     :item/answer ["Necesito ir al hotel."]}
+    {:item/n 12,
+     :item/prompt ["Ich will einen Burrito auf dem Markt essen."],
+     :item/answer ["Quiero comer un burrito en el mercado."]}
+    {:item/n 13,
+     :item/prompt ["Ich will bitte die Speisekarte sehen."],
+     :item/answer ["Quiero ver el menú por favor."]}
+    {:item/n 14,
+     :item/prompt ["Ich will zur Party gehen."],
+     :item/answer ["Quiero ir a la fiesta."]}
+    {:item/n 15,
+     :item/prompt ["Ich muss im Juni nach Argentinien gehen."],
+     :item/answer ["Necesito ir a Argentina en junio."]}
+    {:item/n 16,
+     :item/prompt ["Ich will im Juni nicht gehen; ich will im September gehen."],
+     :item/answer ["No quiero ir en junio, quiero ir en septiembre."]}],
+   :exercise/notes []}
+  {:exercise/id "1C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Las palabras en alemán para “quiero” son"], :item/answer ["ich will"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en alemán para “necesito” son"],
+     :item/answer ["ich muss"]}
+    {:item/n 3, :item/prompt ["Las palabras en alemán para “comer” son"], :item/answer ["essen"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en alemán para “hablar” son"],
+     :item/answer ["sprechen"]}
+    {:item/n 5, :item/prompt ["Las palabras en alemán para “ver” son"], :item/answer ["sehen"]}
+    {:item/n 6, :item/prompt ["Las palabras en alemán para “ir” son"], :item/answer ["gehen"]}],
+   :exercise/notes []}
+  {:exercise/id "1D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al alemán.",
+   :exercise/hints
+   ["un restaurante = ein Restaurant"
+    "mi casa = mein Haus"
+    "a España = nach Spanien"],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Quiero hablar español."], :item/answer ["Ich will Spanisch sprechen."]}
+    {:item/n 2,
+     :item/prompt ["No quiero comer."],
+     :item/answer ["Ich will nicht essen."]}
+    {:item/n 3,
+     :item/prompt ["Necesito hablar español."],
+     :item/answer ["Ich muss Spanisch sprechen."]}
+    {:item/n 4, :item/prompt ["Quiero ver su casa."], :item/answer ["Ich will Ihr Haus sehen."]}
+    {:item/n 5,
+     :item/prompt ["Necesito ir a mi casa."],
+     :item/answer ["Ich muss nach Hause gehen."]}
+    {:item/n 6, :item/prompt ["Quiero comer."], :item/answer ["Ich will essen."]}
+    {:item/n 7, :item/prompt ["Quiero ir a España."], :item/answer ["Ich will nach Spanien gehen."]}
+    {:item/n 8,
+     :item/prompt ["No necesito ir a Chile."],
+     :item/answer ["Ich muss nicht nach Chile gehen."]}
+    {:item/n 9, :item/prompt ["Necesito comer."], :item/answer ["Ich muss essen."]}
+    {:item/n 10,
+     :item/prompt ["No quiero comer en mi casa, quiero comer en un restaurante."],
+     :item/answer ["Ich will nicht zu Hause essen; ich will in einem Restaurant essen."]}
+    {:item/n 11, :item/prompt ["Necesito ir a México."], :item/answer ["Ich muss nach Mexiko gehen."]}
+    {:item/n 12, :item/prompt ["Quiero comer tacos."], :item/answer ["Ich will Tacos essen."]}
+    {:item/n 13,
+     :item/prompt ["Quiero ver Chichen Itza."],
+     :item/answer ["Ich will Chichén Itzá sehen."]}],
+   :exercise/notes []}]}

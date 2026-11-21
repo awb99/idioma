@@ -1,0 +1,490 @@
+#:lesson{:vocabulary
+         [#:vocab{:id 49,
+                  :kind :synergy-verb,
+                  :target "Sie wollen",
+                  :base "quiere",
+                  :pronunciation "zi vó-len",
+                  :mnemonic nil}
+          #:vocab{:id 50,
+                  :kind :synergy-verb,
+                  :target "Sie brauchen",
+                  :base "necesita",
+                  :pronunciation "zi bráu-jen",
+                  :mnemonic nil}
+          #:vocab{:id 51,
+                  :kind :sentence-starter,
+                  :target "wann",
+                  :base "cuándo",
+                  :pronunciation "van",
+                  :mnemonic nil}
+          #:vocab{:id 52,
+                  :kind :mortar,
+                  :target "mit mir",
+                  :base "conmigo",
+                  :pronunciation "mit mir",
+                  :mnemonic nil}
+          #:vocab{:id 53,
+                  :kind :mortar,
+                  :target "aber",
+                  :base "pero",
+                  :pronunciation "áber",
+                  :mnemonic nil}
+          #:vocab{:id 54,
+                  :kind :mortar,
+                  :target "oder",
+                  :base "o",
+                  :pronunciation "óder",
+                  :mnemonic nil}],
+         :title "Diálogos para conversar en alemán",
+         :target-title "Dialoge und Gespräche",
+         :label "Lección 9",
+         :sections
+         [#:section{:type :speaking-hints,
+                    :id nil,
+                    :title "Cómo usar los diálogos",
+                    :body
+                    ["En los diálogos verás dos o más intervenciones seguidas."
+                     "Traduce cada línea al idioma que indica el ejercicio, sin cambiar el orden."
+                     "El alemán formal usa Sie para usted y ustedes; en las preguntas de sí o no el verbo va primero: Wollen Sie ...?"
+                     "Si una línea te bloquea, usa las pistas o muestra la respuesta y sigue con la siguiente."]}],
+         :number 9,
+         :intro [],
+         :step #:step{:number 2, :title "Aprender a usar el diálogo"},
+         :closing
+         ["Los diálogos son la mejor forma de ver el alemán en contexto real."
+          "No te preocupes si no entiendes todo a la primera; usa las pistas y vuelve a intentarlo."
+          "Cada diálogo te prepara para una conversación de verdad."],
+         :exercises
+         [#:exercise{:id "9A",
+                     :skill :recall,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en español para “Sie wollen” son"],
+                             :answer ["quiere"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en español para “Sie brauchen” son"],
+                             :answer ["necesita"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en español para “mit mir” son"],
+                             :answer ["conmigo"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en español para “wann” son"],
+                             :answer ["cuándo"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en español para “aber” son"],
+                             :answer ["pero"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en español para “oder” son"],
+                             :answer ["o"]}],
+                     :notes []}
+          #:exercise{:id "9B",
+                     :skill :translate,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al español.",
+                     :hints
+                     ["zu Hause = en casa"
+                      "das Wasser = agua"
+                      "und = y"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Um den Mond zu sehen, brauchen Sie kein Teleskop."],
+                             :answer
+                             ["Para ver la luna no necesita un telescopio."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Sie müssen viel Spanisch lernen, um in Ihrem Urlaub zu sprechen."],
+                             :answer
+                             ["Necesita estudiar mucho español para hablar en sus vacaciones."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Wollen Sie die Lehrerin zur Party einladen?"],
+                             :answer
+                             ["¿Quiere invitar a la maestra a la fiesta?"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Wann wollen Sie Ihre Familie besuchen?"],
+                             :answer
+                             ["¿Cuándo quiere visitar a su familia?"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Wollen Sie ein Haus mieten oder kaufen?"],
+                             :answer
+                             ["¿Quiere rentar o comprar una casa?"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Wollen Sie wieder ins Restaurant zurückkehren, um mehr von den leckeren Tacos zu essen?"],
+                             :answer
+                             ["¿Quiere regresar al restaurante otra vez para comer más de los tacos deliciosos?"]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Sie müssen das Video zu Blockbuster zurückbringen."],
+                             :answer
+                             ["Necesita regresar el video a Blockbuster."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Sie müssen heute Abend mit Ihrer Familie zu Hause sein."],
+                             :answer
+                             ["Necesita estar en casa con su familia esta noche."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Sie müssen mehr Zeit mit mir und mit Ihrer Familie verbringen."],
+                             :answer
+                             ["Necesita pasar más tiempo conmigo y con su familia."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Wollen Sie dieses Jahr ein Haus in Puerto Vallarta mieten?"],
+                             :answer
+                             ["¿Quiere rentar una casa en Puerto Vallarta este año?"]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Wollen Sie dieses Jahr in Mexiko arbeiten?"],
+                             :answer
+                             ["¿Quiere trabajar en México este año?"]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Wollen Sie morgen Abend ins Restaurant zurückkehren?"],
+                             :answer
+                             ["¿Quiere regresar al restaurante mañana en la noche?"]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Sie müssen die Nacht in einem Hotel verbringen."],
+                             :answer
+                             ["Necesita pasar la noche en un hotel."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Sie müssen in der Wüste viel Wasser trinken."],
+                             :answer
+                             ["Necesita tomar mucha agua en el desierto."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Wann wollen Sie nach Mexiko zurückkehren?"],
+                             :answer
+                             ["¿Cuándo quiere regresar a México?"]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Wollen Sie eine Weile zu mir nach Hause kommen, um meine Familie zu sehen?"],
+                             :answer
+                             ["¿Quiere ir a mi casa por un rato para ver a mi familia?"]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Sie müssen morgen weitermachen."],
+                             :answer ["Necesita continuar mañana."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Wollen Sie heute Abend oder morgen arbeiten?"],
+                             :answer
+                             ["¿Quiere trabajar esta noche o mañana?"]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Mein Herr, Sie müssen bald zum Arzt gehen."],
+                             :answer
+                             ["Señor, necesita ir al doctor pronto."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Sie müssen mehr Spanisch sprechen."],
+                             :answer
+                             ["Necesita hablar más español."]}],
+                     :notes []}
+          #:exercise{:id "9C",
+                     :skill :translate,
+                     :direction :to-base,
+                     :dialog? true,
+                     :instructions
+                     "Traduce cada intervención del diálogo al español.",
+                     :hints
+                     ["sólo = nur" "depende = es kommt darauf an"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Müssen Sie diese Woche reisen?"
+                              "Nein, ich werde bis nächste Woche zu Hause sein."],
+                             :answer
+                             ["¿Necesita viajar esta semana?"
+                              "No, voy a estar en casa hasta la próxima semana."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Wollen Sie diese Woche mit mir am Projekt arbeiten?"
+                              "Ja, ich kann nächste Woche mit Ihnen arbeiten."],
+                             :answer
+                             ["¿Quiere trabajar conmigo en el proyecto?"
+                              "Sí, puedo trabajar con usted la próxima semana."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Wollen Sie mit mir einen Tequila trinken?"
+                              "Danke, aber ich mag Tequila nicht besonders."],
+                             :answer
+                             ["¿Quiere tomar un tequila conmigo?"
+                              "Gracias, pero no me gusta mucho el tequila."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Wollen Sie mit mir Spanisch sprechen?"
+                              "Ja, ich möchte die Gelegenheit sehr gern nutzen, um mit Ihnen Spanisch zu üben."],
+                             :answer
+                             ["¿Quiere hablar español conmigo?"
+                              "Sí, me gustaría mucho la oportunidad para practicar español con usted."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Müssen Sie in der Firma Spanisch sprechen?"
+                              "Ja, ich muss jeden Tag mit meinen Kunden Spanisch sprechen."],
+                             :answer
+                             ["¿Necesita hablar español en la compañía?"
+                              "Sí, necesito hablar español cada día con mis clientes."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Wollen Sie in einem traditionellen Restaurant essen?"
+                              "Ehrlich gesagt nein, heute Abend würde ich lieber etwas Amerikanisches essen."],
+                             :answer
+                             ["¿Quiere comer en un restaurante tradicional?"
+                              "Francamente no, esta noche preferiría comer comida americana."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Wollen Sie heute Abend im Restaurant essen?"
+                              "Ja, kann ich einen Freund einladen?"],
+                             :answer
+                             ["¿Quiere comer en el restaurante esta noche?"
+                              "Sí, ¿puedo invitar a un amigo?"]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Wollen Sie im Mai mit mir nach Spanien fahren?"
+                              "Ich möchte schon, aber ich kann nicht, ich muss arbeiten."],
+                             :answer
+                             ["¿Quiere ir a España en mayo conmigo?"
+                              "Quiero ir, pero no puedo, tengo que trabajar."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Wann müssen Sie zum Hotel gehen?"
+                              "Ich muss bald gehen, um die Reservierung zu bestätigen."],
+                             :answer
+                             ["¿Cuándo necesita ir al hotel?"
+                              "Necesito ir pronto para confirmar la reservación."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Wollen Sie einen Burrito auf dem Markt essen?"
+                              "Ich möchte auf dem Markt essen, aber ich bevorzuge Enchiladas statt Burritos."],
+                             :answer
+                             ["¿Quiere comer un burrito en el mercado?"
+                              "Quiero comer en el mercado pero prefiero enchiladas que burritos."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Wollen Sie die Speisekarte sehen?"
+                              "Nein, ich möchte bitte nur einen Kaffee."],
+                             :answer
+                             ["¿Quiere ver el menú?"
+                              "No, sólo quiero un café por favor."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Wollen Sie mit mir auf eine Party gehen?"
+                              "Ja, wann ist die Party?"],
+                             :answer
+                             ["¿Quiere ir a una fiesta conmigo?"
+                              "Sí, ¿cuándo es la fiesta?"]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Müssen Sie Spanisch sprechen?"
+                              "Ja, ich muss Spanisch sprechen, es ist sehr wichtig für mich."],
+                             :answer
+                             ["¿Necesita hablar español?"
+                              "Sí, necesito hablar español, es muy importante para mí."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Wollen Sie etwas anderes essen?"
+                              "Es kommt darauf an."],
+                             :answer
+                             ["¿Quiere comer algo diferente?"
+                              "Depende!"]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Wollen Sie heute Abend die Mariachis auf der Plaza Garibaldi sehen?"
+                              "Ja, ich möchte, aber ich muss um 20:00 Uhr am Flughafen sein."],
+                             :answer
+                             ["¿Quiere ver los Mariachis en Plaza Garibaldi esta noche?"
+                              "Sí, quiero pero tengo que estar en el aeropuerto a las 8:00 p.m."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Müssen Sie die Pässe sehen?"
+                              "Ja, ich muss die Pässe und die Visa sehen."],
+                             :answer
+                             ["¿Necesita ver los pasaportes?"
+                              "Sí, necesito ver los pasaportes y las visas."]}],
+                     :notes []}
+          #:exercise{:id "9D",
+                     :skill :recall,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en alemán para “quiere” son"],
+                             :answer ["Sie wollen"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en alemán para “necesita” son"],
+                             :answer ["Sie brauchen"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en alemán para “conmigo” son"],
+                             :answer ["mit mir"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en alemán para “cuándo” son"],
+                             :answer ["wann"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en alemán para “o” son"],
+                             :answer ["oder"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en alemán para “pero” son"],
+                             :answer ["aber"]}],
+                     :notes []}
+          #:exercise{:id "9E",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? true,
+                     :instructions
+                     "Traduce cada intervención del diálogo al alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["¿Cuándo necesita ver al doctor?"
+                              "Mañana."],
+                             :answer
+                             ["Wann müssen Sie zum Arzt gehen?"
+                              "Morgen."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["¿Cuándo necesita ir?"
+                              "Necesito ir mañana."],
+                             :answer
+                             ["Wann müssen Sie gehen?"
+                              "Ich muss morgen gehen."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["¿Cuándo quiere comer?"
+                              "Quiero comer ahora."],
+                             :answer
+                             ["Wann wollen Sie essen?"
+                              "Ich möchte jetzt essen."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["¿Quiere ver mi casa?"
+                              "Sí, me gustaría ver su casa."],
+                             :answer
+                             ["Wollen Sie mein Haus sehen?"
+                              "Ja, ich möchte Ihr Haus sehen."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["¿Cuándo necesita regresar a su casa?"
+                              "Necesito regresar mañana en la noche."],
+                             :answer
+                             ["Wann müssen Sie nach Hause zurückkehren?"
+                              "Ich muss morgen Abend zurückkehren."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["¿Quiere comer en mi casa, o quiere comer en un restaurante?"
+                              "Me gustaría mucho comer en su casa."],
+                             :answer
+                             ["Wollen Sie in meinem Haus essen oder wollen Sie in einem Restaurant essen?"
+                              "Ich möchte sehr gern in Ihrem Haus essen."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["¿Quiere ir a Tijuana esta noche?"
+                              "No, no me gusta ir a Tijuana en la noche."],
+                             :answer
+                             ["Wollen Sie heute Abend nach Tijuana fahren?"
+                              "Nein, ich fahre nicht gern nachts nach Tijuana."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["¿Quiere más?"
+                              "No, no quiero más, gracias."],
+                             :answer
+                             ["Wollen Sie mehr?"
+                              "Nein, ich möchte nicht mehr, danke."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Necesita ayudar a su papá mañana."
+                              "No puedo, tengo que ir al doctor."],
+                             :answer
+                             ["Sie müssen morgen Ihrem Vater helfen."
+                              "Ich kann nicht, ich muss zum Arzt gehen."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["¿Quiere visitar México otra vez?"
+                              "Sí, quiero regresar el próximo año"],
+                             :answer
+                             ["Wollen Sie Mexiko wieder besuchen?"
+                              "Ja, ich möchte nächstes Jahr zurückkehren."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["¿Quiere ir a una fiesta en mi casa el próximo fin de semana?"
+                              "Sí, me gustaría ir pero no puedo."],
+                             :answer
+                             ["Wollen Sie nächstes Wochenende auf eine Party in meinem Haus gehen?"
+                              "Ja, ich möchte gehen, aber ich kann nicht."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["¿Necesita ir a México?"
+                              "Sí, tengo que ir mañana."],
+                             :answer
+                             ["Müssen Sie nach Mexiko fahren?"
+                              "Ja, ich muss morgen fahren."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["¿Quiere ir a un restaurante conmigo?"
+                              "Sí, me gustaría ir con usted."],
+                             :answer
+                             ["Wollen Sie mit mir in ein Restaurant gehen?"
+                              "Ja, ich möchte mit Ihnen gehen."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["¿Quiere comer conmigo en el restaurante esta noche?"
+                              "Sí, me gustaría mucho comer con usted."],
+                             :answer
+                             ["Wollen Sie heute Abend mit mir im Restaurant essen?"
+                              "Ja, ich möchte sehr gern mit Ihnen essen."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Necesita ir conmigo para ver a mi mamá."
+                              "Sí, voy a ir con usted."],
+                             :answer
+                             ["Sie müssen mit mir gehen, um meine Mutter zu sehen."
+                              "Ja, ich werde mit Ihnen gehen."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["¿Quiere regresar conmigo?"
+                              "Gracias, pero voy a regresar con Mario."],
+                             :answer
+                             ["Wollen Sie mit mir zurückkehren?"
+                              "Danke, aber ich werde mit Mario zurückkehren."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Necesita trabajar conmigo hoy."
+                              "Sí, voy a trabajar con usted."],
+                             :answer
+                             ["Sie müssen heute mit mir arbeiten."
+                              "Ja, ich werde mit Ihnen arbeiten."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["¿Quiere pasar el fin de semana conmigo en México?"
+                              "Lo siento, pero no puedo, tengo que trabajar."],
+                             :answer
+                             ["Wollen Sie das Wochenende mit mir in Mexiko verbringen?"
+                              "Es tut mir leid, aber ich kann nicht, ich muss arbeiten."]}],
+                     :notes []}]}

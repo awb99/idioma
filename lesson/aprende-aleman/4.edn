@@ -1,0 +1,303 @@
+{:lesson/vocabulary
+ [{:vocab/id 19,
+   :vocab/kind :mortar,
+   :vocab/target "wieder",
+   :vocab/base "otra vez",
+   :vocab/pronunciation "ví-der",
+   :vocab/mnemonic nil}
+  {:vocab/id 20,
+   :vocab/kind :mortar,
+   :vocab/target "mit",
+   :vocab/base "con",
+   :vocab/pronunciation "mit",
+   :vocab/mnemonic nil}
+  {:vocab/id 21,
+   :vocab/kind :mortar,
+   :vocab/target "die nächste",
+   :vocab/base "la próxima",
+   :vocab/pronunciation "di nächs-te",
+   :vocab/mnemonic nil}
+  {:vocab/id 22,
+   :vocab/kind :mortar,
+   :vocab/target "diese",
+   :vocab/base "esta",
+   :vocab/pronunciation "dí-se",
+   :vocab/mnemonic nil}
+  {:vocab/id 23,
+   :vocab/kind :mortar,
+   :vocab/target "die Woche",
+   :vocab/base "semana",
+   :vocab/pronunciation "di vó-che",
+   :vocab/mnemonic nil}
+  {:vocab/id 24,
+   :vocab/kind :mortar,
+   :vocab/target "morgen",
+   :vocab/base "mañana",
+   :vocab/pronunciation "mór-gen",
+   :vocab/mnemonic nil}],
+ :lesson/title "Palabras para el tiempo en alemán",
+ :lesson/target-title "Wörter für die Zeit",
+ :lesson/label "Lección 4",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id nil,
+   :section/title "Palabras de tiempo y preposiciones",
+   :section/body
+   ["Las palabras de tiempo suelen llevar artículo o preposición: diese Woche, nächste Woche, am Morgen."
+    "En alemán el artículo cambia según el caso: die Woche, der Tag, das Jahr."
+    "Por la noche se dice in der Nacht o nachts; por la mañana, am Morgen."
+    "Con diese y nächste no necesitas preposición: diese Woche, nächste Woche."]}],
+ :lesson/number 4,
+ :lesson/intro [],
+ :lesson/step {:step/number 1, :step/title "Primeros pasos para hablar alemán"},
+ :lesson/closing
+ ["Ya tienes las palabras para moverte por el día, la semana y el mes."
+  "Úsalas en frases completas: Ich werde diese Woche arbeiten."
+  "La práctica constante hará que las uses sin pensar."],
+ :lesson/exercises
+ [{:exercise/id "4A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “wieder” son"],
+     :item/answer ["otra vez"]}
+    {:item/n 2, :item/prompt ["Las palabras en español para “mit” son"], :item/answer ["con"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “die nächste” son"],
+     :item/answer ["la próxima"]}
+    {:item/n 4, :item/prompt ["Las palabras en español para “diese” son"], :item/answer ["esta"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en español para “die Woche” son"],
+     :item/answer ["semana"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “morgen” son"],
+     :item/answer ["mañana"]}
+    {:item/n 7,
+     :item/prompt ["Las palabras en español para “ich werde” son"],
+     :item/answer ["voy a"]}
+    {:item/n 8,
+     :item/prompt ["Las palabras en español para “ich möchte” son"],
+     :item/answer ["me gustaría"]}
+    {:item/n 9,
+     :item/prompt ["Las palabras en español para “einladen” son"],
+     :item/answer ["invitar"]}
+    {:item/n 10,
+     :item/prompt ["Las palabras en español para “besuchen” son"],
+     :item/answer ["visitar"]}
+    {:item/n 11,
+     :item/prompt ["Las palabras en español para “anrufen” son"],
+     :item/answer ["llamar"]}
+    {:item/n 12,
+     :item/prompt ["Las palabras en español para “helfen” son"],
+     :item/answer ["ayudar"]}],
+   :exercise/notes []}
+  {:exercise/id "4B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["die Woche = la semana" "für = por" "nächste Woche = la próxima semana"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Heute Abend möchte ich mit meinen Freunden ins Kino gehen."],
+     :item/answer ["Esta noche me gustaría ir al cine con mis amigos."]}
+    {:item/n 2,
+     :item/prompt ["Ich möchte wieder mit Ihnen im Restaurant essen."],
+     :item/answer ["Me gustaría comer en el restaurante con usted otra vez."]}
+    {:item/n 3,
+     :item/prompt ["Ich muss wieder mit meiner Frau telefonieren."],
+     :item/answer ["Necesito hablar con mi esposa por teléfono otra vez."]}
+    {:item/n 4,
+     :item/prompt ["Ich muss das Hotel anrufen, um die Reservierung für morgen zu bestätigen."],
+     :item/answer ["Necesito llamar al hotel para confirmar la reservación de mañana."]}
+    {:item/n 5,
+     :item/prompt ["Heute Abend möchte ich mit meinen Freunden in eine Bar gehen."],
+     :item/answer ["Esta noche me gustaría ir a un bar con mis amigos."]}
+    {:item/n 6,
+     :item/prompt ["Ich werde sie im Mai wieder besuchen."],
+     :item/answer ["Voy a visitarla otra vez en mayo."]}
+    {:item/n 7,
+     :item/prompt ["Ich werde Spanisch in einem dreiwöchigen Kurs lernen."],
+     :item/answer ["Voy a estudiar español en un curso de tres semanas."]}
+    {:item/n 8,
+     :item/prompt ["Ich werde ihr mit den Koffern helfen."],
+     :item/answer ["Voy a ayudarla con las maletas."]}
+    {:item/n 9,
+     :item/prompt ["Ich möchte diese Woche zur Kathedrale gehen."],
+     :item/answer ["Me gustaría ir a la catedral esta semana."]}
+    {:item/n 10,
+     :item/prompt ["Ich werde für drei Wochen nach Guatemala gehen."],
+     :item/answer ["Voy a ir a Guatemala por tres semanas."]}
+    {:item/n 11,
+     :item/prompt ["Ich will ihm beim Spanischlernen helfen."],
+     :item/answer ["Quiero ayudarlo con el estudio del español."]}
+    {:item/n 12,
+     :item/prompt ["Ich will dieses Haus mieten."],
+     :item/answer ["Quiero rentar esta casa."]}
+    {:item/n 13,
+     :item/prompt ["Diese Woche und die nächste muss ich viel lernen."],
+     :item/answer ["Esta semana y la próxima necesito estudiar mucho."]}
+    {:item/n 14,
+     :item/prompt ["Ich brauche ein Hotel für zwei Wochen."],
+     :item/answer ["Necesito un hotel por dos semanas."]}
+    {:item/n 15,
+     :item/prompt ["Ich möchte José nächste Woche zu meiner Abschlussfeier einladen."],
+     :item/answer ["Me gustaría invitar a José a mi fiesta de graduación la próxima semana."]}
+    {:item/n 16,
+     :item/prompt ["Nächste Woche werde ich mit einer Gruppe von Freunden zu den Pyramiden in Yucatán gehen."],
+     :item/answer ["La próxima semana, voy a ir a las pirámides en Yucatán con un grupo de amigos."]}
+    {:item/n 17,
+     :item/prompt ["Ich will ihn im Spanischkurs öfter sehen."],
+     :item/answer ["Quiero verlo en la clase de español con más frecuencia."]}
+    {:item/n 18,
+     :item/prompt ["Ich muss diese Woche zum Zahnarzt gehen."],
+     :item/answer ["Necesito ir al dentista esta semana."]}
+    {:item/n 19,
+     :item/prompt ["Ich werde mit dem Polizisten sprechen, um den Raub zu melden."],
+     :item/answer ["Voy a hablar con el policía para reportar el robo."]}
+    {:item/n 20,
+     :item/prompt ["Ich muss das Visum und den Pass wieder sehen."],
+     :item/answer ["Necesito ver la visa y el pasaporte otra vez."]}
+    {:item/n 21,
+     :item/prompt ["Ich werde im Urlaub mehr Spanisch mit den Mexikanern sprechen."],
+     :item/answer ["Voy a hablar más español con los mexicanos en mis vacaciones."]}],
+   :exercise/notes []}
+  {:exercise/id "4C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en alemán para “otra vez” son"],
+     :item/answer ["wieder"]}
+    {:item/n 2, :item/prompt ["Las palabras en alemán para “con” son"], :item/answer ["mit"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en alemán para “la próxima” son"],
+     :item/answer ["die nächste"]}
+    {:item/n 4, :item/prompt ["Las palabras en alemán para “esta” son"], :item/answer ["diese"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en alemán para “semana” son"],
+     :item/answer ["die Woche"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en alemán para “mañana” son"],
+     :item/answer ["morgen"]}
+    {:item/n 7,
+     :item/prompt ["Las palabras en alemán para “voy a” son"],
+     :item/answer ["ich werde"]}
+    {:item/n 8,
+     :item/prompt ["Las palabras en alemán para “me gustaría” son"],
+     :item/answer ["ich möchte"]}
+    {:item/n 9,
+     :item/prompt ["Las palabras en alemán para “invitar” son"],
+     :item/answer ["einladen"]}
+    {:item/n 10,
+     :item/prompt ["Las palabras en alemán para “visitar” son"],
+     :item/answer ["besuchen"]}
+    {:item/n 11,
+     :item/prompt ["Las palabras en alemán para “llamar” son"],
+     :item/answer ["anrufen"]}
+    {:item/n 12,
+     :item/prompt ["Las palabras en alemán para “ayudar” son"],
+     :item/answer ["helfen"]}],
+   :exercise/notes []}
+  {:exercise/id "4D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al alemán.",
+   :exercise/hints ["la casa = das Haus"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Voy a visitar a mis amigos esta semana."],
+     :item/answer ["Ich werde diese Woche meine Freunde besuchen."]}
+    {:item/n 2,
+     :item/prompt ["Voy a ir a Costa Rica con mi familia."],
+     :item/answer ["Ich werde mit meiner Familie nach Costa Rica gehen."]}
+    {:item/n 3,
+     :item/prompt ["Me gustaría invitarlo a mi casa para comer con mi familia."],
+     :item/answer ["Ich möchte ihn zu mir nach Hause einladen, um mit meiner Familie zu essen."]}
+    {:item/n 4,
+     :item/prompt ["Necesito ayudar a mi papá mañana."],
+     :item/answer ["Ich muss morgen meinem Vater helfen."]}
+    {:item/n 5,
+     :item/prompt ["Voy a llamarla otra vez mañana."],
+     :item/answer ["Ich werde sie morgen wieder anrufen."]}
+    {:item/n 6,
+     :item/prompt ["Voy a llamar a mi mamá otra vez."],
+     :item/answer ["Ich werde meine Mutter wieder anrufen."]}
+    {:item/n 7, :item/prompt ["Quiero comer otra vez."], :item/answer ["Ich will wieder essen."]}
+    {:item/n 8,
+     :item/prompt ["Quiero visitar a Alma en Dallas la próxima semana."],
+     :item/answer ["Ich will Alma nächste Woche in Dallas besuchen."]}
+    {:item/n 9,
+     :item/prompt ["Voy a llamarla la próxima semana."],
+     :item/answer ["Ich werde sie nächste Woche anrufen."]}
+    {:item/n 10,
+     :item/prompt ["Quiero visitar México otra vez pronto."],
+     :item/answer ["Ich will Mexiko bald wieder besuchen."]}
+    {:item/n 11,
+     :item/prompt ["No voy a comer en el restaurante otra vez."],
+     :item/answer ["Ich werde nicht wieder im Restaurant essen."]}
+    {:item/n 12,
+     :item/prompt ["Me gustaría invitar a mi amigo a la fiesta la próxima semana."],
+     :item/answer ["Ich möchte meinen Freund nächste Woche zur Party einladen."]}
+    {:item/n 13,
+     :item/prompt ["No voy a ir a San José mañana."],
+     :item/answer ["Ich werde morgen nicht nach San José gehen."]}
+    {:item/n 14,
+     :item/prompt ["Me gustaría verla otra vez."],
+     :item/answer ["Ich möchte sie wieder sehen."]}
+    {:item/n 15,
+     :item/prompt ["Quiero invitarlo a una fiesta en mi casa la próxima semana."],
+     :item/answer ["Ich will ihn nächste Woche zu einer Party bei mir zu Hause einladen."]}
+    {:item/n 16,
+     :item/prompt ["No voy a ir a Los Ángeles otra vez esta semana."],
+     :item/answer ["Ich werde diese Woche nicht wieder nach Los Angeles gehen."]}
+    {:item/n 17,
+     :item/prompt ["Necesito llamar a mi papá otra vez."],
+     :item/answer ["Ich muss meinen Vater wieder anrufen."]}
+    {:item/n 18,
+     :item/prompt ["Voy a hablar con Román mañana."],
+     :item/answer ["Ich werde morgen mit Román sprechen."]}
+    {:item/n 19,
+     :item/prompt ["Me gustaría comer en el restaurante otra vez mañana."],
+     :item/answer ["Ich möchte morgen wieder im Restaurant essen."]}
+    {:item/n 20,
+     :item/prompt ["Quiero ir a la fiesta con usted la próxima semana."],
+     :item/answer ["Ich will nächste Woche mit Ihnen zur Party gehen."]}
+    {:item/n 21,
+     :item/prompt ["Necesito ayudar a mi amigo mañana."],
+     :item/answer ["Ich muss morgen meinem Freund helfen."]}
+    {:item/n 22,
+     :item/prompt ["Quiero visitar a mi familia esta semana."],
+     :item/answer ["Ich will diese Woche meine Familie besuchen."]}
+    {:item/n 23,
+     :item/prompt ["Voy a verlo en la fiesta mañana."],
+     :item/answer ["Ich werde ihn morgen auf der Party sehen."]}
+    {:item/n 24,
+     :item/prompt ["Ahora voy a hablar más español con mi amigo."],
+     :item/answer ["Jetzt werde ich mehr Spanisch mit meinem Freund sprechen."]}
+    {:item/n 25,
+     :item/prompt ["Quiero comer en mi casa con mi familia."],
+     :item/answer ["Ich will mit meiner Familie zu Hause essen."]}
+    {:item/n 26,
+     :item/prompt ["Voy a verla otra vez la próxima semana."],
+     :item/answer ["Ich werde sie nächste Woche wieder sehen."]}
+    {:item/n 27,
+     :item/prompt ["Me gustaría ver la casa otra vez."],
+     :item/answer ["Ich möchte das Haus wieder sehen."]}
+    {:item/n 28,
+     :item/prompt ["Me gustaría hablar más español con su familia."],
+     :item/answer ["Ich möchte mehr Spanisch mit Ihrer Familie sprechen."]}
+    {:item/n 29,
+     :item/prompt ["Voy a hablar con María en español pronto."],
+     :item/answer ["Ich werde bald mit María Spanisch sprechen."]}],
+   :exercise/notes []}]}

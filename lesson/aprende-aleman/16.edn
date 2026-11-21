@@ -1,0 +1,488 @@
+#:lesson{:vocabulary
+         [#:vocab{:id 91,
+                  :kind :synergy-verb,
+                  :target "wir mögen",
+                  :base "nos gusta",
+                  :pronunciation "vir mö-gen",
+                  :mnemonic nil}
+          #:vocab{:id 92,
+                  :kind :synergy-verb,
+                  :target "wir lieben",
+                  :base "nos encanta",
+                  :pronunciation "vir lí-ben",
+                  :mnemonic nil}
+          #:vocab{:id 93,
+                  :kind :sentence-starter,
+                  :target "nach",
+                  :base "después de",
+                  :pronunciation "naj",
+                  :mnemonic nil}
+          #:vocab{:id 94,
+                  :kind :sentence-starter,
+                  :target "wo",
+                  :base "dónde",
+                  :pronunciation "vo",
+                  :mnemonic nil}
+          #:vocab{:id 95,
+                  :kind :brick-verb,
+                  :target "zu Abend essen",
+                  :base "cenar",
+                  :pronunciation "tsu a-bent é-sen",
+                  :mnemonic nil}
+          #:vocab{:id 96,
+                  :kind :mortar,
+                  :target "später",
+                  :base "más tarde",
+                  :pronunciation "shpé-ter",
+                  :mnemonic nil}],
+         :title "Más verbos, más frases",
+         :target-title "Mehr Verben, mehr Sätze",
+         :label "Lección 16",
+         :sections
+         [#:section{:type :communication-multiplied,
+                    :id 13,
+                    :title "mögen y lieben: personas y cosas",
+                    :body
+                    ["En alemán, mögen expresa que algo te gusta: Ich mag meine Mutter."
+                     "Con cosas se usa lieben para un gusto muy fuerte: Ich liebe Bier = me encanta la cerveza."
+                     "mögen se conjuga: ich mag, du magst, er/sie mag, wir mögen, Sie mögen."
+                     "Para «me encantaría» se usa ich würde gerne: Ich würde gerne Mexiko besuchen."]}
+          #:section{:type :communication-multiplied,
+                    :id 14,
+                    :title "nach y nachdem",
+                    :body
+                    ["nach va seguido de un sustantivo: nach dem Abendessen, nach der Arbeit."
+                     "Para una oración completa se usa nachdem y el verbo conjugado va al final: nachdem wir zu Abend gegessen haben."
+                     "Con el mismo sujeto también puedes usar nach + sustantivo: nach dem Lernen."
+                     "En alemán no se pone «zu» delante del verbo en estas expresiones."]}
+          #:section{:type :accuracy-pointer,
+                    :id 13,
+                    :title "wo y wohin",
+                    :body
+                    ["wo pregunta por un lugar: Wo bist du?"
+                     "wohin pregunta por una dirección: Wohin gehst du?"
+                     "En alemán no se añade ninguna preposición al final de la pregunta."
+                     "Con personas se usa wer o wen, no wo."]}
+          #:section{:type :accuracy-pointer,
+                    :id 14,
+                    :title "morgen früh",
+                    :body
+                    ["morgen früh = mañana por la mañana."
+                     "morgen por sí solo significa «mañana» como día: morgen Abend, morgen Nachmittag."
+                     "Para «esta noche» se dice heute Abend; para «mañana por la noche», morgen Abend."
+                     "No digas «morgen in der Früh»; la forma correcta es morgen früh."]}],
+         :number 16,
+         :intro [],
+         :step #:step{:number 3, :title "Hablemos de nosotros"},
+         :closing
+         ["Enhorabuena, casi has terminado el paso 3."
+          "Ya tienes una base muy amplia para hablar de nosotros y de nuestro entorno."
+          "Solo faltan unos cuantos verbos y una estructura sencilla para sonar más natural."],
+         :exercises
+         [#:exercise{:id "16A",
+                     :skill :recall,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en español para “wir mögen” son"],
+                             :answer ["nos gusta"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en español para “wir würden gerne” son"],
+                             :answer ["nos encantaría"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en español para “zu Abend essen” son"],
+                             :answer ["cenar"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en español para “wo” son"],
+                             :answer ["dónde"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en español para “nach” son"],
+                             :answer ["después de"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en español para “später” son"],
+                             :answer ["más tarde"]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Las palabras en español para “ohne” son"],
+                             :answer ["sin"]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Las palabras en español para “früh” son"],
+                             :answer ["temprano"]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Las palabras en español para “weggehen” son"],
+                             :answer ["salir"]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Las palabras en español para “mit ihr” son"],
+                             :answer ["con ella"]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Las palabras en español para “wir müssen” son"],
+                             :answer ["tenemos que"]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Las palabras en español para “wir können” son"],
+                             :answer ["podemos"]}],
+                     :notes []}
+          #:exercise{:id "16B",
+                     :skill :translate,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al español.",
+                     :hints
+                     ["Weihnachten = Navidad"
+                      "Sonntag = domingo"
+                      "Strand = playa"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Wo können wir uns ausruhen? Wir können uns im Park ausruhen."],
+                             :answer
+                             ["¿Dónde podemos descansar? Podemos descansar en el parque."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Wir sehen unsere Freunde in Mexiko jedes Jahr zu Weihnachten gern."],
+                             :answer
+                             ["Nos gusta ver a nuestros amigos en México cada Navidad."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Ich werde Veronica später anrufen."],
+                             :answer
+                             ["Voy a llamar a Veronica más tarde."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Wir frühstücken sonntags gern in diesem Restaurant."],
+                             :answer
+                             ["Nos gusta desayunar en este restaurante los domingos."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Wir mögen Fußball nicht besonders."],
+                             :answer ["No nos gusta el fútbol mucho."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Wir können nach dem Unterricht hier lernen."],
+                             :answer
+                             ["Podemos estudiar aquí después de la clase."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Wir gehen morgens gern im Park spazieren."],
+                             :answer
+                             ["Nos gusta caminar en el parque en la mañana."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Werden Sie nach Weihnachten zurückkommen? Ja, ich werde im neuen Jahr zurückkommen."],
+                             :answer
+                             ["¿Va a regresar después de Navidad? Sí, voy a regresar en el año nuevo."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Wo können wir ein Telefon finden?"],
+                             :answer
+                             ["¿Dónde podemos encontrar un teléfono?"]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Wir müssen eine Reservierung machen."],
+                             :answer
+                             ["Tenemos que hacer una reservación."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Können Sie mir nach dem Abendessen mit den Koffern helfen?"],
+                             :answer
+                             ["¿Después de cenar, puede ayudarme con las maletas?"]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Wir werden nach dem Jahresende einen Monat dort verbringen."],
+                             :answer
+                             ["Vamos a pasar un mes allá después del fin de año."]}
+                      #:item{:n 13,
+                             :prompt ["Wo gibt es Taxis?"],
+                             :answer ["¿Dónde hay taxis?"]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Ich muss früh am Morgen mit meiner Frau sprechen."],
+                             :answer
+                             ["Necesito hablar con mi esposa temprano en la mañana."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Ich gehe nach der Arbeit gern am Strand spazieren."],
+                             :answer
+                             ["Me encanta caminar en la playa después de trabajar."]}
+                      #:item{:n 16,
+                             :prompt ["Wo gibt es ein Badezimmer?"],
+                             :answer ["¿Dónde hay un baño?"]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Wir werden den Unterricht nach der nächsten Woche beenden."],
+                             :answer
+                             ["Vamos a terminar la clase después de la próxima semana."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Was wollen Sie nach der Arbeit machen? Ich will in eine Bar gehen und ein Bier trinken."],
+                             :answer
+                             ["¿Qué quiere hacer después de trabajar? Quiero ir a un bar y tomar una cerveza."]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Möchten Sie heute Abend etwas unternehmen? Ich würde gerne die Mariachis sehen."],
+                             :answer
+                             ["¿Le gustaría hacer algo esta noche? Me encantaría ver los mariachis."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Wir würden gerne mehr Spanisch sprechen, wenn wir nach Madrid fahren."],
+                             :answer
+                             ["Nos encantaría hablar más español cuando vamos a Madrid."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Ich werde das Essen später kochen, weil ich jetzt lernen muss."],
+                             :answer
+                             ["Voy a cocinar la comida más tarde porque tengo que estudiar ahora."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Ich würde gerne im Restaurant am Strand frühstücken."],
+                             :answer
+                             ["Me encantaría desayunar en el restaurante en la playa."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Wir gehen gern früh weg, um den Verkehr zu vermeiden."],
+                             :answer
+                             ["Nos gusta salir temprano para evitar el tráfico."]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Es ist spät, wir müssen ein Hotel finden."],
+                             :answer
+                             ["Es tarde, tenemos que encontrar un hotel."]}
+                      #:item{:n 25,
+                             :prompt
+                             ["Wir gehen morgens früh gern spazieren."],
+                             :answer
+                             ["Nos encanta caminar temprano en las mañanas."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["Wir können uns später ausruhen. Jetzt müssen wir das Projekt beenden."],
+                             :answer
+                             ["Podemos descansar más tarde. Ahora tenemos que terminar el proyecto."]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Wir wollen nicht viel ausgeben."],
+                             :answer ["No queremos gastar mucho."]}
+                      #:item{:n 28,
+                             :prompt
+                             ["Wo wollen Sie zu Abend essen? Ehrlich gesagt will ich zu Hause zu Abend essen."],
+                             :answer
+                             ["¿Dónde le gustaría cenar? Francamente quiero cenar en la casa."]}
+                      #:item{:n 29,
+                             :prompt
+                             ["Wir essen jeden Sonntag gern mit unserer Familie zu Abend."],
+                             :answer
+                             ["Nos gusta cenar con nuestra familia cada domingo."]}],
+                     :notes []}
+          #:exercise{:id "16C",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt ["Nos gusta"],
+                             :answer ["wir mögen"]}
+                      #:item{:n 2,
+                             :prompt ["Nos encanta"],
+                             :answer ["wir lieben"]}
+                      #:item{:n 3,
+                             :prompt ["cenar"],
+                             :answer ["zu Abend essen"]}
+                      #:item{:n 4, :prompt ["dónde"], :answer ["wo"]}
+                      #:item{:n 5,
+                             :prompt ["después de"],
+                             :answer ["nach"]}
+                      #:item{:n 6,
+                             :prompt ["más tarde"],
+                             :answer ["später"]}
+                      #:item{:n 7, :prompt ["sin"], :answer ["ohne"]}
+                      #:item{:n 8,
+                             :prompt ["temprano"],
+                             :answer ["früh"]}
+                      #:item{:n 9,
+                             :prompt ["salir"],
+                             :answer ["weggehen"]}
+                      #:item{:n 10,
+                             :prompt ["con ella"],
+                             :answer ["mit ihr"]}
+                      #:item{:n 11,
+                             :prompt ["tenemos que"],
+                             :answer ["wir müssen"]}
+                      #:item{:n 12,
+                             :prompt ["podemos"],
+                             :answer ["wir können"]}],
+                     :notes []}
+          #:exercise{:id "16D",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints
+                     ["los fines de semana = am Wochenende"
+                      "la comida mexicana = das mexikanische Essen"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Nos gusta viajar a México cada año."],
+                             :answer
+                             ["Wir reisen jedes Jahr gern nach Mexiko."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Nos encantaría aprender español."],
+                             :answer
+                             ["Wir würden gerne Spanisch lernen."]}
+                      #:item{:n 3,
+                             :prompt ["¿Dónde quiere cenar?"],
+                             :answer ["Wo wollen Sie zu Abend essen?"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Vamos a regresar al hotel después de cenar."],
+                             :answer
+                             ["Wir werden nach dem Abendessen zurück ins Hotel gehen."]}
+                      #:item{:n 5,
+                             :prompt ["Podemos estudiar con ella."],
+                             :answer ["Wir können mit ihr lernen."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Me encantaría cenar aquí más tarde."],
+                             :answer
+                             ["Ich würde gerne später hier zu Abend essen."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["¿A dónde le gustaría viajar? Me gustaría viajar a Cancún."],
+                             :answer
+                             ["Wohin möchten Sie reisen? Ich möchte nach Cancún reisen."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Nos encantaría ayudarla con el español."],
+                             :answer
+                             ["Wir würden ihr gerne beim Spanischlernen helfen."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["¿A dónde le gusta ir los fines de semana? Me gusta ir a la casa de mi mamá."],
+                             :answer
+                             ["Wohin gehen Sie am Wochenende gern? Ich gehe gern ins Haus meiner Mutter."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["¿Qué vamos a hacer esta tarde?"],
+                             :answer
+                             ["Was werden wir heute Nachmittag machen?"]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Me encantaría trabajar en San Diego otra vez."],
+                             :answer
+                             ["Ich würde gerne wieder in San Diego arbeiten."]}
+                      #:item{:n 12,
+                             :prompt ["Voy a trabajar allá con ella."],
+                             :answer
+                             ["Ich werde dort mit ihr arbeiten."]}
+                      #:item{:n 13,
+                             :prompt ["Vamos a llamarla más tarde."],
+                             :answer
+                             ["Wir werden sie später anrufen."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["No voy a regresar después de este año."],
+                             :answer
+                             ["Ich werde nach diesem Jahr nicht zurückkommen."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["¿Le gusta México? Sí, me encanta México."],
+                             :answer
+                             ["Mögen Sie Mexiko? Ja, ich liebe Mexiko."]}
+                      #:item{:n 16,
+                             :prompt ["¿Por qué no puede vernos hoy?"],
+                             :answer
+                             ["Warum können Sie uns heute nicht sehen?"]}
+                      #:item{:n 17,
+                             :prompt ["Necesitamos caminar más."],
+                             :answer ["Wir müssen mehr laufen."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["¿Le gusta cocinar? Sí, me encanta cocinar."],
+                             :answer
+                             ["Kochen Sie gern? Ja, ich koche sehr gern."]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Vamos a hacer una fiesta en nuestra casa."],
+                             :answer
+                             ["Wir werden eine Party in unserem Haus machen."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Nos encanta comer en este restaurante."],
+                             :answer
+                             ["Wir essen sehr gern in diesem Restaurant."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Nos encantaría regresar a México pero no podemos."],
+                             :answer
+                             ["Wir würden gerne nach Mexiko zurückkehren, aber wir können nicht."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Podemos empezar más tarde mañana."],
+                             :answer
+                             ["Wir können morgen später anfangen."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Necesitamos encontrar un hotel después de cenar."],
+                             :answer
+                             ["Wir müssen nach dem Abendessen ein Hotel finden."]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Podemos estudiar más tarde en casa."],
+                             :answer
+                             ["Wir können später zu Hause lernen."]}
+                      #:item{:n 25,
+                             :prompt
+                             ["Nos encantaría ir allá el fin de semana."],
+                             :answer
+                             ["Wir würden gerne am Wochenende dorthin fahren."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["Necesitamos trabajar temprano en la mañana."],
+                             :answer
+                             ["Wir müssen früh am Morgen arbeiten."]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Nos encanta la comida mexicana."],
+                             :answer
+                             ["Wir lieben das mexikanische Essen."]}
+                      #:item{:n 28,
+                             :prompt
+                             ["Voy a hablar con ella más tarde."],
+                             :answer
+                             ["Ich werde später mit ihr sprechen."]}
+                      #:item{:n 29,
+                             :prompt
+                             ["No podemos regresar hasta mañana en la mañana."],
+                             :answer
+                             ["Wir können erst morgen früh zurückkommen."]}
+                      #:item{:n 30,
+                             :prompt
+                             ["Nos encantaría visitarlo otra vez."],
+                             :answer
+                             ["Wir würden ihn gerne wieder besuchen."]}
+                      #:item{:n 31,
+                             :prompt
+                             ["Podemos ver la casa más tarde."],
+                             :answer
+                             ["Wir können das Haus später sehen."]}
+                      #:item{:n 32,
+                             :prompt ["Voy a cenar con ella mañana."],
+                             :answer
+                             ["Ich werde morgen mit ihr zu Abend essen."]}],
+                     :notes []}]}

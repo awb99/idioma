@@ -68,7 +68,8 @@
                      :other "Otras palabras"}
  :direction-template "al {{language}}"
  :language-names {"en" "inglés"
-                  "es" "español"}
+                  "es" "español"
+                  "de" "alemán"}
  :page-not-found "Página no encontrada"
  :course-not-found "Curso no encontrado"
  :loading "Cargando…"

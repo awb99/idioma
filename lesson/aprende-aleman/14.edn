@@ -1,0 +1,455 @@
+#:lesson{:vocabulary
+         [#:vocab{:id 79,
+                  :kind :synergy-verb,
+                  :target "wir werden",
+                  :base "vamos a",
+                  :pronunciation "vir vér-den",
+                  :mnemonic nil}
+          #:vocab{:id 80,
+                  :kind :synergy-verb,
+                  :target "wir möchten",
+                  :base "nos gustaría",
+                  :pronunciation "vir möch-ten",
+                  :mnemonic nil}
+          #:vocab{:id 81,
+                  :kind :brick-verb,
+                  :target "finden",
+                  :base "encontrar",
+                  :pronunciation "fín-den",
+                  :mnemonic nil}
+          #:vocab{:id 82,
+                  :kind :brick-verb,
+                  :target "anfangen",
+                  :base "empezar",
+                  :pronunciation "án-fan-gen",
+                  :mnemonic nil}
+          #:vocab{:id 83,
+                  :kind :brick-verb,
+                  :target "kaufen",
+                  :base "comprar",
+                  :pronunciation "káu-fen",
+                  :mnemonic nil}
+          #:vocab{:id 84,
+                  :kind :brick-verb,
+                  :target "ausgeben",
+                  :base "gastar",
+                  :pronunciation "áus-ge-ben",
+                  :mnemonic nil}],
+         :title "Planes y deseos",
+         :target-title "Pläne und Wünsche",
+         :label "Lección 14",
+         :sections
+         [#:section{:type :accuracy-pointer,
+                    :id 11,
+                    :title "Wir möchten",
+                    :body
+                    ["En alemán, «nos gustaría» se expresa con möchten: ich möchte, wir möchten."
+                     "La estructura es: sujeto + möchten + complemento + infinitivo al final."
+                     "Wir möchten Deutsch lernen = nos gustaría aprender alemán."
+                     "No digas *wir möchten lernen Deutsch*: el infinitivo va al final de la oración."]}],
+         :number 14,
+         :intro [],
+         :step #:step{:number 3, :title "Hablemos de nosotros"},
+         :closing [],
+         :exercises
+         [#:exercise{:id "14A",
+                     :skill :recall,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en español para “wir werden” son"],
+                             :answer ["vamos a"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en español para “wir möchten” son"],
+                             :answer ["nos gustaría"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en español para “kaufen” son"],
+                             :answer ["comprar"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en español para “ausgeben” son"],
+                             :answer ["gastar"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en español para “anfangen” son"],
+                             :answer ["empezar"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en español para “finden” son"],
+                             :answer ["encontrar"]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Las palabras en español para “wir wollen” son"],
+                             :answer ["queremos"]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Las palabras en español para “wir brauchen” son"],
+                             :answer ["necesitamos"]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Las palabras en español para “unsere” son"],
+                             :answer ["nuestra"]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Las palabras en español para “sich ausruhen” son"],
+                             :answer ["descansar"]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Las palabras en español para “fahren” son"],
+                             :answer ["manejar"]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Las palabras en español para “so schnell wie möglich” son"],
+                             :answer ["cuanto antes"]}],
+                     :notes []}
+          #:exercise{:id "14B",
+                     :skill :translate,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al español.",
+                     :hints ["dinero = das Geld"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Wir werden in diesem Kurs viel mehr Spanisch lernen."],
+                             :answer
+                             ["Vamos a aprender mucho más español en esta clase."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Wir möchten zum Fußball gehen, um Beckham und Real Madrid zu sehen."],
+                             :answer
+                             ["Nos gustaría ir al fútbol para ver a Beckham y Real Madrid."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Wir müssen die Polizei anrufen."],
+                             :answer
+                             ["Necesitamos llamar a la policía."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Sie müssen in Oaxaca nicht viel Geld ausgeben."],
+                             :answer
+                             ["No necesita gastar mucho dinero en Oaxaca."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Wir müssen jetzt viel lernen, um in unserem Urlaub Spanisch zu sprechen."],
+                             :answer
+                             ["Necesitamos estudiar mucho ahora para hablar español en nuestras vacaciones."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Wir werden dort für drei Monate ein Haus mieten."],
+                             :answer
+                             ["Vamos a rentar una casa allá por tres meses."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Wir wollen nicht mehr als 150 Pesos für eine Flasche Tequila ausgeben."],
+                             :answer
+                             ["No queremos gastar más de 150 pesos por una botella de tequila."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Wir werden in eine Bar gehen, um einen Tequila zu trinken."],
+                             :answer
+                             ["Vamos a un bar para tomar un tequila."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Wir möchten im April dorthin fahren."],
+                             :answer
+                             ["Nos gustaría ir allá en abril."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Wir werden zu Hause mit Kassetten lernen und auch Spanischkurse besuchen."],
+                             :answer
+                             ["Vamos a estudiar en casa con casetes y también tomar clases de español."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Wir möchten mit Ihnen arbeiten."],
+                             :answer
+                             ["Nos gustaría trabajar con usted."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Wir müssen in fünf Minuten gehen."],
+                             :answer
+                             ["Necesitamos ir en cinco minutos."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Wir möchten vegetarisch essen."],
+                             :answer
+                             ["Nos gustaría comer comida vegetariana."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Wir wollen vor 20:00 Uhr anfangen."],
+                             :answer
+                             ["Queremos empezar antes de las 8:00 p.m."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Wir möchten ins Theater gehen, um den Volkstanz zu sehen."],
+                             :answer
+                             ["Nos gustaría ir al teatro para ver el baile folklórico."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Wir werden in fünf Minuten anfangen."],
+                             :answer ["Vamos a empezar en 5 minutos."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Ich möchte am Wochenende dorthin fahren."],
+                             :answer
+                             ["Me gustaría ir allá el fin de semana."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Wir möchten mehr Teile von Mexiko sehen, besonders wollen wir Chichén Itzá sehen."],
+                             :answer
+                             ["Nos gustaría ver más partes de México, especialmente queremos ver Chichen Itzá."]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Wir möchten dorthin fahren, um die Pyramiden zu sehen."],
+                             :answer
+                             ["Nos gustaría ir allá para ver las pirámides."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Wir werden dort einen Monat lang lernen."],
+                             :answer
+                             ["Vamos a estudiar allá por un mes."]}
+                      #:item{:n 21,
+                             :prompt ["Möchten Sie einen Kaffee?"],
+                             :answer ["¿Le gustaría un café?"]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Wir werden in diesem Urlaub nicht viel Geld ausgeben."],
+                             :answer
+                             ["No vamos a gastar mucho dinero en estas vacaciones."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Wir wollen ein Haus zum Mieten finden."],
+                             :answer
+                             ["Queremos encontrar una casa para rentar."]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Wir müssen ein Krankenhaus finden."],
+                             :answer
+                             ["Necesitamos encontrar un hospital."]}
+                      #:item{:n 25,
+                             :prompt
+                             ["Wir wollen ein typisches Restaurant mit Mariachis finden."],
+                             :answer
+                             ["Queremos encontrar un restaurante típico con mariachis."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["Ich kann unsere Pässe nicht finden."],
+                             :answer
+                             ["No puedo encontrar nuestros pasaportes."]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Wir wollen etwas Besonderes für unsere Mutter finden."],
+                             :answer
+                             ["Queremos encontrar algo especial para nuestra mamá."]}
+                      #:item{:n 28,
+                             :prompt
+                             ["Ich werde sofort mit dem Spanischkurs anfangen."],
+                             :answer
+                             ["Voy a empezar la clase de español ahora mismo."]}
+                      #:item{:n 29,
+                             :prompt
+                             ["Wir möchten uns vor dem Kurs ein bisschen ausruhen."],
+                             :answer
+                             ["Nos gustaría descansar un poco antes de la clase."]}
+                      #:item{:n 30,
+                             :prompt
+                             ["Ich will etwas für meine Mutter kaufen, aber ich kann nicht viel ausgeben."],
+                             :answer
+                             ["Quiero comprar algo para mi mamá, pero no puedo gastar mucho."]}],
+                     :notes []}
+          #:exercise{:id "14C",
+                     :skill :recall,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en alemán para “vamos a” son"],
+                             :answer ["wir werden"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en alemán para “nos gustaría” son"],
+                             :answer ["wir möchten"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en alemán para “comprar” son"],
+                             :answer ["kaufen"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en alemán para “gastar” son"],
+                             :answer ["ausgeben"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en alemán para “empezar” son"],
+                             :answer ["anfangen"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en alemán para “encontrar” son"],
+                             :answer ["finden"]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Las palabras en alemán para “queremos” son"],
+                             :answer ["wir wollen"]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Las palabras en alemán para “necesitamos” son"],
+                             :answer ["wir brauchen"]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Las palabras en alemán para “nuestra” son"],
+                             :answer ["unsere"]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Las palabras en alemán para “descansar” son"],
+                             :answer ["sich ausruhen"]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Las palabras en alemán para “manejar” son"],
+                             :answer ["fahren"]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Las palabras en alemán para “cuanto antes” son"],
+                             :answer ["so schnell wie möglich"]}],
+                     :notes []}
+          #:exercise{:id "14D",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt ["Vamos a ayudarla."],
+                             :answer ["Wir werden ihr helfen."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Nos gustaría terminar cuanto antes."],
+                             :answer
+                             ["Wir möchten so schnell wie möglich fertig werden."]}
+                      #:item{:n 3,
+                             :prompt ["No queremos gastar mucho."],
+                             :answer
+                             ["Wir wollen nicht viel ausgeben."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Nos gustaría aprender más español con usted."],
+                             :answer
+                             ["Wir möchten mit Ihnen mehr Spanisch lernen."]}
+                      #:item{:n 5,
+                             :prompt ["Queremos empezar mañana."],
+                             :answer ["Wir wollen morgen anfangen."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["¿Quiere ir a un restaurante esta noche?"],
+                             :answer
+                             ["Wollen Sie heute Abend in ein Restaurant gehen?"]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Vamos a comprar una casa en Baja California."],
+                             :answer
+                             ["Wir werden ein Haus in Baja California kaufen."]}
+                      #:item{:n 8,
+                             :prompt ["¿Cuándo vamos a regresar?"],
+                             :answer ["Wann werden wir zurückkehren?"]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Vamos a viajar mucho este año."],
+                             :answer
+                             ["Wir werden dieses Jahr viel reisen."]}
+                      #:item{:n 10,
+                             :prompt ["Quiero ir con usted."],
+                             :answer ["Ich will mit Ihnen gehen."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Vamos a hablar mucho español pronto."],
+                             :answer
+                             ["Wir werden bald viel Spanisch sprechen."]}
+                      #:item{:n 12,
+                             :prompt ["Queremos pasar la noche aquí."],
+                             :answer
+                             ["Wir wollen die Nacht hier verbringen."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Vamos a aprender mucho español en México."],
+                             :answer
+                             ["Wir werden in Mexiko viel Spanisch lernen."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Nos gustaría ver la casa otra vez."],
+                             :answer
+                             ["Wir möchten das Haus wieder sehen."]}
+                      #:item{:n 15,
+                             :prompt ["Vamos a ir con José."],
+                             :answer ["Wir werden mit José gehen."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["¿Va a visitar México otra vez el próximo año?"],
+                             :answer
+                             ["Werden Sie nächstes Jahr wieder Mexiko besuchen?"]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Nos gustaría comprar un tequila."],
+                             :answer
+                             ["Wir möchten einen Tequila kaufen."]}
+                      #:item{:n 18,
+                             :prompt ["No quiero manejar."],
+                             :answer ["Ich will nicht fahren."]}
+                      #:item{:n 19,
+                             :prompt ["¿Va a empezar hoy?"],
+                             :answer ["Werden Sie heute anfangen?"]}
+                      #:item{:n 20,
+                             :prompt ["Vamos a descansar ahora."],
+                             :answer
+                             ["Wir werden uns jetzt ausruhen."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Necesitamos encontrar un hotel pronto."],
+                             :answer
+                             ["Wir müssen bald ein Hotel finden."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Vamos a gastar 300 pesos por el hotel."],
+                             :answer
+                             ["Wir werden 300 Pesos für das Hotel ausgeben."]}
+                      #:item{:n 23,
+                             :prompt ["Necesito encontrar mi visa."],
+                             :answer ["Ich muss mein Visum finden."]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Vamos a encontrar a nuestra amiga en el restaurante."],
+                             :answer
+                             ["Wir werden unsere Freundin im Restaurant treffen."]}
+                      #:item{:n 25,
+                             :prompt
+                             ["Necesitamos empezar cuanto antes."],
+                             :answer
+                             ["Wir müssen so schnell wie möglich anfangen."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["Vamos a llamar a papá otra vez pronto."],
+                             :answer
+                             ["Wir werden Papa bald wieder anrufen."]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Tengo que empezar ahora mismo."],
+                             :answer ["Ich muss sofort anfangen."]}
+                      #:item{:n 28,
+                             :prompt ["Vamos a manejar a San Felipe."],
+                             :answer
+                             ["Wir werden nach San Felipe fahren."]}
+                      #:item{:n 29,
+                             :prompt
+                             ["Nos gustaría descansar pronto."],
+                             :answer
+                             ["Wir möchten uns bald ausruhen."]}],
+                     :notes []}]}

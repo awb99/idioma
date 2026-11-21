@@ -1,0 +1,181 @@
+{:lesson/vocabulary [],
+ :lesson/title "Fin del paso 4: los pronombres de objeto en alemán",
+ :lesson/target-title "Ende von Schritt 4: Objektpronomen",
+ :lesson/label "Lección 21",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 18,
+   :section/title "Pronombres de objeto en alemán",
+   :section/body
+   ["En alemán el objeto directo va en acusativo: mich, dich, ihn, sie, es, uns, euch, sie/Sie."
+    "El objeto indirecto va en dativo: mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen."
+    "El pronombre va después del verbo o de la preposición: Ich sehe ihn. Mit ihr."
+    "El alemán distingue acusativo y dativo; helfen, danken y antworten rigen dativo: Ich helfe ihm."]}],
+ :lesson/number 21,
+ :lesson/intro [],
+ :lesson/step {:step/number 4, :step/title "Ellos también hablan, ¿no?"},
+ :lesson/closing ["¡Enhorabuena! Has terminado el paso 4."],
+ :lesson/exercises
+ [{:exercise/id "21A",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? true,
+   :exercise/instructions "Traduce cada intervención del diálogo al español.",
+   :exercise/hints
+   ["gut = bien"
+    "Innenstadt = el centro"
+    "dass = que"
+    "Samstag = sábado"
+    "Es freut mich = mucho gusto"
+    "nie = nunca"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Antonio, ich werde Sie nie vergessen."],
+     :item/answer ["Antonio, nunca voy a olvidarlo."]}
+    {:item/n 2,
+     :item/prompt ["Können Sie mich (gut) hören?" "Nein, wir können Sie nicht hören."],
+     :item/answer ["¿Pueden escucharme bien?" "No, no podemos escucharlo."]}
+    {:item/n 3,
+     :item/prompt
+     ["Wollen Sie mich in der Innenstadt sehen?" "Ja, ich werde Sie in der Innenstadt sehen."],
+     :item/answer ["¿Quiere verme en el centro?" "Sí, voy a verla en el centro."]}
+    {:item/n 4,
+     :item/prompt
+     ["Es freut mich, Sie kennenzulernen, David." "Es freut mich, Sie kennenzulernen, Teresa."],
+     :item/answer ["Mucho gusto en conocerlo, David." "Mucho gusto en conocerla,Teresa."]}
+    {:item/n 5,
+     :item/prompt
+     ["Wenn es Ihnen gefällt, können Sie im Restaurant auf mich warten."
+      "Gut, wir werden dort auf Sie warten."],
+     :item/answer
+     ["Si les gusta, pueden esperarme en el restaurante." "Bien, vamos a esperarlo allá."]}
+    {:item/n 6,
+     :item/prompt ["Wann werden Sie mich besuchen?" "Ich werde Sie im Februar besuchen."],
+     :item/answer ["¿Cuándo va a visitarme?" "Voy a visitarlo en febrero."]}
+    {:item/n 7,
+     :item/prompt
+     ["Sie müssen mich anrufen, bevor Sie Guatemala verlassen."
+      "Ja, wir werden Sie morgen anrufen."],
+     :item/answer
+     ["Necesitan llamarme antes de salir de Guatemala." "Sí, vamos a llamarlo mañana."]}
+    {:item/n 8,
+     :item/prompt
+     ["Können Sie bitte auf mich warten?"
+      "Ja, ich kann auf Sie warten, aber nur noch zehn Minuten."],
+     :item/answer
+     ["¿Puede esperarme, por favor?" "Sí, puedo esperarlo pero sólo por diez minutos más."]}
+    {:item/n 9,
+     :item/prompt
+     ["Werden Sie María wiedersehen?"
+      "Ja, ich werde sie am Samstag auf der Party bei Juan sehen."],
+     :item/answer
+     ["¿Va a ver a María otra vez?" "Sí, voy a verla el sábado en la fiesta en la casa de Juan."]}
+    {:item/n 10,
+     :item/prompt
+     ["Bitte, Sie müssen mir zuhören."
+      "Es ist wichtig."
+      "Es tut mir leid, ich werde jetzt zuhören."],
+     :item/answer
+     ["Por favor, necesita escucharme." "Es importante." "Lo siento, voy a escuchar ahora."]}
+    {:item/n 11,
+     :item/prompt ["Wann müssen Sie Ihre Frau anrufen?" "Ich muss sie morgen früh anrufen."],
+     :item/answer
+     ["¿Cuándo necesita llamar a su esposa?" "Necesito llamarla mañana en la mañana."]}
+    {:item/n 12,
+     :item/prompt ["Kann ich Ihnen mit den Koffern helfen?" "Ja, danke, dass Sie mir helfen."],
+     :item/answer ["¿Puedo ayudarla con las maletas?" "Sí, gracias por ayudarme."]}
+    {:item/n 13,
+     :item/prompt
+     ["Können Sie mir mit dem Englischen helfen?"
+      "Ich würde Ihnen gern mit dem Englischen helfen."],
+     :item/answer ["¿Puede ayudarme con el inglés?" "Me encantaría ayudarlo con el inglés."]}
+    {:item/n 14,
+     :item/prompt
+     ["Warum können Sie mich heute nicht sehen?"
+      "Es tut mir leid, ich kann Sie nicht sehen, weil ich heute früh losfahren muss."],
+     :item/answer
+     ["¿Por qué no puede verme hoy?"
+      "Lo siento, no puedo verla porque tengo que salir temprano hoy."]}
+    {:item/n 15,
+     :item/prompt
+     ["Warum wollen Sie mich nicht zur Party einladen?"
+      "Ich möchte Sie einladen, aber ich kann nicht, sie ist nur für Angestellte."],
+     :item/answer
+     ["Por qué no quiere invitarme a la fiesta."
+      "Quiero invitarlo, pero no puedo,es sólo para empleados."]}
+    {:item/n 16,
+     :item/prompt ["Kann ich kurz mit Ihnen sprechen?" "Nein, ich muss jetzt sofort los."],
+     :item/answer ["¿Puedo hablarle un rato?" "No, tengo que salir ahora mismo."]}],
+   :exercise/notes []}
+  {:exercise/id "21B",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? true,
+   :exercise/instructions "Traduce cada intervención del diálogo al alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["¿Puede verme mañana?" "No, no puedo verlo hasta la próxima semana."],
+     :item/answer ["Können Sie mich morgen sehen?" "Nein, ich kann Sie bis nächste Woche nicht sehen."]}
+    {:item/n 2,
+     :item/prompt ["¿Cuándo necesita ver a David?" "Necesito verlo pronto."],
+     :item/answer ["Wann müssen Sie David sehen?" "Ich muss ihn bald sehen."]}
+    {:item/n 3,
+     :item/prompt ["¿Cuándo va a verme otra vez?" "Voy a verlo mañana."],
+     :item/answer ["Wann werden Sie mich wiedersehen?" "Ich werde Sie morgen sehen."]}
+    {:item/n 4,
+     :item/prompt ["¿Puede ayudarme?" "Si, voy a ayudarla ahora mismo."],
+     :item/answer ["Können Sie mir helfen?" "Ja, ich werde Ihnen sofort helfen."]}
+    {:item/n 5,
+     :item/prompt
+     ["Quiero invitarlo a una fiesta." "¿Le gustaría ir conmigo?" "Si, me gustaría ir con usted."],
+     :item/answer
+     ["Ich möchte Sie zu einer Party einladen."
+      "Würden Sie gern mit mir gehen?"
+      "Ja, ich würde gern mit Ihnen gehen."]}
+    {:item/n 6,
+     :item/prompt
+     ["¿Puede visitarme este fin de semana?"
+      "No, lo siento, no puedo visitarlo otra vez hasta el próximo mes."],
+     :item/answer
+     ["Können Sie mich dieses Wochenende besuchen?"
+      "Nein, es tut mir leid, ich kann Sie erst nächsten Monat wieder besuchen."]}
+    {:item/n 7,
+     :item/prompt ["¿Va a esperarme?" "No, no quiero esperarlo."],
+     :item/answer ["Werden Sie auf mich warten?" "Nein, ich möchte nicht auf Sie warten."]}
+    {:item/n 8,
+     :item/prompt ["¿Puede ayudar a mi amigo con el español?" "Sí, me encantaría ayudarlo."],
+     :item/answer
+     ["Können Sie meinem Freund mit dem Spanischen helfen?"
+      "Ja, ich würde ihm gern helfen."]}
+    {:item/n 9,
+     :item/prompt ["¿Cuándo van a verme otra vez?" "Vamos a verla mañana."],
+     :item/answer ["Wann werden Sie mich wiedersehen?" "Wir werden Sie morgen sehen."]}
+    {:item/n 10,
+     :item/prompt ["¿Cuándo va a llamarme?" "Voy a llamarlo más tarde."],
+     :item/answer ["Wann werden Sie mich anrufen?" "Ich werde Sie später anrufen."]}
+    {:item/n 11,
+     :item/prompt
+     ["¿Les gustaría visitarme otra vez el próximo año?"
+      "Nos encantaría verla otra vez el próximo año."],
+     :item/answer
+     ["Würden Sie mich nächstes Jahr gern wieder besuchen?"
+      "Wir würden Sie nächstes Jahr gern wiedersehen."]}
+    {:item/n 12,
+     :item/prompt ["¿Cuándo puede verme?" "Puedo verla más tarde hoy."],
+     :item/answer ["Wann können Sie mich sehen?" "Ich kann Sie später am Tag sehen."]}
+    {:item/n 13,
+     :item/prompt ["Tienen que llamarme pronto." "Sí, vamos a llamarla mañana."],
+     :item/answer ["Sie müssen mich bald anrufen." "Ja, wir werden Sie morgen anrufen."]}
+    {:item/n 14,
+     :item/prompt
+     ["Podemos visitarlo la próxima semana."
+      "Lo siento, pero no voy a estar en casa hasta el próximo mes."],
+     :item/answer
+     ["Wir können Sie nächste Woche besuchen."
+      "Es tut mir leid, aber ich werde erst nächsten Monat zu Hause sein."]}
+    {:item/n 15,
+     :item/prompt ["¿Puede ayudarme hoy?" "Puedo ayudarla pero no hasta la tarde."],
+     :item/answer
+     ["Können Sie mir heute helfen?" "Ich kann Ihnen helfen, aber erst am Nachmittag."]}],
+   :exercise/notes []}]}

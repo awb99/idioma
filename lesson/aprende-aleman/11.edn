@@ -1,0 +1,339 @@
+#:lesson{:vocabulary
+         [#:vocab{:id 61,
+                  :kind :synergy-verb,
+                  :target "Sie müssen",
+                  :base "tiene que",
+                  :pronunciation "zi mü-sen",
+                  :mnemonic nil}
+          #:vocab{:id 62,
+                  :kind :synergy-verb,
+                  :target "Sie können",
+                  :base "puede",
+                  :pronunciation "zi kö-nen",
+                  :mnemonic nil}
+          #:vocab{:id 63,
+                  :kind :brick-verb,
+                  :target "beenden",
+                  :base "terminar",
+                  :pronunciation "be-én-den",
+                  :mnemonic nil}
+          #:vocab{:id 64,
+                  :kind :mortar,
+                  :target "sofort",
+                  :base "ahora mismo",
+                  :pronunciation "zo-fórt",
+                  :mnemonic nil}
+          #:vocab{:id 65,
+                  :kind :mortar,
+                  :target "der Nachmittag",
+                  :base "tarde",
+                  :pronunciation "der náj-mi-tak",
+                  :mnemonic nil}
+          #:vocab{:id 66,
+                  :kind :mortar,
+                  :target "mit ihm",
+                  :base "con él",
+                  :pronunciation "mit im",
+                  :mnemonic nil}],
+         :title "Hablar de usted y de mí",
+         :target-title "Von Ihnen und mir sprechen",
+         :label "Lección 11",
+         :sections
+         [#:section{:type :accuracy-pointer,
+                    :id 9,
+                    :title "Mañana por la tarde",
+                    :body
+                    ["Para decir mañana por la tarde en alemán dices morgen Nachmittag, sin preposición."
+                     "Esta noche se dice heute Abend si hablas del atardecer y heute Nacht si es de noche."
+                     "Las expresiones de tiempo como heute o morgen no llevan preposición; para la tarde se usa am Nachmittag."
+                     "En la oración, el verbo conjugado va en segunda posición: Ich arbeite morgen Nachmittag."]}
+          #:section{:type :accuracy-pointer,
+                    :id 10,
+                    :title "Él, lo y el artículo",
+                    :body
+                    ["En alemán er es el pronombre de sujeto y ihn el de objeto directo: Er ist Mexikaner, ich sehe ihn."
+                     "El artículo definido cambia según el caso: der Mexikaner (nominativo), den Mexikaner (acusativo)."
+                     "Con la preposición mit se usa el dativo: mit ihm = con él."
+                     "El género importa: der, die o das; apréndelo siempre con el sustantivo."]}],
+         :number 11,
+         :intro [],
+         :step #:step{:number 2, :title "Aprender a usar el diálogo"},
+         :closing [],
+         :exercises
+         [#:exercise{:id "11A",
+                     :skill :recall,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en español para “Sie können” son"],
+                             :answer ["puede"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en español para “Sie müssen” son"],
+                             :answer ["tiene que"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en español para “beenden” son"],
+                             :answer ["terminar"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en español para “sofort” son"],
+                             :answer ["ahora mismo"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en español para “mit ihm” son"],
+                             :answer ["con él"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en español para “der Nachmittag” son"],
+                             :answer ["tarde"]}],
+                     :notes []}
+          #:exercise{:id "11B",
+                     :skill :translate,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al español.",
+                     :hints ["esposo = der Ehemann"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Sie müssen mehr Spanisch lernen, um mit ihm zu sprechen."],
+                             :answer
+                             ["Tiene que aprender más español para hablar con él."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Können Sie heute Nachmittag hier sein?"],
+                             :answer ["¿Puede estar aquí esta tarde?"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Können Sie mir heute Abend mit dem Spanischen helfen?"],
+                             :answer
+                             ["¿Puede ayudarme con el español esta noche?"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Ich möchte heute Nachmittag den Dom besuchen."],
+                             :answer
+                             ["Me gustaría visitar la catedral esta tarde."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Können Sie am Nachmittag arbeiten?"],
+                             :answer ["¿Puede trabajar en la tarde?"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Sie müssen jeden Tag mit David lernen."],
+                             :answer
+                             ["Tiene que estudiar con David cada día."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Können Sie heute Nachmittag mit ihm zum Zahnarzt gehen?"],
+                             :answer
+                             ["¿Puede ir con él al dentista esta tarde?"]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Warum müssen Sie mit ihm zur Schule gehen? Um die Lehrerin zu sehen."],
+                             :answer
+                             ["¿Por qué tiene que ir con él a la escuela? Para ver a la maestra."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Sie können mit Miguel lernen. Ja, ich werde jeden Nachmittag mit ihm in der Cafeteria lernen."],
+                             :answer
+                             ["Puede estudiar con Miguel. Sí, voy a estudiar con él cada tarde en la cafetería."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Sie müssen Ihren Mann anrufen. Ja, ich werde ihn sofort anrufen."],
+                             :answer
+                             ["Tiene que llamar a su esposo. Sí, voy a llamarlo ahora mismo."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Können Sie jetzt aufhören? Nein, ich muss weitermachen."],
+                             :answer
+                             ["¿Puede terminar ahora? No, tengo que continuar."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Sie müssen mehr Spanisch mit ihm sprechen. Ja, ich werde jeden Tag mit ihm sprechen."],
+                             :answer
+                             ["Necesita hablar más español con él. Sí, voy a hablar con él cada día."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Möchten Sie heute Nachmittag mit ihm Fußball im Fernsehen sehen? Es tut mir leid, ich muss heute Nachmittag arbeiten."],
+                             :answer
+                             ["¿Le gustaría ver el fútbol por televisión con él esta tarde? Lo siento, necesito trabajar esta tarde."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Können Sie am Nachmittag zurückkommen? Nein, ich kann erst morgen Nachmittag zurückkommen."],
+                             :answer
+                             ["¿Puede regresar en la tarde? No, no puedo regresar hasta mañana en la tarde."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Können Sie sie heute besuchen? Ja, ich werde sie heute Nachmittag besuchen."],
+                             :answer
+                             ["¿Puede visitarla hoy? Sí, voy a visitarla esta tarde."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Können Sie morgen wieder arbeiten? Nein, ich kann nur bis heute Nachmittag arbeiten."],
+                             :answer
+                             ["¿Puede trabajar otra vez mañana? No, sólo puedo trabajar hasta esta tarde."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Möchten Sie jetzt gehen? Nein, zuerst möchte ich diesen Kaffee austrinken."],
+                             :answer
+                             ["¿Le gustaría ir ahora? No, primero quiero terminar este café"]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Werden Sie mit ihm dorthin gehen? Ja, ich werde sofort gehen."],
+                             :answer
+                             ["¿Va a ir allá con él? Sí, voy a ir ahora mismo."]}],
+                     :notes []}
+          #:exercise{:id "11C",
+                     :skill :recall,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en alemán para “tiene que” son"],
+                             :answer ["Sie müssen"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en alemán para “puede” son"],
+                             :answer ["Sie können"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en alemán para “terminar” son"],
+                             :answer ["beenden"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en alemán para “con él” son"],
+                             :answer ["mit ihm"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en alemán para “tarde” son"],
+                             :answer ["der Nachmittag"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en alemán para “ahora mismo” son"],
+                             :answer ["sofort"]}],
+                     :notes []}
+          #:exercise{:id "11D",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Me gustaría ir allá esta tarde."],
+                             :answer
+                             ["Ich möchte heute Nachmittag dorthin gehen."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["¿Puede trabajar conmigo esta tarde?"],
+                             :answer
+                             ["Können Sie heute Nachmittag mit mir arbeiten?"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["¿Le gustaría ir esta tarde o esta noche?"],
+                             :answer
+                             ["Möchten Sie heute Nachmittag oder heute Abend gehen?"]}
+                      #:item{:n 4,
+                             :prompt ["Voy a ayudarlo ahora mismo."],
+                             :answer ["Ich werde ihm sofort helfen."]}
+                      #:item{:n 5,
+                             :prompt ["Tiene que terminar mañana."],
+                             :answer
+                             ["Sie müssen morgen fertig werden."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Va a estar con él en México la próxima semana."],
+                             :answer
+                             ["Sie werden nächste Woche mit ihm in Mexiko sein."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Tiene que estudiar ahora mismo."],
+                             :answer ["Sie müssen sofort lernen."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Voy a terminar mi casa este año."],
+                             :answer
+                             ["Ich werde dieses Jahr mein Haus fertigstellen."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["¿Puede ayudarla otra vez esta tarde?"],
+                             :answer
+                             ["Können Sie ihr heute Nachmittag wieder helfen?"]}
+                      #:item{:n 10,
+                             :prompt
+                             ["¿Le gustaría comer en este restaurante otra vez mañana en la tarde?"],
+                             :answer
+                             ["Möchten Sie morgen Nachmittag wieder in diesem Restaurant essen?"]}
+                      #:item{:n 11,
+                             :prompt
+                             ["¿Va a visitar a su mamá esta tarde?"],
+                             :answer
+                             ["Werden Sie heute Nachmittag Ihre Mutter besuchen?"]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Tengo que regresar ahora mismo."],
+                             :answer ["Ich muss sofort zurückkommen."]}
+                      #:item{:n 13,
+                             :prompt ["Voy a terminar esta noche."],
+                             :answer
+                             ["Ich werde heute Abend fertig werden."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Necesita llamar a su mamá hoy."],
+                             :answer
+                             ["Sie müssen heute Ihre Mutter anrufen."]}
+                      #:item{:n 15,
+                             :prompt ["Quiero terminar pronto."],
+                             :answer ["Ich will bald fertig werden."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Tiene que visitarme otra vez pronto. Sí, voy a regresar otra vez el próximo mes."],
+                             :answer
+                             ["Sie müssen mich bald wieder besuchen. Ja, ich werde nächsten Monat wieder zurückkommen."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Tiene que regresar con Mario. Sí, voy a regresar con él."],
+                             :answer
+                             ["Sie müssen mit Mario zurückkommen. Ja, ich werde mit ihm zurückkommen."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["¿Cuándo quiere ir al hotel? Quiero ir ahora mismo."],
+                             :answer
+                             ["Wann wollen Sie zum Hotel gehen? Ich will sofort gehen."]}
+                      #:item{:n 19,
+                             :prompt
+                             ["¿Tiene que terminar esta semana? No, puedo terminar el próximo mes."],
+                             :answer
+                             ["Müssen Sie diese Woche fertig werden? Nein, ich kann nächsten Monat fertig werden."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["¿Cuándo quiere viajar? Quiero viajar mañana."],
+                             :answer
+                             ["Wann wollen Sie reisen? Ich will morgen reisen."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["¿Quiere ver al doctor mañana? Necesito ver al doctor ahora mismo."],
+                             :answer
+                             ["Wollen Sie morgen zum Arzt gehen? Ich muss sofort zum Arzt gehen."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["¿Cuándo tiene que terminar? Tengo que terminar mañana en la tarde."],
+                             :answer
+                             ["Wann müssen Sie fertig werden? Ich muss morgen Nachmittag fertig werden."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["¿Puede terminar hoy? No, lo siento, no puedo terminar hoy."],
+                             :answer
+                             ["Können Sie heute fertig werden? Nein, es tut mir leid, ich kann heute nicht fertig werden."]}],
+                     :notes []}]}

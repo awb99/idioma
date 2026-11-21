@@ -1,0 +1,203 @@
+{:lesson/vocabulary [],
+ :lesson/title "Pronombres y ambigüedad en alemán",
+ :lesson/target-title "Pronomen und Mehrdeutigkeit",
+ :lesson/label "Lección 24",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 21,
+   :section/title "Ellos, ellas y ustedes",
+   :section/body
+   ["«sie» puede significar ella o ellos/ellas; el verbo y el contexto lo aclaran: sie arbeitet (ella), sie arbeiten (ellos)."
+    "«Sie» con mayúscula es el usted/ustedes formal y usa la forma de ellos: Sie arbeiten."
+    "En plural el verbo es el mismo para wir, sie y Sie: wir arbeiten, sie arbeiten, Sie arbeiten."
+    "Para evitar ambigüedad, añade el sujeto o un contexto: Die Frauen arbeiten; Sie alle arbeiten."]}],
+ :lesson/number 24,
+ :lesson/intro
+ ["No hay palabras nuevas en esta lección, solo una estructura para completar tu alemán: cómo referirte a varias personas con sie y Sie."],
+ :lesson/step {:step/number 5, :step/title "Hablar de otras personas"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "24A",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? true,
+   :exercise/instructions "Traduce cada intervención del diálogo al español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Sie können Sie nicht hören." "Okay, ich werde lauter sprechen."],
+     :item/answer ["Ellos no pueden escucharlo." "Okay, voy a hablar más fuerte."]}
+    {:item/n 2,
+     :item/prompt ["Die Studenten müssen jeden Tag die CDs hören."],
+     :item/answer ["Los estudiantes necesitan escuchar las CDs todos los días."]}
+    {:item/n 3,
+     :item/prompt ["Mit dieser Methode können die Studenten die Verben nicht vergessen."],
+     :item/answer ["Con este método los estudiantes no pueden olvidar los verbos."]}
+    {:item/n 4,
+     :item/prompt
+     ["Sie brauchen ein Auto." "Was für ein Auto wollen sie?" "Sie wollen ein großes Auto."],
+     :item/answer
+     ["Ellas necesitan rentar un coche." "¿Qué tipo de coche quieren?" "Quieren un coche grande."]}
+    {:item/n 5,
+     :item/prompt
+     ["Welche Dokumente werden sie für die Reise nach Mexiko brauchen?"
+      "Sie brauchen Visa und Pässe."],
+     :item/answer
+     ["¿Qué documentación ellas van a necesitar para viajar a México?"
+      "Necesitan visas y pasaportes."]}
+    {:item/n 6,
+     :item/prompt
+     ["Wo möchten Sie diesen Sommer mieten?"
+      "Wir möchten ein Haus in der Riviera Maya mieten."],
+     :item/answer
+     ["¿Dónde quieren ustedes rentar este verano?" "Queremos rentar una casa en la Riviera Maya."]}
+    {:item/n 7,
+     :item/prompt
+     ["Sie wollen im Sommer in Mexiko arbeiten."
+      "Sie wollen als Englischlehrer arbeiten."],
+     :item/answer
+     ["Ellos quieren trabajar en México en el verano."
+      "Quieren trabajar como maestros de inglés."]}
+    {:item/n 8,
+     :item/prompt ["Meine Freunde wollen diesen Winter nach Mexiko fahren."],
+     :item/answer ["Mis amigos quieren ir a México este invierno."]}
+    {:item/n 9,
+     :item/prompt ["Sie werden mit einer Kreditkarte bezahlen."],
+     :item/answer ["Ellos van a pagar con una tarjeta de crédito."]}
+    {:item/n 10,
+     :item/prompt ["Warum wollen sie Spanisch lernen?" "Um im Urlaub sprechen zu können."],
+     :item/answer ["¿Por qué ellos quieren aprender español?" "Para hablar en sus vacaciones."]}
+    {:item/n 11,
+     :item/prompt ["Sie können jetzt mehr Spanisch verstehen."],
+     :item/answer ["Ellos pueden comprender más español ahora."]}
+    {:item/n 12,
+     :item/prompt ["Sie müssen die Polizei anrufen."],
+     :item/answer ["Ellas necesitan llamar a la policía."]}
+    {:item/n 13,
+     :item/prompt ["Sie werden im Urlaub viel Spanisch sprechen."],
+     :item/answer ["Ustedes van a hablar mucho español en sus vacaciones."]}
+    {:item/n 14,
+     :item/prompt ["Wann werden sie ankommen?" "Sie werden am Sonntag ankommen."],
+     :item/answer ["¿Cuándo ellos van a llegar?" "Van a llegar el domingo."]}
+    {:item/n 15,
+     :item/prompt
+     ["Wenn sie dort ein Auto mieten wollen, müssen sie eine Versicherung abschließen."],
+     :item/answer ["Si ellos van a rentar un coche allá tienen que comprar un seguro."]}
+    {:item/n 16,
+     :item/prompt ["Sie können in ihren Autos spanische Kassetten hören."],
+     :item/answer ["Ellos pueden escuchar casetes de español en sus coches."]}
+    {:item/n 17,
+     :item/prompt
+     ["Wo werden sie studieren?" "Sie werden an einer Hochschule in Costa Rica studieren."],
+     :item/answer ["¿Dónde ellos van a estudiar?" "Van a estudiar en un colegio en Costa Rica."]}
+    {:item/n 18,
+     :item/prompt ["Sie werden in Oaxaca nicht viel Geld ausgeben."],
+     :item/answer ["Ustedes no van a gastar mucho dinero en Oaxaca."]}
+    {:item/n 19,
+     :item/prompt ["Möchten Sie ein Haus zum Mieten finden?"],
+     :item/answer ["¿Ustedes quieren encontrar una casa para rentar?"]}
+    {:item/n 20,
+     :item/prompt
+     ["Wann werden sie den Spanischkurs beginnen?" "Sie werden im Juli beginnen."],
+     :item/answer ["¿Cuándo ellos van a empezar la clase de español?" "Van a empezar en julio."]}
+    {:item/n 21,
+     :item/prompt ["Sie müssen viel mehr lesen, um in ihrem Spanisch voranzukommen."],
+     :item/answer ["Ellos necesitan leer mucho más para avanzar en su español."]}
+    {:item/n 22,
+     :item/prompt ["Sie werden das ganze Essen für die Party kochen."],
+     :item/answer ["Ellas van a cocinar toda la comida para la fiesta."]}],
+   :exercise/notes []}
+  {:exercise/id "24B",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? true,
+   :exercise/instructions "Traduce cada intervención del diálogo al alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Ustedes van a hablar español muy bien pronto."],
+     :item/answer ["Sie werden bald sehr gut Spanisch sprechen."]}
+    {:item/n 2,
+     :item/prompt ["Ellas quieren encontrar un hotel."],
+     :item/answer ["Sie wollen ein Hotel finden."]}
+    {:item/n 3,
+     :item/prompt ["Lupita y Juan no van a poder visitarnos este invierno."],
+     :item/answer ["Lupita und Juan werden uns diesen Winter nicht besuchen können."]}
+    {:item/n 4,
+     :item/prompt ["Ellos quieren invitarnos a una fiesta."],
+     :item/answer ["Sie wollen uns zu einer Party einladen."]}
+    {:item/n 5,
+     :item/prompt ["¿Ustedes pueden escucharme?" "No, no podemos escucharlo."],
+     :item/answer ["Können Sie mich hören?" "Nein, wir können Sie nicht hören."]}
+    {:item/n 6,
+     :item/prompt ["Ustedes van a vivir bien allá."],
+     :item/answer ["Sie werden dort gut leben."]}
+    {:item/n 7,
+     :item/prompt ["Ellas necesitan un taxi."],
+     :item/answer ["Sie brauchen ein Taxi."]}
+    {:item/n 8,
+     :item/prompt ["Ustedes pueden practicar el español con nosotros."],
+     :item/answer ["Sie können mit uns Spanisch üben."]}
+    {:item/n 9,
+     :item/prompt
+     ["Ustedes necesitan aprender más español para poder hablar con nosotros."],
+     :item/answer ["Sie müssen mehr Spanisch lernen, um mit uns sprechen zu können."]}
+    {:item/n 10,
+     :item/prompt ["Ellas pueden ir con nosotros si quieren."],
+     :item/answer ["Sie können mit uns gehen, wenn sie wollen."]}
+    {:item/n 11,
+     :item/prompt ["Ellos quieren regresar pronto."],
+     :item/answer ["Sie wollen bald zurückkehren."]}
+    {:item/n 12,
+     :item/prompt ["Ellos van a estudiar español en Guatemala en el verano."],
+     :item/answer ["Sie werden im Sommer in Guatemala Spanisch studieren."]}
+    {:item/n 13,
+     :item/prompt ["¿Cuándo ellos quieren empezar?" "Quieren empezar mañana."],
+     :item/answer ["Wann wollen sie anfangen?" "Sie wollen morgen anfangen."]}
+    {:item/n 14,
+     :item/prompt ["¿Ellos van a ayudarnos?"],
+     :item/answer ["Werden sie uns helfen?"]}
+    {:item/n 15,
+     :item/prompt ["¿Cuándo ustedes van a llegar?" "Vamos a llegar pasado mañana."],
+     :item/answer ["Wann werden Sie ankommen?" "Wir werden übermorgen ankommen."]}
+    {:item/n 16,
+     :item/prompt ["Ellos pueden ayudarnos."],
+     :item/answer ["Sie können uns helfen."]}
+    {:item/n 17,
+     :item/prompt ["¿Ellos quieren descansar un rato?"],
+     :item/answer ["Wollen sie sich ein wenig ausruhen?"]}
+    {:item/n 18,
+     :item/prompt ["Ellos no van a poder empezar hasta el verano."],
+     :item/answer ["Sie werden erst im Sommer beginnen können."]}
+    {:item/n 19,
+     :item/prompt ["Ellas no quieren ir con él, porque él no puede manejar muy bien."],
+     :item/answer
+     ["Sie wollen nicht mit ihm gehen, weil er nicht sehr gut fahren kann."]}
+    {:item/n 20,
+     :item/prompt ["Ellos quieren ver nuestra casa."],
+     :item/answer ["Sie wollen unser Haus sehen."]}
+    {:item/n 21,
+     :item/prompt ["Ellas no pueden cantar muy bien."],
+     :item/answer ["Sie können nicht sehr gut singen."]}
+    {:item/n 22,
+     :item/prompt ["Ellas no quieren ir a la fiesta."],
+     :item/answer ["Sie wollen nicht auf die Party gehen."]}
+    {:item/n 23,
+     :item/prompt ["Ellos van a estar en casa hoy."],
+     :item/answer ["Sie werden heute zu Hause sein."]}
+    {:item/n 24,
+     :item/prompt ["Ellos van a invitarme a la fiesta."],
+     :item/answer ["Sie werden mich zur Party einladen."]}
+    {:item/n 25,
+     :item/prompt ["Ellas tienen que hablar español todos los días."],
+     :item/answer ["Sie müssen jeden Tag Spanisch sprechen."]}
+    {:item/n 26,
+     :item/prompt ["Ellas van a llamarnos mañana."],
+     :item/answer ["Sie werden uns morgen anrufen."]}
+    {:item/n 27,
+     :item/prompt ["Ustedes necesitan estudiar más."],
+     :item/answer ["Sie müssen mehr lernen."]}
+    {:item/n 28,
+     :item/prompt ["No pueden leer."],
+     :item/answer ["Sie können nicht lesen."]}],
+   :exercise/notes []}]}

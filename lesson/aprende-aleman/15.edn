@@ -1,0 +1,427 @@
+#:lesson{:vocabulary
+         [#:vocab{:id 85,
+                  :kind :synergy-verb,
+                  :target "wir müssen",
+                  :base "tenemos que",
+                  :pronunciation "vir mü-sen",
+                  :mnemonic nil}
+          #:vocab{:id 86,
+                  :kind :synergy-verb,
+                  :target "wir können",
+                  :base "podemos",
+                  :pronunciation "vir kó-nen",
+                  :mnemonic nil}
+          #:vocab{:id 87,
+                  :kind :brick-verb,
+                  :target "weggehen",
+                  :base "salir",
+                  :pronunciation "vék-ge-en",
+                  :mnemonic nil}
+          #:vocab{:id 88,
+                  :kind :mortar,
+                  :target "ohne",
+                  :base "sin",
+                  :pronunciation "ó-ne",
+                  :mnemonic nil}
+          #:vocab{:id 89,
+                  :kind :mortar,
+                  :target "früh",
+                  :base "temprano",
+                  :pronunciation "frü",
+                  :mnemonic nil}
+          #:vocab{:id 90,
+                  :kind :mortar,
+                  :target "mit ihr",
+                  :base "con ella",
+                  :pronunciation "mit ir",
+                  :mnemonic nil}],
+         :title "Verbos irregulares y pronombres",
+         :target-title "Unregelmäßige Verben und Pronomen",
+         :label "Lección 15",
+         :sections
+         [#:section{:type :accuracy-pointer,
+                    :id 12,
+                    :title "Verbos irregulares",
+                    :body
+                    ["En alemán muchos verbos cambian la vocal en la segunda y tercera persona del singular: ich fahre, du fährst, er fährt."
+                     "Los verbos modales cambian todavía más: ich kann, du kannst, er kann; ich muss, du musst, er muss."
+                     "En plural la forma es regular: wir können, wir müssen, sie können."
+                     "Recuerda los verbos irregulares más importantes: sein (ich bin, du bist, er ist), haben (ich habe, du hast, er hat) y werden (ich werde, du wirst, er wird)."]}
+          #:section{:type :communication-multiplied,
+                    :id 12,
+                    :title "Usted quiere vernos",
+                    :body
+                    ["El pronombre de objeto va después del verbo conjugado: Sie wollen uns sehen."
+                     "uns = nos; mich = me; ihn = lo; sie = la; sie = los/las."
+                     "La estructura es: sujeto + verbo modal + pronombre + infinitivo al final."
+                     "Sie wollen uns sehen = usted quiere vernos."]}],
+         :number 15,
+         :intro [],
+         :step #:step{:number 3, :title "Hablemos de nosotros"},
+         :closing [],
+         :exercises
+         [#:exercise{:id "15A",
+                     :skill :recall,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en español para “ohne” son"],
+                             :answer ["sin"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en español para “früh” son"],
+                             :answer ["temprano"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en español para “weggehen” son"],
+                             :answer ["salir"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en español para “mit ihr” son"],
+                             :answer ["con ella"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en español para “wir müssen” son"],
+                             :answer ["tenemos que"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en español para “wir können” son"],
+                             :answer ["podemos"]}],
+                     :notes []}
+          #:exercise{:id "15B",
+                     :skill :translate,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al español.",
+                     :hints
+                     ["tarjeta = die Karte"
+                      "evitar = vermeiden"
+                      "habitación = das Zimmer"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Können Sie uns bitte mit den Koffern helfen?"],
+                             :answer
+                             ["¿Puede ayudarnos con las maletas por favor?"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Können wir heute früher aus dem Unterricht gehen?"],
+                             :answer
+                             ["¿Podemos salir de la clase temprano hoy?"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Wir werden früh weggehen, um den Verkehr zu vermeiden."],
+                             :answer
+                             ["Vamos a salir temprano para evitar el tráfico."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Ich kann nicht mehr arbeiten, ohne zu essen."],
+                             :answer
+                             ["No puedo trabajar más sin comer."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Wir müssen das Konsulat anrufen."],
+                             :answer
+                             ["Tenemos que llamar al consulado."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Ich kann das Projekt heute beenden."],
+                             :answer
+                             ["Puedo terminar el proyecto hoy."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Können Sie uns bitte die Burritos ohne Chili zubereiten?"],
+                             :answer
+                             ["¿Puede prepararnos los burritos sin chile por favor?"]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Wir können nicht ohne unsere Visa weggehen."],
+                             :answer
+                             ["No podemos salir sin nuestras visas."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Sie werden mit ihr viel Spanisch lernen."],
+                             :answer
+                             ["Va a aprender mucho español con ella."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Wir können nicht ohne Polizeierlaubnis hineingehen."],
+                             :answer
+                             ["No podemos entrar sin permiso de la policía."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Wir müssen die Polizei anrufen."],
+                             :answer
+                             ["Tenemos que llamar a la policía."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Wir können zu Hause mehr lernen."],
+                             :answer ["Podemos estudiar más en casa."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Ich esse nicht gern einen Taco ohne Salz."],
+                             :answer
+                             ["No me gusta comer un taco sin sal."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Wir können den Anruf nicht ohne Telefonkarte machen."],
+                             :answer
+                             ["No podemos hacer la llamada sin tarjeta telefónica."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Sie können nicht nach Mexiko gehen, ohne uns zu sehen."],
+                             :answer
+                             ["No puede ir a México sin vernos."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Ich kann nicht mehr ohne Kaffee lernen."],
+                             :answer
+                             ["No puedo estudiar más sin café."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Wir müssen bald ein Hotel für heute Nacht finden."],
+                             :answer
+                             ["Tenemos que encontrar un hotel para esta noche pronto."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Können wir bitte in fünf Minuten anfangen?"],
+                             :answer
+                             ["¿Podemos empezar en cinco minutos por favor?"]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Wir müssen bald Benzin kaufen."],
+                             :answer
+                             ["Tenemos que comprar gasolina pronto."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Wir können am Wochenende dorthin gehen."],
+                             :answer
+                             ["Podemos ir allá el fin de semana."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Wir werden mehr für ein Zimmer mit Klimaanlage ausgeben."],
+                             :answer
+                             ["Vamos a gastar más para una habitación con aire acondicionado."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Wir können im nächsten Urlaub mehr Teile von Spanien sehen."],
+                             :answer
+                             ["Podemos ver más partes de España en las próximas vacaciones."]}
+                      #:item{:n 23,
+                             :prompt ["Wir werden mit ihr lernen."],
+                             :answer ["Vamos a estudiar con ella."]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Ich kann Kaffee nicht ohne Zucker trinken."],
+                             :answer
+                             ["No puedo tomar café sin azúcar."]}
+                      #:item{:n 25,
+                             :prompt
+                             ["Wir müssen ein Krankenhaus finden."],
+                             :answer
+                             ["Tenemos que encontrar un hospital."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["Ich gehe morgens früh gern zu Fuß."],
+                             :answer
+                             ["Me gusta caminar temprano en las mañanas."]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Warum müssen wir zu Hause lernen? Um schneller Spanisch zu lernen."],
+                             :answer
+                             ["¿Por qué tenemos que estudiar en casa? Para aprender más rápido español."]}
+                      #:item{:n 28,
+                             :prompt
+                             ["Wir können nicht weggehen, ohne die Pyramiden zu sehen."],
+                             :answer
+                             ["No podemos salir sin ver las pirámides."]}
+                      #:item{:n 29,
+                             :prompt
+                             ["Ich will dort nicht mehr arbeiten."],
+                             :answer
+                             ["No quiero trabajar allá más."]}],
+                     :notes []}
+          #:exercise{:id "15C",
+                     :skill :recall,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en alemán para “sin” son"],
+                             :answer ["ohne"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en alemán para “temprano” son"],
+                             :answer ["früh"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en alemán para “salir” son"],
+                             :answer ["weggehen"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en alemán para “con ella” son"],
+                             :answer ["mit ihr"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en alemán para “tenemos que” son"],
+                             :answer ["wir müssen"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en alemán para “podemos” son"],
+                             :answer ["wir können"]}],
+                     :notes []}
+          #:exercise{:id "15D",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt ["Hoy tenemos que ir temprano."],
+                             :answer ["Heute müssen wir früh gehen."]}
+                      #:item{:n 2,
+                             :prompt ["Voy a desayunar con ella."],
+                             :answer
+                             ["Ich werde mit ihr frühstücken."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["¿Podemos comer temprano esta noche?"],
+                             :answer
+                             ["Können wir heute Abend früh essen?"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Tenemos que trabajar temprano mañana."],
+                             :answer
+                             ["Wir müssen morgen früh arbeiten."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Necesitamos aprender más español para hablar con ella."],
+                             :answer
+                             ["Wir müssen mehr Spanisch lernen, um mit ihr zu sprechen."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Lo siento, tenemos que terminar ahora porque tengo que ir."],
+                             :answer
+                             ["Es tut mir leid, wir müssen jetzt aufhören, weil ich gehen muss."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Necesitamos hablar más español con ella."],
+                             :answer
+                             ["Wir müssen mehr Spanisch mit ihr sprechen."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["No podemos regresar hasta mañana en la tarde."],
+                             :answer
+                             ["Wir können erst morgen Nachmittag zurückkommen."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Queremos visitarla la próxima semana."],
+                             :answer
+                             ["Wir wollen sie nächste Woche besuchen."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Vamos a ir allá con ella el próximo año."],
+                             :answer
+                             ["Wir werden nächstes Jahr mit ihr dorthin gehen."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["No podemos salir hasta el fin de semana."],
+                             :answer
+                             ["Wir können erst am Wochenende weggehen."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Vamos a terminar nuestra casa este año."],
+                             :answer
+                             ["Wir werden dieses Jahr unser Haus fertigstellen."]}
+                      #:item{:n 13,
+                             :prompt ["¿Puede ayudarnos en la tarde?"],
+                             :answer
+                             ["Können Sie uns am Nachmittag helfen?"]}
+                      #:item{:n 14,
+                             :prompt
+                             ["¿Vamos a visitar a su mamá esta tarde?"],
+                             :answer
+                             ["Werden wir heute Nachmittag Ihre Mutter besuchen?"]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Tenemos que regresar ahora mismo."],
+                             :answer
+                             ["Wir müssen sofort zurückkommen."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Tiene que visitarnos otra vez pronto."],
+                             :answer
+                             ["Sie müssen uns bald wieder besuchen."]}
+                      #:item{:n 17,
+                             :prompt ["Quiero ir con ella."],
+                             :answer ["Ich will mit ihr gehen."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["¿Podemos ver la casa otra vez?"],
+                             :answer
+                             ["Können wir das Haus wieder sehen?"]}
+                      #:item{:n 19,
+                             :prompt
+                             ["¿Cuándo necesitamos terminar? Tenemos que terminar esta noche."],
+                             :answer
+                             ["Wann müssen wir fertig werden? Wir müssen heute Abend fertig werden."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["No podemos salir antes de esta noche."],
+                             :answer
+                             ["Wir können nicht vor heute Abend weggehen."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Tenemos que salir temprano mañana."],
+                             :answer
+                             ["Wir müssen morgen früh weggehen."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["No podemos regresar hasta mañana."],
+                             :answer
+                             ["Wir können erst morgen zurückkommen."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["¿Por qué no quiere invitarnos a su fiesta?"],
+                             :answer
+                             ["Warum wollen Sie uns nicht zu Ihrer Party einladen?"]}
+                      #:item{:n 24,
+                             :prompt ["¿Puede cocinarnos algo?"],
+                             :answer ["Können Sie uns etwas kochen?"]}
+                      #:item{:n 25,
+                             :prompt ["Tenemos que terminar pronto."],
+                             :answer
+                             ["Wir müssen bald fertig werden."]}
+                      #:item{:n 26,
+                             :prompt ["¿Quiere caminar por un rato?"],
+                             :answer
+                             ["Wollen Sie eine Weile zu Fuß gehen?"]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Queremos desayunar con ella mañana."],
+                             :answer
+                             ["Wir wollen morgen mit ihr frühstücken."]}
+                      #:item{:n 28,
+                             :prompt ["¿Podemos descansar un rato?"],
+                             :answer
+                             ["Können wir uns ein bisschen ausruhen?"]}
+                      #:item{:n 29,
+                             :prompt
+                             ["No podemos gastar mucho dinero."],
+                             :answer
+                             ["Wir können nicht viel Geld ausgeben."]}
+                      #:item{:n 30,
+                             :prompt ["Vamos a empezar temprano hoy."],
+                             :answer
+                             ["Wir werden heute früh anfangen."]}],
+                     :notes []}]}

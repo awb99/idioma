@@ -1,0 +1,271 @@
+{:lesson/vocabulary
+ [{:vocab/id 7,
+   :vocab/kind :other,
+   :vocab/target "mit Ihnen",
+   :vocab/base "con usted",
+   :vocab/pronunciation "mít I-nen",
+   :vocab/mnemonic nil}
+  {:vocab/id 8,
+   :vocab/kind :other,
+   :vocab/target "jetzt",
+   :vocab/base "ahora",
+   :vocab/pronunciation "yetst",
+   :vocab/mnemonic nil}
+  {:vocab/id 9,
+   :vocab/kind :other,
+   :vocab/target "bald",
+   :vocab/base "pronto",
+   :vocab/pronunciation "bald",
+   :vocab/mnemonic nil}
+  {:vocab/id 10,
+   :vocab/kind :other,
+   :vocab/target "um ... zu",
+   :vocab/base "para",
+   :vocab/pronunciation "um ... tsu",
+   :vocab/mnemonic nil}
+  {:vocab/id 11,
+   :vocab/kind :other,
+   :vocab/target "mehr",
+   :vocab/base "más",
+   :vocab/pronunciation "mer",
+   :vocab/mnemonic nil}
+  {:vocab/id 12,
+   :vocab/kind :other,
+   :vocab/target "heute Abend",
+   :vocab/base "esta noche",
+   :vocab/pronunciation "hói-te á-bent",
+   :vocab/mnemonic nil}],
+ :lesson/title "Tus primeras palabras conectoras en alemán",
+ :lesson/target-title "Ihre ersten Verbindungswörter",
+ :lesson/label "Lección 2",
+ :lesson/sections
+ [{:section/type :accuracy-pointer,
+   :section/id 1,
+   :section/title "Sonidos nuevos del alemán",
+   :section/body
+   ["El grupo sch se pronuncia como una «sh» suave: sprechen se parece a «shpréchen»."
+    "La w se pronuncia como la v española: wieder suena como «víder»."
+    "La z se pronuncia «ts»: jetzt suena como «yetst»."
+    "Las vocales con diéresis (ä, ö, ü) se redondean; imítalas sin miedo y sigue adelante."]}
+  {:section/type :communication-multiplied,
+   :section/id 2,
+   :section/title "Quiero verlo / verla",
+   :section/body
+   ["En alemán el pronombre de objeto va delante del infinitivo final: Ich will ihn sehen."
+    "ihn = lo, sie = la, es = lo (neutro), mich = me, uns = nos, sie = los/las."
+    "La estructura es: sujeto + modal conjugado + pronombre + complementos + infinitivo."
+    "Ich will ihn sehen = quiero verlo; Ich will sie sehen = quiero verla."
+    "A diferencia del español, el pronombre no se pega al verbo: se escribe separado."]}],
+ :lesson/number 2,
+ :lesson/intro [],
+ :lesson/step {:step/number 1, :step/title "Primeros pasos para hablar alemán"},
+ :lesson/closing
+ ["Mira cómo se multiplica tu alemán."
+  "Con dos lecciones ya construyes frases completas y las puedes usar hoy mismo."
+  "Recuerda disfrutar del camino."
+  "Hasta mañana."],
+ :lesson/exercises
+ [{:exercise/id "2A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “mit Ihnen” son"],
+     :item/answer ["con usted"]}
+    {:item/n 2, :item/prompt ["Las palabras en español para “jetzt” son"], :item/answer ["ahora"]}
+    {:item/n 3, :item/prompt ["Las palabras en español para “bald” son"], :item/answer ["pronto"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en español para “um ... zu” son"],
+     :item/answer ["para"]}
+    {:item/n 5, :item/prompt ["Las palabras en español para “mehr” son"], :item/answer ["más"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “heute Abend” son"],
+     :item/answer ["esta noche"]}
+    {:item/n 7,
+     :item/prompt ["Las palabras en español para “ich will” son"],
+     :item/answer ["quiero"]}
+    {:item/n 8,
+     :item/prompt ["Las palabras en español para “ich muss” son"],
+     :item/answer ["necesito"]}
+    {:item/n 9,
+     :item/prompt ["Las palabras en español para “sprechen” son"],
+     :item/answer ["hablar"]}
+    {:item/n 10, :item/prompt ["Las palabras en español para “sehen” son"], :item/answer ["ver"]}
+    {:item/n 11, :item/prompt ["Las palabras en español para “gehen” son"], :item/answer ["ir"]}
+    {:item/n 12,
+     :item/prompt ["Las palabras en español para “essen” son"],
+     :item/answer ["comer"]}],
+   :exercise/notes []}
+  {:exercise/id "2B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["es gibt = hay" "um ... zu = para" "bald = pronto"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Ich muss jetzt Ihr Visum sehen."],
+     :item/answer ["Necesito ver su visa ahora."]}
+    {:item/n 2,
+     :item/prompt ["Ich will sie auf der Party sehen."],
+     :item/answer ["Quiero verla en la fiesta."]}
+    {:item/n 3,
+     :item/prompt ["Ich muss jetzt zum Arzt gehen."],
+     :item/answer ["Necesito ir al doctor ahora."]}
+    {:item/n 4,
+     :item/prompt ["Es gibt ein Problem, ich muss ihn sehen."],
+     :item/answer ["Hay un problema, necesito verlo."]}
+    {:item/n 5,
+     :item/prompt ["Ich will nach Peru gehen, um Spanisch zu lernen und zu üben."],
+     :item/answer ["Quiero ir a Perú para estudiar y practicar español."]}
+    {:item/n 6,
+     :item/prompt ["Ich muss bald zum Hotel gehen."],
+     :item/answer ["Necesito ir al hotel pronto."]}
+    {:item/n 7,
+     :item/prompt ["Um die Venus zu sehen, brauche ich ein Teleskop."],
+     :item/answer ["Para ver Venus necesito un telescopio."]}
+    {:item/n 8,
+     :item/prompt ["Ich will ihn zur Party einladen."],
+     :item/answer ["Quiero invitarlo a la fiesta."]}
+    {:item/n 9,
+     :item/prompt ["Ich will heute Abend nicht im Restaurant essen."],
+     :item/answer ["No quiero comer en el restaurante esta noche."]}
+    {:item/n 10,
+     :item/prompt ["Ich will heute Abend nicht nach Tijuana gehen."],
+     :item/answer ["No quiero ir a Tijuana esta noche."]}
+    {:item/n 11,
+     :item/prompt ["Heute Abend will ich ins Theater gehen."],
+     :item/answer ["Esta noche quiero ir al teatro."]}
+    {:item/n 12,
+     :item/prompt ["Ich will heute Abend etwas anderes essen."],
+     :item/answer ["Quiero comer algo diferente esta noche."]}
+    {:item/n 13,
+     :item/prompt ["Ich will mehr Teile von Mexiko sehen."],
+     :item/answer ["Quiero ver más partes de México."]}
+    {:item/n 14,
+     :item/prompt ["Ich muss jetzt zum Hotel gehen."],
+     :item/answer ["Necesito ir al hotel ahora."]}
+    {:item/n 15,
+     :item/prompt ["Ich will heute Abend nicht mexikanisch essen, ich würde amerikanisches Essen bevorzugen."],
+     :item/answer ["No quiero comer comida mexicana esta noche, preferiría comida americana."]}
+    {:item/n 16,
+     :item/prompt ["Ich will heute Abend zur Party gehen."],
+     :item/answer ["Quiero ir a la fiesta esta noche."]}
+    {:item/n 17,
+     :item/prompt ["Ich muss bald nach Argentinien gehen."],
+     :item/answer ["Necesito ir a Argentina pronto."]}
+    {:item/n 18,
+     :item/prompt ["Ich muss im Juni nach Mexiko gehen, um die Fabrik zu besichtigen."],
+     :item/answer ["Necesito ir a México en junio para visitar la planta."]}
+    {:item/n 19,
+     :item/prompt ["Ich will sie im Dezember besuchen."],
+     :item/answer ["Quiero visitarla en diciembre."]}
+    {:item/n 20,
+     :item/prompt ["Ich will heute Abend die Mariachis auf der Plaza Garibaldi sehen."],
+     :item/answer ["Quiero ver los mariachis en Plaza Garibaldi esta noche."]}
+    {:item/n 21,
+     :item/prompt ["Ich muss die Pässe sehen."],
+     :item/answer ["Necesito ver los pasaportes."]}
+    {:item/n 22,
+     :item/prompt ["Ich will nach Griechenland gehen, um die Olympischen Spiele zu sehen."],
+     :item/answer ["Quiero ir a Grecia para ver los Juegos Olímpicos."]}],
+   :exercise/notes []}
+  {:exercise/id "2C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en alemán para “con usted” son"],
+     :item/answer ["mit Ihnen"]}
+    {:item/n 2, :item/prompt ["Las palabras en alemán para “ahora” son"], :item/answer ["jetzt"]}
+    {:item/n 3, :item/prompt ["Las palabras en alemán para “pronto” son"], :item/answer ["bald"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en alemán para “para” son"],
+     :item/answer ["um ... zu"]}
+    {:item/n 5, :item/prompt ["Las palabras en alemán para “más” son"], :item/answer ["mehr"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en alemán para “esta noche” son"],
+     :item/answer ["heute Abend"]}
+    {:item/n 7, :item/prompt ["Las palabras en alemán para “quiero” son"], :item/answer ["ich will"]}
+    {:item/n 8,
+     :item/prompt ["Las palabras en alemán para “necesito” son"],
+     :item/answer ["ich muss"]}
+    {:item/n 9,
+     :item/prompt ["Las palabras en alemán para “hablar” son"],
+     :item/answer ["sprechen"]}
+    {:item/n 10, :item/prompt ["Las palabras en alemán para “ver” son"], :item/answer ["sehen"]}
+    {:item/n 11, :item/prompt ["Las palabras en alemán para “ir” son"], :item/answer ["gehen"]}
+    {:item/n 12,
+     :item/prompt ["Las palabras en alemán para “comer” son"],
+     :item/answer ["essen"]}],
+   :exercise/notes []}
+  {:exercise/id "2D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al alemán.",
+   :exercise/hints ["por favor = bitte" "gracias = danke"],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Quiero verlo ahora."], :item/answer ["Ich will ihn jetzt sehen."]}
+    {:item/n 2,
+     :item/prompt ["Necesito hablar español pronto."],
+     :item/answer ["Ich muss bald Spanisch sprechen."]}
+    {:item/n 3, :item/prompt ["Necesito comer ahora."], :item/answer ["Ich muss jetzt essen."]}
+    {:item/n 4,
+     :item/prompt ["Quiero ir a mi casa para comer."],
+     :item/answer ["Ich will nach Hause gehen, um zu essen."]}
+    {:item/n 5, :item/prompt ["Necesito verla pronto."], :item/answer ["Ich muss sie bald sehen."]}
+    {:item/n 6,
+     :item/prompt ["Quiero ir a un restaurante para comer."],
+     :item/answer ["Ich will in ein Restaurant gehen, um zu essen."]}
+    {:item/n 7,
+     :item/prompt ["No quiero comer ahora."],
+     :item/answer ["Ich will jetzt nicht essen."]}
+    {:item/n 8,
+     :item/prompt ["No necesito más."],
+     :item/answer ["Ich brauche nicht mehr."]}
+    {:item/n 9,
+     :item/prompt ["Necesito hablar más español."],
+     :item/answer ["Ich muss mehr Spanisch sprechen."]}
+    {:item/n 10,
+     :item/prompt ["Quiero verla esta noche."],
+     :item/answer ["Ich will sie heute Abend sehen."]}
+    {:item/n 11,
+     :item/prompt ["Quiero hablar más español con usted pronto."],
+     :item/answer ["Ich will bald mehr Spanisch mit Ihnen sprechen."]}
+    {:item/n 12,
+     :item/prompt ["Necesito verlo esta noche."],
+     :item/answer ["Ich muss ihn heute Abend sehen."]}
+    {:item/n 13,
+     :item/prompt ["Quiero hablar con usted."],
+     :item/answer ["Ich will mit Ihnen sprechen."]}
+    {:item/n 14,
+     :item/prompt ["Necesito ir a mi casa ahora."],
+     :item/answer ["Ich muss jetzt nach Hause gehen."]}
+    {:item/n 15, :item/prompt ["Quiero comer ahora."], :item/answer ["Ich will jetzt essen."]}
+    {:item/n 16, :item/prompt ["Quiero comer pronto."], :item/answer ["Ich will bald essen."]}
+    {:item/n 17,
+     :item/prompt ["Quiero comer en un restaurante esta noche."],
+     :item/answer ["Ich will heute Abend in einem Restaurant essen."]}
+    {:item/n 18,
+     :item/prompt ["Quiero ver Machu Picchu pronto."],
+     :item/answer ["Ich will bald Machu Picchu sehen."]}
+    {:item/n 19, :item/prompt ["Quiero verla pronto."], :item/answer ["Ich will sie bald sehen."]}
+    {:item/n 20, :item/prompt ["Quiero más por favor."], :item/answer ["Ich will mehr, bitte."]}
+    {:item/n 21,
+     :item/prompt ["No quiero más gracias."],
+     :item/answer ["Ich will nicht mehr, danke."]}
+    {:item/n 22,
+     :item/prompt ["Necesito hablar con usted."],
+     :item/answer ["Ich muss mit Ihnen sprechen."]}
+    {:item/n 23, :item/prompt ["Necesito comer."], :item/answer ["Ich muss essen."]}
+    {:item/n 24, :item/prompt ["Necesito verlo ahora."], :item/answer ["Ich muss ihn jetzt sehen."]}],
+   :exercise/notes []}]}

@@ -56,7 +56,7 @@
 (defn- text-words [s]
   (->> (-> (str s)
            str/lower-case
-           (str/replace #"[^a-záéíóúüñ ]" " ")
+           (str/replace #"[^a-záéíóúüñäöß ]" " ")
            (str/split #"\s+"))
        (remove str/blank?)
        set))
@@ -84,11 +84,23 @@
     "invitar" "viajar" "tomar" "probar" "comida" "leer" "lee" "veces"
     "diferente" "alcohol" "tequila" "café" "fútbol" "dinero"})
 
+(def german-stopwords
+  #{"der" "die" "das" "den" "dem" "des" "ein" "eine" "einen" "ist" "sind"
+    "war" "bin" "bist" "ich" "du" "er" "sie" "es" "wir" "ihr" "mich" "dich"
+    "sich" "uns" "euch" "mein" "dein" "sein" "unser" "kann" "können" "will"
+    "wollen" "muss" "müssen" "möchte" "möchten" "habe" "hast" "haben" "hat"
+    "werde" "wirst" "wird" "werden" "wo" "wann" "wie" "warum" "was" "wer"
+    "wen" "wem" "dass" "ob" "nicht" "kein" "keine" "zu" "zum" "zur" "mit"
+    "von" "für" "auf" "in" "im" "an" "am" "als" "auch" "noch" "schon" "sehr"
+    "mehr" "viel" "nur" "so" "dann" "dort" "hier" "jetzt" "heute" "morgen"
+    "gestern" "bitte" "danke"})
+
 (defn- stopword-count [language text]
   (let [words (text-words text)
         stopwords (case language
                     "en" english-stopwords
                     "es" spanish-stopwords
+                    "de" german-stopwords
                     #{})]
     (count (set/intersection words stopwords))))
 
@@ -110,7 +122,7 @@
         prompt (str/join " " (:item/prompt item))]
     (for [[lang label text] [[answer-lang "answer" answer]
                              [prompt-lang "prompt" prompt]]
-          :let [other (if (= lang "en") "es" "en")
+          :let [other (if (= lang answer-lang) prompt-lang answer-lang)
                 expected (stopword-count lang text)
                 wrong (stopword-count other text)]
           :when (and (>= wrong 2) (> wrong expected))]
@@ -334,9 +346,10 @@
 (deftest multi-course-discovery-test
   (let [dirs (course-dirs)
         slugs (set (map (comp :course/slug course-for) dirs))]
-    (is (<= 2 (count dirs)))
+    (is (<= 3 (count dirs)))
     (is (contains? slugs "learn-spanish"))
-    (is (contains? slugs "aprende-ingles"))))
+    (is (contains? slugs "aprende-ingles"))
+    (is (contains? slugs "aprende-aleman"))))
 
 (deftest courses-manifest-test
   (let [manifest (lessons/courses-envelope (course-dirs))
@@ -353,7 +366,13 @@
       (is (= "es" (get-in by-slug ["aprende-ingles" "htmlLang"])))
       (is (= "inglés" (get-in by-slug ["aprende-ingles" "languages" "target" "name"])))
       (is (= "Spanish" (get-in by-slug ["learn-spanish" "languages" "target" "name"])))
-      (is (= 25 (get-in by-slug ["learn-spanish" "lessonCount"]))))))
+      (is (= 25 (get-in by-slug ["learn-spanish" "lessonCount"])))
+      (is (= "es" (get-in by-slug ["aprende-aleman" "htmlLang"])))
+      (is (= "español" (get-in by-slug ["aprende-aleman" "languages" "base" "name"])))
+      (is (= "alemán" (get-in by-slug ["aprende-aleman" "languages" "target" "name"])))
+      (is (= 25 (get-in by-slug ["aprende-aleman" "lessonCount"])))
+      (is (false? (get-in by-slug ["aprende-aleman" "legacyHash"])))
+      (is (false? (get-in by-slug ["aprende-aleman" "legacyProgress"]))))))
 
 (deftest real-corpus-test
   (doseq [dir (course-dirs)]
@@ -365,7 +384,7 @@
           items (reduce + (mapcat (fn [{:keys [lesson]}]
                                     (map (comp count :exercise/items) (:lesson/exercises lesson)))
                                   entries))
-          known-course? (contains? #{"learn-spanish" "aprende-ingles"}
+          known-course? (contains? #{"learn-spanish" "aprende-ingles" "aprende-aleman"}
                                    (:course/slug course))]
       (testing (str "course " (:course/slug course))
         (is (empty? problems))
@@ -386,31 +405,41 @@
                           entries)))
             (str "empty vocabulary lessons in " (:course/slug course)))))))
 
+(defn- assert-mirrored
+  [a-label a-lessons b-label b-lessons]
+  (is (= (mapv :lesson/number a-lessons) (mapv :lesson/number b-lessons))
+      (str a-label " vs " b-label " lesson numbers"))
+  (doseq [[a b] (map vector a-lessons b-lessons)]
+    (testing (str a-label " vs " b-label " lesson " (:lesson/number a))
+      (is (= (count (:lesson/vocabulary a)) (count (:lesson/vocabulary b))))
+      (is (= (mapv :exercise/id (:lesson/exercises a))
+             (mapv :exercise/id (:lesson/exercises b))))
+      (is (= (mapv (comp count :exercise/items) (:lesson/exercises a))
+             (mapv (comp count :exercise/items) (:lesson/exercises b))))
+      (doseq [[ea eb] (map vector (:lesson/exercises a) (:lesson/exercises b))]
+        (is (= (mapv (fn [i] [(count (:item/prompt i)) (count (:item/answer i))])
+                     (:exercise/items ea))
+               (mapv (fn [i] [(count (:item/prompt i)) (count (:item/answer i))])
+                     (:exercise/items eb)))
+            (str (:exercise/id ea) " turn counts"))))))
+
+(defn- course-lessons [dir]
+  (->> (lesson-entries dir (course-for dir)) :entries (map :lesson)))
+
 (deftest mirrored-course-parity-test
   (let [dirs (into {} (map (fn [dir] [(:course/slug (course-for dir)) dir]) (course-dirs)))
         learn-dir (get dirs "learn-spanish")
-        english-dir (get dirs "aprende-ingles")]
+        english-dir (get dirs "aprende-ingles")
+        german-dir (get dirs "aprende-aleman")]
     (is learn-dir)
     (is english-dir)
+    (is german-dir)
     (when (and learn-dir english-dir)
-      (let [learn (->> (lesson-entries learn-dir (course-for learn-dir)) :entries
-                       (map :lesson))
-            english (->> (lesson-entries english-dir (course-for english-dir)) :entries
-                         (map :lesson))]
-        (is (= (mapv :lesson/number learn) (mapv :lesson/number english)))
-        (doseq [[a b] (map vector learn english)]
-          (testing (str "lesson " (:lesson/number a))
-            (is (= (count (:lesson/vocabulary a)) (count (:lesson/vocabulary b))))
-            (is (= (mapv :exercise/id (:lesson/exercises a))
-                   (mapv :exercise/id (:lesson/exercises b))))
-            (is (= (mapv (comp count :exercise/items) (:lesson/exercises a))
-                   (mapv (comp count :exercise/items) (:lesson/exercises b))))
-            (doseq [[ea eb] (map vector (:lesson/exercises a) (:lesson/exercises b))]
-              (is (= (mapv (fn [i] [(count (:item/prompt i)) (count (:item/answer i))])
-                           (:exercise/items ea))
-                     (mapv (fn [i] [(count (:item/prompt i)) (count (:item/answer i))])
-                           (:exercise/items eb)))
-                  (str (:exercise/id ea) " turn counts")))))))))
+      (assert-mirrored "learn-spanish" (course-lessons learn-dir)
+                       "aprende-ingles" (course-lessons english-dir)))
+    (when (and english-dir german-dir)
+      (assert-mirrored "aprende-ingles" (course-lessons english-dir)
+                       "aprende-aleman" (course-lessons german-dir)))))
 
 (deftest direction-language-sanity-test
   (doseq [dir (course-dirs)]
@@ -458,9 +487,11 @@
       (is (str/starts-with? (:correct es) "¡"))
       (is (= "Traducir" (:skill-translate es)))
       (is (= "Recordar" (:skill-recall es))))
-    (testing "language names cover both course pairs"
-      (is (= #{"en" "es"} (set (keys (:language-names en)))))
-      (is (= #{"en" "es"} (set (keys (:language-names es))))))))
+    (testing "language names cover all course pairs"
+      (is (= #{"en" "es" "de"} (set (keys (:language-names en)))))
+      (is (= #{"en" "es" "de"} (set (keys (:language-names es)))))
+      (is (= "German" (get-in en [:language-names "de"])))
+      (is (= "alemán" (get-in es [:language-names "de"]))))))
 
 (deftest spanish-course-keeps-brand-and-readme-legacy-test
   (testing "learn-spanish keeps its original legacy flags"

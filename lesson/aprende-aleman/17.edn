@@ -1,0 +1,380 @@
+#:lesson{:vocabulary
+         [#:vocab{:id 97,
+                  :kind :brick-verb,
+                  :target "warten auf",
+                  :base "esperar",
+                  :pronunciation "vár-ten auf",
+                  :mnemonic nil}
+          #:vocab{:id 98,
+                  :kind :brick-verb,
+                  :target "suchen",
+                  :base "buscar",
+                  :pronunciation "zú-jen",
+                  :mnemonic nil}
+          #:vocab{:id 99,
+                  :kind :brick-verb,
+                  :target "vergessen",
+                  :base "olvidar",
+                  :pronunciation "fer-gué-sen",
+                  :mnemonic nil}
+          #:vocab{:id 100,
+                  :kind :brick-verb,
+                  :target "küssen",
+                  :base "Besar",
+                  :pronunciation "kú-sen",
+                  :mnemonic nil}
+          #:vocab{:id 101,
+                  :kind :brick-verb,
+                  :target "kennenlernen",
+                  :base "conocer",
+                  :pronunciation "ké-nen-ler-nen",
+                  :mnemonic nil}
+          #:vocab{:id 102,
+                  :kind :brick-verb,
+                  :target "zuhören",
+                  :base "escuchar",
+                  :pronunciation "tsu-jö-ren",
+                  :mnemonic nil}],
+         :title "Fin del paso 3: repaso",
+         :target-title "Ende von Schritt 3",
+         :label "Lección 17",
+         :sections
+         [#:section{:type :accuracy-pointer,
+                    :id 15,
+                    :title "kennenlernen, kennen y wissen",
+                    :body
+                    ["En alemán hay varios verbos para «conocer»: kennenlernen es conocer a alguien por primera vez; kennen es conocer a alguien o algo."
+                     "Para hechos y cosas se usa wissen: Ich weiß die Antwort."
+                     "No uses wissen con personas: «Ich weiß Ana» sería incorrecto."
+                     "Ich lerne meine Enkelin kennen = voy a conocer a mi nieta."]}
+          #:section{:type :communication-multiplied,
+                    :id 15,
+                    :title "Wir wollen sie sehen",
+                    :body
+                    ["El pronombre de objeto directo de tercera persona plural es sie para masculino y femenino: Wir wollen sie sehen."
+                     "En alemán sie puede significar «ella», «ellas» o «ellos»; el verbo y el contexto lo aclaran."
+                     "La estructura es: sujeto + wollen + sie + infinitivo al final."
+                     "Wir wollen sie sehen = queremos verlos o verlas."]}],
+         :number 17,
+         :intro [],
+         :step #:step{:number 3, :title "Hablemos de nosotros"},
+         :closing
+         ["Enhorabuena, has terminado el paso 3."
+          "Has cubierto muchísima estructura con muy pocas palabras."
+          "Todavía quedan palabras y estructuras para ampliar tu comunicación."
+          "Nos vemos en la lección 18."],
+         :exercises
+         [#:exercise{:id "17A",
+                     :skill :recall,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en español para “warten auf” son"],
+                             :answer ["esperar"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en español para “suchen” son"],
+                             :answer ["buscar"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en español para “vergessen” son"],
+                             :answer ["olvidar"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en español para “küssen” son"],
+                             :answer ["besar"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en español para “kennenlernen” son"],
+                             :answer ["conocer"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en español para “zuhören” son"],
+                             :answer ["escuchar"]}],
+                     :notes []}
+          #:exercise{:id "17B",
+                     :skill :translate,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al español.",
+                     :hints ["Wange = mejilla" "Eltern = padres"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt ["Wir werden sie morgen sehen."],
+                             :answer ["Vamos a verla mañana."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Wir wollen so bald wie möglich mit Ihnen sprechen."],
+                             :answer
+                             ["Queremos hablar con usted cuanto antes."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Ich muss ihnen heute Abend helfen."],
+                             :answer
+                             ["Tengo que ayudarlos esta noche."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Wir werden sie im Hotel treffen."],
+                             :answer
+                             ["Vamos a encontrarla en el hotel."]}
+                      #:item{:n 5,
+                             :prompt ["Ich muss sie bald anrufen."],
+                             :answer ["Tengo que llamarlos pronto."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["In Mexiko ist es üblich, Frauen auf die Wange zu küssen."],
+                             :answer
+                             ["En México es común besar a las mujeres en la mejilla."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Ich kann auf sie warten, aber nur noch fünf Minuten."],
+                             :answer
+                             ["Puedo esperarlos pero sólo por cinco minutos más."]}
+                      #:item{:n 8,
+                             :prompt ["Ich werde sie im Büro suchen."],
+                             :answer ["Voy a buscarla en la oficina."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Wir können auf der Party auf sie warten."],
+                             :answer
+                             ["Podemos esperarlas en la fiesta."]}
+                      #:item{:n 10,
+                             :prompt ["Werden Sie sie suchen?"],
+                             :answer ["¿Va a buscarlas?"]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Ich muss ihm jeden Tag zuhören."],
+                             :answer
+                             ["Tengo que escucharlo cada día."]}
+                      #:item{:n 12,
+                             :prompt ["Sie werden mich vergessen."],
+                             :answer ["Va a olvidarme."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Ich will ihn bald kennenlernen."],
+                             :answer ["Quiero conocerlo pronto."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Wann lernen Sie die Eltern Ihrer Frau kennen? Ich werde sie im März kennenlernen."],
+                             :answer
+                             ["¿Cuándo va a conocer a los padres de su esposa? Voy a conocerlos en marzo."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Warten wir auf ihn? Nein, ich will nicht auf ihn warten, ich will gehen."],
+                             :answer
+                             ["¿Vamos a esperarlo? No, no quiero esperarlo, quiero ir."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Ich muss ihn im Krankenhaus suchen."],
+                             :answer
+                             ["Necesito buscarlo en el hospital."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Ich will sie küssen und umarmen."],
+                             :answer ["Quiero besarla y abrazarla."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Ich werde sie im Dezember besuchen."],
+                             :answer
+                             ["Voy a visitarlos en diciembre."]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Ruhe bitte, ich will ihm zuhören."],
+                             :answer
+                             ["Silencio por favor, quiero escucharlo."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Es ist wichtig. Sie müssen ihm zuhören. Entschuldigung, ja, ich werde ihm zuhören."],
+                             :answer
+                             ["Es importante. Necesita escucharlo. Perdón, sí, voy a escucharlo."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Wir sehen sie jedes Jahr zu Weihnachten gern in Mexiko."],
+                             :answer
+                             ["Nos gusta verla en México cada Navidad."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Wann müssen Sie Ihre Frau anrufen? Ich muss sie früh am Morgen anrufen."],
+                             :answer
+                             ["¿Cuándo necesita llamar a su esposa? Necesito llamarla temprano en la mañana."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Können Sie ihr bitte mit den Koffern helfen?"],
+                             :answer
+                             ["¿Puede ayudarla con las maletas por favor?"]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Können wir das Projekt heute beenden?"],
+                             :answer
+                             ["¿Podemos terminar el proyecto hoy?"]}
+                      #:item{:n 25,
+                             :prompt
+                             ["Sie werden sie wahrscheinlich zu Hause finden."],
+                             :answer
+                             ["Probablemente va a encontrarla en casa."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["Wo können wir sie finden? Wir müssen sie sehen, es ist dringend."],
+                             :answer
+                             ["¿Dónde podemos encontrarla? Necesitamos verla, es urgente."]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Ich gehe ins Auditorium, um ihm zuzuhören."],
+                             :answer
+                             ["Voy al auditorio para escucharlo."]}],
+                     :notes []}
+          #:exercise{:id "17C",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt ["esperar"],
+                             :answer ["warten auf"]}
+                      #:item{:n 2,
+                             :prompt ["buscar"],
+                             :answer ["suchen"]}
+                      #:item{:n 3,
+                             :prompt ["olvidar"],
+                             :answer ["vergessen"]}
+                      #:item{:n 4,
+                             :prompt ["besar"],
+                             :answer ["küssen"]}
+                      #:item{:n 5,
+                             :prompt ["conocer"],
+                             :answer ["kennenlernen"]}
+                      #:item{:n 6,
+                             :prompt ["escuchar"],
+                             :answer ["zuhören"]}],
+                     :notes []}
+          #:exercise{:id "17D",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints ["Englisch = inglés"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["¿Quiere invitarlos a su graduación?"],
+                             :answer
+                             ["Wollen Sie sie zu Ihrer Abschlussfeier einladen?"]}
+                      #:item{:n 2,
+                             :prompt ["Quiero besarlo."],
+                             :answer ["Ich will ihn küssen."]}
+                      #:item{:n 3,
+                             :prompt ["¿Dónde va a esperarlo?"],
+                             :answer ["Wo werden Sie auf ihn warten?"]}
+                      #:item{:n 4,
+                             :prompt ["Me gusta besarla."],
+                             :answer ["Ich küsse sie gern."]}
+                      #:item{:n 5,
+                             :prompt ["Me encantaría conocerlo."],
+                             :answer
+                             ["Ich würde ihn gerne kennenlernen."]}
+                      #:item{:n 6,
+                             :prompt ["Vamos a buscarlo ahora."],
+                             :answer ["Wir werden ihn jetzt suchen."]}
+                      #:item{:n 7,
+                             :prompt ["Voy a besarla."],
+                             :answer ["Ich werde sie küssen."]}
+                      #:item{:n 8,
+                             :prompt ["Necesitamos buscarla."],
+                             :answer ["Wir müssen sie suchen."]}
+                      #:item{:n 9,
+                             :prompt ["Tenemos que esperarla."],
+                             :answer ["Wir müssen auf sie warten."]}
+                      #:item{:n 10,
+                             :prompt ["¿Quiere escucharlo?"],
+                             :answer ["Wollen Sie ihm zuhören?"]}
+                      #:item{:n 11,
+                             :prompt ["Me gustaría conocerla."],
+                             :answer
+                             ["Ich möchte sie gerne kennenlernen."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Tiene que olvidarlo. No puedo olvidarlo."],
+                             :answer
+                             ["Sie müssen ihn vergessen. Ich kann ihn nicht vergessen."]}
+                      #:item{:n 13,
+                             :prompt ["Puedo esperarla con usted."],
+                             :answer
+                             ["Ich kann mit Ihnen auf sie warten."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Tengo que escucharlo cada día y no quiero escuchar más."],
+                             :answer
+                             ["Ich muss ihm jeden Tag zuhören und ich möchte nicht mehr zuhören."]}
+                      #:item{:n 15,
+                             :prompt ["Voy a esperarla."],
+                             :answer ["Ich werde auf sie warten."]}
+                      #:item{:n 16,
+                             :prompt ["¿Dónde podemos encontrarla?"],
+                             :answer ["Wo können wir sie finden?"]}
+                      #:item{:n 17,
+                             :prompt ["No voy a olvidarla."],
+                             :answer
+                             ["Ich werde sie nicht vergessen."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Nos encantaría ayudarlos con el inglés."],
+                             :answer
+                             ["Wir würden ihnen gerne beim Englischlernen helfen."]}
+                      #:item{:n 19,
+                             :prompt ["Vamos a llamarlo más tarde."],
+                             :answer
+                             ["Wir werden ihn später anrufen."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["¿Por qué no puede vernos hoy? Porque tengo que ir temprano."],
+                             :answer
+                             ["Warum können Sie uns heute nicht sehen? Weil ich früh gehen muss."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Voy a hablar con él más tarde."],
+                             :answer
+                             ["Ich werde später mit ihm sprechen."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Nos encantaría visitarlas otra vez."],
+                             :answer
+                             ["Wir würden sie gerne wieder besuchen."]}
+                      #:item{:n 23,
+                             :prompt ["Puedo verla más tarde."],
+                             :answer ["Ich kann sie später sehen."]}
+                      #:item{:n 24,
+                             :prompt ["Tenemos que llamarlo pronto."],
+                             :answer ["Wir müssen ihn bald anrufen."]}
+                      #:item{:n 25,
+                             :prompt
+                             ["Queremos visitarlo la próxima semana."],
+                             :answer
+                             ["Wir wollen ihn nächste Woche besuchen."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["¿Puede ayudarla otra vez en la tarde?"],
+                             :answer
+                             ["Können Sie ihr am Nachmittag wieder helfen?"]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Tiene que visitarnos otra vez."],
+                             :answer
+                             ["Sie müssen uns wieder besuchen."]}
+                      #:item{:n 28,
+                             :prompt
+                             ["¿Por qué no quiere invitarme a su fiesta?"],
+                             :answer
+                             ["Warum wollen Sie mich nicht zu Ihrer Party einladen?"]}
+                      #:item{:n 29,
+                             :prompt
+                             ["Vamos a llamarlos mañana en la mañana."],
+                             :answer
+                             ["Wir werden sie morgen früh anrufen."]}],
+                     :notes []}]}

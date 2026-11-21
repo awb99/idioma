@@ -1,0 +1,457 @@
+#:lesson{:vocabulary
+         [#:vocab{:id 43,
+                  :kind :mortar,
+                  :target "bis",
+                  :base "hasta",
+                  :pronunciation "bis",
+                  :mnemonic nil}
+          #:vocab{:id 44,
+                  :kind :mortar,
+                  :target "etwas",
+                  :base "algo",
+                  :pronunciation "ét-vas",
+                  :mnemonic nil}
+          #:vocab{:id 45,
+                  :kind :mortar,
+                  :target "hier",
+                  :base "aquí",
+                  :pronunciation "hir",
+                  :mnemonic nil}
+          #:vocab{:id 46,
+                  :kind :mortar,
+                  :target "eine Weile",
+                  :base "un rato",
+                  :pronunciation "ái-ne vái-le",
+                  :mnemonic nil}
+          #:vocab{:id 47,
+                  :kind :mortar,
+                  :target "jeder / jede",
+                  :base "cada",
+                  :pronunciation "yé-der / yé-de",
+                  :mnemonic nil}
+          #:vocab{:id 48,
+                  :kind :mortar,
+                  :target "der Tag",
+                  :base "día",
+                  :pronunciation "der tak",
+                  :mnemonic nil}],
+         :title "Fin del paso 1: repaso de alemán",
+         :target-title "Ende von Schritt 1",
+         :label "Lección 8",
+         :sections
+         [#:section{:type :accuracy-pointer,
+                    :id 7,
+                    :title "El artículo en alemán",
+                    :body
+                    ["En alemán hay tres artículos definidos: der (masculino), die (femenino) y das (neutro)."
+                     "der Tag = el día; die Woche = la semana; das Jahr = el año."
+                     "En plural los tres géneros usan die: die Tage, die Wochen, die Jahre."
+                     "Por eso conviene aprender cada sustantivo junto con su artículo."]}],
+         :number 8,
+         :intro [],
+         :step
+         #:step{:number 1, :title "Primeros pasos para hablar alemán"},
+         :closing
+         ["Enhorabuena, has terminado el paso 1."
+          "Ya sabes usar muchas estructuras básicas del alemán."
+          "En las próximas lecciones ampliarás tu capacidad con diálogos y preguntas."
+          "Sigue practicando; la base que tienes es sólida."],
+         :exercises
+         [#:exercise{:id "8A",
+                     :skill :recall,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en español para “der Tag” son"],
+                             :answer ["día"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en español para “jeder / jede” son"],
+                             :answer ["cada"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en español para “eine Weile” son"],
+                             :answer ["un rato"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en español para “hier” son"],
+                             :answer ["aquí"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en español para “etwas” son"],
+                             :answer ["algo"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en español para “bis” son"],
+                             :answer ["hasta"]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Las palabras en español para “ich mag” son"],
+                             :answer ["me gusta"]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Las palabras en español para “es tut mir leid” son"],
+                             :answer ["lo siento"]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Las palabras en español para “trinken (auch nehmen)” son"],
+                             :answer ["tomar"]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Las palabras en español para “kochen” son"],
+                             :answer ["cocinar"]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Las palabras en español para “verbringen (Zeit)” son"],
+                             :answer ["pasar"]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Las palabras en español para “reisen” son"],
+                             :answer ["viajar"]}],
+                     :notes []}
+          #:exercise{:id "8B",
+                     :skill :translate,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al español.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Ich werde erst im Dezember nach Europa reisen."],
+                             :answer
+                             ["No voy a viajar a Europa hasta diciembre."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Ich muss bis zum Tag der Prüfung lernen."],
+                             :answer
+                             ["Tengo que estudiar hasta el día del examen."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Kann ich sie eine Weile sehen?"],
+                             :answer ["¿Puedo verla por un rato?"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Ich werde etwas im Restaurant des Hotels essen."],
+                             :answer
+                             ["Voy a comer algo en el restaurante del hotel."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Ich trinke tagsüber nicht gern Alkohol."],
+                             :answer
+                             ["No me gusta tomar alcohol en el día."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Ich werde eine Weile ins Büro gehen."],
+                             :answer
+                             ["Voy a ir a la oficina por un rato."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Jeden Tag muss ich etwas für meine Familie kochen."],
+                             :answer
+                             ["Cada día tengo que cocinar algo para mi familia."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Ich werde eine Weile zum Hotel zurückkehren."],
+                             :answer
+                             ["Voy a regresar al hotel por un rato."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Ich werde einen Monat hier lernen."],
+                             :answer
+                             ["Voy a estudiar aquí por un mes."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Ich muss alle zwei Monate nach Mexiko zurückkehren."],
+                             :answer
+                             ["Necesito regresar a México cada dos meses."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Ich werde drei Monate hier sein."],
+                             :answer
+                             ["Voy a estar aquí por tres meses."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Ich verbringe hier gern Zeit mit meiner Familie."],
+                             :answer
+                             ["Me gusta pasar tiempo aquí con mi familia."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Dieses Jahr werde ich jedes Spiel der Lakers im Kabelfernsehen sehen."],
+                             :answer
+                             ["Este año voy a ver cada juego de los Lakers en el cable."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Ich kann nachts keinen Kaffee trinken."],
+                             :answer
+                             ["No puedo tomar café en la noche."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Ich werde fünf Tage hier sein."],
+                             :answer
+                             ["Voy a estar aquí por cinco días."]}
+                      #:item{:n 16,
+                             :prompt ["Ich reise jedes Jahr gern."],
+                             :answer ["Me gusta viajar cada año."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Ich muss fünf Tage in Mexiko arbeiten."],
+                             :answer
+                             ["Tengo que trabajar en México por cinco días."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Ich sehe meine Familie jedes Wochenende gern."],
+                             :answer
+                             ["Me gusta ver a mi familia cada fin de semana."]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Es tut mir leid, ich kann erst nächsten Monat arbeiten."],
+                             :answer
+                             ["Lo siento, no puedo trabajar hasta el próximo mes."]}
+                      #:item{:n 20,
+                             :prompt ["Ich trinke abends gern etwas."],
+                             :answer
+                             ["Me gusta tomar algo en la noche."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Ich werde dieses Jahr jeden Monat nach Mexiko reisen."],
+                             :answer
+                             ["Voy a viajar a México cada mes de este año."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Ich möchte hier einen Kaffee trinken."],
+                             :answer
+                             ["Me gustaría tomar un café aquí."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Ich kann erst im Mai nach Ecuador reisen."],
+                             :answer
+                             ["No puedo viajar a Ecuador hasta mayo."]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Ich werde einen Monat hier verbringen."],
+                             :answer ["Voy a pasar un mes aquí."]}
+                      #:item{:n 25,
+                             :prompt
+                             ["Ich will eine Weile nach Hause gehen, um meine Familie zu sehen."],
+                             :answer
+                             ["Quiero ir a mi casa por un rato para ver a mi familia."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["Ich werde drei Tage nach Mexiko fahren."],
+                             :answer
+                             ["Voy a ir a México por tres días."]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Ich werde bis heute Abend zu Hause sein."],
+                             :answer
+                             ["Voy a estar en casa hasta esta noche."]}
+                      #:item{:n 28,
+                             :prompt
+                             ["Jedes Wochenende sehe ich gern Fußball im Fernsehen."],
+                             :answer
+                             ["Cada fin de semana me gusta ver el fútbol por televisión."]}
+                      #:item{:n 29,
+                             :prompt
+                             ["Ich muss eine Weile mit meinem Freund sprechen."],
+                             :answer
+                             ["Necesito hablar con mi amigo por un rato."]}
+                      #:item{:n 30,
+                             :prompt
+                             ["Ich werde etwas im Hotel essen."],
+                             :answer
+                             ["Voy a comer algo en el hotel."]}],
+                     :notes []}
+          #:exercise{:id "8C",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt ["día"],
+                             :answer ["der Tag"]}
+                      #:item{:n 2,
+                             :prompt ["cada"],
+                             :answer ["jeder / jede"]}
+                      #:item{:n 3,
+                             :prompt ["un rato"],
+                             :answer ["eine Weile"]}
+                      #:item{:n 4, :prompt ["aquí"], :answer ["hier"]}
+                      #:item{:n 5, :prompt ["algo"], :answer ["etwas"]}
+                      #:item{:n 6, :prompt ["hasta"], :answer ["bis"]}
+                      #:item{:n 7,
+                             :prompt ["me gusta"],
+                             :answer ["ich mag"]}
+                      #:item{:n 8,
+                             :prompt ["lo siento"],
+                             :answer ["es tut mir leid"]}
+                      #:item{:n 9,
+                             :prompt ["tomar"],
+                             :answer ["trinken"]}
+                      #:item{:n 10,
+                             :prompt ["pasar"],
+                             :answer ["verbringen"]}
+                      #:item{:n 11,
+                             :prompt ["viajar"],
+                             :answer ["reisen"]}
+                      #:item{:n 12,
+                             :prompt ["cocinar"],
+                             :answer ["kochen"]}],
+                     :notes []}
+          #:exercise{:id "8D",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["No necesito trabajar otra vez hasta la próxima semana."],
+                             :answer
+                             ["Ich muss erst nächste Woche wieder arbeiten."]}
+                      #:item{:n 2,
+                             :prompt ["Me gustaría comer aquí."],
+                             :answer ["Ich möchte hier essen."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["No puedo ayudarlo hasta esta noche."],
+                             :answer
+                             ["Ich kann ihm erst heute Abend helfen."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Voy a estar aquí hasta el próximo mes."],
+                             :answer
+                             ["Ich werde bis nächsten Monat hier sein."]}
+                      #:item{:n 5,
+                             :prompt ["Me gustaría trabajar aquí."],
+                             :answer ["Ich möchte hier arbeiten."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["No voy a regresar hasta el próximo año."],
+                             :answer
+                             ["Ich werde erst nächstes Jahr zurückkehren."]}
+                      #:item{:n 7,
+                             :prompt ["Quiero comer algo."],
+                             :answer ["Ich möchte etwas essen."]}
+                      #:item{:n 8,
+                             :prompt ["Tengo que viajar cada semana."],
+                             :answer ["Ich muss jede Woche reisen."]}
+                      #:item{:n 9,
+                             :prompt ["Necesito comer algo pronto."],
+                             :answer ["Ich muss bald etwas essen."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Me gustaría pasar cada fin de semana con mi familia."],
+                             :answer
+                             ["Ich möchte jedes Wochenende mit meiner Familie verbringen."]}
+                      #:item{:n 11,
+                             :prompt ["Puedo comer algo en el hotel."],
+                             :answer
+                             ["Ich kann etwas im Hotel essen."]}
+                      #:item{:n 12,
+                             :prompt ["Necesito pasar el día en LA."],
+                             :answer
+                             ["Ich muss den Tag in Los Angeles verbringen."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Tengo que estudiar por un rato."],
+                             :answer ["Ich muss eine Weile lernen."]}
+                      #:item{:n 14,
+                             :prompt ["Voy a estar aquí por un rato."],
+                             :answer
+                             ["Ich werde eine Weile hier sein."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Lo siento, no puedo estudiar con usted hasta el próximo fin de semana."],
+                             :answer
+                             ["Es tut mir leid, ich kann erst nächstes Wochenende mit Ihnen lernen."]}
+                      #:item{:n 16,
+                             :prompt ["Tengo que estudiar cada día."],
+                             :answer ["Ich muss jeden Tag lernen."]}
+                      #:item{:n 17,
+                             :prompt ["Necesito tomar algo."],
+                             :answer ["Ich muss etwas trinken."]}
+                      #:item{:n 18,
+                             :prompt ["Me gusta estar aquí."],
+                             :answer ["Ich bin gern hier."]}
+                      #:item{:n 19,
+                             :prompt ["Me gusta estudiar aquí."],
+                             :answer ["Ich lerne gern hier."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Voy a estar en Costa Rica hasta la próxima semana."],
+                             :answer
+                             ["Ich werde bis nächste Woche in Costa Rica sein."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Lo siento, no puedo llamarlo otra vez hasta mañana."],
+                             :answer
+                             ["Es tut mir leid, ich kann ihn erst morgen wieder anrufen."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Me gusta comer con mi familia cada noche."],
+                             :answer
+                             ["Ich esse jeden Abend gern mit meiner Familie."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Necesito hablar español cada día."],
+                             :answer
+                             ["Ich muss jeden Tag Spanisch sprechen."]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Voy a estar en México cada dos semanas."],
+                             :answer
+                             ["Ich werde alle zwei Wochen in Mexiko sein."]}
+                      #:item{:n 25,
+                             :prompt
+                             ["Este mes tengo que trabajar cada fin de semana."],
+                             :answer
+                             ["Diesen Monat muss ich jedes Wochenende arbeiten."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["No puedo viajar hasta el próximo año."],
+                             :answer
+                             ["Ich kann erst nächstes Jahr reisen."]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Quiero regresar a México cada año."],
+                             :answer
+                             ["Ich möchte jedes Jahr nach Mexiko zurückkehren."]}
+                      #:item{:n 28,
+                             :prompt
+                             ["Tengo que cocinar para mi familia cada noche."],
+                             :answer
+                             ["Ich muss jeden Abend für meine Familie kochen."]}
+                      #:item{:n 29,
+                             :prompt
+                             ["Voy a pasar el día con mi familia."],
+                             :answer
+                             ["Ich werde den Tag mit meiner Familie verbringen."]}
+                      #:item{:n 30,
+                             :prompt
+                             ["Tengo que viajar por dos días."],
+                             :answer ["Ich muss zwei Tage reisen."]}
+                      #:item{:n 31,
+                             :prompt ["Voy a verla en dos días."],
+                             :answer
+                             ["Ich werde sie in zwei Tagen sehen."]}
+                      #:item{:n 32,
+                             :prompt ["Voy a llamarla cada día."],
+                             :answer
+                             ["Ich werde sie jeden Tag anrufen."]}
+                      #:item{:n 33,
+                             :prompt ["Voy a regresar en seis días."],
+                             :answer
+                             ["Ich werde in sechs Tagen zurückkehren."]}
+                      #:item{:n 34,
+                             :prompt ["Voy a cocinar algo."],
+                             :answer ["Ich werde etwas kochen."]}],
+                     :notes []}]}

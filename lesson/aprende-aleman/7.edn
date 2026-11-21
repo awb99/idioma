@@ -1,0 +1,423 @@
+#:lesson{:vocabulary
+         [#:vocab{:id 37,
+                  :kind :synergy-verb,
+                  :target "ich mag",
+                  :base "me gusta",
+                  :pronunciation "ích mak",
+                  :mnemonic nil}
+          #:vocab{:id 38,
+                  :kind :sentence-starter,
+                  :target "es tut mir leid",
+                  :base "Lo siento",
+                  :pronunciation "es tut mir laid",
+                  :mnemonic nil}
+          #:vocab{:id 39,
+                  :kind :brick-verb,
+                  :target "reisen",
+                  :base "viajar",
+                  :pronunciation "rái-sen",
+                  :mnemonic nil}
+          #:vocab{:id 40,
+                  :kind :brick-verb,
+                  :target "verbringen",
+                  :base "pasar",
+                  :pronunciation "fer-brín-gen",
+                  :mnemonic nil}
+          #:vocab{:id 41,
+                  :kind :brick-verb,
+                  :target "kochen",
+                  :base "cocinar",
+                  :pronunciation "kó-jen",
+                  :mnemonic nil}
+          #:vocab{:id 42,
+                  :kind :brick-verb,
+                  :target "trinken",
+                  :base "tomar",
+                  :pronunciation "trín-ken",
+                  :mnemonic nil}],
+         :title "Iniciadores y verbos útiles en alemán",
+         :target-title "Satzanfänge und nützliche Verben",
+         :label "Lección 7",
+         :sections
+         [#:section{:type :communication-multiplied,
+                    :id 8,
+                    :title "Iniciadores de frases",
+                    :body
+                    ["Es tut mir leid es un iniciador de frase: Es tut mir leid, ich kann Ihnen heute nicht helfen."
+                     "También puede ir solo: Es tut mir leid."
+                     "Otras fórmulas útiles: Entschuldigung (perdón) y Verzeihung."
+                     "Los iniciadores te dan tiempo para pensar y suavizan lo que dices."]}
+          #:section{:type :accuracy-pointer,
+                    :id 5,
+                    :title "Tiempo y dinero: verbringen y ausgeben",
+                    :body
+                    ["En alemán no hay un solo verbo para pasar y gastar: el tiempo se pasa con verbringen y el dinero se gasta con ausgeben."
+                     "Ich verbringe Zeit = paso tiempo; ich gebe Geld aus = gasto dinero."
+                     "ausgeben es un verbo separable: ich gebe ... aus."]}
+          #:section{:type :accuracy-pointer,
+                    :id 6,
+                    :title "Trinken: beber o tomar",
+                    :body
+                    ["Para beber, el alemán usa trinken: Ich trinke Wasser."
+                     "etwas trinken = tomar algo; trinken es el verbo general."
+                     "No confundas trinken con essen (comer)."]}],
+         :number 7,
+         :intro [],
+         :step
+         #:step{:number 1, :title "Primeros pasos para hablar alemán"},
+         :closing [],
+         :exercises
+         [#:exercise{:id "7A",
+                     :skill :recall,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en español para “ich mag” son"],
+                             :answer ["me gusta"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en español para “es tut mir leid” son"],
+                             :answer ["lo siento"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en español para “trinken (auch nehmen)” son"],
+                             :answer ["tomar"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en español para “kochen” son"],
+                             :answer ["cocinar"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en español para “verbringen (Zeit)” son"],
+                             :answer ["pasar"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en español para “reisen” son"],
+                             :answer ["viajar"]}],
+                     :notes []}
+          #:exercise{:id "7B",
+                     :skill :translate,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al español.",
+                     :hints
+                     ["tiempo = die Zeit"
+                      "para = um ... zu / für"
+                      "mañana = morgen / der Morgen"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Ich trinke nicht gern Alkohol."],
+                             :answer ["No me gusta tomar alcohol."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Es tut mir leid, heute Abend kann ich nicht ins Kino gehen, ich muss lernen."],
+                             :answer
+                             ["Lo siento, esta noche no puedo ir al cine, tengo que estudiar."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Ich bin am Wochenende gern mit meiner Familie zusammen."],
+                             :answer
+                             ["Me gusta estar con mi familia los fines de semana."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Ich möchte den heutigen Abend zu Hause verbringen, um den Fußball im Fernsehen zu sehen."],
+                             :answer
+                             ["Me gustaría pasar esta noche en casa para ver el fútbol por televisión."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Ich helfe den Menschen gern mit dem Spanischen."],
+                             :answer
+                             ["Me gusta ayudar a las personas con el español."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Es tut mir leid, ich kann heute nicht arbeiten."],
+                             :answer
+                             ["Lo siento, no puedo trabajar hoy."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Ich arbeite nicht gern nachts."],
+                             :answer
+                             ["No me gusta trabajar en la noche."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Es tut mir leid, ich kann ihn erst morgen anrufen."],
+                             :answer
+                             ["Lo siento, no puedo llamarlo hasta mañana."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Ich verbringe die Nächte gern zu Hause."],
+                             :answer
+                             ["Me gusta pasar las noches en casa."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Ich trinke morgens gern Kaffee."],
+                             :answer
+                             ["Me gusta tomar café en la mañana."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Ich möchte meinen nächsten Urlaub in Mexiko verbringen."],
+                             :answer
+                             ["Me gustaría pasar mis próximas vacaciones en México."]}
+                      #:item{:n 12,
+                             :prompt ["Ich trinke gern Tee."],
+                             :answer ["Me gusta tomar té."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Es tut mir leid, ich kann ihr erst nächsten Monat wieder helfen."],
+                             :answer
+                             ["Lo siento, no puedo ayudarla otra vez hasta el próximo mes."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Ich koche gern für meine Familie."],
+                             :answer
+                             ["Me gusta cocinar para mi familia."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Es tut mir leid, ich kann erst im Oktober wieder in Madrid sein."],
+                             :answer
+                             ["Lo siento, no puedo estar en Madrid otra vez hasta octubre."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Ich kann in den Monaten April und Mai nach Mexiko reisen."],
+                             :answer
+                             ["Puedo viajar a México en los meses de abril y mayo."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Ich koche gern spanisches Essen."],
+                             :answer
+                             ["Me gusta cocinar comida española."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Ich möchte eine Paella kochen."],
+                             :answer
+                             ["Me gustaría cocinar una paella."]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Ich möchte einen Kaffee trinken."],
+                             :answer ["Me gustaría tomar un café."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Ich kann im Mai nach Spanien reisen."],
+                             :answer
+                             ["Puedo viajar a España en mayo."]}
+                      #:item{:n 21,
+                             :prompt ["Ich muss bald etwas trinken."],
+                             :answer ["Necesito tomar algo pronto."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Ich kann keinen Alkohol trinken."],
+                             :answer ["No puedo tomar alcohol."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Ich werde einen Monat in Mexiko verbringen."],
+                             :answer ["Voy a pasar un mes en México."]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Ich will mehr Zeit zu Hause mit meiner Familie verbringen."],
+                             :answer
+                             ["Quiero pasar más tiempo en casa con mi familia."]}
+                      #:item{:n 25,
+                             :prompt ["Ich reise gern mit Ihnen."],
+                             :answer ["Me gusta viajar con usted."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["Ich werde eine Woche zu Hause verbringen."],
+                             :answer
+                             ["Voy a pasar una semana en casa."]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Ich sehe gern Sport im Fernsehen."],
+                             :answer
+                             ["Me gusta ver los deportes por televisión."]}
+                      #:item{:n 28,
+                             :prompt
+                             ["Ich muss für die Familie kochen."],
+                             :answer
+                             ["Tengo que cocinar para la familia."]}
+                      #:item{:n 29,
+                             :prompt
+                             ["Es tut mir leid, ich muss bitte noch einmal die Pässe und die Visa sehen."],
+                             :answer
+                             ["Lo siento, necesito ver los pasaportes y las visas otra vez por favor."]}
+                      #:item{:n 30,
+                             :prompt
+                             ["Ich will die Nacht in einem Hotel verbringen."],
+                             :answer
+                             ["Quiero pasar la noche en un hotel."]}
+                      #:item{:n 31,
+                             :prompt
+                             ["Es tut mir leid, ich kann nicht viele Leute zur Party einladen."],
+                             :answer
+                             ["Lo siento, no puedo invitar a muchas personas a la fiesta."]}],
+                     :notes []}
+          #:exercise{:id "7C",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt ["me gusta"],
+                             :answer ["ich mag"]}
+                      #:item{:n 2,
+                             :prompt ["lo siento"],
+                             :answer ["es tut mir leid"]}
+                      #:item{:n 3,
+                             :prompt ["tomar"],
+                             :answer ["trinken"]}
+                      #:item{:n 4,
+                             :prompt ["pasar"],
+                             :answer ["verbringen"]}
+                      #:item{:n 5,
+                             :prompt ["viajar"],
+                             :answer ["reisen"]}
+                      #:item{:n 6,
+                             :prompt ["cocinar"],
+                             :answer ["kochen"]}],
+                     :notes []}
+          #:exercise{:id "7D",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt ["No me gusta viajar."],
+                             :answer ["Ich reise nicht gern."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Lo siento, no puedo estar con usted hoy."],
+                             :answer
+                             ["Es tut mir leid, ich kann heute nicht bei Ihnen sein."]}
+                      #:item{:n 3,
+                             :prompt ["Me gusta estudiar con usted."],
+                             :answer ["Ich lerne gern mit Ihnen."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Lo siento, no puedo verla hoy."],
+                             :answer
+                             ["Es tut mir leid, ich kann sie heute nicht sehen."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Lo siento, no puedo hablar mucho español."],
+                             :answer
+                             ["Es tut mir leid, ich kann nicht viel Spanisch sprechen."]}
+                      #:item{:n 6,
+                             :prompt ["Tengo que viajar mucho."],
+                             :answer ["Ich muss viel reisen."]}
+                      #:item{:n 7,
+                             :prompt ["Me gusta ayudarla."],
+                             :answer ["Ich helfe ihr gern."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Voy a pasar el fin de semana con mi familia."],
+                             :answer
+                             ["Ich werde das Wochenende mit meiner Familie verbringen."]}
+                      #:item{:n 9,
+                             :prompt ["No puedo tomar más."],
+                             :answer ["Ich kann nicht mehr trinken."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Lo siento, no puedo estudiar con usted este fin de semana."],
+                             :answer
+                             ["Es tut mir leid, ich kann dieses Wochenende nicht mit Ihnen lernen."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Necesito pasar esta semana en LA."],
+                             :answer
+                             ["Ich muss diese Woche in Los Angeles verbringen."]}
+                      #:item{:n 12,
+                             :prompt ["Me gusta tomar tequila."],
+                             :answer ["Ich trinke gern Tequila."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Lo siento, no puedo invitarlo a mi fiesta."],
+                             :answer
+                             ["Es tut mir leid, ich kann ihn nicht zu meiner Party einladen."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Lo siento, no puedo ayudarla ahora."],
+                             :answer
+                             ["Es tut mir leid, ich kann ihr jetzt nicht helfen."]}
+                      #:item{:n 15,
+                             :prompt ["No me gusta tomar tequila."],
+                             :answer
+                             ["Ich trinke nicht gern Tequila."]}
+                      #:item{:n 16,
+                             :prompt ["Me gusta viajar mucho."],
+                             :answer ["Ich reise sehr gern."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Voy a pasar cuatro meses en España."],
+                             :answer
+                             ["Ich werde vier Monate in Spanien verbringen."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Me gusta comer con mi familia."],
+                             :answer
+                             ["Ich esse gern mit meiner Familie."]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Lo siento, no puedo ir con usted."],
+                             :answer
+                             ["Es tut mir leid, ich kann nicht mit Ihnen gehen."]}
+                      #:item{:n 20,
+                             :prompt ["Me gusta cocinar con mi mamá."],
+                             :answer
+                             ["Ich koche gern mit meiner Mutter."]}
+                      #:item{:n 21,
+                             :prompt ["Voy a cocinar esta noche."],
+                             :answer ["Ich werde heute Abend kochen."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Quiero regresar a México este año."],
+                             :answer
+                             ["Ich möchte dieses Jahr nach Mexiko zurückkehren."]}
+                      #:item{:n 23,
+                             :prompt ["No quiero viajar otra vez."],
+                             :answer
+                             ["Ich möchte nicht wieder reisen."]}
+                      #:item{:n 24,
+                             :prompt ["Me gusta hablar español."],
+                             :answer ["Ich spreche gern Spanisch."]}
+                      #:item{:n 25,
+                             :prompt
+                             ["No necesito viajar esta semana."],
+                             :answer
+                             ["Ich muss diese Woche nicht reisen."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["Tengo que viajar a México hoy para trabajar."],
+                             :answer
+                             ["Ich muss heute nach Mexiko reisen, um zu arbeiten."]}
+                      #:item{:n 27,
+                             :prompt ["Me gustaría cocinar más."],
+                             :answer ["Ich möchte mehr kochen."]}
+                      #:item{:n 28,
+                             :prompt
+                             ["Voy a viajar más el próximo año."],
+                             :answer
+                             ["Ich werde nächstes Jahr mehr reisen."]}
+                      #:item{:n 29,
+                             :prompt ["No puedo viajar este año."],
+                             :answer
+                             ["Ich kann dieses Jahr nicht reisen."]}
+                      #:item{:n 30,
+                             :prompt
+                             ["Voy a pasar la próxima semana en Costa Rica."],
+                             :answer
+                             ["Ich werde nächste Woche in Costa Rica verbringen."]}
+                      #:item{:n 31,
+                             :prompt
+                             ["Lo siento, no quiero trabajar más con usted."],
+                             :answer
+                             ["Es tut mir leid, ich möchte nicht mehr mit Ihnen arbeiten."]}],
+                     :notes []}]}

@@ -1,0 +1,394 @@
+#:lesson{:vocabulary
+         [#:vocab{:id 121,
+                  :kind :brick-verb,
+                  :target "können",
+                  :base "poder",
+                  :pronunciation "kö-nen",
+                  :mnemonic nil}
+          #:vocab{:id 122,
+                  :kind :brick-verb,
+                  :target "singen",
+                  :base "cantar",
+                  :pronunciation "zín-guén",
+                  :mnemonic nil}
+          #:vocab{:id 123,
+                  :kind :mortar,
+                  :target "sehr",
+                  :base "muy",
+                  :pronunciation "zer",
+                  :mnemonic nil}
+          #:vocab{:id 124,
+                  :kind :mortar,
+                  :target "auch",
+                  :base "también",
+                  :pronunciation "áuj",
+                  :mnemonic nil}
+          #:vocab{:id 125,
+                  :kind :mortar,
+                  :target "der Winter",
+                  :base "invierno",
+                  :pronunciation "der Vínter",
+                  :mnemonic nil}
+          #:vocab{:id 126,
+                  :kind :mortar,
+                  :target "gut",
+                  :base "bien",
+                  :pronunciation "gut",
+                  :mnemonic nil}],
+         :title "Él, ella y usted en alemán",
+         :target-title "Er, sie und Sie",
+         :label "Lección 22",
+         :sections
+         [#:section{:type :communication-multiplied,
+                    :id 19,
+                    :title "Él, ella y usted",
+                    :body
+                    ["En alemán el verbo cambia en la tercera persona del singular: er arbeitet, sie braucht."
+                     "Las formas er, sie y es comparten la misma conjugación: er singt, sie singt, es singt."
+                     "El Sie formal usa la misma forma verbal que sie (ellos/ellas): Sie arbeiten."
+                     "A diferencia del español, el pronombre sujeto casi siempre se usa: Er kommt heute."]}],
+         :number 22,
+         :intro [],
+         :step #:step{:number 5, :title "Hablar de otras personas"},
+         :closing [],
+         :exercises
+         [#:exercise{:id "22A",
+                     :skill :recall,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en español para “gut” son"],
+                             :answer ["bien"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en español para “der Winter” son"],
+                             :answer ["invierno"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en español para “auch” son"],
+                             :answer ["también"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en español para “sehr” son"],
+                             :answer ["muy"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en español para “können” son"],
+                             :answer ["poder"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en español para “singen” son"],
+                             :answer ["cantar"]}],
+                     :notes []}
+          #:exercise{:id "22B",
+                     :skill :translate,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al español.",
+                     :hints
+                     ["laut = fuerte"
+                      "Gott = Dios"
+                      "Tochter = hija"
+                      "so viele = tantos"
+                      "Ständchen = serenata"
+                      "Ihr/dein/sein/ihr = su"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Auch Sie müssen etwas für Antonio kaufen."],
+                             :answer
+                             ["También usted necesita comprar algo para Antonio."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Sie müssen lauter sprechen, ich kann Sie nicht sehr gut hören."],
+                             :answer
+                             ["Usted necesita hablar más fuerte,no puedo escucharlo muy bien."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Mit Gottes Hilfe wird sie gut ankommen."],
+                             :answer
+                             ["Con el favor de Dios, ella va a llegar bien."]}
+                      #:item{:n 4,
+                             :prompt ["Er wird in der Bar singen."],
+                             :answer ["Él va a cantar en el bar."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Er wird nicht mit meiner Tochter ausgehen können."],
+                             :answer
+                             ["Él no va a poder salir con mi hija."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["David möchte auch in einer Rockband singen."],
+                             :answer
+                             ["David también quiere cantar en un grupo de rock."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Er wird ein Jahr in Südamerika arbeiten."],
+                             :answer
+                             ["Él va a trabajar en Sudamérica por un año."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Ich werde erst nächsten Monat zahlen können."],
+                             :answer
+                             ["No voy a poder pagar hasta el próximo mes."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Alejandro möchte auch das Konzert sehen."],
+                             :answer
+                             ["Alejandro también quiere ver el concierto."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Ich werde das nicht vergessen können."],
+                             :answer ["No voy a poder olvidar esto."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Noel möchte uns zum Abendessen zu sich nach Hause einladen."],
+                             :answer
+                             ["Noel quiere invitarnos a cenar en su casa."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Er wird singen, um der Señorita ein Ständchen zu bringen."],
+                             :answer
+                             ["Él va a cantar para dar una serenata a la señorita."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Wir müssen das Geburtstagslied singen."],
+                             :answer
+                             ["Tenemos que cantar \"Happy Birthday\"."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Ich singe nicht gern in der Öffentlichkeit."],
+                             :answer
+                             ["No me gusta cantar en público."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Wir werden den Unterricht nicht beginnen können, wir brauchen mehr Schüler."],
+                             :answer
+                             ["No vamos a poder empezar la clase, necesitamos más estudiantes."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Sie werden nach so vielen Tequilas nicht fahren können."],
+                             :answer
+                             ["Usted no va a poder manejar después de tomar tantos tequilas."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Wir müssen auch sehr bald gehen."],
+                             :answer
+                             ["Tenemos que ir muy pronto también."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Ich kann keinen Tequila trinken, es ist noch sehr früh zum Trinken."],
+                             :answer
+                             ["No puedo tomar un tequila, es muy temprano para tomar."]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Wir werden erst in Mulegé Benzin kaufen können."],
+                             :answer
+                             ["No vamos a poder comprar gasolina hasta Mulege."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Ich werde im Restaurant nicht viel Geld ausgeben können."],
+                             :answer
+                             ["No voy a poder gastar mucho dinero en el restaurante."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Wann muss ich zurückkommen? Sie müssen vor Mitternacht zurückkommen."],
+                             :answer
+                             ["¿Cuándo tengo que regresar? Tiene que regresar antes de media noche."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Meine Mutter wird im Winter in Mexiko Urlaub machen."],
+                             :answer
+                             ["Mi mamá va a vacacionar en México en invierno."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Sie wird uns mein Lieblingsgericht kochen."],
+                             :answer
+                             ["Ella va a cocinarnos mi plato favorito."]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Der Lehrer wird den Kurs im Mai beenden."],
+                             :answer
+                             ["El maestro va a terminar el curso en mayo."]}],
+                     :notes []}
+          #:exercise{:id "22C",
+                     :skill :recall,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en alemán para “bien” son"],
+                             :answer ["gut"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en alemán para “invierno” son"],
+                             :answer ["der Winter"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en alemán para “también” son"],
+                             :answer ["auch"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en alemán para “muy” son"],
+                             :answer ["sehr"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en alemán para “poder” son"],
+                             :answer ["können"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en alemán para “cantar” son"],
+                             :answer ["singen"]}],
+                     :notes []}
+          #:exercise{:id "22D",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints
+                     ["esposo = der Ehemann" "esposa = die Ehefrau"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt ["Quiero comer bien hoy."],
+                             :answer ["Ich will heute gut essen."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Lupita no va a poder visitarnos este invierno."],
+                             :answer
+                             ["Lupita wird uns diesen Winter nicht besuchen können."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Usted va a hablar español muy bien pronto."],
+                             :answer
+                             ["Sie werden bald sehr gut Spanisch sprechen."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["George no puede leer muy bien."],
+                             :answer
+                             ["George kann nicht sehr gut lesen."]}
+                      #:item{:n 5,
+                             :prompt ["Usted va a vivir bien allá."],
+                             :answer ["Sie werden dort gut leben."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Ella no va a poder empezar hasta el invierno."],
+                             :answer
+                             ["Sie wird erst im Winter beginnen können."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["No quiero ir con él, no puede manejar muy bien."],
+                             :answer
+                             ["Ich will nicht mit ihm gehen. Er kann nicht sehr gut fahren."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["María no va a poder cenar con nosotros esta noche, tiene que trabajar."],
+                             :answer
+                             ["María wird heute Abend nicht mit uns zu Abend essen können, sie muss arbeiten."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["¿Puede esperarme después de trabajar? Lo siento, no voy a poder esperarla hoy."],
+                             :answer
+                             ["Können Sie nach der Arbeit auf mich warten? Es tut mir leid, ich werde heute nicht auf Sie warten können."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Usted va a poder leer el español muy pronto."],
+                             :answer
+                             ["Sie werden sehr bald Spanisch lesen können."]}
+                      #:item{:n 11,
+                             :prompt ["Él no puede cantar muy bien."],
+                             :answer
+                             ["Er kann nicht sehr gut singen."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Luís también va a poder ayudarnos."],
+                             :answer
+                             ["Luís wird uns auch helfen können."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Teresa no va a poder regresar hasta el invierno."],
+                             :answer
+                             ["Teresa wird erst im Winter zurückkommen können."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["El doctor va a poder verlo mañana."],
+                             :answer
+                             ["Der Arzt wird Sie morgen sehen können."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["No voy a poder estudiar este fin de semana."],
+                             :answer
+                             ["Ich werde dieses Wochenende nicht lernen können."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Jenny no va a poder llamarme hasta la próxima semana."],
+                             :answer
+                             ["Jenny wird mich erst nächste Woche anrufen können."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["John va a poder aprender mucho español allá."],
+                             :answer
+                             ["John wird dort viel Spanisch lernen können."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Sara no quiere ir a la fiesta."],
+                             :answer
+                             ["Sara will nicht auf die Party gehen."]}
+                      #:item{:n 19,
+                             :prompt ["Juan quiere hablar con usted."],
+                             :answer ["Juan will mit Ihnen sprechen."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Mi esposa también quiere ir a Europa este año."],
+                             :answer
+                             ["Meine Frau will dieses Jahr auch nach Europa fahren."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Él va a estudiar español en Guatemala en el verano."],
+                             :answer
+                             ["Er wird im Sommer Spanisch in Guatemala studieren."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Mi mamá va a viajar a España y también a Argentina."],
+                             :answer
+                             ["Meine Mutter wird nach Spanien und auch nach Argentinien reisen."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Él va a estar en casa esta noche."],
+                             :answer
+                             ["Er wird heute Abend zu Hause sein."]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Él va a invitar a Ana a la fiesta."],
+                             :answer
+                             ["Er wird Ana zur Party einladen."]}
+                      #:item{:n 25,
+                             :prompt ["Jorge quiere ayudarnos."],
+                             :answer ["Jorge will uns helfen."]}
+                      #:item{:n 26,
+                             :prompt ["Ella va a llamarnos mañana."],
+                             :answer ["Sie wird uns morgen anrufen."]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Mi amigo va a pasar el invierno en nuestra casa."],
+                             :answer
+                             ["Mein Freund wird den Winter in unserem Haus verbringen."]}
+                      #:item{:n 28,
+                             :prompt
+                             ["Mi esposa quiere viajar a Paris."],
+                             :answer
+                             ["Meine Frau will nach Paris reisen."]}
+                      #:item{:n 29,
+                             :prompt
+                             ["Mi esposo también tiene que manejar mucho cada día."],
+                             :answer
+                             ["Mein Mann muss auch jeden Tag viel fahren."]}],
+                     :notes []}]}

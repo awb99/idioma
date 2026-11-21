@@ -1,8 +1,10 @@
 # Idioma
 
-Browser app for short language courses. Two courses ship today:
+Browser app for short language courses. Three courses ship today:
 
 - **Aprende inglés** — 25 Spanish-language lessons for learning English.
+- **Aprende alemán** — 25 Spanish-language lessons for learning German, using the
+  formal `Sie` throughout.
 - **Synergy Spanish** — the original 25 English-language Spanish lessons.
 
 ClojureScript syntax is compiled to JavaScript by Squint, the UI is rendered
@@ -37,7 +39,7 @@ bb serve
 ```
 
 Open <http://localhost:8080>. `bb serve` requires a completed build in `dist/`.
-It resolves `/`, `/learn-spanish/`, `/aprende-ingles/`, and the same paths
+It resolves `/`, `/learn-spanish/`, `/aprende-ingles/`, `/aprende-aleman/`, and the same paths
 without a trailing slash, and serves `dist/404.html` for unknown paths.
 
 Pushing to `main` builds `dist/` and deploys it to GitHub Pages via the
@@ -58,6 +60,9 @@ Each course lives in its own directory:
 
 ```text
 lesson/
+  aprende-aleman/
+    course.edn
+    1.edn ... 25.edn
   aprende-ingles/
     course.edn
     1.edn ... 25.edn
@@ -128,6 +133,9 @@ non-zero. Treat warnings as errors while authoring.
 The UI pack key set is enforced for every course. When adding a new chrome
 string, add it to every pack and to `ui-required-keys` in
 `script/lessons.clj`; the tests also check that the packs have the same key tree.
+Whenever a course introduces a new language code, add its display name to
+`:language-names` in every UI pack (for example `"de" "alemán"` and
+`"de" "German"`).
 
 ## Routes
 

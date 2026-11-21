@@ -1,0 +1,302 @@
+{:lesson/vocabulary
+ [{:vocab/id 127,
+   :vocab/kind :brick-verb,
+   :vocab/target "probieren",
+   :vocab/base "probar",
+   :vocab/pronunciation "pro-bí-ren",
+   :vocab/mnemonic nil}
+  {:vocab/id 128,
+   :vocab/kind :sentence-starter,
+   :vocab/target "wer",
+   :vocab/base "quien",
+   :vocab/pronunciation "ver",
+   :vocab/mnemonic nil}
+  {:vocab/id 129,
+   :vocab/kind :mortar,
+   :vocab/target "alles",
+   :vocab/base "todo",
+   :vocab/pronunciation "á-les",
+   :vocab/mnemonic nil}
+  {:vocab/id 130,
+   :vocab/kind :mortar,
+   :vocab/target "manchmal",
+   :vocab/base "a veces",
+   :vocab/pronunciation "mánch-mal",
+   :vocab/mnemonic nil}
+  {:vocab/id 131,
+   :vocab/kind :mortar,
+   :vocab/target "nur",
+   :vocab/base "solo",
+   :vocab/pronunciation "nur",
+   :vocab/mnemonic nil}
+  {:vocab/id 132,
+   :vocab/kind :mortar,
+   :vocab/target "übermorgen",
+   :vocab/base "pasado mañana",
+   :vocab/pronunciation "ú-ber-mor-guén",
+   :vocab/mnemonic nil}],
+ :lesson/title "Conectores y referencia en alemán",
+ :lesson/target-title "Konnektoren und Bezug",
+ :lesson/label "Lección 23",
+ :lesson/sections
+ [{:section/type :accuracy-pointer,
+   :section/id 18,
+   :section/title "Todos los días / el día entero",
+   :section/body
+   ["«todos los días» = jeden Tag; «el día entero» = den ganzen Tag."
+    "«cada» + sustantivo singular: jede Woche, jeden Monat."
+    "«todo» + sustantivo plural o incontable: alle meine Freunde, die ganze Zeit."
+    "En alemán «jeden Tag» se escribe separado."]}
+  {:section/type :communication-multiplied,
+   :section/id 20,
+   :section/title "¿Le gustaría a él...?",
+   :section/body
+   ["«¿Le gustaría un café?» = Möchte er einen Kaffee?"
+    "«möchten» cambia con la persona: er möchte, sie möchte, Sie möchten."
+    "Para preguntar, el verbo modal va delante: Möchte er ...?"
+    "Para negar: Er möchte keinen Kaffee. / Er möchte nicht ..."]}],
+ :lesson/number 23,
+ :lesson/intro [],
+ :lesson/step {:step/number 5, :step/title "Hablar de otras personas"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "23A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “übermorgen” son"],
+     :item/answer ["pasado mañana"]}
+    {:item/n 2, :item/prompt ["Las palabras en español para “nur” son"], :item/answer ["solo"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “manchmal” son"],
+     :item/answer ["a veces"]}
+    {:item/n 4, :item/prompt ["Las palabras en español para “alles” son"], :item/answer ["todo"]}
+    {:item/n 5, :item/prompt ["Las palabras en español para “wer” son"], :item/answer ["quien"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “probieren” son"],
+     :item/answer ["probar"]}],
+   :exercise/notes []}
+  {:exercise/id "23B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["freitags = Los viernes" "Weine = vinos" "Getränke = bebidas"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Manchmal können wir freitags früher Schluss machen."],
+     :item/answer ["A veces podemos terminar temprano los viernes."]}
+    {:item/n 2,
+     :item/prompt ["Geht sie am Wochenende gern in die Discos?"],
+     :item/answer ["¿A ella le gusta ir a las discotecas los fines de semana?"]}
+    {:item/n 3,
+     :item/prompt ["David muss viel mehr lesen, um sein Spanisch voranzubringen."],
+     :item/answer ["David necesita leer mucho más para avanzar su español."]}
+    {:item/n 4,
+     :item/prompt ["Sie möchte das Auto gern ausprobieren."],
+     :item/answer ["A ella le gustaría probar el coche."]}
+    {:item/n 5,
+     :item/prompt ["Gefällt David der Spanischunterricht? Ja, er gefällt ihm sehr gut."],
+     :item/answer ["¿A David le gusta la clase de español? Si, le gusta mucho."]}
+    {:item/n 6,
+     :item/prompt ["Sie müssen das Video übermorgen zurückbringen."],
+     :item/answer ["Usted tiene que regresar el video pasado mañana."]}
+    {:item/n 7,
+     :item/prompt ["Wer möchte heute anfangen?"],
+     :item/answer ["¿Quién quiere empezar hoy?"]}
+    {:item/n 8,
+     :item/prompt ["Er isst nur gern amerikanisches Essen."],
+     :item/answer ["A él solo le gusta comer comida norteamericana."]}
+    {:item/n 9,
+     :item/prompt ["Sie wird das ganze Essen für die Party kochen."],
+     :item/answer ["Ella va a cocinar toda la comida para la fiesta."]}
+    {:item/n 10,
+     :item/prompt ["Dieses Wochenende will ich nur fernsehen."],
+     :item/answer ["Este fin de semana solo quiero ver televisión."]}
+    {:item/n 11,
+     :item/prompt ["Ich will durch ganz Mexiko reisen."],
+     :item/answer ["Quiero viajar por todo México."]}
+    {:item/n 12,
+     :item/prompt ["Wer möchte den Mariachis zuhören, wie sie La Bamba singen?"],
+     :item/answer ["¿Quién quiere escuchar a los mariachis cantar La Bamba?"]}
+    {:item/n 13,
+     :item/prompt ["Sie müssen nur die Kosten für Essen und Getränke bezahlen."],
+     :item/answer ["Usted solo necesita pagar el costo de la comida y las bebidas."]}
+    {:item/n 14,
+     :item/prompt ["Er muss für die Prüfung übermorgen Spanisch lernen."],
+     :item/answer ["Él tiene que estudiar español para el examen de pasado mañana."]}
+    {:item/n 15,
+     :item/prompt ["Er probiert gern die Weine."],
+     :item/answer ["A él le gusta probar los vinos."]}
+    {:item/n 16,
+     :item/prompt ["Meine Tochter mag nur Hip-Hop-Musik."],
+     :item/answer ["A mi hija solo le gusta la música de hip hop."]}
+    {:item/n 17,
+     :item/prompt ["Manchmal muss er am Wochenende arbeiten."],
+     :item/answer ["A veces él tiene que trabajar los fines de semana."]}
+    {:item/n 18,
+     :item/prompt ["Ich kann nicht mit nur 100 Dollar pro Woche leben."],
+     :item/answer ["No puedo vivir con solo 100 dólares por semana."]}
+    {:item/n 19,
+     :item/prompt ["Sie tanzt gern die ganze Nacht."],
+     :item/answer ["A ella le gusta bailar toda la noche."]}
+    {:item/n 20,
+     :item/prompt ["Er verbringt gern das ganze Wochenende vor dem Fernseher."],
+     :item/answer ["A él le gusta pasar todo el fin de semana en frente de la televisión."]}
+    {:item/n 21,
+     :item/prompt ["Wer möchte gern am Strand spazieren gehen?"],
+     :item/answer ["¿A quién le gustaría caminar en la playa?"]}
+    {:item/n 22,
+     :item/prompt
+     ["Was werden Sie übermorgen machen? Ich werde mir einen Stierkampf ansehen."],
+     :item/answer ["¿Qué va a hacer pasado mañana? Voy a ver una corrida de toros."]}
+    {:item/n 23,
+     :item/prompt ["Mein Freund macht jedes Jahr gern Urlaub in Mexiko."],
+     :item/answer ["A mi amigo le gusta vacacionar en México cada año."]}
+    {:item/n 24,
+     :item/prompt ["Mein Mann liest nach der Arbeit immer gern die Zeitung."],
+     :item/answer ["A mi esposo siempre le gusta leer el periódico después de trabajar."]}
+    {:item/n 25,
+     :item/prompt ["Manchmal probiere ich gern anderes Essen."],
+     :item/answer ["A veces me gusta probar comida diferente."]}
+    {:item/n 26,
+     :item/prompt ["Er geht immer gern früh los, um den Verkehr zu vermeiden."],
+     :item/answer ["A él siempre le gusta salir temprano para evitar el tráfico."]}
+    {:item/n 27,
+     :item/prompt ["Ich muss das Projekt übermorgen fertigstellen."],
+     :item/answer ["Tengo que terminar el proyecto pasado mañana."]}
+    {:item/n 28,
+     :item/prompt ["Sie mag Winnie Puuh."],
+     :item/answer ["A ella le gusta Winnie Pooh."]}],
+   :exercise/notes []}
+  {:exercise/id "23C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en alemán para “pasado mañana” son"],
+     :item/answer ["übermorgen"]}
+    {:item/n 2, :item/prompt ["Las palabras en alemán para “solo” son"], :item/answer ["nur"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en alemán para “a veces” son"],
+     :item/answer ["manchmal"]}
+    {:item/n 4, :item/prompt ["Las palabras en alemán para “todo” son"], :item/answer ["alles"]}
+    {:item/n 5, :item/prompt ["Las palabras en alemán para “quien” son"], :item/answer ["wer"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en alemán para “probar” son"],
+     :item/answer ["probieren"]}],
+   :exercise/notes []}
+  {:exercise/id "23D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al alemán.",
+   :exercise/hints
+   ["café = der Kaffee" "fútbol = der Fußball" "dinero = das Geld" "su (usted) = Ihr"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["A veces a él le gusta tomar."],
+     :item/answer ["Manchmal trinkt er gern."]}
+    {:item/n 2,
+     :item/prompt ["¿Quiere probar un taco?"],
+     :item/answer ["Möchten Sie einen Taco probieren?"]}
+    {:item/n 3,
+     :item/prompt ["¿A usted le gustaría probar un tequila?"],
+     :item/answer ["Würden Sie gern einen Tequila probieren?"]}
+    {:item/n 4,
+     :item/prompt ["¿Quiere comer algo? No, solo quiero un café."],
+     :item/answer ["Möchten Sie etwas essen? Nein, ich möchte nur einen Kaffee."]}
+    {:item/n 5,
+     :item/prompt ["Él va a trabajar todo el día."],
+     :item/answer ["Er wird den ganzen Tag arbeiten."]}
+    {:item/n 6,
+     :item/prompt ["Ella tiene que hablar español todos los días."],
+     :item/answer ["Sie muss jeden Tag Spanisch sprechen."]}
+    {:item/n 7,
+     :item/prompt ["¿Quién va a poder trabajar pasado mañana?"],
+     :item/answer ["Wer wird übermorgen arbeiten können?"]}
+    {:item/n 8,
+     :item/prompt ["Usted necesita estudiar todos los días."],
+     :item/answer ["Sie müssen jeden Tag lernen."]}
+    {:item/n 9,
+     :item/prompt ["Él no puede leer."],
+     :item/answer ["Er kann nicht lesen."]}
+    {:item/n 10,
+     :item/prompt ["A ella le gustaría vivir en España."],
+     :item/answer ["Sie würde gern in Spanien leben."]}
+    {:item/n 11,
+     :item/prompt ["Usted tiene que caminar todos los días."],
+     :item/answer ["Sie müssen jeden Tag zu Fuß gehen."]}
+    {:item/n 12,
+     :item/prompt ["¿A él le gusta el fútbol? Si, le encanta el fútbol."],
+     :item/answer ["Mag er Fußball? Ja, er liebt Fußball."]}
+    {:item/n 13,
+     :item/prompt ["¿A su mamá le gusta caminar?"],
+     :item/answer ["Geht Ihre Mutter gern spazieren?"]}
+    {:item/n 14,
+     :item/prompt ["Tiene que llamarme todos los días."],
+     :item/answer ["Sie müssen mich jeden Tag anrufen."]}
+    {:item/n 15,
+     :item/prompt ["Él tiene que regresar todo el dinero."],
+     :item/answer ["Er muss das ganze Geld zurückgeben."]}
+    {:item/n 16,
+     :item/prompt ["¿A él le gusta leer? No, no le gusta leer mucho."],
+     :item/answer ["Liest er gern? Nein, er liest nicht sehr gern."]}
+    {:item/n 17,
+     :item/prompt ["¿Quién va a hablar con él?"],
+     :item/answer ["Wer wird mit ihm sprechen?"]}
+    {:item/n 18,
+     :item/prompt ["¿Quién quiere ir conmigo?"],
+     :item/answer ["Wer möchte mit mir gehen?"]}
+    {:item/n 19,
+     :item/prompt ["Ella solo quiere veinte pesos."],
+     :item/answer ["Sie will nur zwanzig Pesos."]}
+    {:item/n 20,
+     :item/prompt ["A él le gustaría ir a un restaurante esta noche."],
+     :item/answer ["Er würde heute Abend gern in ein Restaurant gehen."]}
+    {:item/n 21,
+     :item/prompt ["¿Quién va a ayudarme?"],
+     :item/answer ["Wer wird mir helfen?"]}
+    {:item/n 22,
+     :item/prompt ["Él no necesita ir hasta pasado mañana."],
+     :item/answer ["Er muss erst übermorgen gehen."]}
+    {:item/n 23,
+     :item/prompt ["A veces él necesita descansar."],
+     :item/answer ["Manchmal muss er sich ausruhen."]}
+    {:item/n 24,
+     :item/prompt
+     ["¿Cuándo ella necesita regresar a su casa? Necesita regresar pasado mañana."],
+     :item/answer
+     ["Wann muss sie nach Hause zurückkehren? Sie muss übermorgen zurückkehren."]}
+    {:item/n 25,
+     :item/prompt ["¿Quién puede trabajar este fin de semana?"],
+     :item/answer ["Wer kann dieses Wochenende arbeiten?"]}
+    {:item/n 26,
+     :item/prompt ["¿Cuándo usted quiere viajar? Quiero viajar pasado mañana en la tarde."],
+     :item/answer
+     ["Wann möchten Sie reisen? Ich möchte übermorgen am Nachmittag reisen."]}
+    {:item/n 27,
+     :item/prompt ["A ella le gusta cantar."],
+     :item/answer ["Sie singt gern."]}
+    {:item/n 28,
+     :item/prompt ["Hoy voy a trabajar, pero puedo descansar pasado mañana."],
+     :item/answer ["Heute werde ich arbeiten, aber übermorgen kann ich mich ausruhen."]}
+    {:item/n 29,
+     :item/prompt ["¿Por qué a ella no le gusta viajar?"],
+     :item/answer ["Warum reist sie nicht gern?"]}
+    {:item/n 30,
+     :item/prompt ["A él le gusta practicar el español con ella."],
+     :item/answer ["Er übt gern Spanisch mit ihr."]}
+    {:item/n 31,
+     :item/prompt ["Él puede practicar el español en Guatemala."],
+     :item/answer ["Er kann in Guatemala Spanisch üben."]}],
+   :exercise/notes []}]}

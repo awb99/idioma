@@ -1,0 +1,304 @@
+{:lesson/vocabulary
+ [{:vocab/id 103,
+   :vocab/kind :synergy-verb,
+   :vocab/target "Sie wollen",
+   :vocab/base "quieren",
+   :vocab/pronunciation "zi vó-len",
+   :vocab/mnemonic nil}
+  {:vocab/id 104,
+   :vocab/kind :synergy-verb,
+   :vocab/target "Sie brauchen",
+   :vocab/base "necesitan",
+   :vocab/pronunciation "zi bráu-jen",
+   :vocab/mnemonic nil}
+  {:vocab/id 105,
+   :vocab/kind :synergy-verb,
+   :vocab/target "Sie können",
+   :vocab/base "pueden",
+   :vocab/pronunciation "zi kö-nen",
+   :vocab/mnemonic nil}
+  {:vocab/id 106,
+   :vocab/kind :mortar,
+   :vocab/target "mit uns",
+   :vocab/base "con nosotros",
+   :vocab/pronunciation "mit uns",
+   :vocab/mnemonic nil}
+  {:vocab/id 107,
+   :vocab/kind :mortar,
+   :vocab/target "der Sommer",
+   :vocab/base "verano",
+   :vocab/pronunciation "der zó-mer",
+   :vocab/mnemonic nil}
+  {:vocab/id 108,
+   :vocab/kind :mortar,
+   :vocab/target "mit Ihnen",
+   :vocab/base "con ustedes",
+   :vocab/pronunciation "mit í-nen",
+   :vocab/mnemonic nil}],
+ :lesson/title "Ellos y ustedes: Sie y sie",
+ :lesson/target-title "Sie und sie",
+ :lesson/label "Lección 18",
+ :lesson/sections
+ [{:section/type :communication-multiplied,
+   :section/id 16,
+   :section/title "Sie: usted y ustedes",
+   :section/body
+   ["En alemán, Sie (con mayúscula) sirve para una persona a la que tratas de usted y también para varias: Sie wollen = usted quiere / ustedes quieren."
+    "sie (en minúscula) significa «ella» o «ellos/ellas»: sie wollen = ella quiere o ellos quieren."
+    "El verbo en plural es el mismo para Sie y sie; el contexto y la mayúscula los distinguen."
+    "El plural informal es ihr: ihr wollt, ihr braucht, ihr könnt. No mezcles ihr con Sie."]}],
+ :lesson/number 18,
+ :lesson/intro [],
+ :lesson/step {:step/number 4, :step/title "Ellos también hablan, ¿no?"},
+ :lesson/closing [],
+ :lesson/exercises
+ [{:exercise/id "18A",
+   :exercise/skill :recall,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en español para “Sie wollen” son"],
+     :item/answer ["quieren"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en español para “Sie brauchen” son"],
+     :item/answer ["necesitan"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en español para “Sie können” son"],
+     :item/answer ["pueden"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en español para “mit uns” son"],
+     :item/answer ["con nosotros"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en español para “der Sommer” son"],
+     :item/answer ["verano"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en español para “mit Ihnen” son"],
+     :item/answer ["con ustedes"]}
+    {:item/n 7,
+     :item/prompt ["Las palabras en español para “warten auf” son"],
+     :item/answer ["esperar"]}
+    {:item/n 8,
+     :item/prompt ["Las palabras en español para “suchen” son"],
+     :item/answer ["buscar"]}
+    {:item/n 9,
+     :item/prompt ["Las palabras en español para “vergessen” son"],
+     :item/answer ["olvidar"]}
+    {:item/n 10,
+     :item/prompt ["Las palabras en español para “küssen” son"],
+     :item/answer ["besar"]}
+    {:item/n 11,
+     :item/prompt ["Las palabras en español para “kennenlernen” son"],
+     :item/answer ["conocer"]}
+    {:item/n 12,
+     :item/prompt ["Las palabras en español para “zuhören” son"],
+     :item/answer ["escuchar"]}],
+   :exercise/notes []}
+  {:exercise/id "18B",
+   :exercise/skill :translate,
+   :exercise/direction :to-base,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al español.",
+   :exercise/hints ["Strand = playa" "Lehrer = maestros"],
+   :exercise/items
+   [{:item/n 1, :item/prompt ["Können Sie ihn hören?*"], :item/answer ["¿Pueden escucharlo?"]}
+    {:item/n 2,
+     :item/prompt ["Mit dieser Methode können Sie die Verben nicht vergessen."],
+     :item/answer ["Con este método no pueden olvidar los verbos."]}
+    {:item/n 3,
+     :item/prompt ["Wollen Sie unser Haus sehen?"],
+     :item/answer ["¿Quieren ver nuestra casa?"]}
+    {:item/n 4,
+     :item/prompt ["Sie müssen die CDs jeden Tag hören."],
+     :item/answer ["Necesitan escuchar los CDs cada día."]}
+    {:item/n 5,
+     :item/prompt ["Wollen Sie jetzt ein Hotel finden?"],
+     :item/answer ["¿Quieren encontrar un hotel ahora?"]}
+    {:item/n 6,
+     :item/prompt ["Wollen Sie dieses Wochenende zu einer Party in unserem Haus kommen?"],
+     :item/answer ["¿Quieren ir a una fiesta en nuestra casa este fin de semana?"]}
+    {:item/n 7,
+     :item/prompt ["Können Sie mir bitte zuhören?"],
+     :item/answer ["¿Pueden escucharme por favor?"]}
+    {:item/n 8,
+     :item/prompt ["Es ist wichtig, Sie müssen ihm zuhören."],
+     :item/answer ["Es importante, necesitan escucharlo."]}
+    {:item/n 9,
+     :item/prompt ["Wollen Sie mit uns kommen, um unsere mexikanischen Freunde kennenzulernen?"],
+     :item/answer ["¿Quieren ir con nosotros para conocer nuestros amigos mexicanos?"]}
+    {:item/n 10,
+     :item/prompt
+     ["Wir müssen ein Auto mieten. Was für ein Auto wollen Sie? Wir wollen ein großes Auto."],
+     :item/answer
+     ["Necesitamos rentar un coche. ¿Qué tipo de coche quieren? Queremos un coche grande."]}
+    {:item/n 11,
+     :item/prompt
+     ["Welche Dokumente brauchen wir, um nach Mexiko zu reisen? Sie brauchen ein Visum und einen Reisepass."],
+     :item/answer
+     ["¿Qué documentación necesitamos para viajar en México? Necesitan visa y pasaporte."]}
+    {:item/n 12,
+     :item/prompt
+     ["Sie müssen den Professor zu Ihrer Party einladen. Aber wir wollen nicht. Warum wollen Sie ihn nicht einladen? Weil wir den Professor nicht mögen."],
+     :item/answer
+     ["Necesitan invitar al profesor a su fiesta. Pero no queremos. ¿Por qué no quieren invitarlo? Porque no nos gusta el profesor."]}
+    {:item/n 13,
+     :item/prompt
+     ["Wo wollen Sie diesen Sommer mieten? Wir wollen ein Haus an der Riviera Maya mieten."],
+     :item/answer
+     ["¿Dónde quieren rentar este verano? Queremos rentar una casa en la Riviera Maya."]}
+    {:item/n 14,
+     :item/prompt ["Was wollen Sie im Sommer machen? Wir wollen uns am Strand ausruhen."],
+     :item/answer ["¿Qué quieren hacer en verano? Queremos descansar en la playa."]}
+    {:item/n 15,
+     :item/prompt
+     ["Wollen Sie in ein typisches Restaurant gehen? Ja, wir wollen die traditionelle Küche kennenlernen."],
+     :item/answer
+     ["¿Quieren ir a un restaurante típico? Sí, nos gusta conocer la comida tradicional."]}
+    {:item/n 16,
+     :item/prompt
+     ["Wollen Sie im Sommer in Mexiko arbeiten? Ja, wir wollen als Englischlehrer arbeiten."],
+     :item/answer
+     ["¿Quieren trabajar en México en verano? Sí, queremos trabajar como maestros de inglés."]}
+    {:item/n 17,
+     :item/prompt ["Können Sie Spanisch mit uns üben? Ja, wir wollen mit Ihnen üben."],
+     :item/answer ["Pueden practicar español con nosotros. Sí, queremos practicar con ustedes."]}
+    {:item/n 18,
+     :item/prompt ["Sie müssen mehr Spanisch lernen, um mit uns zu sprechen."],
+     :item/answer ["Necesitan aprender más español para hablar con nosotros."]}
+    {:item/n 19,
+     :item/prompt
+     ["Wollen Sie im Sommer mit uns nach Mexiko fahren? Ja, wir wollen, aber wir können nicht, wir haben andere Pläne."],
+     :item/answer
+     ["¿Quieren ir a México con nosotros en verano? Sí, queremos, pero no podemos,tenemos otros planes."]}
+    {:item/n 20,
+     :item/prompt
+     ["Wann müssen wir im Restaurant sein? Sie müssen um 20:00 Uhr dort sein. * Das spanische Verb für „hören“ ist oír; im Spanischen wird aber oft escuchar verwendet, wo im Deutschen „hören“ steht."],
+     :item/answer
+     ["¿Cuándo necesitamos estar en el restaurante? Necesitan estar allá a las 8:00 p.m."]}],
+   :exercise/notes []}
+  {:exercise/id "18C",
+   :exercise/skill :recall,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions
+   "Escribe en alemán las palabras que corresponden a cada expresión en español.",
+   :exercise/hints [],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Las palabras en alemán para “quieren” son"],
+     :item/answer ["Sie wollen"]}
+    {:item/n 2,
+     :item/prompt ["Las palabras en alemán para “necesitan” son"],
+     :item/answer ["Sie brauchen"]}
+    {:item/n 3,
+     :item/prompt ["Las palabras en alemán para “pueden” son"],
+     :item/answer ["Sie können"]}
+    {:item/n 4,
+     :item/prompt ["Las palabras en alemán para “con nosotros” son"],
+     :item/answer ["mit uns"]}
+    {:item/n 5,
+     :item/prompt ["Las palabras en alemán para “verano” son"],
+     :item/answer ["der Sommer"]}
+    {:item/n 6,
+     :item/prompt ["Las palabras en alemán para “con ustedes” son"],
+     :item/answer ["mit Ihnen"]}
+    {:item/n 7,
+     :item/prompt ["Las palabras en alemán para “esperar” son"],
+     :item/answer ["warten auf"]}
+    {:item/n 8, :item/prompt ["Las palabras en alemán para “buscar” son"], :item/answer ["suchen"]}
+    {:item/n 9,
+     :item/prompt ["Las palabras en alemán para “olvidar” son"],
+     :item/answer ["vergessen"]}
+    {:item/n 10, :item/prompt ["Las palabras en alemán para “besar” son"], :item/answer ["küssen"]}
+    {:item/n 11,
+     :item/prompt ["Las palabras en alemán para “conocer” son"],
+     :item/answer ["kennenlernen"]}
+    {:item/n 12,
+     :item/prompt ["Las palabras en alemán para “escuchar” son"],
+     :item/answer ["zuhören"]}],
+   :exercise/notes []}
+  {:exercise/id "18D",
+   :exercise/skill :translate,
+   :exercise/direction :to-target,
+   :exercise/dialog? false,
+   :exercise/instructions "Traduce estas frases al alemán.",
+   :exercise/hints ["salir = weggehen (salir de un lugar = verlassen)"],
+   :exercise/items
+   [{:item/n 1,
+     :item/prompt ["Pueden ir con nosotros."],
+     :item/answer ["Sie können mit uns gehen."]}
+    {:item/n 2,
+     :item/prompt ["¿Quieren aprender español?"],
+     :item/answer ["Wollen Sie Spanisch lernen?"]}
+    {:item/n 3,
+     :item/prompt ["¿Quieren regresar a la casa por un rato?"],
+     :item/answer ["Wollen Sie für eine Weile zurück zum Haus gehen?"]}
+    {:item/n 4,
+     :item/prompt ["Necesitan hablar con él cuanto antes."],
+     :item/answer ["Sie müssen so bald wie möglich mit ihm sprechen."]}
+    {:item/n 5,
+     :item/prompt ["Pueden pasar la noche en nuestra casa."],
+     :item/answer ["Sie können die Nacht in unserem Haus verbringen."]}
+    {:item/n 6,
+     :item/prompt ["Queremos estudiar con ustedes."],
+     :item/answer ["Wir wollen mit Ihnen lernen."]}
+    {:item/n 7,
+     :item/prompt ["Necesitan esperarlos."],
+     :item/answer ["Sie müssen auf sie warten."]}
+    {:item/n 8, :item/prompt ["¿Quieren invitarlo?"], :item/answer ["Wollen Sie ihn einladen?"]}
+    {:item/n 9,
+     :item/prompt ["¿Por qué no pueden invitarme?"],
+     :item/answer ["Warum können Sie mich nicht einladen?"]}
+    {:item/n 10,
+     :item/prompt ["¿Quieren regresar con nosotros?"],
+     :item/answer ["Wollen Sie mit uns zurückgehen?"]}
+    {:item/n 11,
+     :item/prompt ["Mañana necesitamos manejar hasta La Paz. Necesitan manejar mucho."],
+     :item/answer ["Morgen müssen wir bis La Paz fahren. Sie müssen viel fahren."]}
+    {:item/n 12,
+     :item/prompt ["¿Quieren descansar esta noche? No, nos gustaría salir."],
+     :item/answer ["Wollen Sie sich heute Abend ausruhen? Nein, wir würden gerne weggehen."]}
+    {:item/n 13,
+     :item/prompt ["¿Qué quieren hacer? Queremos descansar un rato."],
+     :item/answer ["Was wollen Sie machen? Wir wollen uns eine Weile ausruhen."]}
+    {:item/n 14,
+     :item/prompt ["¿Cuándo necesitan ir? Necesitamos ir antes del verano."],
+     :item/answer ["Wann müssen Sie fahren? Wir müssen vor dem Sommer fahren."]}
+    {:item/n 15,
+     :item/prompt ["¿Necesitan un taxi? No, nos gustaría caminar, gracias."],
+     :item/answer ["Brauchen Sie ein Taxi? Nein, wir würden gerne zu Fuß gehen, danke."]}
+    {:item/n 16,
+     :item/prompt ["Necesitan visitarnos otra vez."],
+     :item/answer ["Sie müssen uns wieder besuchen."]}
+    {:item/n 17,
+     :item/prompt
+     ["¿Dónde quieren pasar el verano? Queremos pasar el verano en España con nuestra familia."],
+     :item/answer
+     ["Wo wollen Sie den Sommer verbringen? Wir wollen den Sommer mit unserer Familie in Spanien verbringen."]}
+    {:item/n 18,
+     :item/prompt ["¿Por qué quieren aprender español? Para hablar con ustedes."],
+     :item/answer ["Warum wollen Sie Spanisch lernen? Um mit Ihnen zu sprechen."]}
+    {:item/n 19,
+     :item/prompt ["¿Pueden regresar a México en verano? Sí, podemos regresar en verano."],
+     :item/answer
+     ["Können Sie im Sommer nach Mexiko zurückkommen? Ja, wir können im Sommer zurückkommen."]}
+    {:item/n 20,
+     :item/prompt ["¿Quieren terminar pronto? Sí, cuanto antes."],
+     :item/answer ["Wollen Sie bald fertig werden? Ja, so bald wie möglich."]}
+    {:item/n 21,
+     :item/prompt ["¿Dónde podemos esperarla? Pueden esperarla en la casa."],
+     :item/answer ["Wo können wir auf sie warten? Sie können im Haus auf sie warten."]}
+    {:item/n 22,
+     :item/prompt ["¿Quieren estudiar con nosotros? Sí, nos gustaría estudiar con ustedes."],
+     :item/answer ["Wollen Sie mit uns lernen? Ja, wir würden gerne mit Ihnen lernen."]}
+    {:item/n 23,
+     :item/prompt ["¿Quieren cenar con nosotros? Sí, nos encantaría cenar con ustedes."],
+     :item/answer
+     ["Wollen Sie mit uns zu Abend essen? Ja, wir würden gerne mit Ihnen zu Abend essen."]}
+    {:item/n 24,
+     :item/prompt ["¿Pueden hablar más español con nosotros?"],
+     :item/answer ["Können Sie mehr Spanisch mit uns sprechen?"]}],
+   :exercise/notes []}]}

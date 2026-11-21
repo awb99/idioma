@@ -1,0 +1,417 @@
+#:lesson{:vocabulary
+         [#:vocab{:id 31,
+                  :kind :mortar,
+                  :target "heute",
+                  :base "hoy",
+                  :pronunciation "hóite",
+                  :mnemonic nil}
+          #:vocab{:id 32,
+                  :kind :mortar,
+                  :target "das Wochenende",
+                  :base "fin de semana",
+                  :pronunciation "das vójenende",
+                  :mnemonic nil}
+          #:vocab{:id 33,
+                  :kind :mortar,
+                  :target "der Monat",
+                  :base "mes",
+                  :pronunciation "der mónat",
+                  :mnemonic nil}
+          #:vocab{:id 34,
+                  :kind :mortar,
+                  :target "das Jahr",
+                  :base "año",
+                  :pronunciation "das yar",
+                  :mnemonic nil}
+          #:vocab{:id 35,
+                  :kind :mortar,
+                  :target "die Nacht",
+                  :base "noche",
+                  :pronunciation "di najt",
+                  :mnemonic nil}
+          #:vocab{:id 36,
+                  :kind :mortar,
+                  :target "viel",
+                  :base "mucho",
+                  :pronunciation "fil",
+                  :mnemonic nil}],
+         :title "Esta semana y la próxima en alemán",
+         :target-title "Diese Woche und nächste Woche",
+         :label "Lección 6",
+         :sections
+         [#:section{:type :communication-multiplied,
+                    :id 7,
+                    :title "Esta, próxima y el tiempo",
+                    :body
+                    ["Para hablar de tiempo en alemán usas diese Woche, nächste Woche, heute y morgen."
+                     "Los sustantivos llevan artículo y género: die Woche, der Monat, das Jahr, das Wochenende, die Nacht."
+                     "El verbo conjugado va en segunda posición: Ich werde diese Woche viel lernen."
+                     "Ojo: morgen significa mañana (el día siguiente); mañana por la mañana se dice morgen früh."]}],
+         :number 6,
+         :intro [],
+         :step
+         #:step{:number 1, :title "Primeros pasos para hablar alemán"},
+         :closing [],
+         :exercises
+         [#:exercise{:id "6A",
+                     :skill :recall,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions
+                     "Escribe en español las palabras que corresponden a cada expresión en alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Las palabras en español para “viel” son"],
+                             :answer ["mucho"]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Las palabras en español para “die Nacht” son"],
+                             :answer ["noche"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Las palabras en español para “das Jahr” son"],
+                             :answer ["año"]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Las palabras en español para “der Monat” son"],
+                             :answer ["mes"]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Las palabras en español para “das Wochenende” son"],
+                             :answer ["fin de semana"]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Las palabras en español para “heute” son"],
+                             :answer ["hoy"]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Las palabras en español para “arbeiten” son"],
+                             :answer ["trabajar"]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Las palabras en español para “sein” son"],
+                             :answer ["estar"]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Las palabras en español para “zurückkehren” son"],
+                             :answer ["regresar"]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Las palabras en español para “studieren” son"],
+                             :answer ["estudiar"]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Las palabras en español para “ich muss” son"],
+                             :answer ["tengo que"]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Las palabras en español para “ich kann” son"],
+                             :answer ["puedo"]}],
+                     :notes []}
+          #:exercise{:id "6B",
+                     :skill :translate,
+                     :direction :to-base,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al español.",
+                     :hints
+                     ["von/aus = de"
+                      "die Schule = la escuela"
+                      "morgen Abend = mañana en la noche"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt
+                             ["Ich werde Barbara heute besuchen."],
+                             :answer ["Voy a visitar a Bárbara hoy."]}
+                      #:item{:n 2,
+                             :prompt
+                             ["Ich muss viel für die Prüfung lernen."],
+                             :answer
+                             ["Tengo que estudiar mucho para el examen."]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Ich möchte morgen Abend wieder in diesem Restaurant essen."],
+                             :answer
+                             ["Me gustaría comer en este restaurante otra vez mañana en la noche."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Ich kann ihm beim spanischen Vokabular sehr helfen."],
+                             :answer
+                             ["Puedo ayudarlo mucho con el vocabulario en español."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Ich werde in meinem Urlaub viel Spanisch sprechen."],
+                             :answer
+                             ["Voy a hablar mucho español en mis vacaciones."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["Ich muss heute meine Frau anrufen."],
+                             :answer
+                             ["Tengo que llamar a mi esposa hoy."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["Am Wochenende möchte ich mit meinen Freunden in eine Bar gehen."],
+                             :answer
+                             ["El fin de semana me gustaría ir a un bar con mis amigos."]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Ich muss diesen Monat nicht arbeiten, ich werde im Urlaub sein."],
+                             :answer
+                             ["No tengo que trabajar este mes,voy a estar de vacaciones."]}
+                      #:item{:n 9,
+                             :prompt
+                             ["Ich muss das Video morgen Abend zurückbringen."],
+                             :answer
+                             ["Tengo que regresar el video mañana en la noche."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Ich möchte heute etwas anderes essen."],
+                             :answer
+                             ["Me gustaría comer algo diferente hoy."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Ich werde dieses Wochenende viele Freunde zur Party einladen."],
+                             :answer
+                             ["Voy a invitar a muchos amigos a la fiesta este fin de semana."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Ich werde dieses Wochenende auf die Insel fahren."],
+                             :answer
+                             ["Voy a ir a la isla este fin de semana."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Ich werde drei Monate lang an einer Schule Spanisch lernen."],
+                             :answer
+                             ["Voy a estudiar español en una escuela por tres meses."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Morgen Abend möchte ich mit meinen Freunden im Restaurant essen."],
+                             :answer
+                             ["Mañana en la noche, me gustaría comer en el restaurante con mis amigos."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Ich muss heute zum Arzt gehen."],
+                             :answer ["Tengo que ir al doctor hoy."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Ich werde zwei Jahre in Honduras sein."],
+                             :answer
+                             ["Voy a estar en Honduras por dos años."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Ich will dieses Jahr ein Haus in Puerto Vallarta mieten."],
+                             :answer
+                             ["Quiero rentar una casa en Puerto Vallarta este año."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Ich werde nächstes Wochenende die Rolling Stones sehen."],
+                             :answer
+                             ["Voy a ver los Rolling Stones el próximo fin de semana."]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Dieses Wochenende und nächstes Wochenende muss ich viel lernen."],
+                             :answer
+                             ["Este fin de semana y el próximo necesito estudiar mucho."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Ich brauche ein Hotel für einen Monat."],
+                             :answer ["Necesito un hotel por un mes."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["Nächsten Monat werde ich mit einer Gruppe von Freunden aus meiner Schule nach Cabo San Lucas fahren."],
+                             :answer
+                             ["El próximo mes, voy a ir a Cabo San Lucas con un grupo de amigos de mi escuela."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Ich muss in der Spanischschule viel mehr lernen."],
+                             :answer
+                             ["Necesito estudiar mucho más en la escuela de español."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Ich werde viel lernen, um mit Ihnen Spanisch zu sprechen."],
+                             :answer
+                             ["Voy a estudiar mucho para hablar con usted en español."]}
+                      #:item{:n 24,
+                             :prompt
+                             ["Heute möchte ich ins Kino gehen."],
+                             :answer ["Hoy me gustaría ir al cine."]}
+                      #:item{:n 25,
+                             :prompt
+                             ["Ich will dieses Jahr in einem Hotel in Cancún arbeiten."],
+                             :answer
+                             ["Quiero trabajar en un hotel en Cancún este año."]}
+                      #:item{:n 26,
+                             :prompt
+                             ["Ich kann erst nächsten Monat nach Madrid zurückkehren."],
+                             :answer
+                             ["No puedo regresar a Madrid hasta el próximo mes."]}
+                      #:item{:n 27,
+                             :prompt
+                             ["Ich möchte heute traditionelles Essen essen."],
+                             :answer
+                             ["Me gustaría comer comida tradicional hoy."]}],
+                     :notes []}
+          #:exercise{:id "6C",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints [],
+                     :items
+                     [#:item{:n 1, :prompt ["mucho"], :answer ["viel"]}
+                      #:item{:n 2,
+                             :prompt ["noche"],
+                             :answer ["die Nacht"]}
+                      #:item{:n 3,
+                             :prompt ["fin de semana"],
+                             :answer ["das Wochenende"]}
+                      #:item{:n 4, :prompt ["hoy"], :answer ["heute"]}
+                      #:item{:n 5,
+                             :prompt ["mes"],
+                             :answer ["der Monat"]}
+                      #:item{:n 6,
+                             :prompt ["año"],
+                             :answer ["das Jahr"]}
+                      #:item{:n 7,
+                             :prompt ["tengo que"],
+                             :answer ["ich muss"]}
+                      #:item{:n 8,
+                             :prompt ["puedo"],
+                             :answer ["ich kann"]}
+                      #:item{:n 9,
+                             :prompt ["regresar"],
+                             :answer ["zurückkommen"]}
+                      #:item{:n 10,
+                             :prompt ["estudiar"],
+                             :answer ["lernen"]}
+                      #:item{:n 11,
+                             :prompt ["estar"],
+                             :answer ["sein"]}
+                      #:item{:n 12,
+                             :prompt ["trabajar"],
+                             :answer ["arbeiten"]}],
+                     :notes []}
+          #:exercise{:id "6D",
+                     :skill :translate,
+                     :direction :to-target,
+                     :dialog? false,
+                     :instructions "Traduce estas frases al alemán.",
+                     :hints ["mañana en la noche = morgen Abend"],
+                     :items
+                     [#:item{:n 1,
+                             :prompt ["Voy a llamarlo hoy."],
+                             :answer ["Ich werde ihn heute anrufen."]}
+                      #:item{:n 2,
+                             :prompt ["¿Puedo verla hoy?"],
+                             :answer ["Kann ich sie heute sehen?"]}
+                      #:item{:n 3,
+                             :prompt
+                             ["Voy a ir a España el fin de semana."],
+                             :answer
+                             ["Ich werde am Wochenende nach Spanien fahren."]}
+                      #:item{:n 4,
+                             :prompt
+                             ["Quiero regresar otra vez el próximo mes."],
+                             :answer
+                             ["Ich möchte nächsten Monat wieder zurückkehren."]}
+                      #:item{:n 5,
+                             :prompt
+                             ["Este fin de semana no puedo ir a la fiesta, tengo que trabajar."],
+                             :answer
+                             ["Dieses Wochenende kann ich nicht zur Party gehen, ich muss arbeiten."]}
+                      #:item{:n 6,
+                             :prompt
+                             ["No puedo hablar mucho español."],
+                             :answer
+                             ["Ich kann nicht viel Spanisch sprechen."]}
+                      #:item{:n 7,
+                             :prompt
+                             ["¿Tengo que trabajar mañana en la noche?"],
+                             :answer
+                             ["Muss ich morgen Abend arbeiten?"]}
+                      #:item{:n 8,
+                             :prompt
+                             ["Tengo que trabajar en México el próximo mes."],
+                             :answer
+                             ["Ich muss nächsten Monat in Mexiko arbeiten."]}
+                      #:item{:n 9,
+                             :prompt ["Puedo verlo el fin de semana."],
+                             :answer
+                             ["Ich kann ihn am Wochenende sehen."]}
+                      #:item{:n 10,
+                             :prompt
+                             ["Voy a regresar mañana en la noche."],
+                             :answer
+                             ["Ich werde morgen Abend zurückkehren."]}
+                      #:item{:n 11,
+                             :prompt
+                             ["Tengo que estudiar este fin de semana."],
+                             :answer
+                             ["Ich muss dieses Wochenende lernen."]}
+                      #:item{:n 12,
+                             :prompt
+                             ["Puedo ayudarla el próximo fin de semana."],
+                             :answer
+                             ["Ich kann ihr nächstes Wochenende helfen."]}
+                      #:item{:n 13,
+                             :prompt
+                             ["Tengo que ir a Chile esta semana."],
+                             :answer
+                             ["Ich muss diese Woche nach Chile fahren."]}
+                      #:item{:n 14,
+                             :prompt
+                             ["Necesito ayudar a mi papá hoy."],
+                             :answer
+                             ["Ich muss heute meinem Vater helfen."]}
+                      #:item{:n 15,
+                             :prompt
+                             ["Quiero regresar al restaurante mañana en la noche."],
+                             :answer
+                             ["Ich möchte morgen Abend zum Restaurant zurückkehren."]}
+                      #:item{:n 16,
+                             :prompt
+                             ["Voy a trabajar en Barcelona este año."],
+                             :answer
+                             ["Ich werde dieses Jahr in Barcelona arbeiten."]}
+                      #:item{:n 17,
+                             :prompt
+                             ["Voy a visitar a mi mamá mañana en la noche"],
+                             :answer
+                             ["Ich werde morgen Abend meine Mutter besuchen."]}
+                      #:item{:n 18,
+                             :prompt
+                             ["Me gustaría invitarla a mi fiesta este fin de semana."],
+                             :answer
+                             ["Ich möchte sie dieses Wochenende zu meiner Party einladen."]}
+                      #:item{:n 19,
+                             :prompt
+                             ["Me gustaría ir a Argentina este año para estudiar más español."],
+                             :answer
+                             ["Ich möchte dieses Jahr nach Argentinien fahren, um mehr Spanisch zu lernen."]}
+                      #:item{:n 20,
+                             :prompt
+                             ["Quiero comer con mi familia hoy."],
+                             :answer
+                             ["Ich möchte heute mit meiner Familie essen."]}
+                      #:item{:n 21,
+                             :prompt
+                             ["No voy a estar en casa este fin de semana."],
+                             :answer
+                             ["Ich werde dieses Wochenende nicht zu Hause sein."]}
+                      #:item{:n 22,
+                             :prompt
+                             ["Tengo que regresar el próximo fin de semana."],
+                             :answer
+                             ["Ich muss nächstes Wochenende zurückkehren."]}
+                      #:item{:n 23,
+                             :prompt
+                             ["Voy a estudiar mucho este año."],
+                             :answer
+                             ["Ich werde dieses Jahr viel lernen."]}
+                      #:item{:n 24,
+                             :prompt
+                             ["¿Puedo invitar a mis amigos a la fiesta el próximo fin de semana?"],
+                             :answer
+                             ["Kann ich meine Freunde nächstes Wochenende zur Party einladen?"]}],
+                     :notes []}]}
